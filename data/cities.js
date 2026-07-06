@@ -62,6 +62,14 @@ const cities = [
     popularAreas: ["Navrangpura", "Satellite", "CG Road", "Vastrapur", "Maninagar"],
     summary:
       "Ahmedabad is a high-interest CAT market because of IIM Ahmedabad and a strong base of commerce, engineering, and working-professional aspirants."
+  },
+  {
+    name: "Patna",
+    slug: "patna",
+    state: "Bihar",
+    popularAreas: ["Boring Road", "Kankarbagh", "Patna Junction", "Bailey Road", "Rajendra Nagar"],
+    summary:
+      "Patna aspirants often compare national online CAT programs with a smaller set of local classroom and hybrid options for disciplined preparation."
   }
 ];
 
