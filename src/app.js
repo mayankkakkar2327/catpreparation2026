@@ -1,4 +1,14 @@
 (function () {
+  document.querySelectorAll(".brand-mark").forEach((mark) => {
+    mark.textContent = "CP";
+  });
+
+  document.querySelectorAll("a").forEach((link) => {
+    if (link.textContent.trim() === "Explore CAT coaching") {
+      link.textContent = "Explore Coaching";
+    }
+  });
+
   const directory = document.querySelector("[data-directory]");
   if (!directory) return;
 
@@ -11,10 +21,10 @@
   const count = document.querySelector("[data-result-count]");
 
   function update() {
-    const query = (search.value || "").trim().toLowerCase();
-    const selectedMode = mode.value;
-    const selectedCity = city.value;
-    const maxFee = Number(fee.value || 80000);
+    const query = (search?.value || "").trim().toLowerCase();
+    const selectedMode = mode?.value || "";
+    const selectedCity = city?.value || "";
+    const maxFee = Number(fee?.value || 80000);
     let visible = 0;
 
     cards.forEach((card) => {
@@ -33,6 +43,10 @@
     if (count) count.textContent = `${visible} shown`;
   }
 
-  [search, mode, city, fee].forEach((input) => input && input.addEventListener("input", update));
+  [search, mode, city, fee].forEach((input) => {
+    if (!input) return;
+    input.addEventListener("input", update);
+    input.addEventListener("change", update);
+  });
   update();
 })();
