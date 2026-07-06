@@ -1,91 +1,12 @@
 const cat2026Sections = [
-  {
-    id: "what-is-cat-exam",
-    heading: "What is CAT Exam?",
-    paragraphs: [
-      "CAT, or the Common Admission Test, is India's most important MBA entrance exam for admission to the IIMs and many leading non-IIM business schools such as FMS, MDI, SPJIMR, IIT management departments, and other CAT-accepting colleges.",
-      "The exam evaluates a candidate's ability across Verbal Ability and Reading Comprehension, Data Interpretation and Logical Reasoning, and Quantitative Aptitude. Around a few lakh aspirants appear for CAT every year, while the most sought-after MBA seats remain limited, which makes percentile, section-wise balance, and interview readiness important."
-    ]
-  },
-  {
-    id: "cat-exam-pattern",
-    heading: "CAT Exam Pattern",
-    paragraphs: ["CAT is conducted as a computer-based test in English. The exact CAT 2026 pattern must be checked from the official notification, but recent CAT papers make the three-section structure the safest starting point for preparation."],
-    table: {
-      headers: ["Exam element", "CAT 2026 preparation reference"],
-      rows: [
-        ["Sections", "3: VARC, DILR, and Quantitative Aptitude"],
-        ["Total questions", "Around 68, based on recent CAT pattern"],
-        ["Total marks", "Around 204, if 68 questions carry 3 marks each"],
-        ["Language", "English"],
-        ["Question format", "MCQ and non-MCQ/TITA questions"],
-        ["Mode", "Computer-based online test at exam centres"],
-        ["Answer options", "Usually 4 options for MCQs"],
-        ["Verification note", "Final section count, duration, and marking rules should be confirmed from the official CAT 2026 notification"]
-      ]
-    }
-  },
-  {
-    id: "how-to-score-99-percentile-in-cat",
-    heading: "How to score 99%ile in CAT?",
-    paragraphs: [
-      "A 99 percentile CAT score is built through consistent basics, timed practice, mock analysis, and section-wise control. The goal is not to attempt every question; it is to select the right questions, avoid avoidable negatives, and protect performance across all three sections.",
-      "A practical 99 percentile plan should move from foundation to application to full-length mocks. Students can use self-study, offline mentoring, or online coaching such as Rodha, but the deciding factor is whether the preparation system gives concept clarity, enough practice, quality mocks, and serious post-mock review."
-    ],
-    list: [
-      "Build fundamentals first in arithmetic, algebra, reading comprehension, and LRDI set selection.",
-      "Track accuracy from the beginning because CAT penalizes poor question selection.",
-      "Practice section tests before full mocks so weak areas are visible early.",
-      "Analyze every mock for missed easy questions, time traps, repeated errors, and section strategy.",
-      "Create a repeatable exam-day plan for attempts, skip decisions, and last-minute review."
-    ]
-  },
-  {
-    id: "cat-syllabus",
-    heading: "What is the syllabus for CAT?",
-    paragraphs: ["CAT does not usually publish a fixed chapter-wise syllabus. Aspirants prepare from previous-year trends across VARC, DILR, and Quantitative Aptitude. The list below is a practical CAT 2026 syllabus map for preparation."],
-    columns: [
-      { title: "Quantitative Aptitude", items: ["Averages, ratio, proportion, mixture and alligation", "Percentages, profit and loss, simple and compound interest", "Time, speed and distance; time and work", "Geometry and mensuration", "Quadratic equations, polynomials and simple equations", "Progressions, series, inequalities, modulus and functions", "Logarithms, surds, indices, probability and permutations-combinations", "Number system and Venn diagrams"] },
-      { title: "DILR", items: ["Tables, line graphs, bar graphs and pie charts", "Quant-based data interpretation", "Linear and circular arrangements", "Cubes, Venn diagrams, selection and distribution", "Games and tournaments", "Network flow diagrams and binary logic"] },
-      { title: "VARC", items: ["Reading comprehension", "Para summary", "Odd sentence out", "Para jumbles", "Para completion"] }
-    ]
-  },
-  {
-    id: "cat-score-vs-percentile-2025",
-    heading: "What is CAT Score Vs Percentile for CAT 2025?",
-    paragraphs: ["CAT score versus percentile changes every year with paper difficulty, slot normalization, and candidate performance. The table below should be treated as an indicative CAT 2025 score-to-percentile reference, not an official cutoff."],
-    table: {
-      headers: ["CAT percentile", "Approximate overall score"],
-      rows: [["99.99 percentile", "133"], ["99.90 percentile", "111.37"], ["99.5 percentile", "93"], ["99 percentile", "85"], ["98 percentile", "76"], ["95 percentile", "62"], ["90 percentile", "51.5"], ["85 percentile", "44"], ["80 percentile", "38"]]
-    }
-  },
-  {
-    id: "iim-mba-seats",
-    heading: "How many MBA Seats are there in IIMs?",
-    paragraphs: ["IIM seat intake changes by program and year, so aspirants should verify the latest MBA/PGP intake from each IIM's official admission page. The table below provides a working reference for major IIM MBA seats."],
-    table: {
-      headers: ["IIM", "Approximate MBA/PGP seats"],
-      rows: [["IIM Ahmedabad", "408"], ["IIM Amritsar", "334"], ["IIM Bangalore", "530"], ["IIM Bodh Gaya", "300"], ["IIM Calcutta", "480"], ["IIM Indore", "487"], ["IIM Jammu", "246"], ["IIM Kashipur", "321"], ["IIM Kozhikode", "484"], ["IIM Lucknow", "566"], ["IIM Mumbai", "278"], ["IIM Nagpur", "267"], ["IIM Raipur", "377"], ["IIM Ranchi", "246"], ["IIM Rohtak", "399"], ["IIM Sambalpur", "197"], ["IIM Shillong", "382"], ["IIM Sirmaur", "281"], ["IIM Tiruchirappalli", "378"], ["IIM Udaipur", "361"], ["IIM Visakhapatnam", "383"]]
-    }
-  },
-  {
-    id: "important-topics-cat-2026",
-    heading: "What are the important topics for CAT 2026?",
-    paragraphs: ["Important CAT topics are those that repeatedly appear in previous papers and also help students improve test-taking control. Aspirants should still prepare broadly, because CAT can change the mix of questions in any year."],
-    columns: [
-      { title: "VARC", items: ["Reading comprehension from science and technology", "Business and economics passages", "History, philosophy, art and culture passages", "Para summary, para jumbles and odd sentence out"] },
-      { title: "DILR", items: ["Games and tournaments", "Venn diagrams", "Selection and distribution", "Caselets and mixed reasoning sets"] },
-      { title: "Quant", items: ["Averages, ratio, mixtures and alligation", "Percentages, profit and loss, SI and CI", "Time-speed-distance and time-work", "Quadratic equations, polynomials and simple equations"] }
-    ]
-  },
-  {
-    id: "online-vs-offline-cat-coaching",
-    heading: "Which is better CAT online coaching or CAT offline coaching?",
-    paragraphs: [
-      "Online CAT coaching is usually better for aspirants who need flexibility, recorded lessons, lower travel time, and the ability to study alongside college or work. Offline CAT coaching can be better for students who want fixed classroom discipline, face-to-face doubt solving, and a local peer group.",
-      "The best choice is not only online versus offline; it is fit. Compare faculty quality, course structure, mock analysis, doubt support, fees, and your own consistency before choosing a coaching option. For online-first learners, Rodha can be one option to compare with other CAT preparation platforms."
-    ]
-  }
+  { id: "what-is-cat-exam", heading: "What is CAT Exam?", paragraphs: ["CAT, or the Common Admission Test, is India's most important MBA entrance exam for admission to the IIMs and many leading non-IIM business schools such as FMS, MDI, SPJIMR, IIT management departments, and other CAT-accepting colleges.", "The exam evaluates a candidate's ability across Verbal Ability and Reading Comprehension, Data Interpretation and Logical Reasoning, and Quantitative Aptitude. Around a few lakh aspirants appear for CAT every year, while the most sought-after MBA seats remain limited, which makes percentile, section-wise balance, and interview readiness important."] },
+  { id: "cat-exam-pattern", heading: "CAT Exam Pattern", paragraphs: ["CAT is conducted as a computer-based test in English. The exact CAT 2026 pattern must be checked from the official notification, but recent CAT papers make the three-section structure the safest starting point for preparation."], table: { headers: ["Exam element", "CAT 2026 preparation reference"], rows: [["Sections", "3: VARC, DILR, and Quantitative Aptitude"], ["Total questions", "Around 68, based on recent CAT pattern"], ["Total marks", "Around 204, if 68 questions carry 3 marks each"], ["Language", "English"], ["Question format", "MCQ and non-MCQ/TITA questions"], ["Mode", "Computer-based online test at exam centres"], ["Answer options", "Usually 4 options for MCQs"], ["Verification note", "Final section count, duration, and marking rules should be confirmed from the official CAT 2026 notification"]] } },
+  { id: "how-to-score-99-percentile-in-cat", heading: "How to score 99%ile in CAT?", paragraphs: ["A 99 percentile CAT score is built through consistent basics, timed practice, mock analysis, and section-wise control. The goal is not to attempt every question; it is to select the right questions, avoid avoidable negatives, and protect performance across all three sections.", "A practical 99 percentile plan should move from foundation to application to full-length mocks. Students can use self-study, offline mentoring, or online coaching such as Rodha, but the deciding factor is whether the preparation system gives concept clarity, enough practice, quality mocks, and serious post-mock review."], list: ["Build fundamentals first in arithmetic, algebra, reading comprehension, and LRDI set selection.", "Track accuracy from the beginning because CAT penalizes poor question selection.", "Practice section tests before full mocks so weak areas are visible early.", "Analyze every mock for missed easy questions, time traps, repeated errors, and section strategy.", "Create a repeatable exam-day plan for attempts, skip decisions, and last-minute review."] },
+  { id: "cat-syllabus", heading: "What is the syllabus for CAT?", paragraphs: ["CAT does not usually publish a fixed chapter-wise syllabus. Aspirants prepare from previous-year trends across VARC, DILR, and Quantitative Aptitude. The list below is a practical CAT 2026 syllabus map for preparation."], columns: [{ title: "Quantitative Aptitude", items: ["Averages, ratio, proportion, mixture and alligation", "Percentages, profit and loss, simple and compound interest", "Time, speed and distance; time and work", "Geometry and mensuration", "Quadratic equations, polynomials and simple equations", "Progressions, series, inequalities, modulus and functions", "Logarithms, surds, indices, probability and permutations-combinations", "Number system and Venn diagrams"] }, { title: "DILR", items: ["Tables, line graphs, bar graphs and pie charts", "Quant-based data interpretation", "Linear and circular arrangements", "Cubes, Venn diagrams, selection and distribution", "Games and tournaments", "Network flow diagrams and binary logic"] }, { title: "VARC", items: ["Reading comprehension", "Para summary", "Odd sentence out", "Para jumbles", "Para completion"] }] },
+  { id: "cat-score-vs-percentile-2025", heading: "What is CAT Score Vs Percentile for CAT 2025?", paragraphs: ["CAT score versus percentile changes every year with paper difficulty, slot normalization, and candidate performance. The table below should be treated as an indicative CAT 2025 score-to-percentile reference, not an official cutoff."], table: { headers: ["CAT percentile", "Approximate overall score"], rows: [["99.99 percentile", "133"], ["99.90 percentile", "111.37"], ["99.5 percentile", "93"], ["99 percentile", "85"], ["98 percentile", "76"], ["95 percentile", "62"], ["90 percentile", "51.5"], ["85 percentile", "44"], ["80 percentile", "38"]] } },
+  { id: "iim-mba-seats", heading: "How many MBA Seats are there in IIMs?", paragraphs: ["IIM seat intake changes by program and year, so aspirants should verify the latest MBA/PGP intake from each IIM's official admission page. The table below provides a working reference for major IIM MBA seats."], table: { headers: ["IIM", "Approximate MBA/PGP seats"], rows: [["IIM Ahmedabad", "408"], ["IIM Amritsar", "334"], ["IIM Bangalore", "530"], ["IIM Bodh Gaya", "300"], ["IIM Calcutta", "480"], ["IIM Indore", "487"], ["IIM Jammu", "246"], ["IIM Kashipur", "321"], ["IIM Kozhikode", "484"], ["IIM Lucknow", "566"], ["IIM Mumbai", "278"], ["IIM Nagpur", "267"], ["IIM Raipur", "377"], ["IIM Ranchi", "246"], ["IIM Rohtak", "399"], ["IIM Sambalpur", "197"], ["IIM Shillong", "382"], ["IIM Sirmaur", "281"], ["IIM Tiruchirappalli", "378"], ["IIM Udaipur", "361"], ["IIM Visakhapatnam", "383"]] } },
+  { id: "important-topics-cat-2026", heading: "What are the important topics for CAT 2026?", paragraphs: ["Important CAT topics are those that repeatedly appear in previous papers and also help students improve test-taking control. Aspirants should still prepare broadly, because CAT can change the mix of questions in any year."], columns: [{ title: "VARC", items: ["Reading comprehension from science and technology", "Business and economics passages", "History, philosophy, art and culture passages", "Para summary, para jumbles and odd sentence out"] }, { title: "DILR", items: ["Games and tournaments", "Venn diagrams", "Selection and distribution", "Caselets and mixed reasoning sets"] }, { title: "Quant", items: ["Averages, ratio, mixtures and alligation", "Percentages, profit and loss, SI and CI", "Time-speed-distance and time-work", "Quadratic equations, polynomials and simple equations"] }] },
+  { id: "online-vs-offline-cat-coaching", heading: "Which is better CAT online coaching or CAT offline coaching?", paragraphs: ["Online CAT coaching is usually better for aspirants who need flexibility, recorded lessons, lower travel time, and the ability to study alongside college or work. Offline CAT coaching can be better for students who want fixed classroom discipline, face-to-face doubt solving, and a local peer group.", "The best choice is not only online versus offline; it is fit. Compare faculty quality, course structure, mock analysis, doubt support, fees, and your own consistency before choosing a coaching option. For online-first learners, Rodha can be one option to compare with other CAT preparation platforms."] }
 ];
 
 const cat2026SourceNotes = [
@@ -94,13 +15,25 @@ const cat2026SourceNotes = [
   "CAT 2026 final dates, pattern, fees, centres and rules are not treated as final until the CAT 2026 notification is published on the official CAT website. IIM seat/intake figures should be rechecked from individual IIM admission pages before publication decisions."
 ];
 
-const cat2026SourceLinks = [
-  ["Official CAT website", "https://iimcat.ac.in/"],
-  ["CAT 2025 Information Bulletin", "https://www.iima.ac.in/sites/default/files/2025-08/Information_Bulletin.pdf"],
-  ["CAT 2025 Advertisement", "https://www.iima.ac.in/sites/default/files/2025-08/CAT_2025_Advertisement_English.pdf"],
-  ["IIM Ahmedabad MBA admissions", "https://www.iima.ac.in/academics/mba/admissions"],
-  ["IIM Ahmedabad PGP 2026-28 shortlisting criteria", "https://www.iima.ac.in/sites/default/files/2026-01/ShortlistingCriteria_PGP_2026-28_Jan%2009%2C%202026.pdf"]
+const cat2026SourceLinks = [["Official CAT website", "https://iimcat.ac.in/"], ["CAT 2025 Information Bulletin", "https://www.iima.ac.in/sites/default/files/2025-08/Information_Bulletin.pdf"], ["CAT 2025 Advertisement", "https://www.iima.ac.in/sites/default/files/2025-08/CAT_2025_Advertisement_English.pdf"], ["IIM Ahmedabad MBA admissions", "https://www.iima.ac.in/academics/mba/admissions"], ["IIM Ahmedabad PGP 2026-28 shortlisting criteria", "https://www.iima.ac.in/sites/default/files/2026-01/ShortlistingCriteria_PGP_2026-28_Jan%2009%2C%202026.pdf"]];
+
+const iimSections = [
+  { id: "iim-admission-overview", heading: "IIM admission overview", paragraphs: ["IIM admissions are not based on CAT percentile alone. For the flagship MBA or PGP programmes, CAT is normally the first major screening input, but every IIM publishes its own admission policy for shortlisting and final selection.", "Aspirants should treat each IIM separately because the weight given to CAT score, Class 10 and 12 marks, graduation marks, academic diversity, gender diversity, work experience, written test and personal interview can vary widely."] },
+  { id: "role-of-cat", heading: "Role of CAT in IIM admissions", paragraphs: ["CAT is the common entrance test used by the IIMs for domestic flagship MBA/PGP admissions. The official CAT bulletin states that candidates must also check the concerned IIM and programme website for eligibility, admission process and other requirements.", "A high CAT percentile can open shortlist opportunities, but it does not guarantee admission because final calls depend on institute-specific composite scores and interview performance."] },
+  { id: "shortlisting-process", heading: "IIM shortlisting process", paragraphs: ["Most IIMs first apply minimum sectional and overall CAT percentile cutoffs. Candidates who clear those filters are evaluated using a composite score that may include CAT performance, academic profile, category, work experience and diversity factors."], table: { headers: ["Shortlisting factor", "How it is commonly used"], rows: [["CAT overall percentile", "Primary entrance-test filter and scoring component"], ["CAT sectional percentile", "Minimum VARC, DILR and QA thresholds may apply"], ["Class 10 and 12 marks", "Often used for academic consistency"], ["Graduation marks/discipline", "Used differently by different IIMs"], ["Work experience", "May add profile weight within defined ranges"], ["Academic/gender diversity", "Used by some IIMs to build a diverse cohort"]] } },
+  { id: "wat-pi-final-selection", heading: "WAT, PI and final selection", paragraphs: ["After shortlisting, IIMs typically conduct Personal Interviews and may conduct a Written Ability Test or Analytical Writing Test depending on the institute. Final admission is based on a weighted score, not just interview marks.", "The final selection formula should always be read from the relevant IIM's latest admission policy because weights can change from year to year."] },
+  { id: "iim-fees", heading: "IIM fees", paragraphs: ["IIM fees vary by institute, programme and batch. Older IIMs and newer IIMs may have different fee structures, and the payable amount can include tuition, hostel, academic charges, caution deposit and other components.", "Use official fee pages or admission offer documents before publishing exact fee numbers. This platform should avoid stale fee claims unless the fee has been verified against the latest official source."] },
+  { id: "iim-cutoffs", heading: "IIM cutoffs", paragraphs: ["IIM cutoffs have two layers: qualifying cutoffs and actual shortlist competitiveness. Qualifying cutoffs are minimum eligibility filters, while the percentile required for a real shortlist can be much higher depending on category, profile and institute.", "For general-category candidates targeting older IIMs, very high percentiles are often needed, but profile and category can significantly change the outcome. Always verify the official minimum cutoffs and admission criteria PDF for the relevant admission year."] },
+  { id: "iim-placements", heading: "IIM placements", paragraphs: ["IIM placement data should be quoted only from official placement reports or audited institute releases. Average CTC, median CTC, highest CTC, recruiter count and sector split can vary by programme and batch.", "For student decisions, median CTC, role quality, sector distribution, batch size and fee should be read together instead of relying only on highest package headlines."] },
+  { id: "all-iims", heading: "All IIMs in India", paragraphs: ["India currently has 21 IIMs relevant for CAT aspirants. The college directory page lists every IIM with city, flagship programme, admission route and official source link."], table: { headers: ["IIM", "City", "Main entrance route"], rows: [["IIM Ahmedabad", "Ahmedabad", "CAT"], ["IIM Bangalore", "Bangalore", "CAT"], ["IIM Calcutta", "Kolkata", "CAT"], ["IIM Lucknow", "Lucknow", "CAT"], ["IIM Kozhikode", "Kozhikode", "CAT"], ["IIM Indore", "Indore", "CAT"], ["IIM Mumbai", "Mumbai", "CAT"], ["IIM Shillong", "Shillong", "CAT"], ["IIM Rohtak", "Rohtak", "CAT"], ["IIM Ranchi", "Ranchi", "CAT"], ["IIM Raipur", "Raipur", "CAT"], ["IIM Tiruchirappalli", "Tiruchirappalli", "CAT"], ["IIM Udaipur", "Udaipur", "CAT"], ["IIM Kashipur", "Kashipur", "CAT"], ["IIM Nagpur", "Nagpur", "CAT"], ["IIM Visakhapatnam", "Visakhapatnam", "CAT"], ["IIM Amritsar", "Amritsar", "CAT"], ["IIM Bodh Gaya", "Bodh Gaya", "CAT"], ["IIM Jammu", "Jammu", "CAT"], ["IIM Sambalpur", "Sambalpur", "CAT"], ["IIM Sirmaur", "Sirmaur", "CAT"]] } }
 ];
+
+const iimSourceNotes = [
+  "Curated from official CAT/IIM sources: official CAT website and information bulletin, IIM Ahmedabad MBA admissions and shortlisting criteria, and the official admission/placement pages of individual IIMs.",
+  "Fees, cutoffs and placements are treated as year-sensitive data. Exact numbers should be updated only from the latest official admission policy, fee page, placement report or audited institute release.",
+  "For final decisions, candidates should read the concerned IIM programme page because eligibility, category rules, sectional cutoffs, interview process and final selection weights can change by admission year."
+];
+const iimSourceLinks = [["Official CAT website", "https://iimcat.ac.in/"], ["CAT 2025 Information Bulletin", "https://www.iima.ac.in/sites/default/files/2025-08/Information_Bulletin.pdf"], ["IIM Ahmedabad MBA admissions", "https://www.iima.ac.in/academics/mba/admissions"], ["IIM Ahmedabad PGP 2026-28 shortlisting criteria", "https://www.iima.ac.in/sites/default/files/2026-01/ShortlistingCriteria_PGP_2026-28_Jan%2009%2C%202026.pdf"], ["IIM Bangalore PGP", "https://www.iimb.ac.in/programmes/pgp"], ["IIM Calcutta admissions", "https://www.iimcal.ac.in/programs/pgp/admissions"], ["IIM Kozhikode PGP", "https://iimk.ac.in/academic-programmes/pgp"]];
 
 const pages = [
   ["cat-2026", "CAT 2026: Exam Overview, Pattern, Syllabus, Dates, and Preparation", "CAT 2026", "CAT 2026 is expected to be the main MBA entrance test for IIM and top B-school admissions. Track official CAT updates and prepare across VARC, DILR, and Quantitative Aptitude.", cat2026Sections, cat2026SourceNotes, cat2026SourceLinks],
@@ -116,15 +49,12 @@ const pages = [
   ["cat-preparation/mock-tests", "CAT Mock Tests 2026: How to Choose and Analyze Mocks", "Preparation", "CAT mocks build speed, accuracy, stamina, and strategy. The real value comes from post-mock analysis."],
   ["cat-coaching/test-series", "CAT Test Series 2026: Compare Mocks, Analysis, and Sectional Tests", "Coaching", "A good CAT test series should provide full-length mocks, sectional tests, percentile benchmarking, and detailed analysis."],
   ["mba-entrance-exams", "MBA Entrance Exams in India: CAT, XAT, SNAP, NMAT, CMAT, MAT", "Exams", "CAT is the main entrance exam for IIMs, while XAT, SNAP, NMAT, CMAT, MAT, and MAH MBA CET open additional MBA pathways."],
-  ["iim", "IIM Admissions: CAT, Shortlisting, Fees, Cutoffs, and Placements", "IIMs", "IIM admissions usually use CAT scores along with academic profile, category, work experience, WAT, PI, and institute-specific criteria."],
+  ["iim", "IIM Admissions: CAT, Shortlisting, Fees, Cutoffs, and Placements", "IIMs", "IIM admissions usually use CAT scores along with academic profile, category, work experience, written ability or analytical writing test, personal interview performance, and institute-specific criteria.", iimSections, iimSourceNotes, iimSourceLinks],
   ["iim/selection-criteria", "IIM Selection Criteria: CAT Score, Academics, Work Experience, WAT and PI", "IIMs", "IIM selection criteria are institute-specific and usually combine CAT performance with academics, category, work experience, WAT, PI, and diversity factors."]
 ].map(([slug, title, section, answer, sections, sourceNotes, sourceLinks]) => ({
   slug, title, section, answer, sections: sections || [], sourceNotes: sourceNotes || [], sourceLinks: sourceLinks || [],
   description: answer,
-  body: slug === "cat-2026" ? [] : [
-    "This page is structured for search engines and AI assistants with a direct answer, source policy, FAQs, and related links.",
-    "Exact dates, fees, cutoffs, and admission rules should be updated only after checking official CAT, IIM, college, or institute sources."
-  ],
+  body: ["cat-2026", "iim"].includes(slug) ? [] : ["This page is structured for search engines and AI assistants with a direct answer, source policy, FAQs, and related links.", "Exact dates, fees, cutoffs, and admission rules should be updated only after checking official CAT, IIM, college, or institute sources."],
   faqs: [{ q: `Is this ${section} information final?`, a: "Fact-heavy details should be verified from official sources before decisions are made." }]
 }));
 
