@@ -1,11 +1,15 @@
 (function () {
   document.querySelectorAll(".brand-mark").forEach((mark) => {
-    mark.textContent = "CP";
+    mark.textContent = "CAT26";
   });
 
   document.querySelectorAll("a").forEach((link) => {
-    if (link.textContent.trim() === "Explore CAT coaching") {
+    const text = link.textContent.trim();
+    if (text === "Explore CAT coaching") {
       link.textContent = "Explore Coaching";
+    }
+    if (text === "CAT Mocks" && link.href === "https://www.rodha.co.in/") {
+      link.href = "https://mocks.rodha.co.in/";
     }
   });
 
