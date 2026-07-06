@@ -88,8 +88,22 @@ const cat2026Sections = [
   }
 ];
 
+const cat2026SourceNotes = [
+  "Verified on July 7, 2026 against the official CAT website and CAT 2025 Information Bulletin/Advertisement linked from IIM Ahmedabad. The official bulletin confirms CAT is a computer-based test conducted by the IIMs, CAT scores are used for admission to IIM management programmes, and candidates must check the concerned IIM/programme website for final eligibility and admission process details.",
+  "IIM Ahmedabad's official MBA admissions page confirms CAT is part of the domestic MBA admission process and that selection considers exam score, past academic performance, Analytical Writing Test and Personal Interview performance.",
+  "CAT 2026 final dates, pattern, fees, centres and rules are not treated as final until the CAT 2026 notification is published on the official CAT website. IIM seat/intake figures should be rechecked from individual IIM admission pages before publication decisions."
+];
+
+const cat2026SourceLinks = [
+  ["Official CAT website", "https://iimcat.ac.in/"],
+  ["CAT 2025 Information Bulletin", "https://www.iima.ac.in/sites/default/files/2025-08/Information_Bulletin.pdf"],
+  ["CAT 2025 Advertisement", "https://www.iima.ac.in/sites/default/files/2025-08/CAT_2025_Advertisement_English.pdf"],
+  ["IIM Ahmedabad MBA admissions", "https://www.iima.ac.in/academics/mba/admissions"],
+  ["IIM Ahmedabad PGP 2026-28 shortlisting criteria", "https://www.iima.ac.in/sites/default/files/2026-01/ShortlistingCriteria_PGP_2026-28_Jan%2009%2C%202026.pdf"]
+];
+
 const pages = [
-  ["cat-2026", "CAT 2026: Exam Overview, Pattern, Syllabus, Dates, and Preparation", "CAT 2026", "CAT 2026 is expected to be the main MBA entrance test for IIM and top B-school admissions. Track official CAT updates and prepare across VARC, DILR, and Quantitative Aptitude.", cat2026Sections],
+  ["cat-2026", "CAT 2026: Exam Overview, Pattern, Syllabus, Dates, and Preparation", "CAT 2026", "CAT 2026 is expected to be the main MBA entrance test for IIM and top B-school admissions. Track official CAT updates and prepare across VARC, DILR, and Quantitative Aptitude.", cat2026Sections, cat2026SourceNotes, cat2026SourceLinks],
   ["cat-2026/syllabus", "CAT 2026 Syllabus: VARC, DILR, and Quant Topics", "CAT 2026", "The CAT 2026 syllabus should be prepared across VARC, DILR, and Quantitative Aptitude, using previous CAT papers and official pattern updates."],
   ["cat-2026/eligibility", "CAT 2026 Eligibility: Qualification, Marks, Final-Year Rules, and Categories", "CAT 2026", "CAT 2026 eligibility should be confirmed from the official notification before applying, especially for final-year, category, and marks rules."],
   ["cat-2026/exam-pattern", "CAT 2026 Exam Pattern: Sections, Duration, and Marking Scheme", "CAT 2026", "CAT 2026 exam pattern details should be verified from the official notification. Preparation should center on VARC, DILR, and Quant."],
@@ -104,10 +118,10 @@ const pages = [
   ["mba-entrance-exams", "MBA Entrance Exams in India: CAT, XAT, SNAP, NMAT, CMAT, MAT", "Exams", "CAT is the main entrance exam for IIMs, while XAT, SNAP, NMAT, CMAT, MAT, and MAH MBA CET open additional MBA pathways."],
   ["iim", "IIM Admissions: CAT, Shortlisting, Fees, Cutoffs, and Placements", "IIMs", "IIM admissions usually use CAT scores along with academic profile, category, work experience, WAT, PI, and institute-specific criteria."],
   ["iim/selection-criteria", "IIM Selection Criteria: CAT Score, Academics, Work Experience, WAT and PI", "IIMs", "IIM selection criteria are institute-specific and usually combine CAT performance with academics, category, work experience, WAT, PI, and diversity factors."]
-].map(([slug, title, section, answer, sections]) => ({
-  slug, title, section, answer, sections: sections || [],
+].map(([slug, title, section, answer, sections, sourceNotes, sourceLinks]) => ({
+  slug, title, section, answer, sections: sections || [], sourceNotes: sourceNotes || [], sourceLinks: sourceLinks || [],
   description: answer,
-  body: [
+  body: slug === "cat-2026" ? [] : [
     "This page is structured for search engines and AI assistants with a direct answer, source policy, FAQs, and related links.",
     "Exact dates, fees, cutoffs, and admission rules should be updated only after checking official CAT, IIM, college, or institute sources."
   ],
