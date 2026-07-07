@@ -1,10 +1,21 @@
 (function () {
-  document.querySelectorAll(".brand-mark").forEach((mark) => {
-    mark.textContent = "CAT26";
-  });
+  const logoSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 150" role="img" aria-label="CAT26"><rect width="520" height="150" fill="white"/><text x="0" y="118" font-family="Arial Black, Arial, sans-serif" font-size="112" font-weight="900" fill="#072552">C</text><path d="M142 118 L203 18 L264 118 H224 L203 82 L183 118 Z" fill="#072552"/><path d="M203 86 L223 118 H183 Z" fill="#f25a05"/><text x="270" y="118" font-family="Arial Black, Arial, sans-serif" font-size="112" font-weight="900" fill="#072552">T</text><text x="357" y="118" font-family="Arial Black, Arial, sans-serif" font-size="112" font-weight="900" fill="#f25a05">26</text></svg>`;
+  const logoSrc = `data:image/svg+xml,${encodeURIComponent(logoSvg)}`;
 
-  document.querySelectorAll(".brand > span:not(.brand-mark)").forEach((item) => {
-    item.remove();
+  document.querySelectorAll(".brand").forEach((brand) => {
+    brand.innerHTML = "";
+    const logo = document.createElement("img");
+    logo.className = "brand-logo";
+    logo.src = logoSrc;
+    logo.alt = "CAT26";
+    logo.width = 180;
+    logo.height = 52;
+    logo.style.display = "block";
+    logo.style.width = "clamp(148px, 22vw, 180px)";
+    logo.style.height = "52px";
+    logo.style.objectFit = "contain";
+    logo.style.objectPosition = "center";
+    brand.appendChild(logo);
   });
 
   document.querySelectorAll("a").forEach((link) => {
