@@ -12,11 +12,12 @@ const site = {
     { label: "IIMs", href: "/iim/" },
     { label: "Exams", href: "/mba-entrance-exams/" },
     { label: "Preparation", href: "/cat-preparation/" },
-    { label: "News", href: "/cat-2026/latest-news/" }
+    { label: "News", href: "/cat-2026/latest-news/" },
+    { label: "Blog", href: "/blog/" }
   ],
   sourcePolicy:
     "Dates, exam rules, college data, and coaching details should be verified against official websites, brochures, admission pages, and institute disclosures before publication.",
-  updated: "2026-07-03"
+  updated: "2026-07-09"
 };
 
 module.exports = site;
