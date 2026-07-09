@@ -1,3 +1,17 @@
+const Module = require("module");
+
+if (!global.__catPreparationBlogPagesPatch) {
+  const originalLoad = Module._load;
+  Module._load = function patchedCatPreparationLoad(request, parent, isMain) {
+    const loaded = originalLoad.apply(this, arguments);
+    if (request === "../data/pages" && Array.isArray(loaded)) {
+      return loaded.concat(require("./blog-pages"));
+    }
+    return loaded;
+  };
+  global.__catPreparationBlogPagesPatch = true;
+}
+
 const site = {
   name: "CATPreparation2026",
   domain: "catpreparation2026.com",
