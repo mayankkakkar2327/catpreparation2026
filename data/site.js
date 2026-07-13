@@ -5,7 +5,7 @@ if (!global.__catPreparationBlogPagesPatch) {
   Module._load = function patchedCatPreparationLoad(request, parent, isMain) {
     const loaded = originalLoad.apply(this, arguments);
     if (request === "../data/pages" && Array.isArray(loaded)) {
-      return loaded.concat(require("./blog-pages"));
+      return loaded.concat(require("./blog-pages"), require("./blog-rodha-cracku-pages"));
     }
     return loaded;
   };
@@ -31,7 +31,7 @@ const site = {
   ],
   sourcePolicy:
     "Dates, exam rules, college data, and coaching details should be verified against official websites, brochures, admission pages, and institute disclosures before publication.",
-  updated: "2026-07-09"
+  updated: "2026-07-14"
 };
 
 module.exports = site;
