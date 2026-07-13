@@ -138,7 +138,7 @@ const rodhaCrackuPages = [
           rows: [
             ["Complete beginner", "Rodha", "Needs fundamentals, structure, doubt support and recordings"],
             ["Weak in Quant", "Rodha", "Concept depth matters most"],
-            ["Weak in LRDI", "Rodha first, Cracku later", "Learn approach first, then add more timed practice if needed"],
+            ["Weak in LRDI", "Rodha for learning, Cracku for extra practice", "Learn approach first, then add more timed practice if needed"],
             ["Weak in VARC", "Rodha has become more relevant", "KD Sir, Nikita Gupta and Brijesh Pandey strengthen Rodha's VARC case"],
             ["Working professional", "Both can work", "Rodha now has working-professional batches and recordings; Cracku remains flexible for self-paced practice"],
             ["Repeater", "Depends on weakness", "Rodha helps with concept repair and mentoring; Cracku helps with extra tests and analytics"],
