@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm run build && cp googlebf3838439bb6403b.html site/googlebf3838439bb6403b.html",
+  "buildCommand": "npm run build && cp googlebf3838439bb6403b.html site/googlebf3838439bb6403b.html && node scripts/add-favicon.js",
   "outputDirectory": "site",
   "installCommand": "",
   "framework": null,
