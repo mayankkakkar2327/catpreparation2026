@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm run build && cp googlebf3838439bb6403b.html site/googlebf3838439bb6403b.html && node scripts/add-favicon.js && node scripts/enhance-ui.js && node scripts/enhance-ui-local-logos.js && node scripts/fix-ui-spacing.js",
+  "buildCommand": "npm run build && cp googlebf3838439bb6403b.html site/googlebf3838439bb6403b.html && node scripts/add-favicon.js && node scripts/enhance-ui.js && node scripts/enhance-ui-local-logos.js && node scripts/fix-ui-spacing.js && node scripts/apply-approved-logo.js",
   "outputDirectory": "site",
   "installCommand": "",
   "framework": null,
