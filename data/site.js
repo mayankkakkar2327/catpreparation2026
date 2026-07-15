@@ -15,8 +15,8 @@ if (!global.__catPreparationBlogPagesPatch) {
 
 const site = {
   name: "CATPreparation2026",
-  domain: "catpreparation2026.com",
-  url: "https://catpreparation2026.com",
+  domain: "www.catpreparation2026.com",
+  url: "https://www.catpreparation2026.com",
   tagline: "Research-led CAT 2026 preparation, coaching, and MBA admissions guidance.",
   description:
     "CATPreparation2026 is an independent education platform for CAT 2026 aspirants comparing coachings, IIMs, MBA colleges, exams, and preparation resources.",
