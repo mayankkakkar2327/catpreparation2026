@@ -6,7 +6,7 @@ if (!global.__catPreparationBlogPagesPatch) {
     const loaded = originalLoad.apply(this, arguments);
     if (request === "../data/pages" && Array.isArray(loaded)) {
       const existingBlogPages = require("./blog-pages").filter((page) => page.slug !== "blog");
-      return loaded.concat(existingBlogPages, require("./blog-rodha-cracku-pages"));
+      return loaded.concat(existingBlogPages, require("./blog-rodha-cracku-pages"), require("./blog-extra-pages"));
     }
     return loaded;
   };
