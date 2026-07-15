@@ -4,5 +4,19 @@
   "installCommand": "",
   "framework": null,
   "cleanUrls": true,
-  "trailingSlash": true
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "catpreparation2026.com" }],
+      "destination": "https://www.catpreparation2026.com/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "catpreparation2026.vercel.app" }],
+      "destination": "https://www.catpreparation2026.com/$1",
+      "permanent": true
+    }
+  ]
 }
