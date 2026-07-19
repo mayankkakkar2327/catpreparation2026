@@ -32,7 +32,13 @@ const heroImages = {
   "/mba-colleges/": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=900&q=80",
   "/iim/": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=900&q=80",
   "/mba-entrance-exams/": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=900&q=80",
-  "/blog/": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=900&q=80"
+  "/blog/": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=900&q=80",
+  "/blog/unacademy-cat-vs-mba-wallah-cat-2026/": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80",
+  "/blog/career-launcher-vs-time-vs-ims-cat-2026/": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=900&q=80",
+  "/blog/ims-vs-rodha-cat-2026/": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=900&q=80",
+  "/blog/cracku-vs-rodha-vs-hitbullseye-cat-2026/": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=900&q=80",
+  "/blog/catking-vs-rodha-vs-2iim-cat-2026/": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80",
+  "/blog/rodha-vs-mba-pathshala-vs-aarambh-academy-cat-2026/": "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=900&q=80"
 };
 
 const css = `
