@@ -12,18 +12,11 @@ function walk(dir) {
   });
 }
 
-function fixOfficialSection(section) {
-  return section.replaceAll(
-    '<a href="https://www.rodha.co.in/">CAT Mocks</a>',
-    '<a href="https://www.rodha.co.in/">Rodha official website</a>'
-  );
-}
-
 for (const file of walk(outDir)) {
   let html = fs.readFileSync(file, "utf8");
-  const next = html.replace(
-    /(<section class="article-section" id="official-links">[\s\S]*?<\/section>)/g,
-    (section) => fixOfficialSection(section)
+  const next = html.replaceAll(
+    '<a href="https://www.rodha.co.in/">CAT Mocks</a>',
+    '<a href="https://www.rodha.co.in/">Rodha official website</a>'
   );
   if (next !== html) fs.writeFileSync(file, next);
 }
