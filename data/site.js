@@ -6,7 +6,7 @@ if (!global.__catPreparationBlogPagesPatch) {
     const loaded = originalLoad.apply(this, arguments);
     if (request === "../data/pages" && Array.isArray(loaded)) {
       const existingBlogPages = require("./blog-pages").filter((page) => page.slug !== "blog");
-      return loaded.concat(existingBlogPages, require("./blog-rodha-cracku-pages"), require("./blog-extra-pages"));
+      return loaded.concat(existingBlogPages, require("./blog-rodha-cracku-pages"), require("./blog-extra-pages"), require("./blog-news-pages"));
     }
     return loaded;
   };
@@ -32,7 +32,7 @@ const site = {
   ],
   sourcePolicy:
     "Dates, exam rules, college data, and coaching details should be verified against official websites, brochures, admission pages, and institute disclosures before publication.",
-  updated: "2026-07-14"
+  updated: "2026-07-27"
 };
 
 module.exports = site;
