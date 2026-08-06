@@ -35,6 +35,23 @@
     });
   });
 
+  document.querySelectorAll(".coaching-card").forEach((card) => {
+    const target = card.querySelector("h3 a")?.getAttribute("href");
+    if (!target) return;
+    card.setAttribute("role", "link");
+    card.setAttribute("tabindex", "0");
+    card.style.cursor = "pointer";
+    card.addEventListener("click", (event) => {
+      if (event.target.closest("a, button, input, select, textarea")) return;
+      window.location.href = target;
+    });
+    card.addEventListener("keydown", (event) => {
+      if (event.key !== "Enter" && event.key !== " ") return;
+      event.preventDefault();
+      window.location.href = target;
+    });
+  });
+
   if (window.location.pathname === "/about/" || window.location.pathname === "/about") {
     const prose = document.querySelector(".prose");
     if (prose) {
