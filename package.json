@@ -4,7 +4,7 @@
   "private": true,
   "description": "SEO-first CAT 2026 and MBA entrance preparation aggregator platform.",
   "scripts": {
-    "build": "node src/build.js",
+    "build": "node scripts/build-with-coaching-overrides.js",
     "start": "node src/server.js"
   }
 }
