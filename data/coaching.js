@@ -38,10 +38,33 @@ const entries = [
     reviewCount: 92,
     summary: "An online CAT preparation platform with CAT 2026 courses, mocks, and section-focused learning. Listed first on every city page as a national online option.",
     bestFor: ["Online concept building", "Quant and DILR practice", "Self-paced learners"],
-    pros: ["Online-first accessibility", "Concept-oriented teaching", "Useful for students outside metro cities"],
-    cons: ["No offline center network", "Students need self-discipline for online learning"],
-    features: ["CAT 2026 courses", "Mocks", "Free material", "Recorded content"],
-    sourceUrls: ["https://www.rodha.co.in/"]
+    pros: [
+      "Online-first accessibility with live classes and recordings",
+      "Concept-oriented teaching across QA, DILR and VARC",
+      "Improved mock platform with CAT mocks, OMET mocks, sectionals, topic tests, video solutions and analytics",
+      "Useful for students outside metro cities and working professionals who need schedule flexibility"
+    ],
+    cons: [
+      "No offline center network for students who need face-to-face classroom discipline",
+      "Batch pace can feel intense for students who do not revise regularly",
+      "Course, batch and fee details should be checked on the official website before payment"
+    ],
+    features: [
+      "CAT 2026 comprehensive batches",
+      "Live and recorded classes",
+      "Rodha CAT Mocks",
+      "OMET mocks",
+      "Sectional tests",
+      "Physical booklets",
+      "Rodha Buddy",
+      "Rodha Panchayat"
+    ],
+    sourceUrls: [
+      "https://www.rodha.co.in/",
+      "https://mocks.rodha.co.in/",
+      "https://www.rodha.co.in/s/store/courses/CAT%202026",
+      "https://play.google.com/store/apps/details?id=com.rodha.rodhabuddy"
+    ]
   },
   {
     id: "ims",
@@ -337,28 +360,50 @@ const profileDefaults = {
 const profileDetails = {
   rodha: {
     positioning:
-      "Rodha is a strong online-first CAT preparation option for learners who want concept-led teaching, serious Quant and DILR practice, improving VARC support, and an ecosystem that has become more complete over time.",
+      "Rodha is a strong online-first CAT preparation option for learners who want a complete preparation system rather than only recorded lectures or only a test series. Its strongest fit is for students who need concept-led teaching, serious QA and DILR practice, structured VARC support, live plus recorded classes, mock-led improvement and mentor/community support in one ecosystem. Based on official Rodha pages checked on 7 August 2026, Rodha now positions itself around CAT 2026 courses, OMET preparation, free material, a dedicated mock portal, Rodha Buddy for doubt support and Rodha Panchayat-style personalised mentor interaction.",
+    officialFeeNote:
+      "Officially visible Rodha pricing checked on 7 August 2026: CAT 2026 comprehensive batches are listed around Rs 24,999 on several current course pages, the CAT 2026 crash course is listed at Rs 19,999, section-specific R8 courses are listed at Rs 13,499, the R4 English comprehensive batch is listed at Rs 26,499, and mock packages range from Free to Rs 6,999 on the Rodha mock portal. Students should verify final price, coupons, books, validity and refund terms on Rodha's official checkout page before enrolling.",
     courses: [
-      "CAT full courses with live lectures and recordings",
-      "Section-wise CAT preparation for QA, DILR, and VARC",
-      "CAT mocks, sectionals, previous-year papers, and analytics through the revamped mock platform",
-      "Special batches for working professionals",
-      "Mentoring support through initiatives such as Rodha Panchayat"
+      "CAT 2026 comprehensive batches covering Quantitative Aptitude, Logical Reasoning and Data Interpretation, and Verbal Ability and Reading Comprehension from basics to advanced.",
+      "Fast-paced CAT 2026 batches such as R8 for students joining later or wanting accelerated coverage, with live and recorded classes across QA, DILR and VARC.",
+      "Section-specific CAT 2026 courses for VARC, DILR and Quant, useful for students who want to strengthen one weak area without buying a complete package.",
+      "CAT 2026 crash course covering QA, LRDI, VARC and OMETs for students who need a compact revision and test-readiness route.",
+      "Complete English batch option for students who want the learning environment to match the language of the CAT exam more closely.",
+      "OMET preparation support for XAT, SNAP and NMAT inside several comprehensive courses, reducing the need for separate post-CAT resources.",
+      "Rodha CAT Mocks and OMET mock packages with CAT mocks, XAT mocks, SNAP mocks, NMAT mocks, sectional tests and topic-wise practice modules.",
+      "Free resources and free mock access for students who want to sample Rodha before enrolling in a paid batch.",
+      "Physical booklets in several paid courses, including comprehensive batches and VARC-focused courses, for students who prefer structured offline practice material.",
+      "Mentoring and doubt support through Rodha Buddy and Rodha Panchayat-style face-to-face mentor sessions."
     ],
     faculty:
-      "Rodha's VARC depth has improved with faculty such as Krishnendu Dutta (KD), a CAT veteran with 20+ years of experience and consistent 99.9 percentile-level performance, Nikita Gupta, a verbal aptitude expert and TESOL scholar with strong CAT, XAT, NMAT, SNAP, and IELTS credentials, and Brijesh Pandey, a verbal mentor with 15+ years of CAT, GMAT, and IPMAT experience.",
+      "Rodha follows a faculty-per-section model across many CAT 2026 batches, which helps students know who is responsible for QA, DILR and VARC instead of dealing with a scattered course structure. Official course pages mention Ravi Prakash Sir, Swapanil/Swapnil Sir, Apoorv Sir, Adarsh Pandey, Abhishek Sir, KD Sir, Nikita Ma'am and Brijesh Sir across different batches and sections. For VARC specifically, Rodha has strengthened its position with Krishnendu Dutta (KD), a CAT veteran with 20+ years of experience and a strong 99.9 percentile track record, Nikita Gupta, a verbal aptitude expert and TESOL scholar with strong CAT, XAT, NMAT, SNAP and IELTS credentials, and Brijesh Pandey, a verbal mentor with 15+ years of CAT, GMAT and IPMAT experience. A student should still verify the exact faculty for the specific batch before enrolling because faculty allocation can differ by R-batch, language format, timing and section.",
     mocks:
-      "Rodha has revamped its mock-test platform and now offers a more serious testing layer with mocks, sectionals, previous papers, and analytics. This makes Rodha more relevant for aspirants who earlier saw it mainly as a concept-teaching platform.",
+      "Rodha's mock platform is no longer just an add-on to the course ecosystem. The official Rodha mock portal lists 30 full-length CAT mocks, 50 OMET mocks in the full CAT and OMET package, 105 sectional tests, 40+ topic-wise practice modules, video solutions, strategy-based mock analysis sessions and percentile tracking. The portal also shows detailed performance analysis signals such as right marks, negative marks, left questions, attempted questions, time per question, accuracy, rank, score and percentile. Rodha's own mock-positioning content says the mocks are intentionally slightly tougher than CAT to expose conceptual gaps and build pressure-handling ability. That approach is useful for serious aspirants, but beginners should not judge themselves only by early mock scores; they should use the analysis to identify weak concepts, poor question selection and time traps.",
     support:
-      "Rodha has added more learner-support infrastructure through the Rodha Buddy App for community doubt solving and Rodha Panchayat for personalised 1:1 mentoring conversations with mentors.",
+      "Rodha's support layer now includes more than the usual class chat. Official course pages mention Rodha Buddy as an exclusive doubt-solving platform from Rodha mentors, and the Google Play listing describes Rodha Buddy as an app for faster doubt resolution and improved conceptual clarity. Rodha course pages also mention Rodha Panchayat as exclusive face-to-face Google Meet sessions where learners can connect with faculty and discuss doubts or preparation issues personally. This matters because online CAT coaching often fails when students do not get timely doubt resolution; Rodha is trying to close that gap with a dedicated app, mentor access and community interaction. Students should still ask how quickly doubts are answered, whether faculty or mentors respond, and whether support is available for the exact batch they are buying.",
     onlineExperience:
-      "Rodha is online-first. Every course is designed around live lectures plus recordings, which helps students who miss classes and working professionals who need flexibility.",
+      "Rodha is an online-first CAT coaching platform, so its student experience depends heavily on live-class discipline, recording access, app/portal stability, doubt channels and mock analysis. Official course pages repeatedly mention live plus recorded CAT 2026 classes, structured learning, community interaction, practice tests and course validity up to 10 January 2027 for several CAT 2026 batches. This setup is especially useful for college students and working professionals because missed live classes can be revised through recordings, while live sessions still create accountability. The trade-off is that students must create their own daily routine; Rodha can provide lectures, mocks, booklets and mentors, but online learners still need consistency in revision, practice and mock analysis.",
     offlineExperience:
-      "Rodha does not depend on an offline center network. Students in any city should evaluate it as an online coaching option and compare it with local classroom institutes if they need face-to-face discipline.",
+      "Rodha should be evaluated as an online coaching option, not as an offline center network. That is a strength for students in cities where strong CAT faculty are not easily available because the same online course can be accessed from Delhi, Mumbai, Bangalore, Pune, Hyderabad, Kolkata, Chennai, Ahmedabad, Patna or smaller towns. It is also a limitation for learners who require daily physical classroom discipline, in-person peer groups, or a local center manager. Such students should compare Rodha with nearby offline institutes, but they should also factor in Rodha's recordings, booklets, mock portal, Buddy App and Panchayat-style mentor sessions before assuming offline is automatically better.",
     learnerFit: [
-      "Students who want deep concept building before aggressive mock attempts.",
-      "Working professionals who need live classes plus recordings.",
-      "Learners who want Rodha's improved mocks, Buddy App doubt support, and Panchayat-style mentoring in one ecosystem."
+      "Rodha is a strong fit for beginners who want to build QA, DILR and VARC from basics to advanced through one structured online system instead of collecting random YouTube playlists, PDFs and test series.",
+      "Rodha is suitable for repeaters who already know CAT basics but need disciplined revision, stronger DILR exposure, better VARC guidance, tougher mocks and sharper mock analysis.",
+      "Rodha is useful for working professionals because several courses combine live classes with recordings, and some batch timings are designed to work around college or office schedules.",
+      "Rodha is worth considering for students who earlier liked Rodha's teaching but wanted a stronger test platform, because the current mock portal now includes CAT mocks, OMET mocks, sectionals, topic tests, video solutions and analytics.",
+      "Rodha may not be ideal for students who need daily offline classroom supervision, fixed physical attendance, or a local study-center environment."
+    ],
+    feeNote:
+      "Rodha is one of the few coaching profiles where we can mention current visible prices because the official Rodha course and mock pages show them publicly. On 7 August 2026, visible CAT 2026 course prices included Rs 24,999 for multiple comprehensive batches, Rs 26,499 for the R4 Complete English batch, Rs 19,999 for the crash course, and Rs 13,499 for several section-specific R8 courses. The mock portal listed Rodha CAT Mocks at Rs 3,499, Rodha Sectional Tests at Rs 3,499, Rodha CAT Mocks and Sectional Tests at Rs 5,999, and the Rodha CAT Mocks and OMETs package at Rs 6,999, with a free mock option also visible. Prices can change with coupons, batch timing, books, old-student offers and checkout rules, so students should always verify the final payable amount on Rodha's official website before buying.",
+    checklist: [
+      "Decide whether you need a complete CAT course, a section-specific course, a crash course, or only the mock portal; Rodha has different products for each use case.",
+      "Check the exact batch name, start date, language, class timings, weekly class load and validity date before paying.",
+      "Verify the faculty allocation for your batch because Rodha lists different faculty combinations across R1, R3, R4, R5, R7, R8 and other courses.",
+      "Ask whether the course includes live classes, recordings, physical booklets, boosters, concept capsules, CAT Countdown, OMET preparation and mock access.",
+      "If you are buying mocks separately, compare the package inclusions: CAT mocks only, sectionals, topic tests, OMET mocks, video solutions and percentile tracking.",
+      "Use Rodha's free classes, free material or free mock access before buying if you are unsure about teaching style or mock difficulty.",
+      "Clarify refund rules because several Rodha course pages state that refunds are not available after enrollment.",
+      "If you are a working professional, check whether the live timing is realistic and whether recordings are enough for your schedule.",
+      "After enrollment, create a weekly routine for class revision, booklet practice, Buddy doubts, sectionals and mock analysis; the platform works best when the learner follows the system consistently."
     ]
   },
   ims: {
