@@ -28,6 +28,13 @@
     }
   });
 
+  document.querySelectorAll(".coaching-card .meta-grid").forEach((grid) => {
+    Array.from(grid.children).forEach((item) => {
+      const label = item.querySelector("dt")?.textContent.trim().toLowerCase();
+      if (label === "fees") item.remove();
+    });
+  });
+
   if (window.location.pathname === "/about/" || window.location.pathname === "/about") {
     const prose = document.querySelector(".prose");
     if (prose) {
