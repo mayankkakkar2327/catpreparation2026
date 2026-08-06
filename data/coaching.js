@@ -1,547 +1,111 @@
 const coreCities = ["delhi", "mumbai", "bangalore", "pune", "hyderabad", "kolkata", "chennai", "ahmedabad", "patna"];
 const onlineCities = ["online", ...coreCities];
-
 const citySets = {
   national: coreCities,
   online: onlineCities,
-  endeavor: ["online", "mumbai", "pune", "bangalore", "ahmedabad", "delhi", "kolkata"],
-  catking: ["online", "mumbai", "pune", "delhi", "bangalore", "hyderabad", "kolkata", "chennai", "ahmedabad"],
   delhi: ["online", "delhi"],
   mumbaiPune: ["online", "mumbai", "pune"],
   kolkata: ["online", "kolkata"],
   chennai: ["online", "chennai"],
-  patna: ["online", "patna"]
+  patna: ["online", "patna"],
+  endeavor: ["online", "mumbai", "pune", "bangalore", "ahmedabad", "delhi", "kolkata"],
+  catking: ["online", "mumbai", "pune", "delhi", "bangalore", "hyderabad", "kolkata", "chennai", "ahmedabad"]
 };
-
 const defaults = {
   feeMin: 8000,
   feeMax: 45000,
   rating: 4.0,
   reviewCount: 0,
   bestFor: ["CAT preparation", "Mock practice", "MBA entrance preparation"],
-  pros: ["Useful CAT preparation option", "Online or hybrid access", "Can be compared by city and course format"],
-  cons: ["Fees, batches, and faculty should be verified before enrollment", "Student experience can vary by course plan"],
+  pros: ["Structured CAT preparation option", "Useful for comparison", "Can support MBA entrance preparation"],
+  cons: ["Fees, batches and faculty should be verified before enrolment", "Student experience can vary by plan"],
   features: ["CAT preparation", "Mocks", "Practice", "Doubt support"],
   lastVerifiedAt: "Reviewed for profile structure: 2026-08-07"
 };
-
-const entries = [
-  {
-    id: "rodha",
-    name: "Rodha",
-    mode: "online",
-    cities: citySets.online,
-    courseTypes: ["online", "quant", "dilr", "varc", "test-series"],
-    feeMin: 8000,
-    feeMax: 40000,
-    rating: 4.5,
-    reviewCount: 92,
-    summary: "An online CAT preparation platform with CAT 2026 courses, mocks, and section-focused learning. Listed first on every city page as a national online option.",
-    bestFor: ["Online concept building", "Quant and DILR practice", "Self-paced learners"],
-    pros: [
-      "Online-first accessibility with live classes and recordings",
-      "Concept-oriented teaching across QA, DILR and VARC",
-      "Improved mock platform with CAT mocks, OMET mocks, sectionals, topic tests, video solutions and analytics",
-      "Useful for students outside metro cities and working professionals who need schedule flexibility"
-    ],
-    cons: [
-      "No offline center network for students who need face-to-face classroom discipline",
-      "Batch pace can feel intense for students who do not revise regularly",
-      "Course, batch and fee details should be checked on the official website before payment"
-    ],
-    features: [
-      "CAT 2026 comprehensive batches",
-      "Live and recorded classes",
-      "Rodha CAT Mocks",
-      "OMET mocks",
-      "Sectional tests",
-      "Physical booklets",
-      "Rodha Buddy",
-      "Rodha Panchayat"
-    ],
-    sourceUrls: [
-      "https://www.rodha.co.in/",
-      "https://mocks.rodha.co.in/",
-      "https://www.rodha.co.in/s/store/courses/CAT%202026",
-      "https://play.google.com/store/apps/details?id=com.rodha.rodhabuddy"
-    ]
-  },
-  {
-    id: "ims",
-    name: "IMS",
-    mode: "hybrid",
-    cities: citySets.national,
-    courseTypes: ["classroom", "online", "test-series", "gd-pi"],
-    feeMin: 18000,
-    feeMax: 65000,
-    rating: 4.3,
-    reviewCount: 128,
-    summary: "A long-running MBA entrance preparation institute with classroom, online, SimCAT, and mentoring options across major Indian cities.",
-    bestFor: ["Structured classroom preparation", "Mock analysis", "MBA admissions mentoring"],
-    sourceUrls: ["https://www.imsindia.com/"]
-  },
-  {
-    id: "time",
-    name: "T.I.M.E.",
-    mode: "hybrid",
-    cities: citySets.national,
-    courseTypes: ["classroom", "online", "test-series", "gd-pi"],
-    feeMin: 20000,
-    feeMax: 70000,
-    rating: 4.2,
-    reviewCount: 146,
-    summary: "A national test-prep brand offering CAT classroom programs, online support, mock tests, and MBA entrance preparation.",
-    bestFor: ["Mock-heavy preparation", "Students wanting national benchmark tests", "Multi-exam MBA prep"],
-    sourceUrls: ["https://www.time4education.com/"]
-  },
-  {
-    id: "career-launcher",
-    name: "Career Launcher",
-    mode: "hybrid",
-    cities: citySets.national,
-    courseTypes: ["classroom", "online", "test-series", "gd-pi"],
-    feeMin: 16000,
-    feeMax: 68000,
-    rating: 4.1,
-    reviewCount: 119,
-    summary: "A national test-prep company offering CAT classroom programs, online courses, mocks, and MBA admissions support.",
-    bestFor: ["Online plus offline flexibility", "Exam strategy sessions", "Students comparing multiple MBA exams"],
-    sourceUrls: ["https://www.careerlauncher.com/cat-mba/"]
-  },
-  {
-    id: "cracku",
-    name: "Cracku",
-    mode: "online",
-    cities: citySets.online,
-    courseTypes: ["online", "test-series", "daily-practice", "previous-papers"],
-    feeMin: 3000,
-    feeMax: 35000,
-    rating: 4.2,
-    reviewCount: 66,
-    summary: "An online CAT and OMET preparation platform offering CAT courses, practice resources, live classes, mocks, and previous paper support.",
-    bestFor: ["Affordable online prep", "Practice-heavy preparation", "Mock and previous paper users"],
-    sourceUrls: ["https://cracku.in/cat-2026/"]
-  },
-  {
-    id: "2iim",
-    name: "2IIM",
-    mode: "online",
-    cities: citySets.online,
-    courseTypes: ["online", "self-paced", "test-series", "concept-videos"],
-    feeMin: 5000,
-    feeMax: 45000,
-    rating: 4.3,
-    reviewCount: 74,
-    summary: "An online CAT coaching provider known for concept videos, self-paced learning, CAT courses, and exam preparation resources.",
-    bestFor: ["Self-paced online learning", "Concept clarity", "Working professionals"],
-    sourceUrls: ["https://online.2iim.com/"]
-  },
-  {
-    id: "iquanta",
-    name: "iQuanta",
-    mode: "online",
-    cities: citySets.online,
-    courseTypes: ["online", "community", "live-classes", "test-series"],
-    feeMin: 8000,
-    feeMax: 45000,
-    rating: 4.2,
-    reviewCount: 88,
-    summary: "An online CAT coaching platform with live classes, community-led doubt support, mocks, and MBA entrance preparation programs.",
-    bestFor: ["Online peer community", "Doubt practice", "Live online classes"],
-    sourceUrls: ["https://www.iquanta.in/"]
-  },
-  {
-    id: "elites-grid",
-    name: "Elites Grid",
-    mode: "online",
-    cities: citySets.online,
-    courseTypes: ["online", "test-series", "live-classes"],
-    feeMin: 12000,
-    feeMax: 45000,
-    rating: 4.4,
-    reviewCount: 84,
-    summary: "An online-first CAT preparation option known among aspirants for live classes, doubt solving, and exam-focused preparation.",
-    bestFor: ["Online CAT preparation", "Students outside metro cities", "Flexible study schedules"],
-    sourceUrls: ["https://www.elitesgrid.com/"]
-  },
-  {
-    id: "catking",
-    name: "CATKing",
-    mode: "hybrid",
-    cities: citySets.catking,
-    courseTypes: ["online", "classroom", "test-series", "gd-pi"],
-    feeMin: 10000,
-    feeMax: 60000,
-    summary: "A CAT and MBA entrance coaching brand with online programs, workshops, test-prep content, and selected offline or hybrid city presence.",
-    bestFor: ["Strategy-led CAT preparation", "Online workshops", "GD-PI support"],
-    sourceUrls: ["https://www.catking.in/"]
-  },
-  {
-    id: "endeavor",
-    name: "Endeavor Careers",
-    mode: "hybrid",
-    cities: citySets.endeavor,
-    courseTypes: ["classroom", "online", "test-series", "gd-pi"],
-    feeMin: 18000,
-    feeMax: 65000,
-    rating: 4.1,
-    reviewCount: 63,
-    summary: "A CAT, CMAT, IPMAT and MBA entrance coaching institute with online courses and centers listed through its official center network.",
-    bestFor: ["Classroom plus online support", "CAT and CMAT prep", "Students in western India"],
-    sourceUrls: ["https://www.endeavorcareers.com/"]
-  },
-  {
-    id: "mba-guru",
-    name: "MBA Guru",
-    mode: "hybrid",
-    cities: citySets.delhi,
-    courseTypes: ["classroom", "online", "test-series", "gd-pi"],
-    feeMin: 15000,
-    feeMax: 55000,
-    summary: "A Delhi NCR-focused CAT and MBA entrance preparation institute with classroom and online learning options.",
-    bestFor: ["Delhi NCR classroom prep", "Personalized mentoring", "Students needing structured batches"],
-    sourceUrls: ["https://www.mbaguru.in/"]
-  },
-  {
-    id: "alchemist",
-    name: "Alchemist",
-    mode: "hybrid",
-    cities: citySets.delhi,
-    courseTypes: ["classroom", "online", "test-series", "gd-pi"],
-    feeMin: 15000,
-    feeMax: 60000,
-    summary: "A Delhi-based CAT and MBA entrance coaching option known for adaptive learning, classroom support, and test preparation programs.",
-    bestFor: ["Delhi classroom prep", "Adaptive learning support", "CAT and OMET preparation"],
-    sourceUrls: ["https://www.alchemistindia.com/"]
-  },
-  {
-    id: "tathagat",
-    name: "Tathagat",
-    mode: "hybrid",
-    cities: citySets.delhi,
-    courseTypes: ["classroom", "online", "test-series"],
-    feeMin: 15000,
-    feeMax: 55000,
-    summary: "A Delhi CAT coaching option commonly considered by aspirants looking for classroom-led MBA entrance preparation.",
-    bestFor: ["Delhi classroom aspirants", "Quant and DILR practice", "Small-group prep seekers"],
-    sourceUrls: ["https://www.tathagat.co.in/"]
-  },
-  {
-    id: "hitbullseye",
-    name: "Hitbullseye",
-    mode: "online",
-    cities: citySets.online,
-    courseTypes: ["online", "test-series", "practice", "mba-exams"],
-    feeMin: 5000,
-    feeMax: 35000,
-    summary: "An online test-prep platform offering CAT and MBA entrance preparation resources, practice material, and mock-test support.",
-    bestFor: ["Online practice", "Test-series users", "Multi-exam preparation"],
-    sourceUrls: ["https://www.hitbullseye.com/"]
-  },
-  {
-    id: "unacademy-cat",
-    name: "Unacademy CAT",
-    mode: "online",
-    cities: citySets.online,
-    courseTypes: ["online", "live-classes", "recorded", "test-series"],
-    feeMin: 5000,
-    feeMax: 45000,
-    summary: "An online learning platform with CAT and MBA entrance exam courses, live classes, educators, and test-prep options.",
-    bestFor: ["Online live classes", "Flexible schedules", "App-based learning"],
-    sourceUrls: ["https://unacademy.com/goal/cat-other-mba-entrance-tests/CAT4M"]
-  },
-  {
-    id: "pw-mba",
-    name: "Physics Wallah MBA",
-    mode: "online",
-    cities: citySets.online,
-    courseTypes: ["online", "live-classes", "recorded", "test-series"],
-    feeMin: 2000,
-    feeMax: 30000,
-    rating: 3.9,
-    reviewCount: 52,
-    summary: "An online MBA entrance preparation option from Physics Wallah, useful for budget-focused CAT aspirants comparing live online programs.",
-    bestFor: ["Budget online prep", "App-based learning", "Beginner CAT aspirants"],
-    sourceUrls: ["https://www.pw.live/"]
-  },
-  {
-    id: "erudite",
-    name: "Erudite",
-    mode: "hybrid",
-    cities: citySets.kolkata,
-    courseTypes: ["classroom", "online", "test-series", "gd-pi"],
-    feeMin: 15000,
-    feeMax: 55000,
-    summary: "A Kolkata-focused MBA entrance coaching option for CAT aspirants looking for classroom or hybrid preparation support.",
-    bestFor: ["Kolkata classroom prep", "MBA entrance guidance", "Local mentor access"],
-    sourceUrls: ["https://www.erudite.in/"]
-  },
-  {
-    id: "ascent-education",
-    name: "Ascent Education",
-    mode: "hybrid",
-    cities: citySets.chennai,
-    courseTypes: ["classroom", "online", "test-series"],
-    feeMin: 12000,
-    feeMax: 50000,
-    rating: 3.9,
-    reviewCount: 28,
-    summary: "A Chennai-focused coaching option included for aspirants comparing local classroom and hybrid CAT preparation choices.",
-    bestFor: ["Chennai classroom prep", "Local batch support", "Beginner aspirants"],
-    sourceUrls: ["https://www.ascenteducation.com/"]
-  },
-  {
-    id: "proton-training",
-    name: "Proton Training Solutions",
-    mode: "hybrid",
-    cities: citySets.mumbaiPune,
-    courseTypes: ["classroom", "online", "test-series"],
-    feeMin: 12000,
-    feeMax: 50000,
-    rating: 3.9,
-    reviewCount: 31,
-    summary: "A Maharashtra-focused test-prep option included for Pune and Mumbai aspirants comparing local CAT coaching choices.",
-    bestFor: ["Pune and Mumbai aspirants", "Local classroom support", "Hybrid preparation"],
-    sourceUrls: ["https://www.protontraining.com/"]
-  },
-  {
-    id: "mentors-eduserv",
-    name: "Mentors Eduserv",
-    mode: "hybrid",
-    cities: citySets.patna,
-    courseTypes: ["classroom", "online", "test-series"],
-    feeMin: 10000,
-    feeMax: 45000,
-    rating: 3.8,
-    reviewCount: 24,
-    summary: "A Patna education brand included as a local option for aspirants comparing classroom and hybrid preparation choices in the city.",
-    bestFor: ["Patna local support", "Classroom discipline", "Students comparing local institutes"],
-    sourceUrls: ["https://www.mentorsedu.com/"]
-  }
+const baseEntries = [
+  ["rodha", "Rodha", "online", citySets.online, ["online", "quant", "dilr", "varc", "test-series"], "An online CAT preparation platform with CAT 2026 courses, mocks, and section-focused learning. Listed first on every city page as a national online option.", ["Online concept building", "Quant and DILR practice", "Self-paced learners"], 4.5, 92],
+  ["ims", "IMS", "hybrid", citySets.national, ["classroom", "online", "test-series", "gd-pi"], "A long-running MBA entrance preparation institute with classroom, online, SimCAT, and mentoring options across major Indian cities.", ["Structured classroom preparation", "Mock analysis", "MBA admissions mentoring"], 4.3, 128],
+  ["time", "T.I.M.E.", "hybrid", citySets.national, ["classroom", "online", "test-series", "gd-pi"], "A national test-prep brand offering CAT classroom programs, online support, mock tests, and MBA entrance preparation.", ["Mock-heavy preparation", "Students wanting national benchmark tests", "Multi-exam MBA prep"], 4.2, 146],
+  ["career-launcher", "Career Launcher", "hybrid", citySets.national, ["classroom", "online", "test-series", "gd-pi"], "A national test-prep company offering CAT classroom programs, online courses, mocks, and MBA admissions support.", ["Online plus offline flexibility", "Exam strategy sessions", "Students comparing multiple MBA exams"], 4.1, 119],
+  ["cracku", "Cracku", "online", citySets.online, ["online", "test-series", "daily-practice", "previous-papers"], "An online CAT and OMET preparation platform offering CAT courses, practice resources, live classes, mocks, and previous paper support.", ["Affordable online prep", "Practice-heavy preparation", "Mock and previous paper users"], 4.2, 66],
+  ["2iim", "2IIM", "online", citySets.online, ["online", "self-paced", "test-series", "concept-videos"], "An online CAT coaching provider known for concept videos, self-paced learning, CAT courses, and exam preparation resources.", ["Self-paced online learning", "Concept clarity", "Working professionals"], 4.3, 74],
+  ["iquanta", "iQuanta", "online", citySets.online, ["online", "community", "live-classes", "test-series"], "An online CAT coaching platform with live classes, community-led doubt support, mocks, and MBA entrance preparation programs.", ["Online peer community", "Doubt practice", "Live online classes"], 4.2, 88],
+  ["elites-grid", "Elites Grid", "online", citySets.online, ["online", "test-series", "live-classes"], "An online-first CAT preparation option known among aspirants for live classes, doubt solving, and exam-focused preparation.", ["Online CAT preparation", "Students outside metro cities", "Flexible study schedules"], 4.4, 84],
+  ["catking", "CATKing", "hybrid", citySets.catking, ["online", "classroom", "test-series", "gd-pi"], "A CAT and MBA entrance coaching brand with online programs, workshops, test-prep content, and selected offline or hybrid city presence.", ["Strategy-led CAT preparation", "Online workshops", "GD-PI support"], 4.0, 0],
+  ["endeavor", "Endeavor Careers", "hybrid", citySets.endeavor, ["classroom", "online", "test-series", "gd-pi"], "A CAT, CMAT, IPMAT and MBA entrance coaching institute with online courses and centers listed through its official center network.", ["Classroom plus online support", "CAT and CMAT prep", "Students in western India"], 4.1, 63],
+  ["mba-guru", "MBA Guru", "hybrid", citySets.delhi, ["classroom", "online", "test-series", "gd-pi"], "A Delhi NCR-focused CAT and MBA entrance preparation institute with classroom and online learning options.", ["Delhi NCR classroom prep", "Personalized mentoring", "Students needing structured batches"], 4.0, 0],
+  ["alchemist", "Alchemist", "hybrid", citySets.delhi, ["classroom", "online", "test-series", "gd-pi"], "A Delhi-based CAT and MBA entrance coaching option known for adaptive learning, classroom support, and test preparation programs.", ["Delhi classroom prep", "Adaptive learning support", "CAT and OMET preparation"], 4.0, 0],
+  ["tathagat", "Tathagat", "hybrid", citySets.delhi, ["classroom", "online", "test-series"], "A Delhi CAT coaching option commonly considered by aspirants looking for classroom-led MBA entrance preparation.", ["Delhi classroom aspirants", "Quant and DILR practice", "Small-group prep seekers"], 4.0, 0],
+  ["hitbullseye", "Hitbullseye", "online", citySets.online, ["online", "test-series", "practice", "mba-exams"], "An online test-prep platform offering CAT and MBA entrance preparation resources, practice material, and mock-test support.", ["Online practice", "Test-series users", "Multi-exam preparation"], 4.0, 0],
+  ["unacademy-cat", "Unacademy CAT", "online", citySets.online, ["online", "live-classes", "recorded", "test-series"], "An online learning platform with CAT and MBA entrance exam courses, live classes, educators, and test-prep options.", ["Online live classes", "Flexible schedules", "App-based learning"], 4.0, 0],
+  ["pw-mba", "Physics Wallah MBA", "online", citySets.online, ["online", "live-classes", "recorded", "test-series"], "An online MBA entrance preparation option from Physics Wallah, useful for budget-focused CAT aspirants comparing live online programs.", ["Budget online prep", "App-based learning", "Beginner CAT aspirants"], 3.9, 52],
+  ["erudite", "Erudite", "hybrid", citySets.kolkata, ["classroom", "online", "test-series", "gd-pi"], "A Kolkata-focused MBA entrance coaching option for CAT aspirants looking for classroom or hybrid preparation support.", ["Kolkata classroom prep", "MBA entrance guidance", "Local mentor access"], 4.0, 0],
+  ["ascent-education", "Ascent Education", "hybrid", citySets.chennai, ["classroom", "online", "test-series"], "A Chennai-focused coaching option included for aspirants comparing local classroom and hybrid CAT preparation choices.", ["Chennai classroom prep", "Local batch support", "Beginner aspirants"], 3.9, 28],
+  ["proton-training", "Proton Training Solutions", "hybrid", citySets.mumbaiPune, ["classroom", "online", "test-series"], "A Maharashtra-focused test-prep option included for Pune and Mumbai aspirants comparing local CAT coaching choices.", ["Pune and Mumbai aspirants", "Local classroom support", "Hybrid preparation"], 3.9, 31],
+  ["mentors-eduserv", "Mentors Eduserv", "hybrid", citySets.patna, ["classroom", "online", "test-series"], "A Patna education brand included as a local option for aspirants comparing classroom and hybrid preparation choices in the city.", ["Patna local support", "Classroom discipline", "Students comparing local institutes"], 3.8, 24]
 ];
-
-const commonCourses = [
-  "CAT full-length preparation",
-  "Sectional practice for VARC, DILR, and QA",
-  "Mock tests or test-series support where offered",
-  "Other MBA entrance exam preparation depending on the course plan"
-];
-
+const entries = baseEntries.map(([id, name, mode, cities, courseTypes, summary, bestFor, rating, reviewCount]) => ({ id, name, slug: id, mode, cities, courseTypes, feeMin: defaults.feeMin, feeMax: defaults.feeMax, summary, bestFor, rating, reviewCount }));
+const commonCourses = ["CAT full-length preparation", "Sectional practice for VARC, DILR, and QA", "Mock tests or test-series support where offered", "Other MBA entrance exam preparation depending on the course plan"];
 const profileDefaults = {
-  positioning:
-    "A CAT and MBA entrance preparation option that should be evaluated by course structure, faculty access, mock quality, doubt support, schedule flexibility, and official pricing clarity.",
+  positioning: "A CAT and MBA entrance preparation option that should be evaluated by course structure, faculty access, mock quality, doubt support, schedule flexibility, official pricing clarity and fit for the learner's current level.",
   courses: commonCourses,
-  faculty:
-    "Faculty details can change by batch, city, and course plan. Learners should attend a demo class, check the latest faculty allocation, and verify who handles each CAT section before enrolling.",
-  mocks:
-    "Mock availability, analytics depth, and solution quality should be checked on the official course page before purchase. Students should compare full mocks, sectionals, previous-year papers, percentile reports, and post-test analysis.",
-  support:
-    "Doubt solving and mentoring can vary by batch. Ask whether support is handled by faculty, mentors, community groups, app-based tickets, live sessions, or offline center teams.",
-  onlineExperience:
-    "For online learners, confirm live class timings, recording access, app or portal stability, downloadable material, test access, and whether missed classes can be watched later.",
-  offlineExperience:
-    "For offline learners, center quality can vary by city. Visit the nearest center, ask for batch size, faculty schedule, study-room access, mock discussion process, and local mentor availability.",
-  feeNote:
-    "Official fees can vary by course, batch, city, discount, and enrollment window. This page does not list an estimated fee unless it is clearly visible on the official website.",
-  learnerFit: [
-    "Students who want a structured CAT preparation plan.",
-    "Aspirants comparing coaching options by mode, mocks, support, and schedule fit.",
-    "Learners who are willing to verify the latest course details before payment."
-  ],
-  checklist: [
-    "Attend a demo class or watch a recent sample lecture.",
-    "Check whether the course includes full mocks, sectionals, previous papers, and analysis.",
-    "Confirm live class timings, recording access, and doubt-solving process.",
-    "Verify the official fee, validity period, refund policy, and extension policy.",
-    "Compare the course with at least two alternatives before enrolling."
-  ]
+  faculty: "Faculty can vary by batch, city and course plan. Learners should attend a demo class, check current QA, DILR and VARC faculty, and verify who handles doubts before enrolling.",
+  mocks: "Mock availability, analytics depth and solution quality should be checked on the official course page before purchase. Compare full mocks, sectionals, previous papers, percentile reports and post-test analysis.",
+  support: "Doubt solving and mentoring can vary by batch. Ask whether support is handled by faculty, mentors, community groups, app tickets, live sessions or offline centre teams.",
+  onlineExperience: "For online learners, confirm live timings, recording access, app or portal stability, downloadable material, test access and doubt support.",
+  offlineExperience: "For offline learners, visit the centre, ask for batch size, faculty schedule, mock discussion process, study-room access and local mentor availability.",
+  feeNote: "Official fees can vary by course, batch, city, discount and enrolment window. This page lists a fee only when it is clearly visible from an official source.",
+  learnerFit: ["Students who want a structured CAT preparation plan.", "Aspirants comparing coaching options by mode, mocks, support and schedule fit.", "Learners willing to verify the latest details before payment."],
+  checklist: ["Attend a demo class or watch a recent lecture.", "Check mocks, sectionals, previous papers and analysis.", "Confirm timings, recordings and doubt solving.", "Verify fee, validity and refund policy.", "Compare at least two alternatives before enrolling."]
 };
-
 const profileDetails = {
   rodha: {
-    positioning:
-      "Rodha is a strong online-first CAT preparation option for learners who want a complete preparation system rather than only recorded lectures or only a test series. Its strongest fit is for students who need concept-led teaching, serious QA and DILR practice, structured VARC support, live plus recorded classes, mock-led improvement and mentor/community support in one ecosystem. Based on official Rodha pages checked on 7 August 2026, Rodha now positions itself around CAT 2026 courses, OMET preparation, free material, a dedicated mock portal, Rodha Buddy for doubt support and Rodha Panchayat-style personalised mentor interaction.",
-    officialFeeNote:
-      "Officially visible Rodha pricing checked on 7 August 2026: CAT 2026 comprehensive batches are listed around Rs 24,999 on several current course pages, the CAT 2026 crash course is listed at Rs 19,999, section-specific R8 courses are listed at Rs 13,499, the R4 English comprehensive batch is listed at Rs 26,499, and mock packages range from Free to Rs 6,999 on the Rodha mock portal. Students should verify final price, coupons, books, validity and refund terms on Rodha's official checkout page before enrolling.",
-    courses: [
-      "CAT 2026 comprehensive batches covering Quantitative Aptitude, Logical Reasoning and Data Interpretation, and Verbal Ability and Reading Comprehension from basics to advanced.",
-      "Fast-paced CAT 2026 batches such as R8 for students joining later or wanting accelerated coverage, with live and recorded classes across QA, DILR and VARC.",
-      "Section-specific CAT 2026 courses for VARC, DILR and Quant, useful for students who want to strengthen one weak area without buying a complete package.",
-      "CAT 2026 crash course covering QA, LRDI, VARC and OMETs for students who need a compact revision and test-readiness route.",
-      "Complete English batch option for students who want the learning environment to match the language of the CAT exam more closely.",
-      "OMET preparation support for XAT, SNAP and NMAT inside several comprehensive courses, reducing the need for separate post-CAT resources.",
-      "Rodha CAT Mocks and OMET mock packages with CAT mocks, XAT mocks, SNAP mocks, NMAT mocks, sectional tests and topic-wise practice modules.",
-      "Free resources and free mock access for students who want to sample Rodha before enrolling in a paid batch.",
-      "Physical booklets in several paid courses, including comprehensive batches and VARC-focused courses, for students who prefer structured offline practice material.",
-      "Mentoring and doubt support through Rodha Buddy and Rodha Panchayat-style face-to-face mentor sessions."
-    ],
-    faculty:
-      "Rodha follows a faculty-per-section model across many CAT 2026 batches, which helps students know who is responsible for QA, DILR and VARC instead of dealing with a scattered course structure. Official course pages mention Ravi Prakash Sir, Swapanil/Swapnil Sir, Apoorv Sir, Adarsh Pandey, Abhishek Sir, KD Sir, Nikita Ma'am and Brijesh Sir across different batches and sections. For VARC specifically, Rodha has strengthened its position with Krishnendu Dutta (KD), a CAT veteran with 20+ years of experience and a strong 99.9 percentile track record, Nikita Gupta, a verbal aptitude expert and TESOL scholar with strong CAT, XAT, NMAT, SNAP and IELTS credentials, and Brijesh Pandey, a verbal mentor with 15+ years of CAT, GMAT and IPMAT experience. A student should still verify the exact faculty for the specific batch before enrolling because faculty allocation can differ by R-batch, language format, timing and section.",
-    mocks:
-      "Rodha's mock platform is no longer just an add-on to the course ecosystem. The official Rodha mock portal lists 30 full-length CAT mocks, 50 OMET mocks in the full CAT and OMET package, 105 sectional tests, 40+ topic-wise practice modules, video solutions, strategy-based mock analysis sessions and percentile tracking. The portal also shows detailed performance analysis signals such as right marks, negative marks, left questions, attempted questions, time per question, accuracy, rank, score and percentile. Rodha's own mock-positioning content says the mocks are intentionally slightly tougher than CAT to expose conceptual gaps and build pressure-handling ability. That approach is useful for serious aspirants, but beginners should not judge themselves only by early mock scores; they should use the analysis to identify weak concepts, poor question selection and time traps.",
-    support:
-      "Rodha's support layer now includes more than the usual class chat. Official course pages mention Rodha Buddy as an exclusive doubt-solving platform from Rodha mentors, and the Google Play listing describes Rodha Buddy as an app for faster doubt resolution and improved conceptual clarity. Rodha course pages also mention Rodha Panchayat as exclusive face-to-face Google Meet sessions where learners can connect with faculty and discuss doubts or preparation issues personally. This matters because online CAT coaching often fails when students do not get timely doubt resolution; Rodha is trying to close that gap with a dedicated app, mentor access and community interaction. Students should still ask how quickly doubts are answered, whether faculty or mentors respond, and whether support is available for the exact batch they are buying.",
-    onlineExperience:
-      "Rodha is an online-first CAT coaching platform, so its student experience depends heavily on live-class discipline, recording access, app/portal stability, doubt channels and mock analysis. Official course pages repeatedly mention live plus recorded CAT 2026 classes, structured learning, community interaction, practice tests and course validity up to 10 January 2027 for several CAT 2026 batches. This setup is especially useful for college students and working professionals because missed live classes can be revised through recordings, while live sessions still create accountability. The trade-off is that students must create their own daily routine; Rodha can provide lectures, mocks, booklets and mentors, but online learners still need consistency in revision, practice and mock analysis.",
-    offlineExperience:
-      "Rodha should be evaluated as an online coaching option, not as an offline center network. That is a strength for students in cities where strong CAT faculty are not easily available because the same online course can be accessed from Delhi, Mumbai, Bangalore, Pune, Hyderabad, Kolkata, Chennai, Ahmedabad, Patna or smaller towns. It is also a limitation for learners who require daily physical classroom discipline, in-person peer groups, or a local center manager. Such students should compare Rodha with nearby offline institutes, but they should also factor in Rodha's recordings, booklets, mock portal, Buddy App and Panchayat-style mentor sessions before assuming offline is automatically better.",
-    learnerFit: [
-      "Rodha is a strong fit for beginners who want to build QA, DILR and VARC from basics to advanced through one structured online system instead of collecting random YouTube playlists, PDFs and test series.",
-      "Rodha is suitable for repeaters who already know CAT basics but need disciplined revision, stronger DILR exposure, better VARC guidance, tougher mocks and sharper mock analysis.",
-      "Rodha is useful for working professionals because several courses combine live classes with recordings, and some batch timings are designed to work around college or office schedules.",
-      "Rodha is worth considering for students who earlier liked Rodha's teaching but wanted a stronger test platform, because the current mock portal now includes CAT mocks, OMET mocks, sectionals, topic tests, video solutions and analytics.",
-      "Rodha may not be ideal for students who need daily offline classroom supervision, fixed physical attendance, or a local study-center environment."
-    ],
-    feeNote:
-      "Rodha is one of the few coaching profiles where we can mention current visible prices because the official Rodha course and mock pages show them publicly. On 7 August 2026, visible CAT 2026 course prices included Rs 24,999 for multiple comprehensive batches, Rs 26,499 for the R4 Complete English batch, Rs 19,999 for the crash course, and Rs 13,499 for several section-specific R8 courses. The mock portal listed Rodha CAT Mocks at Rs 3,499, Rodha Sectional Tests at Rs 3,499, Rodha CAT Mocks and Sectional Tests at Rs 5,999, and the Rodha CAT Mocks and OMETs package at Rs 6,999, with a free mock option also visible. Prices can change with coupons, batch timing, books, old-student offers and checkout rules, so students should always verify the final payable amount on Rodha's official website before buying.",
-    checklist: [
-      "Decide whether you need a complete CAT course, a section-specific course, a crash course, or only the mock portal; Rodha has different products for each use case.",
-      "Check the exact batch name, start date, language, class timings, weekly class load and validity date before paying.",
-      "Verify the faculty allocation for your batch because Rodha lists different faculty combinations across R1, R3, R4, R5, R7, R8 and other courses.",
-      "Ask whether the course includes live classes, recordings, physical booklets, boosters, concept capsules, CAT Countdown, OMET preparation and mock access.",
-      "If you are buying mocks separately, compare the package inclusions: CAT mocks only, sectionals, topic tests, OMET mocks, video solutions and percentile tracking.",
-      "Use Rodha's free classes, free material or free mock access before buying if you are unsure about teaching style or mock difficulty.",
-      "Clarify refund rules because several Rodha course pages state that refunds are not available after enrollment.",
-      "If you are a working professional, check whether the live timing is realistic and whether recordings are enough for your schedule.",
-      "After enrollment, create a weekly routine for class revision, booklet practice, Buddy doubts, sectionals and mock analysis; the platform works best when the learner follows the system consistently."
-    ]
+    officialFeeNote: "Free to Rs 26,499 based on officially visible Rodha course and mock pages checked on 7 August 2026.",
+    sourceUrls: ["https://www.rodha.co.in/", "https://mocks.rodha.co.in/", "https://www.rodha.co.in/s/store/courses/CAT%202026", "https://play.google.com/store/apps/details?id=com.rodha.rodhabuddy"],
+    positioning: "Rodha is a strong online-first CAT preparation option for learners who want a complete preparation system rather than only recorded lectures or only a test series. Its strongest fit is for students who need concept-led teaching, serious QA and DILR practice, structured VARC support, live plus recorded classes, mock-led improvement and mentor/community support in one ecosystem. Based on official Rodha pages checked on 7 August 2026, Rodha now positions itself around CAT 2026 courses, OMET preparation, free material, a dedicated mock portal, Rodha Buddy for doubt support and Rodha Panchayat-style personalised mentor interaction.",
+    courses: ["CAT 2026 comprehensive batches covering Quantitative Aptitude, Logical Reasoning and Data Interpretation, and VARC from basics to advanced.", "Fast-paced CAT 2026 batches and section-specific courses for students joining later or strengthening one weak area.", "CAT 2026 crash course, complete English batch, OMET support for XAT/SNAP/NMAT, free resources and physical booklets in several paid courses.", "Rodha CAT Mocks and OMET packages with CAT mocks, XAT mocks, SNAP mocks, NMAT mocks, sectionals and topic-wise practice.", "Mentoring and doubt support through Rodha Buddy and Rodha Panchayat-style mentor sessions."],
+    faculty: "Rodha follows a faculty-per-section model across many CAT 2026 batches. Official course pages mention Ravi Prakash, Swapanil/Swapnil, Apoorv, Adarsh Pandey, Abhishek, KD, Nikita and Brijesh across different batches. For VARC, Rodha has strengthened its positioning with KD's CAT experience, Nikita Gupta's verbal credentials and Brijesh Pandey's long CAT/GMAT/IPMAT mentoring background.",
+    mocks: "Rodha's mock platform is no longer just an add-on. The official mock portal lists 30 CAT mocks, 50 OMET mocks in the full package, 105 sectionals, 40+ topic modules, video solutions, strategy-based mock analysis sessions and percentile tracking. The platform shows attempt, accuracy, score, rank, percentile and time signals, making it useful for serious mock analysis.",
+    support: "Rodha support now includes Rodha Buddy for faster doubt resolution and Rodha Panchayat-style face-to-face mentor sessions. This is important because online CAT preparation often fails when students do not get timely doubts and personal guidance.",
+    onlineExperience: "Rodha is online-first, with live plus recorded classes and course validity visible up to 10 January 2027 for several CAT 2026 batches. It is especially useful for college students and working professionals who need recordings while still wanting live accountability.",
+    offlineExperience: "Rodha should be evaluated as an online coaching option, not as an offline centre network. Students needing physical classroom discipline should compare local centres, but should also factor Rodha's recordings, books, mock portal, Buddy App and mentor sessions.",
+    feeNote: "Rodha visible prices checked on 7 August 2026 included free mock access, mock products from Rs 3,499 to Rs 6,999, section-specific courses around Rs 13,499, the crash course around Rs 19,999, comprehensive batches around Rs 24,999 and the R4 English batch around Rs 26,499. Final checkout prices can change.",
+    learnerFit: ["Beginners who want QA, DILR and VARC from basics to advanced in one structured online system.", "Repeaters who need stronger DILR exposure, VARC guidance, tougher mocks and sharper mock analysis.", "Working professionals who need live classes plus recordings.", "Students who liked Rodha teaching and now want its improved mock platform, Buddy App and Panchayat mentoring."],
+    checklist: ["Decide whether you need complete course, section course, crash course or mocks only.", "Check batch name, start date, language, timings and validity.", "Verify faculty allocation for the exact R-batch.", "Confirm books, boosters, recordings, OMET prep and mock access.", "Clarify refund rules before payment."],
+    pros: ["Online-first with live classes and recordings", "Concept-oriented QA, DILR and VARC", "Improved mock platform", "Useful for working professionals"],
+    cons: ["No offline centre network", "Batch pace can feel intense", "Final course details must be checked before payment"],
+    features: ["CAT 2026 batches", "Live and recorded classes", "Rodha CAT Mocks", "OMET mocks", "Rodha Buddy", "Rodha Panchayat"]
   },
-  ims: {
-    positioning:
-      "IMS is a legacy MBA entrance preparation brand suited to learners who value structured programs, SimCAT-style benchmarking, mentoring, and a mix of online and offline support.",
-    courses: ["CAT classroom programs", "Online CAT courses", "SimCAT test series", "GD-WAT-PI and admissions mentoring", "OMET preparation support"],
-    mocks:
-      "IMS is widely considered by aspirants for its mock-test ecosystem and analysis discipline. Learners should verify the current SimCAT plan, number of mocks, sectionals, and solution access before enrolling.",
-    learnerFit: ["Students who want a legacy brand with structured mocks.", "Aspirants who need admissions mentoring after CAT.", "Learners comparing online plus center-based support."]
-  },
-  time: {
-    positioning:
-      "T.I.M.E. is a national test-prep brand best suited for aspirants who want classroom discipline, AIMCAT-style national benchmarking, and preparation support across CAT and other MBA entrance exams.",
-    courses: ["CAT classroom programs", "Online CAT courses", "AIMCAT test series", "Sectional tests", "GD-WAT-PI support"],
-    mocks:
-      "T.I.M.E. is often compared for its AIMCAT test series and national-level benchmarking. Students should verify the latest AIMCAT schedule, analysis depth, and classroom discussion process.",
-    learnerFit: ["Students who need a strict classroom rhythm.", "Mock-heavy aspirants who want national competition signals.", "Learners preparing for CAT plus multiple OMETs."]
-  },
-  "career-launcher": {
-    positioning:
-      "Career Launcher is a broad test-prep brand for CAT aspirants who want classroom or online flexibility, MBA exam strategy, mocks, and admissions guidance.",
-    courses: ["CAT classroom programs", "Online CAT courses", "CAT test series", "OMET preparation", "GD-WAT-PI support"],
-    mocks:
-      "Career Launcher is commonly evaluated for its CAT mocks, analysis, and strategy sessions. Check the latest test-series count, percentile benchmarking, and video solution access.",
-    learnerFit: ["Students who want a known national brand.", "Aspirants comparing CAT with XAT, SNAP, NMAT, and other exams.", "Learners who want strategy-led prep with flexible modes."]
-  },
-  cracku: {
-    positioning:
-      "Cracku is a practice-heavy online CAT preparation platform suited to students who care about mocks, previous-year papers, analytics, and affordable online prep.",
-    courses: ["Online CAT courses", "CAT test series", "Daily targets and practice", "Previous-year paper practice", "OMET preparation support"],
-    mocks:
-      "Cracku is often considered for mocks, previous papers, and analytics. Students should compare its test experience with Rodha, IMS, TIME, and other mock providers before buying.",
-    learnerFit: ["Self-driven learners who want lots of practice.", "Students looking for previous CAT paper access.", "Aspirants who want online mocks at a comparatively accessible price point."]
-  },
-  "2iim": {
-    positioning:
-      "2IIM is an online CAT learning option suited to students who prefer calm concept videos, self-paced study, and thoughtful preparation over high-pressure classroom formats.",
-    courses: ["Self-paced CAT courses", "Online concept videos", "CAT test series", "Quant, DILR, and VARC practice", "Preparation resources"],
-    learnerFit: ["Working professionals who need self-paced learning.", "Students who like concept videos and independent practice.", "Learners who want an online-first course without center dependency."]
-  },
-  iquanta: {
-    positioning:
-      "iQuanta is a community-led online CAT coaching option for aspirants who like active peer discussion, live online classes, and high-volume doubt engagement.",
-    courses: ["Online CAT courses", "Live classes", "Community doubt solving", "CAT test series", "MBA entrance exam preparation"],
-    support:
-      "iQuanta's community model can help students who stay consistent through peer activity. Learners should still verify how doubts are prioritized, who answers them, and whether faculty-led resolution is available.",
-    learnerFit: ["Students who enjoy active online communities.", "Learners who need peer accountability.", "Aspirants comparing live online coaching options."]
-  },
-  "elites-grid": {
-    positioning:
-      "Elites Grid is an online CAT coaching option often considered by aspirants who want live online classes, focused mentoring, and exam-oriented practice.",
-    courses: ["Live online CAT courses", "CAT test series", "Sectional practice", "Doubt-solving sessions", "MBA entrance preparation"],
-    learnerFit: ["Students outside metro cities.", "Learners who want online classes with mentor visibility.", "Aspirants comparing focused online CAT courses."]
-  },
-  catking: {
-    positioning:
-      "CATKing is a strategy and motivation-led MBA entrance preparation brand suited to learners who respond well to high-energy sessions, workshops, and admissions-oriented guidance.",
-    courses: ["CAT online and classroom courses", "Workshops", "Test series", "MBA entrance preparation", "GD-WAT-PI support"],
-    learnerFit: ["Students who need motivation and strategy nudges.", "Aspirants looking for MBA admission guidance.", "Learners who prefer energetic online sessions."]
-  },
-  endeavor: {
-    positioning:
-      "Endeavor Careers is a hybrid test-prep brand suited to students in cities where its centers are active and to aspirants preparing for CAT along with CMAT, IPMAT, and other aptitude exams.",
-    courses: ["CAT classroom programs", "Online courses", "Mock tests", "CMAT and other aptitude exam support", "GD-WAT-PI preparation"],
-    learnerFit: ["Students in cities with active Endeavor centers.", "Aspirants who want classroom plus online support.", "Learners preparing for multiple management or aptitude exams."]
-  },
-  "mba-guru": {
-    positioning:
-      "MBA Guru is a Delhi NCR-focused CAT coaching option for students who want local classroom support, mentoring, and a more personal preparation environment.",
-    courses: ["CAT classroom courses", "Online or hybrid support", "Mock tests", "Sectional practice", "GD-WAT-PI preparation"],
-    learnerFit: ["Delhi NCR aspirants.", "Students who prefer local mentor access.", "Learners who want classroom discipline over purely online prep."]
-  },
-  alchemist: {
-    positioning:
-      "Alchemist is a Delhi-focused CAT coaching option for aspirants comparing adaptive classroom support, mentoring, and local center-led preparation.",
-    courses: ["CAT classroom programs", "Online learning support", "Mocks and practice", "MBA entrance preparation", "GD-WAT-PI support"],
-    learnerFit: ["Delhi classroom aspirants.", "Students who want adaptive support.", "Learners comparing local institutes with national brands."]
-  },
-  tathagat: {
-    positioning:
-      "Tathagat is a Delhi CAT coaching option suited to aspirants looking for classroom-led preparation, especially if they want a local institute rather than a national chain.",
-    courses: ["CAT classroom coaching", "Online or hybrid support where available", "Test practice", "Quant and DILR preparation", "MBA entrance preparation"],
-    learnerFit: ["Delhi aspirants who want classroom learning.", "Students who value local institute access.", "Learners who want to compare faculty style through demo classes."]
-  },
-  hitbullseye: {
-    positioning:
-      "Hitbullseye is an online test-prep platform for students who want CAT practice resources, broader MBA entrance prep, and test-series style preparation.",
-    courses: ["Online CAT preparation", "Mock tests", "Practice resources", "MBA entrance exam preparation", "Sectional tests"],
-    learnerFit: ["Students who want online practice.", "Aspirants preparing for multiple MBA exams.", "Learners comparing test-series and practice platforms."]
-  },
-  "unacademy-cat": {
-    positioning:
-      "Unacademy CAT is suited to learners who want app-based live classes, multiple educator choices, flexible schedules, and a large online learning ecosystem.",
-    courses: ["Live online CAT classes", "Recorded lessons", "Educator-led batches", "Test practice", "MBA entrance preparation"],
-    learnerFit: ["Students who like choosing among educators.", "Learners who need app-based access.", "Aspirants who prefer flexible live and recorded classes."]
-  },
-  "pw-mba": {
-    positioning:
-      "Physics Wallah MBA is useful for budget-conscious aspirants who want app-based live learning and a lower-cost entry point into CAT preparation.",
-    courses: ["Online MBA entrance batches", "Live classes", "Recorded lectures", "Practice tests", "Foundation-focused preparation"],
-    learnerFit: ["Budget-focused beginners.", "Students comfortable with app-based learning.", "Learners who want affordable structured prep before upgrading to advanced mocks."]
-  },
-  erudite: {
-    positioning:
-      "Erudite is a Kolkata-focused MBA entrance coaching option suited to students who want local classroom or hybrid support with mentor access.",
-    courses: ["CAT classroom programs", "Hybrid learning support", "Mock tests", "MBA entrance preparation", "GD-WAT-PI guidance"],
-    learnerFit: ["Kolkata aspirants.", "Students who want local classroom accountability.", "Learners comparing regional institutes with online national options."]
-  },
-  "ascent-education": {
-    positioning:
-      "Ascent Education is a Chennai-focused option for aspirants comparing local classroom and hybrid CAT preparation choices.",
-    courses: ["CAT classroom coaching", "Hybrid support", "Mock practice", "Section-wise preparation", "MBA entrance guidance"],
-    learnerFit: ["Chennai aspirants.", "Students who want local classroom support.", "Beginners comparing coaching before committing."]
-  },
-  "proton-training": {
-    positioning:
-      "Proton Training Solutions is a Maharashtra-focused coaching option for Pune and Mumbai aspirants comparing local classroom support with online alternatives.",
-    courses: ["CAT classroom coaching", "Hybrid CAT preparation", "Mock tests", "Sectional practice", "MBA entrance preparation"],
-    learnerFit: ["Pune and Mumbai aspirants.", "Students who want local batch support.", "Learners comparing regional institutes with Rodha, IMS, TIME, and Cracku."]
-  },
-  "mentors-eduserv": {
-    positioning:
-      "Mentors Eduserv is a Patna education brand included for aspirants comparing local classroom discipline with online CAT coaching alternatives.",
-    courses: ["Classroom aptitude preparation", "Hybrid learning support", "Practice tests", "Sectional preparation", "MBA entrance guidance where available"],
-    learnerFit: ["Patna aspirants.", "Students who want offline discipline.", "Learners who want to compare a local institute with online-first CAT platforms."]
-  }
+  ims: { officialFeeNote: "Rs 6,950 to Rs 9,950 + GST for officially visible SimCAT 2026 variants; full course fees vary.", sourceUrls: ["https://www.imsindia.com/", "https://www.imsindia.com/simcat-ultimate-2026/"], positioning: "IMS is a legacy MBA entrance preparation brand with a strong testing and mentoring layer. It suits aspirants who want national-level benchmarking through SimCATs, additional OMET practice and post-CAT admission support.", courses: ["CAT classroom and online preparation programs.", "SimCAT Core, Plus and Ultimate test-series plans.", "Sectional tests, masterclass exercises, ADMAT mocks and GK resources.", "Group mentorship, strategy videos, B-school application support and GD-WAT-PI preparation."], faculty: "IMS faculty varies by city and mode. Its strength is the combination of standardised material, SimCAT benchmarking, mentor sessions and admission guidance across a long-running national network.", mocks: "The official SimCAT Ultimate 2026 page lists 40 SimCATs with video solutions and AI insights, 30 CAT sectional mocks, 20 CAT Masterclass Exercises, 104 mocks for 11 other exams and 800 ADMAT questions.", support: "IMS support can include mentorship sessions, strategy videos, application guidance and test analysis. Ask whether doubts are handled by faculty, mentors, centre teams or online channels.", onlineExperience: "Online IMS students should verify live class access, recordings, SimCAT portal access, AI insights and mentorship schedule.", offlineExperience: "IMS centres can be useful for classroom discipline and local mentor access, but faculty and batch quality should be checked city-wise.", feeNote: "Visible SimCAT 2026 prices checked on 7 August 2026 were Rs 6,950 + GST, Rs 8,250 + GST and Rs 9,950 + GST for Core, Plus and Ultimate respectively. Full course fees should be verified by city and program.", learnerFit: ["Students who want national mock benchmarking.", "Aspirants preparing for CAT plus OMETs.", "Learners who want admission guidance after CAT.", "Students who prefer a structured legacy institute."], checklist: ["Choose full course or SimCAT plan.", "Check proctored mocks, take-home mocks and sectionals.", "Ask about video solutions and AI insights.", "Verify offline centre faculty.", "Compare with Rodha for online concept depth."], pros: ["Strong SimCAT ecosystem", "National benchmarking", "OMET coverage", "Admissions support"], cons: ["Full-course fees vary", "Centre experience varies", "Mocks can feel demanding"], features: ["SimCATs", "AI insights", "Video solutions", "Sectionals", "OMET mocks", "Mentorship"] },
+  time: { officialFeeNote: "Rs 9,950 to Rs 29,950 for visible correspondence and online flexi plans; classroom/live fees need location check.", sourceUrls: ["https://www.time4education.com/1", "https://time4education.com/cat-classroom-programme", "https://timecore.time4education.com/CAT-Correspondence", "https://www.time4education.com/aimcat-elite"], positioning: "T.I.M.E. suits students who want traditional classroom discipline, concept classes, handouts, sectional testing, AIMCAT benchmarking and OMET coverage from a national brand.", courses: ["CAT classroom program with concept training and SHP access.", "Online live and online flexi recorded programs.", "Correspondence plans with printed booklets, online tests and AIMCATs.", "Standalone AIMCAT variants for mock benchmarking.", "GWPI and OMET support depending on plan."], faculty: "T.I.M.E. faculty is centre and batch dependent. Students should ask who teaches each section locally and how many sessions are handled by senior faculty.", mocks: "AIMCAT is the main differentiator. Official pages mention scheduled AIMCATs, self-administered AIMCATs, video solutions, additional section practice and workshops depending on the variant.", support: "Support may include in-class doubts, Telegram, email/chat support, seminars, mentoring, form filling and GWPI training. Exact support depends on format.", onlineExperience: "Online students should distinguish live classes from recorded flexi classes because interaction and doubt support differ.", offlineExperience: "Offline T.I.M.E. can help students who want a centre-led schedule, but faculty, batch size and AIMCAT discussions should be checked locally.", feeNote: "Visible listings checked on 7 August 2026 showed online flexi around Rs 29,950 and correspondence/material variants from about Rs 9,950 to Rs 21,450. Classroom fees may require selecting a location.", learnerFit: ["Students needing strict classroom rhythm.", "Mock-heavy aspirants wanting national signals.", "Learners preparing for CAT plus OMETs.", "Students comfortable verifying local centre quality."], checklist: ["Confirm classroom, live, flexi, correspondence or AIMCAT plan.", "Ask exact AIMCAT and sectional count.", "Check doubt channels.", "Visit offline centre before paying.", "Compare with Rodha for online-first recordings and mentoring."], pros: ["AIMCAT benchmarking", "Large network", "OMET coverage", "Structured material"], cons: ["Fees and quality vary by city", "Online formats differ", "Personal attention can vary"], features: ["AIMCATs", "SHP", "Sectionals", "Correspondence", "GWPI", "OMET prep"] },
+  "career-launcher": { officialFeeNote: "CAT 2026 test series can start at Rs 999 for eligible fee-waiver students; full course fees need official verification.", sourceUrls: ["https://www.careerlauncher.com/cat-mba/", "https://www.careerlauncher.com/cat-mba/testseries/?device=c"], positioning: "Career Launcher suits aspirants who want classes, test-series products, analytics, strategy workshops and admission-stage guidance from a national brand.", courses: ["CAT classroom and online programs.", "CAT 2026 Test Series with CAT mocks and topic tests.", "Comprehensive plan with CAT mocks, 45 sectionals and 315 topic tests.", "MBA test-series variants with non-CAT mocks.", "Homecenter/Open CDC style exam-like testing options."], faculty: "CL faculty varies by city and format. Verify current QA, DILR and VARC teachers for the exact batch.", mocks: "The official test-series page lists 30+1 CAT mocks, 315 topic tests, optional 45 sectionals, video solutions, live/recorded analysis and non-CAT mocks in MBA variants.", support: "Support can include mentorship, discussion sessions, Telegram doubt resolution, strategy workshops and Homecenter sessions depending on product.", onlineExperience: "CL is useful for students who want a structured test portal and analytics. Decide whether you need only test series or teaching plus tests.", offlineExperience: "CL centres can provide classroom discipline, but local faculty and batch quality should be checked through demo or counselling.", feeNote: "Visible fee-waiver messaging mentions Rs 999 for eligible test-series students. Other prices vary by product, city and discount.", learnerFit: ["Students wanting a known national brand.", "Aspirants preparing for CAT plus XAT/NMAT/SNAP/CMAT.", "Learners who like analytics and percentile prediction.", "Students comparing online test products."], checklist: ["Choose CAT Test Series, Comprehensive or MBA plan.", "Check sectionals, Daily Dose and non-CAT mocks.", "Ask about fee waiver eligibility.", "Verify local faculty for offline courses.", "Compare with Rodha for live concept teaching."], pros: ["Strong test series", "Non-CAT mocks", "Analytics", "National brand"], cons: ["Fee waivers need eligibility", "Centre experience varies", "Some plans are test-only"], features: ["CDC mocks", "Topic tests", "Sectionals", "Video solutions", "Non-CAT mocks", "Homecenter"] },
+  cracku: { officialFeeNote: "Rs 2,499 to Rs 2,999 for officially visible CAT 2026 mock-test plans; full course prices should be verified.", sourceUrls: ["https://cracku.in/cat-2026/", "https://cracku.in/cat-mock-test", "https://play.google.com/store/apps/details?id=in.cracku.app"], positioning: "Cracku is a practice-heavy online CAT and MBA entrance platform for learners who value previous papers, mocks, topic practice, daily targets and analytics.", courses: ["Online CAT 2026 preparation with live classes and video lessons.", "Full-length CAT mock plans with percentile analysis.", "Test series with VARC, DILR and Quant sectionals.", "Previous-year CAT papers in exam-like format.", "Support for XAT, NMAT, SNAP, CMAT and other exams through the app ecosystem."], faculty: "Cracku positions itself around IIM alumni, CAT 100 percentilers and topper-led teaching. Verify current live faculty and faculty-attempt sessions before buying.", mocks: "Visible plans mention 25 all-India live CAT mocks, 45 sectionals, video solutions, all-India percentile analysis, faculty live attempts and 36 previous CAT papers with solutions.", support: "Cracku app mentions expert doubt solving for premium users, Cracku Adda and daily targets. Confirm what support is included in your exact plan.", onlineExperience: "Cracku works best for disciplined students who can use analytics and previous papers consistently.", offlineExperience: "Cracku is online-only for CAT preparation, so students needing daily classroom attendance should compare local centres.", feeNote: "Visible mock prices checked on 7 August 2026 were Rs 2,499 for mocks and Rs 2,999 for CAT 2026 Test Series. Full course fees should be checked separately.", learnerFit: ["Self-driven learners wanting mocks and previous papers.", "Students who already have concept sources.", "Aspirants wanting an affordable test-series layer.", "Learners preparing for multiple MBA exams."], checklist: ["Choose full course, mocks or test series.", "Check previous papers and video solutions.", "Ask about premium doubt support.", "Use free mocks first.", "Compare with Rodha for deeper live concept teaching."], pros: ["Affordable mocks", "Previous papers", "Practice-heavy", "App daily targets"], cons: ["Online-only discipline needed", "Support differs by plan", "Concept depth should be checked"], features: ["CAT mocks", "Sectionals", "Previous papers", "Video solutions", "Daily targets", "Forum"] },
+  "2iim": { officialFeeNote: "Rs 1,499 to Rs 60,000 based on visible CAT 2026 course, standalone section and Test Dojo prices.", sourceUrls: ["https://www.2iim.com/", "https://2iim.com/standalone-courses", "https://online.2iim.com/pricing"], positioning: "2IIM is a concept-first CAT option for students who prefer calm teaching, self-paced control and transparent course structures. It suits working professionals, repeaters and independent learners.", courses: ["Live Online CAT 2026 with live classes, recorded classes, practice, mocks, previous papers and books.", "Chennai classroom CAT 2026.", "Self-paced CAT 2026 plans.", "Standalone Quant, DILR and VARC courses.", "Test Dojo mock plans."], faculty: "2IIM is strongly associated with Rajesh Balasubramanian, an IIT Madras and IIM Bangalore alumnus. Students who like conceptual continuity may appreciate this approach.", mocks: "Test Dojo mentions 30 full-length mocks, sectionals, 8,000+ practice questions, previous CAT papers in mock format, testing engine and video solutions.", support: "Support is more mentor-guided and self-paced than high-noise community-led. Verify doubt timelines by plan.", onlineExperience: "2IIM is strong for self-paced revision and sampling free content before purchase.", offlineExperience: "Offline classroom is mainly relevant to Chennai; outside Chennai it should be evaluated as online/self-paced.", feeNote: "Visible prices checked on 7 August 2026 included Test Dojo around Rs 1,499/Rs 2,699, standalone sections at Rs 6,000 each, self-paced around Rs 36,000-Rs 50,000, live online around Rs 55,000 and Chennai classroom around Rs 60,000.", learnerFit: ["Working professionals needing self-paced learning.", "Students building fundamentals.", "Aspirants buying only one section.", "Learners who like free trial content."], checklist: ["Try free content.", "Choose live, self-paced, Chennai classroom, standalone or Test Dojo.", "Check books and GDPI support.", "Ask about doubt timelines.", "Compare with Rodha for more live batch structure."], pros: ["Self-paced strength", "Section-wise courses", "Free content", "Previous papers"], cons: ["Requires discipline", "Classroom mainly Chennai", "High-touch mentoring should be verified"], features: ["Live online", "Self-paced", "Standalone sections", "Test Dojo", "Previous papers", "Videos"] },
+  iquanta: { officialFeeNote: "Check official website; public pages show CAT 2026 programs and paid material, but full course fees vary.", sourceUrls: ["https://www.iquanta.in/", "https://www.iquanta.in/about-us", "https://www.iquanta.in/cat-prep-app", "https://store.iquanta.in/"], positioning: "iQuanta is a community-led online CAT platform for aspirants who want active peer discussion, live conceptual classes, application classes, 24/7 doubt-solving claims, app tools and iCAT mocks.", courses: ["CAT 2026 online coaching with live concept and application classes.", "Full course style plans with mocks, doubts, assignments and mentorship.", "iCAT mocks with full mocks, sectionals, AI analysis and video solutions.", "Forward 15 master and strategy sessions.", "Free CAT resources and preparation tools."], faculty: "iQuanta presents itself as expert-led and founder-driven, with Indrajeet Singh associated with the brand. Verify section-wise faculty before paying.", mocks: "iCAT pages describe 35 full-length mocks, 45 sectional tests, proctored/unproctored mocks, video solutions, AI analysis, percentile prediction, error tracker and strategy builder.", support: "iQuanta's support strength is its large community and 24/7 doubt-solving positioning. Ask who answers paid-student doubts and how quickly.", onlineExperience: "Works best for students motivated by community activity, timed quizzes and app dashboards. Students who dislike noisy communities may prefer quieter structure.", offlineExperience: "Evaluate iQuanta as online-first. Offline-discipline seekers should compare local centres.", feeNote: "Public pages show enquiries and store products such as CAT material; full CAT 2026 fees and add-ons should be confirmed at checkout or with counsellor.", learnerFit: ["Students who enjoy active online communities.", "Learners needing frequent doubt discussion.", "Aspirants wanting AI mock analysis.", "Students comparing community-first options with Rodha."], checklist: ["Ask full course fee.", "Verify mocks and sectionals.", "Check doubt process.", "Try a demo or free mock.", "Compare with Rodha for faculty-structured concept learning."], pros: ["Large community", "Doubt-solving positioning", "AI mock analysis", "Live classes"], cons: ["Can feel noisy", "Fee needs confirmation", "Faculty allocation should be checked"], features: ["iCAT mocks", "Community", "AI analysis", "Error tracker", "Live classes", "Mentorship"] },
+  "elites-grid": { officialFeeNote: "Check official website; fees vary by CAT 2026 course, batch and offer.", sourceUrls: ["https://online.elitesgrid.com/", "https://www.elitesgrid.com/"], positioning: "Elites Grid is an online CAT option for aspirants wanting live daily classes, recordings, doubt sessions, personal mentoring and mock-based preparation.", courses: ["CAT 2026 online batches for QA, VARC and DILR.", "Live daily classes and recordings.", "Free practice tests.", "Mock tests with analytics.", "Personal mentoring and doubt sessions."], faculty: "Public pages emphasise experienced faculty and mentor visibility. Verify current QA, VARC and DILR faculty and batch language.", mocks: "Official pages highlight 30+ full-length CAT-pattern mocks with analysis and performance analytics. Verify sectionals and video solutions by course.", support: "Support is positioned around dedicated doubt sessions, personal mentoring and faculty access.", onlineExperience: "Useful for students outside metro cities who want focused online classes with accountability.", offlineExperience: "Evaluate mainly as online coaching. Classroom seekers should compare local centres.", feeNote: "Public fee visibility may vary by product and offer; verify current fee, validity, mocks and refund rules at checkout.", learnerFit: ["Students outside metros.", "Learners wanting live classes plus recordings.", "Aspirants wanting personal mentoring.", "Students comparing Rodha, EG and iQuanta."], checklist: ["Verify timing, language and faculty.", "Check mocks and analytics.", "Ask how mentoring is scheduled.", "Try free practice tests.", "Compare with Rodha for documented mock portal and Buddy/Panchayat support."], pros: ["Live classes", "Recordings", "Mentoring", "Free practice tests"], cons: ["Fee visibility should be checked", "Online discipline needed", "Faculty details need verification"], features: ["Live classes", "Recordings", "30+ mocks", "Analytics", "Doubt sessions", "Mentoring"] },
+  catking: { officialFeeNote: "Rs 2,999 to Rs 14,999 for visible CAT 2026 self-study, Turbo, Intensive and mock plans.", sourceUrls: ["https://catking.in/", "https://courses.catking.in/courses", "https://courses.catking.in/courses/cat-intensive-mocks", "https://catking.in/exam/cat-exam/overview"], positioning: "CATKing is a strategy-heavy CAT and MBA entrance brand for students who respond to high-energy sessions, alumni-led mentorship, workshops, e-books, mock packs and GD-WAT-PI support.", courses: ["CAT Self Study 2026.", "CAT Turbo 2026 with daily live classes and mentor calls.", "CAT Intensive 2026 with CAT and non-CAT lectures.", "CAT mock series with proctored/take-home mocks, sectionals, sprint tests and previous CAT papers.", "XAT, NMAT, SNAP, CET, CMAT and GDPI programs."], faculty: "CATKing emphasises IIM alumni mentors and 99-percentile faculty. Sumit Sir is strongly associated with the brand. Verify current QA, VARC and DILR teachers.", mocks: "The Intensive Mocks plan mentions 45 mocks, 45 sectionals, 90 sprint tests, 100 topic tests, actual CAT slot-wise papers, video solutions and live mock analysis.", support: "Support can include WhatsApp doubt groups, weekly doubt sessions, 1:1 mentor support and GD-WAT-PI preparation.", onlineExperience: "Resource-rich and energetic; best for students who need motivation and frequent strategy nudges.", offlineExperience: "Selected offline/hybrid availability should be verified city-wise.", feeNote: "Visible plans checked on 7 August 2026 included Rs 2,999 to Rs 14,999 across mock and course variants. Prices can change with offers.", learnerFit: ["Students needing strategy and motivation.", "Aspirants wanting CAT plus OMETs.", "Learners valuing e-books and mentor calls.", "Students comfortable with high-energy teaching."], checklist: ["Choose Self Study, Turbo, Intensive or mocks.", "Check live classes and mentor calls.", "Verify faculty.", "Check validity and coupon terms.", "Compare with Rodha for subtler concept-led prep."], pros: ["Many variants", "Strategy positioning", "Large mock library", "GDPI/OMET options"], cons: ["Style may not suit everyone", "Claims should be verified", "Offline quality varies"], features: ["Turbo", "Intensive", "Mocks", "Sprint tests", "GDPI", "Mentor calls"] }
 };
-
+Object.assign(profileDetails, {
+  endeavor: { officialFeeNote: "Check official website; scholarships and discounts may apply, but CAT fees should be confirmed by course and centre.", sourceUrls: ["https://www.endeavorcareers.com/", "https://www.endeavorcareers.com/courses-free-trial/"], positioning: "Endeavor Careers is a hybrid test-prep brand for students who want CAT along with CMAT, IPMAT, GRE, GMAT and other aptitude exams. Official pages emphasise online live lectures, offline centres, testing platform, mentoring, full-time faculty and Power Test Series.", courses: ["CAT and MBA entrance classroom programs.", "Online live lecture courses.", "CAT, CMAT, MHCET, IPMAT, GRE, GMAT and other exam support.", "Power Test Series.", "Workshops and mentoring."], faculty: "Endeavor focuses on full-time expert faculty. Verify the local CAT faculty team before enrolling.", mocks: "Ask for full mock count, sectionals, OMET mocks, analytics and solution format in the current CAT course.", support: "Support is built around one-to-one interactions, feedback sessions and mentors, but depth varies by centre.", onlineExperience: "Verify recordings, doubt support, test portal and whether online students get the same mentoring as offline students.", offlineExperience: "Useful where active centres have strong faculty. Visit the centre before enrolling.", feeNote: "Public pages mention scholarships and discounts but not a uniform CAT fee. Verify by city and course.", learnerFit: ["Students in active Endeavor cities.", "Aspirants wanting classroom plus online support.", "Learners preparing for CAT plus other aptitude exams.", "Students valuing full-time faculty."], checklist: ["Confirm active CAT batch.", "Ask about faculty and batch size.", "Verify Power Test Series access.", "Check scholarship and fee.", "Compare with Rodha for online CAT focus."], pros: ["Hybrid learning", "Full-time faculty positioning", "Mentoring", "Multi-exam coverage"], cons: ["City experience varies", "Fee not uniform", "Best fit depends on centre"], features: ["Live online", "Offline centres", "Power Test Series", "Mentoring", "Workshops", "Multi-exam"] },
+  "mba-guru": { officialFeeNote: "Rs 35,000 to Rs 45,000 for visible MBAGuru online CAT coaching fee range.", sourceUrls: ["https://mbaguru.in/", "https://mbaguru.in/cat-online-coaching-fees/", "https://mbaguru.in/mbaguru-online-cat-coaching/"], positioning: "MBAGuru is a Delhi-rooted CAT brand with live online coaching across India. Its differentiator is ADAPTIVE Prep: weakness-focused planning around a student's strengths and gaps.", courses: ["Live online CAT coaching with 300+ hours of live classes.", "Delhi classroom CAT coaching.", "ADAPTIVE Prep for Quant, VARC, DILR and strategy gaps.", "Mocks, homework, PI-WAT and interview support.", "Mini-SWOT assessment."], faculty: "Official pages mention CAT 99+ percentiler faculty and names such as Deekshant Sahrawat, Mohit Khurana and Vaibhav Kushwah. Verify exact batch faculty.", mocks: "Mocks are part of the adaptive loop. Ask exact AIRCAT/mock count and analysis format.", support: "Online pages describe four-layer doubt clearing, homework, small batches and refund assurance in the early period.", onlineExperience: "Live-class-led and accountability-heavy, with hard-copy books and support layers.", offlineExperience: "Best for Delhi students who want classroom coaching with adaptive planning.", feeNote: "Visible online fee range is Rs 35,000-Rs 45,000 inclusive of GST. Exact fee depends on duration, target year, batch and offers.", learnerFit: ["Students needing live accountability.", "Delhi classroom aspirants.", "Online learners wanting homework checks.", "Learners wanting adaptive weakness repair."], checklist: ["Take Mini-SWOT.", "Confirm batch size and faculty.", "Ask mock count.", "Verify refund terms.", "Compare with Rodha for online ecosystem."], pros: ["Adaptive prep", "Small-batch positioning", "Four-layer doubts", "Clear fee range"], cons: ["Delhi-focused offline", "Not cheapest", "Mock count should be checked"], features: ["Adaptive prep", "Live online", "Delhi classroom", "Homework", "Doubts", "Refund assurance"] },
+  alchemist: { officialFeeNote: "Check official website; current CAT 2026 fee should be confirmed with Alchemist.", sourceUrls: ["https://alchemistindia.com/", "https://alchemistindia.com/courses/mba/best-online-coaching-for-CAT-and-GMAT-in-delhi"], positioning: "Alchemist is a Delhi-focused MBA entrance option built around personalised learning rather than one-size-fits-all coaching. Official pages describe profiling, personalised plans, unlimited classes, monitoring, mentoring and CAT/GMAT/OMET prep.", courses: ["Personalised CAT and MBA entrance preparation.", "Online, offline and video learning resources.", "CAT, GMAT, XAT, SNAP, NMAT and IIFT preparation.", "Mock tests, SWOT assessment and skill tracking.", "GDPI and B-school guidance."], faculty: "Pages emphasise faculty, IIM alumni mentoring and IIT/IIM founder background. Verify current section faculty.", mocks: "Ask for CAT mock count, non-CAT mocks, sectionals, analytics and video solutions.", support: "Support includes personalised plans, doubt sessions, scheduling, mentoring and unlimited classes where applicable.", onlineExperience: "Verify whether online students receive diagnostics and support equivalent to classroom.", offlineExperience: "Most relevant for Delhi learners who can use centre-based personalised learning.", feeNote: "No uniform fee was visible publicly; confirm fee, validity and refund terms before payment.", learnerFit: ["Delhi aspirants wanting personalised support.", "Students with uneven strengths.", "Learners valuing repeat classes.", "Aspirants comparing Delhi institutes."], checklist: ["Ask how plan is created.", "Verify unlimited classes.", "Check mocks and analytics.", "Confirm non-CAT/GDPI inclusions.", "Compare with Rodha for online CAT-specific prep."], pros: ["Personalised plan", "Unlimited class positioning", "Hybrid options", "Mentoring"], cons: ["Fee not public", "Delhi-centred", "Mock inclusions need verification"], features: ["Personalised plan", "Unlimited classes", "SWOT", "Mocks", "GDPI", "Hybrid"] },
+  tathagat: { officialFeeNote: "Rs 3,999 to Rs 30,000 for visible CAT 2026 online course and test-series plans.", sourceUrls: ["https://tathagat.co.in/cat", "https://www.tathagat.co.in/delhi/", "https://online.tathagat.co.in/"], positioning: "TathaGat is a Delhi-focused CAT option for students wanting senior-trainer access, concept learning, one-to-one doubts and a local institute feel.", courses: ["CAT 2026 Guaranty ++ Online.", "99+ Elite Test Series.", "Delhi classroom CAT coaching.", "CAT, XAT, SNAP, GMAT and CUET support.", "Foundation, application and crash modules."], faculty: "Public pages mention 99+ percentiler mentors and trainer profiles such as Rajat Tathagat, Kumar Abhishek and Neeraj/Neraj. Verify current lineup.", mocks: "Pages mention 500+ or 550+ tests, 30,000 questions and analytics. Ask how many are full-length mocks versus topic tests.", support: "Strongly positions unlimited one-to-one doubts and 24x7 assistance.", onlineExperience: "Online program mentions live classes, recordings, material, OMET classes and validity into 2027.", offlineExperience: "Delhi classroom is relevant near Connaught Place; visit centre before enrolling.", feeNote: "Visible pages show online course around Rs 30,000 and test series around Rs 3,999, with other plan prices also visible. Confirm exact plan.", learnerFit: ["Delhi aspirants wanting senior trainers.", "Students needing one-to-one doubts.", "Online learners wanting test-heavy prep.", "CAT plus OMET aspirants."], checklist: ["Confirm online/offline/test-only.", "Ask full mock count.", "Verify faculty and doubt access.", "Check validity and OMETs.", "Compare with Rodha for national online ecosystem."], pros: ["One-to-one doubts", "Delhi classroom", "Large test counts", "OMET coverage"], cons: ["Test composition needs verification", "Offline mainly Delhi", "Pages may mix plans"], features: ["CAT course", "Test series", "1-to-1 doubts", "Recordings", "OMETs", "Delhi centre"] },
+  hitbullseye: { officialFeeNote: "Check official website; current CAT 2026 fee should be verified.", sourceUrls: ["https://www.hitbullseye.com/", "https://mba.hitbullseye.com/CAT/CAT-Online-Coaching.php"], positioning: "Hitbullseye is an online test-prep and MBA entrance resource platform for CAT material, mock practice, vocabulary tools, topic practice and broader aptitude support.", courses: ["CAT online coaching/resources.", "Mock tests and sample papers.", "MBA entrance preparation beyond CAT.", "Vocabulary and aptitude tools.", "Online learning resources."], faculty: "Public pages focus more on resources than named faculty. Ask who teaches QA, VARC and DILR if buying coaching.", mocks: "Verify exact full mocks, sectionals, adaptive tests, video solutions, analytics and non-CAT mocks.", support: "Ask whether doubts are handled by live sessions, chat, email, mentor calls or only explanations.", onlineExperience: "Best as an online resource/practice platform; students needing daily accountability should verify live structure.", offlineExperience: "Evaluate primarily as online for CAT.", feeNote: "No consistent CAT 2026 fee was visible publicly; confirm price, inclusions and validity before payment.", learnerFit: ["Students wanting extra online practice.", "Multi-exam aspirants.", "Learners needing vocabulary/aptitude resources.", "Students supplementing another course."], checklist: ["Verify live vs resource-only.", "Ask mock and sectional count.", "Check video solutions.", "Confirm fee and validity.", "Compare with Rodha for full faculty-led course."], pros: ["Practice resources", "Online access", "Multi-exam content", "Vocabulary tools"], cons: ["Fee not clear", "Faculty details need verification", "May work as supplement"], features: ["Online coaching", "Mocks", "Practice", "Vocabulary", "MBA exams", "Topic practice"] },
+  "unacademy-cat": { officialFeeNote: "Check official website/app; pricing varies by subscription, batch, duration and offers.", sourceUrls: ["https://unacademy.com/goal/cat-other-mba-entrance-tests/CAT4M", "https://unacademy.com/content/cat/", "https://unacademy.com/content/cat/study-material/"], positioning: "Unacademy CAT is an app-based learning option for students wanting multiple educator choices, live classes, recordings, structured batches, tests and a large platform ecosystem.", courses: ["CAT and MBA entrance online classes.", "Educator-led live batches and recordings.", "Study material and notes.", "Tests and quizzes by plan.", "Broader exam ecosystem."], faculty: "Experience depends heavily on chosen educators and batches. Shortlist QA, DILR and VARC educators before buying.", mocks: "Mock access depends on subscription/batch. Verify full mocks, sectionals, previous papers, analysis and solutions.", support: "Support may include live chat, class interaction and educator-led doubts, but varies by tier and batch.", onlineExperience: "Flexible and app-based, but too much choice can confuse beginners; pick stable educators and one plan.", offlineExperience: "Evaluate as online for CAT; classroom seekers should compare offline institutes.", feeNote: "Prices change by subscription and offers; check official app/website for payable amount.", learnerFit: ["Students wanting app-based learning.", "Learners who like educator choice.", "Aspirants needing flexible schedules.", "Students used to subscriptions."], checklist: ["Shortlist educators.", "Verify mocks.", "Check recordings validity.", "Confirm mentorship/doubts.", "Compare with Rodha for single-ecosystem structure."], pros: ["Large educator pool", "App learning", "Flexible schedules", "Live/recorded classes"], cons: ["Too much choice", "Pricing changes", "Mentorship depth varies"], features: ["Live classes", "Recordings", "Educators", "App", "Tests", "Study material"] },
+  "pw-mba": { officialFeeNote: "Check official website/app; prices vary by batch, app offer and duration.", sourceUrls: ["https://www.pw.live/", "https://www.pw.live/online-course-physics-wallah-mba"], positioning: "Physics Wallah MBA is an app-based online CAT/MBA option for budget-conscious students wanting live classes, recordings, DPP-style practice, tests and beginner-friendly structure.", courses: ["Online MBA entrance batches.", "Live classes and recordings.", "Practice sheets and DPP revision.", "Foundation learning for beginners.", "Affordable bundles."], faculty: "Faculty can change by batch. Check the current teacher list for QA, DILR and VARC and watch samples.", mocks: "Test access depends on batch. Verify CAT mocks, sectionals, video solutions, analytics and OMET mocks.", support: "Support is usually app/batch based. Check live, forum, ticket or doubt-session support.", onlineExperience: "Useful for low-cost structured starts; advanced students should verify analytics and depth.", offlineExperience: "Evaluate primarily as online for CAT.", feeNote: "Public prices are not consistent for every CAT 2026 batch; verify inside official website/app.", learnerFit: ["Budget beginners.", "App-based learners.", "Students wanting affordable structure.", "Learners needing recordings."], checklist: ["Watch samples.", "Check faculty and schedule.", "Verify mocks and analytics.", "Ask doubt process.", "Compare with Rodha for CAT-specialised ecosystem."], pros: ["Affordable", "App access", "Live/recorded", "Beginner-friendly"], cons: ["Mock depth should be checked", "Faculty varies", "May need supplementing"], features: ["Live classes", "Recordings", "DPP", "Tests", "App", "Budget"] },
+  erudite: { officialFeeNote: "Check official website; Kolkata fees should be verified directly.", sourceUrls: ["https://www.erudite.in/"], positioning: "Erudite is a Kolkata-focused MBA entrance option for students wanting local classroom/hybrid support, mentor access and city-level accountability.", courses: ["CAT classroom programs for Kolkata.", "Hybrid/online support where active.", "Mock tests and section-wise prep.", "GD-WAT-PI/admission support where offered.", "Local counselling."], faculty: "Evaluate current local faculty quality through demo, names and section allocation.", mocks: "Verify mock count, sectionals, analysis and national benchmarking.", support: "Potential value is accessible local mentors and centre support. Check doubt hours and batch size.", onlineExperience: "If online/hybrid, confirm recordings, live interaction and test portal.", offlineExperience: "Most relevant for Kolkata classroom discipline; visit centre.", feeNote: "No uniform public CAT 2026 fee visible; verify with official centre.", learnerFit: ["Kolkata aspirants.", "Students wanting local accountability.", "Learners comparing regional with national brands.", "Students who can verify faculty."], checklist: ["Visit centre/demo.", "Ask faculty and batch size.", "Verify mocks.", "Confirm fee.", "Compare with Rodha for national online system."], pros: ["Kolkata access", "Classroom accountability", "Mentor contact", "Regional fit"], cons: ["Fee not clear", "Mocks need verification", "Quality depends on batch"], features: ["Kolkata classroom", "Hybrid", "Mocks", "Mentoring", "GDPI", "Counselling"] },
+  "ascent-education": { officialFeeNote: "Check official website; Chennai fees should be verified directly.", sourceUrls: ["https://www.ascenteducation.com/"], positioning: "Ascent Education is a Chennai-focused local option for aspirants comparing classroom and hybrid CAT preparation choices with regional mentor access.", courses: ["CAT classroom coaching where active.", "Hybrid/online support by batch.", "QA, DILR and VARC section prep.", "Mock practice.", "MBA guidance."], faculty: "Verify current CAT faculty, demo classes and section allocation before enrolling.", mocks: "Ask exact full mocks, sectionals, solution discussions and benchmarking.", support: "Ask about doubt counters, mentor hours, groups, one-on-one counselling and batch size.", onlineExperience: "If hybrid/online, verify recordings, test access and doubt resolution.", offlineExperience: "Most relevant for Chennai students wanting classroom discipline.", feeNote: "No uniform public CAT 2026 fee visible; verify course fee, material, mocks and refund policy directly.", learnerFit: ["Chennai aspirants.", "Beginners comparing coaching.", "Students valuing face-to-face guidance.", "Learners verifying faculty directly."], checklist: ["Take demo.", "Confirm faculty and batch size.", "Verify mocks.", "Ask about doubts.", "Compare with Rodha if online depth matters more."], pros: ["Chennai local option", "Classroom accountability", "Local mentoring", "Useful for beginners"], cons: ["Fee clarity limited", "Mocks need verification", "Depends on local faculty"], features: ["Chennai classroom", "Hybrid", "Section prep", "Mocks", "Guidance", "Mentoring"] },
+  "proton-training": { officialFeeNote: "Check official website; Pune/Mumbai fees should be verified directly.", sourceUrls: ["https://protons.in/"], positioning: "Proton Training Solutions is a Maharashtra-focused local option for Pune and Mumbai aspirants comparing regional classroom support with online CAT alternatives.", courses: ["Local aptitude/MBA preparation where offered.", "Classroom or hybrid support.", "Quant, reasoning and verbal preparation.", "Mock/practice support by batch.", "Local counselling."], faculty: "The key verification is faculty: ask who teaches QA, DILR and VARC and whether demo classes are available.", mocks: "Verify CAT mock count, sectionals, analysis, previous papers and benchmarking. Pair with national mocks if needed.", support: "Ask about doubt counters, WhatsApp support, one-to-one mentoring, homework and mock analysis.", onlineExperience: "If hybrid/online, verify recordings, tests and doubts.", offlineExperience: "Main value is local classroom accountability in Maharashtra; visit centre first.", feeNote: "No clear public CAT 2026 fee visible; verify inclusions, books, mocks, refund and GST before payment.", learnerFit: ["Pune/Mumbai aspirants.", "Students preferring in-person discipline.", "Learners comparing regional with national brands.", "Students willing to verify faculty."], checklist: ["Visit centre/demo.", "Ask current faculty.", "Verify mocks.", "Confirm fee in writing.", "Compare with Rodha for CAT-specialised online prep."], pros: ["Local Maharashtra option", "Classroom discipline", "City comparison", "Can pair with online mocks"], cons: ["Public CAT detail limited", "Fees need verification", "Mock benchmarking needs checking"], features: ["Local classroom", "Hybrid", "Aptitude", "Mocks", "Counselling", "City support"] },
+  "mentors-eduserv": { officialFeeNote: "Check official website; CAT/MBA details must be verified directly if offered.", sourceUrls: ["https://www.mentorsedu.com/"], positioning: "Mentors Eduserv is included as a Patna education brand because local aspirants compare offline options, but official public positioning is stronger in school/engineering-medical prep than CAT. Use this as a verification checkpoint rather than a strong CAT recommendation.", courses: ["CAT/MBA aptitude support only if active batch exists.", "Local academic infrastructure in Patna.", "Practice support by active program.", "Counselling where offered.", "Verify CAT QA, DILR and VARC coverage."], faculty: "Ask directly whether CAT-specific faculty are available; school or engineering faculty should not automatically be treated as CAT faculty.", mocks: "Ask whether full CAT mocks, sectionals, previous papers, percentile benchmarking and analysis are offered.", support: "Potential advantage is local access, but CAT-specific doubt support and counselling must be verified.", onlineExperience: "If online/hybrid support exists, confirm it is for CAT/MBA and not only school-level courses.", offlineExperience: "Patna students can visit and ask whether a current CAT batch exists; if not, online-first CAT platforms may be better.", feeNote: "No clear public CAT 2026 fee visible. Verify whether a CAT/MBA course is currently offered and request details in writing.", learnerFit: ["Patna aspirants exploring local options.", "Students confirming CAT batch availability.", "Learners comparing local discipline with online-first prep.", "Students who will verify faculty and mocks."], checklist: ["Ask whether CAT batch exists.", "Verify CAT faculty.", "Check mocks and analysis.", "Confirm fee and material.", "Compare with Rodha for dedicated CAT 2026 online prep."], pros: ["Patna local access", "Offline discipline if CAT batch exists", "Useful for local comparison", "Can supplement online prep"], cons: ["CAT detail limited", "Not clearly a primary CAT brand", "Mocks and faculty need verification"], features: ["Patna option", "Classroom", "Verification", "Aptitude", "Counselling", "Offline discipline"] }
+});
 const coachings = entries.map((entry) => ({
   ...defaults,
   ...profileDefaults,
-  slug: entry.id,
   ...entry,
   ...(profileDetails[entry.id] || {}),
-  pros: entry.pros || defaults.pros,
-  cons: entry.cons || defaults.cons,
-  features: entry.features || defaults.features,
+  pros: entry.pros || profileDetails[entry.id]?.pros || defaults.pros,
+  cons: entry.cons || profileDetails[entry.id]?.cons || defaults.cons,
+  features: entry.features || profileDetails[entry.id]?.features || defaults.features,
   lastVerifiedAt: entry.lastVerifiedAt || defaults.lastVerifiedAt
 }));
-
 module.exports = coachings;
