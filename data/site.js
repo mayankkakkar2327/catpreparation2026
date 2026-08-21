@@ -11,7 +11,7 @@ if (!global.__catPreparationBlogPagesPatch) {
         require("./blog-rodha-cracku-pages"),
         require("./blog-extra-pages"),
         require("./blog-news-pages"),
-        require("./blog-nmat-news-pages")
+        require("./blog-snap-news-pages")
       );
     }
     return loaded;
@@ -38,7 +38,7 @@ const site = {
   ],
   sourcePolicy:
     "Dates, exam rules, college data, and coaching details should be verified against official websites, brochures, admission pages, and institute disclosures before publication.",
-  updated: "2026-08-19"
+  updated: "2026-08-21"
 };
 
 module.exports = site;
