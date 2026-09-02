@@ -3,7 +3,7 @@ const existingPages = require("./blog-snap-news-pages");
 const linked = (label, href) => ({ label, href });
 
 const rodhaHub = {
-  slug: "cat-coaching/rodha",
+  slug: "cat-coaching/rodha/ecosystem",
   title: "Rodha Coaching Ecosystem: CAT, Mocks, Buddy, Panchayat and Other Learning Verticals",
   section: "CAT Coaching",
   description:
@@ -275,7 +275,7 @@ const buddyPage = {
         ["Open Rodha Buddy on the web", "https://buddy.rodha.co.in/"],
         ["Download Rodha Buddy for Android", "https://play.google.com/store/apps/details?id=com.rodha.rodhabuddy"],
         ["Download Rodha Buddy for iPhone or iPad", "https://apps.apple.com/in/app/rodha-buddy/id6764226160"],
-        ["Explore the complete Rodha ecosystem", "/cat-coaching/rodha/"],
+        ["Explore the complete Rodha ecosystem", "/cat-coaching/rodha/ecosystem/"],
         ["Read about Rodha Panchayat", "/cat-coaching/rodha/rodha-panchayat/"]
       ]
     },
@@ -289,12 +289,13 @@ const buddyPage = {
       links: [
         ["Official Rodha website", "https://www.rodha.co.in/"],
         ["Official Rodha course catalogue", "https://www.rodha.co.in/s/store/courses"],
-        ["Rodha coaching ecosystem guide", "/cat-coaching/rodha/"]
+        ["Rodha coaching ecosystem guide", "/cat-coaching/rodha/ecosystem/"],
+        ["Main Rodha coaching profile", "/cat-coaching/rodha/"]
       ]
     }
   ],
   related: [
-    "/cat-coaching/rodha/",
+    "/cat-coaching/rodha/ecosystem/",
     "/cat-coaching/rodha/rodha-panchayat/",
     "/cat-preparation/",
     "/cat-coaching/",
@@ -415,7 +416,8 @@ const panchayatPage = {
       ],
       links: [
         ["Check current Rodha CAT courses", "https://www.rodha.co.in/s/store/courses"],
-        ["Explore the Rodha ecosystem", "/cat-coaching/rodha/"]
+        ["Explore the Rodha ecosystem", "/cat-coaching/rodha/ecosystem/"],
+        ["Main Rodha coaching profile", "/cat-coaching/rodha/"]
       ]
     },
     {
@@ -480,13 +482,14 @@ const panchayatPage = {
       links: [
         ["Official Rodha website", "https://www.rodha.co.in/"],
         ["Official Rodha course catalogue", "https://www.rodha.co.in/s/store/courses"],
-        ["Rodha coaching ecosystem guide", "/cat-coaching/rodha/"],
+        ["Rodha coaching ecosystem guide", "/cat-coaching/rodha/ecosystem/"],
+        ["Main Rodha coaching profile", "/cat-coaching/rodha/"],
         ["Rodha Buddy pillar page", "/cat-coaching/rodha/rodha-buddy-app/"]
       ]
     }
   ],
   related: [
-    "/cat-coaching/rodha/",
+    "/cat-coaching/rodha/ecosystem/",
     "/cat-coaching/rodha/rodha-buddy-app/",
     "/cat-preparation/",
     "/cat-coaching/",
