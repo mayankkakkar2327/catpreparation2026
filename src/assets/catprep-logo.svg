@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 116" role="img" aria-labelledby="title desc">
-  <title id="title">CATPreparation2026</title>
-  <desc id="desc">A bridge-shaped CATP monogram with the year 2026</desc>
-  <rect width="108" height="108" x="4" y="4" rx="28" fill="#17221c"/>
-  <path d="M28 74c11-31 45-43 62-13" fill="none" stroke="#f3eadc" stroke-width="11" stroke-linecap="round"/>
-  <path d="M29 78h60" fill="none" stroke="#d9674a" stroke-width="9" stroke-linecap="round"/>
-  <path d="M76 48l16 13-17 12" fill="none" stroke="#d9674a" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="132" y="51" font-family="Arial, Helvetica, sans-serif" font-size="35" font-weight="800" letter-spacing="1" fill="#17221c">CATPREP</text>
-  <text x="132" y="88" font-family="Georgia, serif" font-size="28" font-weight="700" letter-spacing="7" fill="#d9674a">2026</text>
+  <title id="title">CATPrep 2026</title>
+  <desc id="desc">CATPrep 2026 research and preparation platform</desc>
+  <rect x="2" y="2" width="112" height="112" rx="28" fill="#0a4b38"/>
+  <circle cx="58" cy="58" r="34" fill="none" stroke="#eef7f1" stroke-width="7"/>
+  <path d="M37 67c8-18 22-25 42-19M77 46l5 15-16-2" fill="none" stroke="#55a763" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="58" cy="58" r="6" fill="#eef7f1"/>
+  <text x="138" y="58" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="750" letter-spacing="-2" fill="#0a4b38">CATPREP</text>
+  <text x="140" y="88" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="8" fill="#55a763">2026</text>
 </svg>
