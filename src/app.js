@@ -1,114 +1,88 @@
 (function () {
-  const logoSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 150" role="img" aria-label="CAT26"><rect width="520" height="150" fill="white"/><text x="0" y="118" font-family="Arial Black, Arial, sans-serif" font-size="112" font-weight="900" fill="#072552">C</text><path d="M142 118 L203 18 L264 118 H224 L203 82 L183 118 Z" fill="#072552"/><path d="M203 86 L223 118 H183 Z" fill="#f25a05"/><text x="270" y="118" font-family="Arial Black, Arial, sans-serif" font-size="112" font-weight="900" fill="#072552">T</text><text x="357" y="118" font-family="Arial Black, Arial, sans-serif" font-size="112" font-weight="900" fill="#f25a05">26</text></svg>`;
-  const logoSrc = `data:image/svg+xml,${encodeURIComponent(logoSvg)}`;
-
-  document.querySelectorAll(".brand").forEach((brand) => {
-    brand.innerHTML = "";
-    const logo = document.createElement("img");
-    logo.className = "brand-logo";
-    logo.src = logoSrc;
-    logo.alt = "CAT26";
-    logo.width = 180;
-    logo.height = 52;
-    logo.style.display = "block";
-    logo.style.width = "clamp(148px, 22vw, 180px)";
-    logo.style.height = "52px";
-    logo.style.objectFit = "contain";
-    logo.style.objectPosition = "center";
-    brand.appendChild(logo);
-  });
-
-  document.querySelectorAll("a").forEach((link) => {
-    const text = link.textContent.trim();
-    if (text === "Explore CAT coaching") {
-      link.textContent = "Explore Coaching";
-    }
-    if (text === "CAT Mocks" && link.href === "https://www.rodha.co.in/") {
-      link.href = "https://mocks.rodha.co.in/";
-    }
-  });
-
-  document.querySelectorAll(".coaching-card .meta-grid").forEach((grid) => {
-    Array.from(grid.children).forEach((item) => {
-      const label = item.querySelector("dt")?.textContent.trim().toLowerCase();
-      if (label === "fees") item.remove();
+  const menu = document.querySelector(".menu-toggle");
+  const nav = document.querySelector("#primary-nav");
+  if (menu && nav) {
+    menu.addEventListener("click", () => {
+      const open = menu.getAttribute("aria-expanded") === "true";
+      menu.setAttribute("aria-expanded", String(!open));
+      nav.classList.toggle("open", !open);
     });
-  });
+    nav.addEventListener("click", () => {
+      menu.setAttribute("aria-expanded", "false");
+      nav.classList.remove("open");
+    });
+  }
 
   document.querySelectorAll(".coaching-card").forEach((card) => {
     const target = card.querySelector("h3 a")?.getAttribute("href");
     if (!target) return;
+    card.tabIndex = 0;
     card.setAttribute("role", "link");
-    card.setAttribute("tabindex", "0");
-    card.style.cursor = "pointer";
     card.addEventListener("click", (event) => {
-      if (event.target.closest("a, button, input, select, textarea")) return;
-      window.location.href = target;
+      if (!event.target.closest("a,button,input,select,textarea")) location.href = target;
     });
     card.addEventListener("keydown", (event) => {
-      if (event.key !== "Enter" && event.key !== " ") return;
-      event.preventDefault();
-      window.location.href = target;
+      if (event.key === "Enter") location.href = target;
     });
   });
-
-  if (window.location.pathname === "/about/" || window.location.pathname === "/about") {
-    const prose = document.querySelector(".prose");
-    if (prose) {
-      prose.innerHTML = `
-        <p class="eyebrow">About CATPreparation2026</p>
-        <h1>About CATPreparation2026</h1>
-        <p>CATPreparation2026 is an independent education platform for CAT 2026 aspirants in India. The platform helps students research CAT preparation, online and offline coaching options, IIM admissions, MBA entrance exams, and top MBA colleges in one structured place.</p>
-        <h2>What we cover</h2>
-        <p>We publish CAT 2026 guides, syllabus and pattern explainers, preparation strategy, mock-test guidance, city-wise coaching listings, IIM admission information, MBA college comparisons, and latest MBA entrance exam updates.</p>
-        <h2>Who this platform is for</h2>
-        <p>This site is built for college students, working professionals, repeat CAT takers, and MBA aspirants who want clear comparison-led information before choosing coaching, mocks, colleges, or exam plans.</p>
-        <h2>How we structure information</h2>
-        <p>Pages are written in a direct answer-first format with tables, FAQs, official links where useful, and clean internal linking so that students, search engines, and AI assistants can understand the content easily.</p>
-        <h2>Our goal</h2>
-        <p>The goal of CATPreparation2026 is to become a serious, easy-to-cite CAT and MBA preparation resource that helps aspirants make better decisions with less confusion.</p>
-      `;
-    }
-  }
 
   const directory = document.querySelector("[data-directory]");
-  if (!directory) return;
-
-  const cards = Array.from(directory.querySelectorAll(".coaching-card"));
-  const search = document.querySelector("[data-filter-search]");
-  const mode = document.querySelector("[data-filter-mode]");
-  const city = document.querySelector("[data-filter-city]");
-  const fee = document.querySelector("[data-filter-fee]");
-  const feeLabel = document.querySelector("[data-fee-label]");
-  const count = document.querySelector("[data-result-count]");
-
-  function update() {
-    const query = (search?.value || "").trim().toLowerCase();
-    const selectedMode = mode?.value || "";
-    const selectedCity = city?.value || "";
-    const maxFee = Number(fee?.value || 80000);
-    let visible = 0;
-
-    cards.forEach((card) => {
-      const name = card.dataset.name || "";
-      const cardMode = card.dataset.mode || "";
-      const cities = card.dataset.cities || "";
-      const startsAt = Number(card.dataset.fee || 0);
-      const show = (!query || name.includes(query) || cities.includes(query)) &&
-        (!selectedMode || cardMode === selectedMode || (selectedMode === "online" && cities.includes("online"))) &&
-        (!selectedCity || cities.includes(selectedCity)) && startsAt <= maxFee;
-      card.hidden = !show;
-      if (show) visible += 1;
+  if (directory) {
+    const cards = [...directory.querySelectorAll(".coaching-card")];
+    const search = document.querySelector("[data-filter-search]");
+    const mode = document.querySelector("[data-filter-mode]");
+    const city = document.querySelector("[data-filter-city]");
+    const count = document.querySelector("[data-result-count]");
+    const update = () => {
+      const query = (search?.value || "").trim().toLowerCase();
+      const selectedMode = mode?.value || "";
+      const selectedCity = city?.value || "";
+      let visible = 0;
+      cards.forEach((card) => {
+        const names = card.dataset.name || "";
+        const cardMode = card.dataset.mode || "";
+        const cities = card.dataset.cities || "";
+        const show = (!query || names.includes(query) || cities.includes(query)) &&
+          (!selectedMode || cardMode === selectedMode || (selectedMode === "online" && cities.includes("online"))) &&
+          (!selectedCity || cities.includes(selectedCity));
+        card.hidden = !show;
+        if (show) visible += 1;
+      });
+      if (count) count.textContent = visible + " shown";
+    };
+    [search, mode, city].forEach((input) => {
+      input?.addEventListener("input", update);
+      input?.addEventListener("change", update);
     });
-
-    if (feeLabel) feeLabel.textContent = `Up to Rs ${maxFee.toLocaleString("en-IN")}`;
-    if (count) count.textContent = `${visible} shown`;
+    update();
   }
 
-  [search, mode, city, fee].forEach((input) => {
-    if (!input) return;
-    input.addEventListener("input", update);
-    input.addEventListener("change", update);
+  document.querySelectorAll("[data-lead-form]").forEach((form) => {
+    form.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      const status = form.querySelector("[data-form-status]");
+      const button = form.querySelector("button[type=submit]");
+      if (!form.reportValidity()) return;
+      status.className = "form-status";
+      status.textContent = "Sending your request…";
+      button.disabled = true;
+      try {
+        const response = await fetch(form.action, {
+          method: "POST",
+          body: new FormData(form),
+          headers: { Accept: "application/json" }
+        });
+        if (!response.ok) throw new Error("Submission failed");
+        form.reset();
+        status.classList.add("success");
+        status.textContent = "Thank you. Your request has been received.";
+      } catch (error) {
+        status.classList.add("error");
+        status.textContent = "We could not send this right now. Please email onlinecoaching4u.official@gmail.com.";
+      } finally {
+        button.disabled = false;
+      }
+    });
   });
-  update();
 })();
+
