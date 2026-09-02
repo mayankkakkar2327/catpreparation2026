@@ -7,7 +7,7 @@ const snapApplicationArticle = {
   description:
     "SNAP 2026 applications are open. Check official snaptest.org dates, registration deadline, test dates, result date, retake rules, and preparation checklist for MBA aspirants.",
   answer:
-    "SNAP 2026 applications are open on the official SNAP website. The official timeline lists August 21, 2026 as the registration and payment start date, November 25, 2026 as the registration/payment closing date, SNAP tests on December 13, 19 and 26, 2026, and result announcement on January 9, 2027.",
+    "SNAP 2026 applications are open on the official SNAP website. The official timeline lists August 21, 2026 as the registration and payment start date, November 25, 2026 as the registration/payment closing date, SNAP tests on December 13, 19 and 26, 2026, and result announcement on January 12, 2027.",
   body: [
     "SNAP 2026 applications are now open, creating a fresh official update for MBA aspirants preparing for CAT 2026, NMAT 2026, XAT 2027 and other management entrance exams. SNAP is the entrance test used for MBA admission to Symbiosis International University institutes.",
     "This article summarizes the official SNAP 2026 timeline in an answer-first format. It covers registration dates, payment deadline, admit card dates, test dates, result date, retake rules, and how CAT aspirants should fit SNAP into a broader MBA entrance calendar."
@@ -17,7 +17,7 @@ const snapApplicationArticle = {
       id: "quick-answer",
       heading: "Quick answer",
       paragraphs: [
-        "SNAP 2026 registration and payment start on August 21, 2026 and close on November 25, 2026, according to the official SNAP website. The official test dates are December 13, December 19 and December 26, 2026. The result date is January 9, 2027.",
+        "SNAP 2026 registration and payment start on August 21, 2026 and close on November 25, 2026, according to the official SNAP website. The official test dates are December 13, December 19 and December 26, 2026. The result date is January 12, 2027.",
         "Candidates may appear for up to three SNAP tests. If a candidate appears more than once, the higher score is considered for final percentile calculation, and there is no normalization because the higher score is used."
       ]
     },
@@ -36,7 +36,7 @@ const snapApplicationArticle = {
           ["SNAP Test 1", "December 13, 2026", "Plan travel and avoid heavy mock load one day before the test."],
           ["SNAP Test 2", "December 19, 2026", "Use prior test feedback carefully if appearing again."],
           ["SNAP Test 3", "December 26, 2026", "Attempt only if it fits your fatigue, cost and score-improvement plan."],
-          ["Result", "January 9, 2027", "Use the result to plan Symbiosis institute shortlisting and next-stage preparation."]
+          ["Result", "January 12, 2027", "Use the result to plan Symbiosis institute shortlisting and next-stage preparation."]
         ]
       }
     },
@@ -143,7 +143,7 @@ const snapApplicationArticle = {
     { q: "Is SNAP 2026 registration open?", a: "Yes. The official SNAP website lists August 21, 2026 as the registration start date." },
     { q: "What is the last date for SNAP 2026 registration?", a: "The official SNAP website lists November 25, 2026 as the registration and payment closing date." },
     { q: "What are the SNAP 2026 test dates?", a: "The official SNAP website lists December 13, December 19 and December 26, 2026 as the SNAP 2026 test dates." },
-    { q: "When will SNAP 2026 results be declared?", a: "The official SNAP website lists January 9, 2027 as the SNAP 2026 result announcement date." },
+    { q: "When will SNAP 2026 results be declared?", a: "The official SNAP website lists January 12, 2027 as the SNAP 2026 result announcement date." },
     { q: "How many SNAP attempts are allowed?", a: "The official SNAP website states that candidates can appear for up to three SNAP tests." },
     { q: "Which SNAP score is considered if I take multiple attempts?", a: "The official SNAP website states that the higher score is considered for final percentile calculation if a candidate appears for more than one test." }
   ]
