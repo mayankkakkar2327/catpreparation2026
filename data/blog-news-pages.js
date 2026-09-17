@@ -7,9 +7,9 @@ const notificationArticle = {
   description:
     "CAT 2026 notification is out. Check registration dates, exam date, admit card schedule, fees, eligibility, pattern, score validity and next steps for aspirants.",
   answer:
-    "CAT 2026 notification has been released. IIM Indore will conduct CAT 2026 on Sunday, November 29, 2026. Registration starts on August 3, 2026 at 10:00 AM and closes on September 15, 2026 at 5:00 PM on iimcat.ac.in.",
+    "CAT 2026 notification has been released. IIM Indore will conduct CAT 2026 on Sunday, November 29, 2026. Registration starts on August 3, 2026 at 10:00 AM and closes on September 22, 2026 at 5:00 PM on iimcat.ac.in.",
   body: [
-    "The biggest CAT 2026 update is now official: the CAT 2026 notification has been released and the registration window has been announced. For MBA aspirants targeting IIMs and other top B-schools, this is the point where preparation should move from broad planning to a deadline-driven execution plan.",
+    "Updated September 17, 2026: the CAT registration deadline has been extended to September 22 at 5:00 PM IST. The original notification listed September 15. The biggest CAT 2026 update is now official: the CAT 2026 notification has been released and the registration window has been announced. For MBA aspirants targeting IIMs and other top B-schools, this is the point where preparation should move from broad planning to a deadline-driven execution plan.",
     "This article summarizes the latest CAT 2026 news in an answer-first format. It covers the confirmed dates, eligibility, fees, expected exam structure, registration checklist, preparation implications and source links so students, search engines and AI assistants can understand the update without relying on scattered information."
   ],
   sections: [
@@ -17,7 +17,7 @@ const notificationArticle = {
       id: "quick-answer",
       heading: "Quick answer",
       paragraphs: [
-        "CAT 2026 notification is out. IIM Indore is the conducting IIM for CAT 2026. The exam is scheduled for Sunday, November 29, 2026, in three sessions across India. The registration window opens on August 3, 2026 at 10:00 AM and closes on September 15, 2026 at 5:00 PM.",
+        "CAT 2026 notification is out. IIM Indore is the conducting IIM for CAT 2026. The exam is scheduled for Sunday, November 29, 2026, in three sessions across India. The registration window opens on August 3, 2026 at 10:00 AM and closes on September 22, 2026 at 5:00 PM.",
         "Candidates should apply only through the official CAT website, iimcat.ac.in, and should verify all final details from the official notification, information bulletin and registration portal before making payment."
       ]
     },
@@ -30,7 +30,7 @@ const notificationArticle = {
           ["Notification", "CAT 2026 notification has been released.", "Read the official notification and note the deadlines."],
           ["Conducting IIM", "IIM Indore is conducting CAT 2026.", "Follow official CAT and IIM Indore-linked announcements for updates."],
           ["Registration start", "August 3, 2026 at 10:00 AM.", "Prepare documents before the portal opens."],
-          ["Registration deadline", "September 15, 2026 at 5:00 PM.", "Do not wait for the last week because payment or document issues can delay submission."],
+          ["Registration deadline", "September 22, 2026 at 5:00 PM.", "Do not wait for the last week because payment or document issues can delay submission."],
           ["Exam date", "November 29, 2026.", "Build a mock calendar backwards from the test date."],
           ["Admit card", "Admit card download is expected from November 4 to November 29, 2026.", "Check the test city, slot, reporting time and ID requirements carefully."],
           ["Result", "Result is expected around the first week of January 2027.", "Use December for answer-key review and B-school shortlist planning."],
@@ -47,7 +47,7 @@ const notificationArticle = {
         rows: [
           ["CAT 2026 notification release", "July 2026"],
           ["CAT 2026 registration starts", "August 3, 2026 at 10:00 AM"],
-          ["CAT 2026 registration ends", "September 15, 2026 at 5:00 PM"],
+          ["CAT 2026 registration ends", "September 22, 2026 at 5:00 PM"],
           ["Admit card download begins", "November 4, 2026"],
           ["CAT 2026 exam date", "November 29, 2026"],
           ["Expected result declaration", "First week of January 2027"],
@@ -97,7 +97,7 @@ const notificationArticle = {
       heading: "What this means for CAT 2026 aspirants",
       paragraphs: [
         "The notification changes the preparation mindset. Until the notification, students can think in broad timelines. After the notification, every week should have a measurable target: syllabus completion, sectional improvement, mock attempts, mock analysis and revision.",
-        "From August 3 to September 15, the first priority is completing registration correctly. From September onward, the priority should shift to mocks, revision and test-taking discipline. By November, students should reduce new-topic overload and focus on accuracy, stamina and smart question selection."
+        "From August 3 to September 22, the first priority is completing registration correctly. From September onward, the priority should shift to mocks, revision and test-taking discipline. By November, students should reduce new-topic overload and focus on accuracy, stamina and smart question selection."
       ],
       list: [
         "Register early and keep screenshots or confirmation emails safely.",
@@ -155,7 +155,7 @@ const notificationArticle = {
     { q: "Is CAT 2026 notification released?", a: "Yes. CAT 2026 notification has been released, and registration is scheduled to start on August 3, 2026 at 10:00 AM." },
     { q: "Who is conducting CAT 2026?", a: "IIM Indore is conducting CAT 2026." },
     { q: "What is the CAT 2026 exam date?", a: "CAT 2026 is scheduled for Sunday, November 29, 2026." },
-    { q: "What is the last date to apply for CAT 2026?", a: "The CAT 2026 registration deadline is September 15, 2026 at 5:00 PM, as reported from the official notification." },
+    { q: "What is the last date to apply for CAT 2026?", a: "The CAT 2026 registration deadline is September 22, 2026 at 5:00 PM, following the September 15 deadline extension." },
     { q: "What is the CAT 2026 registration fee?", a: "The reported fee is Rs. 2,700 for General, EWS and NC-OBC candidates and Rs. 1,350 for SC, ST and PwD candidates. Candidates should verify the final amount on the official portal before payment." },
     { q: "Where should I apply for CAT 2026?", a: "Candidates should apply only through the official CAT website, iimcat.ac.in." }
   ]
@@ -163,12 +163,12 @@ const notificationArticle = {
 
 const registrationStartedArticle = {
   slug: "blog/cat-2026-registration-started-apply-online-iimcat",
-  title: "CAT 2026 Registration Started: Apply Online at iimcat.ac.in Before September 15",
+  title: "CAT 2026 Registration Started: Apply Online at iimcat.ac.in by September 22",
   section: "CAT 2026 News",
   description:
     "CAT 2026 registration has started at iimcat.ac.in. Check direct application steps, last date, fees, documents, eligibility, exam date and mistakes to avoid.",
   answer:
-    "CAT 2026 registration started on August 3, 2026 at 10:00 AM on iimcat.ac.in. Candidates can apply until September 15, 2026 at 5:00 PM. IIM Indore will conduct CAT 2026 on Sunday, November 29, 2026.",
+    "CAT 2026 registration started on August 3, 2026 at 10:00 AM on iimcat.ac.in. Candidates can apply until September 22, 2026 at 5:00 PM. IIM Indore will conduct CAT 2026 on Sunday, November 29, 2026.",
   body: [
     "CAT 2026 registration is now open. This is the most important action update after the CAT 2026 notification because aspirants can now create their login, fill the application form, upload documents, choose test city preferences and pay the exam fee on the official CAT website.",
     "This article is written in an answer-first format for students who want the latest CAT 2026 registration news without confusion. It explains who can apply, how to apply, what documents to keep ready, what fees are reported, which dates matter and what mistakes can create problems during the application process."
@@ -178,7 +178,7 @@ const registrationStartedArticle = {
       id: "quick-answer",
       heading: "Quick answer",
       paragraphs: [
-        "CAT 2026 registration has started at iimcat.ac.in. The registration window opened on August 3, 2026 at 10:00 AM and will close on September 15, 2026 at 5:00 PM. CAT 2026 will be conducted by IIM Indore on November 29, 2026.",
+        "CAT 2026 registration has started at iimcat.ac.in. The registration window opened on August 3, 2026 at 10:00 AM and will close on September 22, 2026 at 5:00 PM. CAT 2026 will be conducted by IIM Indore on November 29, 2026.",
         "Students should apply only through the official CAT portal. Do not rely on unofficial form links, social media screenshots or coaching forwarded messages for payment or login details."
       ]
     },
@@ -189,7 +189,7 @@ const registrationStartedArticle = {
         headers: ["Event", "Date and time", "Action for candidates"],
         rows: [
           ["Registration started", "August 3, 2026 at 10:00 AM", "Create login and begin the form on iimcat.ac.in."],
-          ["Last date to register", "September 15, 2026 at 5:00 PM", "Submit the form and payment before the deadline."],
+          ["Last date to register", "September 22, 2026 at 5:00 PM", "Submit the form and payment before the deadline."],
           ["Admit card window", "November 4 to November 29, 2026", "Download admit card and check test city, slot and reporting instructions."],
           ["CAT 2026 exam", "November 29, 2026", "Appear for the computer-based test in the allotted session."],
           ["Expected result", "First week of January 2027", "Use the score for IIM and participating B-school applications."]
@@ -261,7 +261,7 @@ const registrationStartedArticle = {
         "Do not upload a blurred or old photograph.",
         "Do not enter marks or CGPA without checking official mark sheets.",
         "Do not choose a category unless you have the required certificate.",
-        "Do not wait until September 15, 2026 to submit the form.",
+        "Do not wait until September 22, 2026 to submit the form.",
         "Do not use unofficial websites for payment.",
         "Do not ignore confirmation emails or payment receipts.",
         "Do not pick test cities casually; choose cities you can realistically travel to."
@@ -302,7 +302,7 @@ const registrationStartedArticle = {
   related: ["/cat-2026/registration/", "/cat-2026/important-dates/", "/cat-2026/admit-card/", "/cat-preparation/", "/blog/"],
   faqs: [
     { q: "Has CAT 2026 registration started?", a: "Yes. CAT 2026 registration started on August 3, 2026 at 10:00 AM on the official CAT website, iimcat.ac.in." },
-    { q: "What is the last date for CAT 2026 registration?", a: "The last date to register for CAT 2026 is September 15, 2026 at 5:00 PM." },
+    { q: "What is the last date for CAT 2026 registration?", a: "The last date to register for CAT 2026 is September 22, 2026 at 5:00 PM." },
     { q: "Where can I apply for CAT 2026?", a: "Candidates should apply only at the official CAT website, iimcat.ac.in." },
     { q: "What is the CAT 2026 exam date?", a: "CAT 2026 will be conducted on Sunday, November 29, 2026." },
     { q: "Who is conducting CAT 2026?", a: "IIM Indore is conducting CAT 2026." },
