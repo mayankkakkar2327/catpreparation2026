@@ -10,7 +10,7 @@ if (!global.__catPreparationBlogPagesPatch) {
         existingBlogPages,
         require("./blog-rodha-cracku-pages"),
         require("./blog-extra-pages"),
-        require("./blog-news-pages"),
+        require("./blog-cat-deadline-pages"),
         require("./rodha-ecosystem-pages")
       );
     }
@@ -38,7 +38,7 @@ const site = {
   ],
   sourcePolicy:
     "Dates, exam rules, college data, and coaching details should be verified against official websites, brochures, admission pages, and institute disclosures before publication.",
-  updated: "2026-09-02"
+  updated: "2026-09-17"
 };
 
 module.exports = site;
