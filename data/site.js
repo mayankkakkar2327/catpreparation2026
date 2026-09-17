@@ -11,6 +11,7 @@ if (!global.__catPreparationBlogPagesPatch) {
         require("./blog-rodha-cracku-pages"),
         require("./blog-extra-pages"),
         require("./blog-cat-deadline-pages"),
+        require("./blog-news-pages").filter((page) => page.slug !== "blog"),
         require("./rodha-ecosystem-pages").filter((page) => page.slug.startsWith("cat-coaching/rodha/"))
       );
     }
