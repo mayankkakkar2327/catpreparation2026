@@ -9,6 +9,7 @@ const snapApplicationArticle = {
   answer:
     "SNAP 2026 applications are open on the official SNAP website. The official timeline lists August 21, 2026 as the registration and payment start date, November 25, 2026 as the registration/payment closing date, SNAP tests on December 13, 19 and 26, 2026, and result announcement on January 12, 2027.",
   body: [
+    "Editorial correction, September 18, 2026: the official SNAP bulletin lists admit-card release dates of December 7 for Test 1, December 11 for Test 2 and December 18 for Test 3. An earlier version of this article misstated those dates.",
     "SNAP 2026 applications are now open, creating a fresh official update for MBA aspirants preparing for CAT 2026, NMAT 2026, XAT 2027 and other management entrance exams. SNAP is the entrance test used for MBA admission to Symbiosis International University institutes.",
     "This article summarizes the official SNAP 2026 timeline in an answer-first format. It covers registration dates, payment deadline, admit card dates, test dates, result date, retake rules, and how CAT aspirants should fit SNAP into a broader MBA entrance calendar."
   ],
@@ -32,7 +33,8 @@ const snapApplicationArticle = {
           ["Registration closes", "November 25, 2026", "Submit before the deadline instead of waiting for the last week."],
           ["Payment closes", "November 25, 2026", "Confirm payment status and institute/program selections."],
           ["Admit card for Test 1", "December 7, 2026", "Download early and verify reporting time, city and identity requirements."],
-          ["Admit card for Test 2 and Test 3", "December 11, 2026", "Check the admit card separately for each scheduled test."],
+          ["Admit card for Test 2", "December 11, 2026", "Download and check the Test 2 admit card."],
+          ["Admit card for Test 3", "December 18, 2026", "Download and check the Test 3 admit card."],
           ["SNAP Test 1", "December 13, 2026", "Plan travel and avoid heavy mock load one day before the test."],
           ["SNAP Test 2", "December 19, 2026", "Use prior test feedback carefully if appearing again."],
           ["SNAP Test 3", "December 26, 2026", "Attempt only if it fits your fatigue, cost and score-improvement plan."],
@@ -127,7 +129,7 @@ const snapApplicationArticle = {
       id: "source-links",
       heading: "Sources and verification links",
       paragraphs: [
-        "The dates and rules in this article were curated from the official SNAP website as checked on August 21, 2026. Students should verify the official page again before registration, payment or institute selection."
+        "The dates and rules in this article were curated from the official SNAP website as checked on September 18, 2026. Students should verify the official page again before registration, payment or institute selection."
       ],
       links: [
         ["Official SNAP 2026 website", "https://www.snaptest.org/"],
