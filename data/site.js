@@ -10,7 +10,7 @@ if (!global.__catPreparationBlogPagesPatch) {
         existingBlogPages,
         require("./blog-rodha-cracku-pages"),
         require("./blog-extra-pages"),
-        require("./blog-xat-associate-institutes-pages"),
+        require("./blog-cat-fee-payment-pages"),
         require("./blog-news-pages").filter((page) => page.slug !== "blog"),
         require("./rodha-ecosystem-pages").filter((page) => page.slug.startsWith("cat-coaching/rodha/"))
       );
@@ -39,7 +39,7 @@ const site = {
   ],
   sourcePolicy:
     "Dates, exam rules, college data, and coaching details should be verified against official websites, brochures, admission pages, and institute disclosures before publication.",
-  updated: "2026-09-22"
+  updated: "2026-09-23"
 };
 
 module.exports = site;
