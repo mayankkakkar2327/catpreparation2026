@@ -39,7 +39,7 @@ const site = {
   ],
   sourcePolicy:
     "Dates, exam rules, college data, and coaching details should be verified against official websites, brochures, admission pages, and institute disclosures before publication.",
-  updated: "2026-09-23"
+  updated: "2026-09-24"
 };
 
 module.exports = site;
