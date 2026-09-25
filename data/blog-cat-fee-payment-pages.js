@@ -270,6 +270,154 @@ const rodhaArticle = {
   ]
 };
 
+const xatArticle = {
+  slug: "blog/xat-2027-september-mock-test-dates-eligibility-pattern",
+  title: "XAT 2027 September Mock Test: Dates, Eligibility and How to Attempt It",
+  section: "XAT 2027 News",
+  description: "The official XAT 2027 September mock runs from September 30 to October 1. Check the September 27 eligibility deadline, two papers and attempt plan.",
+  answer: "The official XAT 2027 September Mock Test will be available from September 30, 2026, at 00:00 hours until October 1 at 23:59 hours. Candidates must complete the XAT 2027 application by September 27 to become eligible. The event offers two mock papers, a 48-hour attempt window and comparative rank analysis through the candidate dashboard.",
+  body: [
+    "The official XAT website has announced a September mock-test window for candidates preparing for XAT 2027. The mock is designed to familiarise applicants with the examination's sections and paper structure before the January test.",
+    "This is not an open public practice link. The official instructions say candidates must submit their XAT 2027 application first. The mock portal is then enabled inside the application dashboard for eligible candidates."
+  ],
+  sections: [
+    {
+      id: "schedule",
+      heading: "XAT September Mock Test 2027 schedule at a glance",
+      paragraphs: [
+        "The official mock page advertises two mock papers and a 48-hour window. The test window begins at midnight on September 30 and closes at 11:59 PM on October 1. To qualify for access, candidates need to complete their XAT 2027 application by September 27.",
+        "The September 27 date is an eligibility cutoff for this mock event, not the final XAT 2027 registration deadline. The official XAT timeline continues to list December 6, 2026, as the examination registration closing date."
+      ],
+      table: {
+        headers: ["Mock-test item", "Official information"],
+        rows: [
+          ["Application deadline for mock eligibility", "Complete the XAT 2027 application by September 27, 2026"],
+          ["Mock window opens", "September 30, 2026, at 00:00 hours"],
+          ["Mock window closes", "October 1, 2026, at 23:59 hours"],
+          ["Availability", "48-hour attempt window"],
+          ["Number of papers advertised", "Two mock papers"],
+          ["Analysis feature", "Comparative rank analysis"],
+          ["Where to access", "XAT 2027 candidate application dashboard"]
+        ]
+      }
+    },
+    {
+      id: "eligibility",
+      heading: "Who is eligible for the XAT 2027 September mock?",
+      paragraphs: [
+        "The official banner says applicants must complete the XAT 2027 application by September 27 to become eligible. Merely visiting the mock information page or beginning an application may not be enough. Candidates should submit the form and verify its status in the dashboard.",
+        "After application submission, the mock-test portal link is expected to appear in the candidate dashboard. If the link is not visible immediately, recheck the live dashboard and official XAT notices rather than using an unofficial mock link shared elsewhere."
+      ],
+      list: [
+        "Complete and submit the XAT 2027 application by September 27.",
+        "Sign in through the official XAT application portal.",
+        "Look for the enabled mock-test portal inside the dashboard.",
+        "Use the mock within the September 30 to October 1 access window.",
+        "Retain your login details and confirm browser readiness before starting."
+      ]
+    },
+    {
+      id: "what-is-included",
+      heading: "What does the September mock include?",
+      paragraphs: [
+        "The official mock page says the exercise covers Verbal Ability and Logical Reasoning, Decision Making, Quantitative Aptitude and Data Interpretation, and General Awareness. It is intended to simulate the XAT format and help candidates understand how the paper is organised.",
+        "The banner also promises comparative rank analysis. This can help a candidate place the mock score in the context of other participants, but the rank should not be treated as a forecast of the final XAT percentile. The participant pool, preparation stage and mock difficulty may differ from the actual examination."
+      ]
+    },
+    {
+      id: "official-pattern",
+      heading: "XAT 2027 paper pattern candidates should know",
+      paragraphs: [
+        "The official XAT homepage currently shows approximately 95 questions across four areas. Verbal Ability and Logical Reasoning, Decision Making, and Quantitative Aptitude and Data Interpretation are grouped within the first 170 minutes, followed by a 10-minute General Knowledge component in the displayed overview.",
+        "Question counts are labelled approximate by XAT. Use the mock to learn the interface, transitions and decision pressure instead of memorising the exact number of questions as an unchangeable rule."
+      ],
+      table: {
+        headers: ["Official XAT section", "Approximate questions shown"],
+        rows: [
+          ["Verbal Ability and Logical Reasoning", "26"],
+          ["Decision Making", "21"],
+          ["Quantitative Aptitude and Data Interpretation", "28"],
+          ["General Knowledge", "20"],
+          ["Total", "95 questions; 180 minutes"]
+        ]
+      }
+    },
+    {
+      id: "attempt-plan",
+      heading: "How should you attempt the two XAT mock papers?",
+      paragraphs: [
+        "Do not take both papers back to back merely to finish them. Use the first mock to observe your natural attempt order, time allocation and comfort with Decision Making. Analyse it before the second attempt so that the second paper tests a deliberate adjustment.",
+        "During review, separate concept errors from selection errors. In VALR, check whether difficult passages consumed time needed for direct questions. In Decision Making, note where you ignored a stakeholder, introduced an unsupported assumption or chose an extreme option. In QA-DI, identify approachable questions that were left unseen.",
+        "For General Knowledge, record unfamiliar areas but avoid allowing a single mock to redefine the entire preparation plan. Build a broad revision list from multiple reliable sources and current-affairs notes."
+      ],
+      list: [
+        "Mock 1: reproduce current strategy without experimenting mid-test.",
+        "Analysis: review incorrect answers, unattempted easy questions and time lost.",
+        "Adjustment: choose one or two changes, such as set selection or a section checkpoint.",
+        "Mock 2: apply those changes under the same exam-like conditions.",
+        "Comparison: evaluate accuracy and decision quality, not only total score or rank."
+      ]
+    },
+    {
+      id: "technical-checklist",
+      heading: "Technical and test-day checklist",
+      paragraphs: [
+        "Because the mock is available for a limited period, check access before the final hours. Use a reliable laptop or desktop, a stable connection and an updated browser. Close unnecessary tabs and notifications so the session resembles an actual timed test.",
+        "Read the dashboard instructions before beginning. The official page does not state on its public face whether a started mock can be paused, restarted or reopened, so candidates should not assume those options will be available."
+      ]
+    },
+    {
+      id: "why-it-matters",
+      heading: "Why the official XAT mock is useful",
+      paragraphs: [
+        "XAT differs from CAT most visibly through its Decision Making section and its General Knowledge component. An official-format mock gives CAT-focused candidates an early chance to experience those demands within one paper.",
+        "The strongest outcome is not a high September rank. It is a clearer preparation plan for October and November: which section needs foundational work, whether reading speed is limiting VALR, how Decision Making choices are being evaluated, and whether QA-DI selection is efficient."
+      ]
+    },
+    {
+      id: "xat-dates",
+      heading: "Other XAT 2027 dates to track",
+      paragraphs: [
+        "The main XAT application cycle continues after the mock-eligibility cutoff. The official website lists registration closing on December 6, the admit card as tentatively available from December 20, and the test on January 3, 2027, from 2:00 PM to 5:00 PM.",
+        "Candidates who miss the September mock deadline can still register for XAT within the main application period, subject to the live official portal. They should use other quality mocks while continuing to monitor XAT's website for any later official practice opportunity."
+      ],
+      table: {
+        headers: ["XAT 2027 milestone", "Official date"],
+        rows: [
+          ["September mock eligibility cutoff", "September 27, 2026"],
+          ["September mock window", "September 30 to October 1, 2026"],
+          ["XAT registration closes", "December 6, 2026"],
+          ["Admit card download", "December 20, 2026 (tentative)"],
+          ["XAT 2027 exam", "January 3, 2027, 2:00 PM to 5:00 PM"]
+        ]
+      }
+    },
+    {
+      id: "sources",
+      heading: "Official sources checked",
+      paragraphs: [
+        "This update was checked on September 25, 2026. Mock dates, eligibility, the two-paper offer and comparative rank feature come from the official XAT homepage and mock-test page. The main registration and examination dates come from XAT's official timeline.",
+        "Candidates should recheck their application dashboard for individual access and any instructions that appear after login."
+      ],
+      links: [
+        ["Official XAT 2027 website", "https://xatonline.in/"],
+        ["Official XAT September Mock Test page", "https://xatonline.in/mocktest/"],
+        ["XAT 2027 application portal", "https://applications.xatonline.in/"]
+      ]
+    }
+  ],
+  related: ["/mba-entrance-exams/", "/cat-preparation/mock-tests/", "/blog/xat-2027-new-associate-institutes-xami-member/", "/blog/xat-2027-registration-open-dates-eligibility-application-guide/", "/cat-2026/latest-news/", "/blog/"],
+  faqs: [
+    { q: "When is the XAT 2027 September Mock Test?", a: "The official window runs from September 30, 2026, at 00:00 hours to October 1 at 23:59 hours." },
+    { q: "What is the deadline to become eligible for the XAT September mock?", a: "Candidates must complete the XAT 2027 application by September 27, 2026." },
+    { q: "How many XAT mock papers are included?", a: "The official mock banner advertises two mock papers and comparative rank analysis." },
+    { q: "Where will the XAT mock link appear?", a: "The official page says the mock-test portal will be enabled in the candidate's application dashboard after the application is submitted." },
+    { q: "Is September 27 the final XAT 2027 registration deadline?", a: "No. September 27 is the cutoff for this mock's eligibility. The official XAT timeline lists December 6, 2026, as the main registration closing date." },
+    { q: "When is XAT 2027?", a: "XAT 2027 is scheduled for January 3, 2027, from 2:00 PM to 5:00 PM." }
+  ]
+};
+
+const xatHref = `/${xatArticle.slug}/`;
 const rodhaHref = `/${rodhaArticle.slug}/`;
 const feeHref = `/${feeArticle.slug}/`;
 const previousIndex = priorPages.find((page) => page.slug === "blog");
@@ -281,13 +429,14 @@ const index = {
         table: {
           ...section.table,
           rows: [
+            [xatArticle.title, xatArticle.description, { label: "Read article", href: xatHref }],
             [rodhaArticle.title, rodhaArticle.description, { label: "Read article", href: rodhaHref }],
             [feeArticle.title, feeArticle.description, { label: "Read article", href: feeHref }],
-            ...section.table.rows.filter((row) => row[2]?.href !== rodhaHref && row[2]?.href !== feeHref)
+            ...section.table.rows.filter((row) => row[2]?.href !== xatHref && row[2]?.href !== rodhaHref && row[2]?.href !== feeHref)
           ]
         }
       }
     : section)
 };
 
-module.exports = [index, rodhaArticle, feeArticle, ...priorPages.filter((page) => page.slug !== "blog")];
+module.exports = [index, xatArticle, rodhaArticle, feeArticle, ...priorPages.filter((page) => page.slug !== "blog")];
