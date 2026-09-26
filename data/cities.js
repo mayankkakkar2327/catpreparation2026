@@ -18,6 +18,7 @@ const cities = [
   {
     name: "Bangalore",
     slug: "bangalore",
+    researchedListings: [["IMS Bangalore: verified local details", "/cat-coaching/bangalore/ims/"], ["Career Launcher Bangalore: verified local details", "/cat-coaching/bangalore/career-launcher/"]],
     state: "Karnataka",
     popularAreas: ["Indiranagar", "Koramangala", "Jayanagar", "Marathahalli", "Electronic City"],
     summary:
