@@ -8,6 +8,7 @@ if (!global.__catPreparationBlogPagesPatch) {
       const existingBlogPages = require("./blog-pages").filter((page) => page.slug !== "blog");
       return loaded.concat(
         existingBlogPages,
+        require("./city-institute-pages"),
         require("./blog-rodha-cracku-pages"),
         require("./blog-extra-pages"),
         require("./blog-cat-fee-payment-pages"),
