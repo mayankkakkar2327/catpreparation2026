@@ -417,6 +417,160 @@ const xatArticle = {
   ]
 };
 
+const quantArticle = {
+  slug: "blog/rodha-cat-quant-attempt-strategy-20-20-minute-split",
+  title: "Rodha CAT Quant Attempt Strategy: The 20+20 Minute Mock Plan Explained",
+  section: "CAT 2026 Video Guide",
+  description: "Rodha's new CAT Quant strategy video explains the 20+20 minute split, question selection, when to leave a problem and how to analyse mock decisions.",
+  answer: "Rodha faculty Swapanil Sir recommends dividing the 40-minute CAT Quant section into two broad rounds. In the first 20 minutes, scan and attempt questions that are clearly solvable and worthwhile now. In the second 20 minutes, return to selected medium or time-consuming questions. The key test is not only 'Can I solve this?' but 'Is this question worth solving at this point in the section?'",
+  body: [
+    "Rodha's latest CAT 2026 video focuses on an exam skill that syllabus completion alone does not build: deciding which Quant question deserves your time. The video crossed 2,000 views within roughly 13 hours when checked on September 26, 2026.",
+    "Swapanil Sir explains a two-round 20+20 minute structure, a first-pass selection method and the warning signs for leaving a question. This guide converts those ideas into a mock-testing workflow while preserving an important caveat: the split is a strategy to test and adapt, not a compulsory rule for every candidate."
+  ],
+  sections: [
+    {
+      id: "video-summary",
+      heading: "What does the Rodha Quant strategy video cover?",
+      paragraphs: [
+        "The 13-minute video separates mathematical ability from attempt strategy. A candidate may know how to solve a question yet still make a poor exam decision by spending too long on it. The discussion therefore begins with a sharper question: is the problem worth solving now, given the remaining time and the alternatives still unseen?",
+        "The main topics are question selection, the 20+20 minute split, the 'worth it now?' test, the tendency to continue because a solution feels close, and a decision-focused mock analysis checklist."
+      ],
+      links: [
+        ["Watch the Rodha CAT Quant attempt-strategy video", "https://www.youtube.com/watch?v=A-4xnync18Y"],
+        ["Rodha YouTube channel", "https://www.youtube.com/@Rodha/videos"],
+        ["Rodha official website", "https://www.rodha.co.in/"],
+        ["Rodha CAT mock portal", "https://mocks.rodha.co.in/"]
+      ]
+    },
+    {
+      id: "20-20-split",
+      heading: "How does the 20+20 minute Quant split work?",
+      paragraphs: [
+        "The approach treats the section as two rounds rather than one continuous march from question one to the end. During the first 20 minutes, the candidate scans efficiently and attempts questions that can be converted with reasonable confidence and limited calculation. The goal is to collect accessible marks without becoming attached to the first difficult-looking problem.",
+        "The second 20 minutes are used for a controlled return to questions that appeared solvable but required more thought, setup or calculation. Because the candidate has already seen more of the paper, the second-round choices can be made with better information.",
+        "The boundary need not be exactly 20 minutes in every mock. Some learners may perform better with an 18+22 or 22+18 split. Test the framework across several mocks and keep the version that improves both coverage and accuracy."
+      ],
+      table: {
+        headers: ["Round", "Primary objective", "Typical actions"],
+        rows: [
+          ["First 20 minutes", "Secure accessible questions and understand the paper", "Scan, attempt clear wins, flag selected medium questions and leave traps"],
+          ["Second 20 minutes", "Convert the best remaining opportunities", "Return to flagged questions, complete manageable calculations and protect final accuracy"]
+        ]
+      }
+    },
+    {
+      id: "worth-it-test",
+      heading: "The most useful question: is it worth solving now?",
+      paragraphs: [
+        "Many candidates ask only whether they know the concept. In CAT, knowing the method does not automatically make a question the best next attempt. A familiar algebra problem with heavy manipulation may offer less value than a clean arithmetic or geometry question that can be completed quickly.",
+        "Before committing, assess the setup, calculation load, confidence and likely time. The word 'now' matters. A question rejected in round one can still become a sensible second-round attempt after easier marks have been secured.",
+        "This shift reduces ego-based solving. The section rewards correct marks, not proof that you can finish the hardest problem."
+      ],
+      list: [
+        "Do I understand what the question is asking?",
+        "Can I see a clean first step or representation?",
+        "Is the expected calculation proportionate to the mark?",
+        "Have I seen enough of the paper to justify committing now?",
+        "What signal will make me leave if progress stops?"
+      ]
+    },
+    {
+      id: "round-one",
+      heading: "How to select questions in the first round",
+      paragraphs: [
+        "Round one is not a speed-reading exercise in which every question receives the same few seconds. Read enough to classify the problem. Direct arithmetic, familiar algebraic structures, standard geometry and clean number-system questions may become early attempts when they match your strengths.",
+        "Flag a question when the route is visible but the execution is longer. Leave it unmarked when the setup remains unclear, the options demand repeated testing or the calculation risk is high. The labels should be simple enough to use under pressure: attempt now, revisit, or leave.",
+        "Practise this classification during mocks rather than inventing it on exam day. After each test, compare the initial label with the actual difficulty to improve your judgement."
+      ]
+    },
+    {
+      id: "thoda-aur-trap",
+      heading: "The 'thoda aur' trap: when should you leave?",
+      paragraphs: [
+        "The video calls out the tendency to continue for 'just a little longer' because time has already been invested. This is a sunk-cost error. The previous minutes cannot be recovered, but the next minutes can still be redirected.",
+        "Set exit conditions before solving. Leave when the planned equation is not simplifying, cases are multiplying, calculations repeatedly restart, or the answer choices do not align with your result after a quick check. A question can be solvable in theory and still be a poor exam attempt.",
+        "Leaving is not failure. It is a scoring decision that preserves the chance to discover easier questions elsewhere."
+      ]
+    },
+    {
+      id: "mock-analysis",
+      heading: "How to analyse Quant mocks for decision quality",
+      paragraphs: [
+        "A traditional analysis records correct and incorrect answers. A stronger review also examines selection. Identify every easy question you never reached, every difficult question that absorbed excessive time and every question you left correctly.",
+        "For each attempted problem, estimate recognition time, solving time and checking time. If the concept was known but recognition was slow, add mixed practice. If calculation errors repeat, mark the specific red flag: sign, approximation, copying, case omission or arithmetic. If selection was poor, replay the first round and choose again.",
+        "The purpose is to improve the next decision, not merely to create a longer error log."
+      ],
+      table: {
+        headers: ["Mock finding", "Likely issue", "Next action"],
+        rows: [
+          ["Easy question left unseen", "Weak paper scan or early time sink", "Rehearse a stricter first round"],
+          ["Known question took too long", "Slow recognition or calculation", "Practise timed mixed sets and shortcuts only where reliable"],
+          ["Repeated wrong calculations", "Execution risk", "Add a written checking trigger"],
+          ["Hard question left quickly", "Potentially good selection", "Confirm that easier opportunities were converted"],
+          ["Many flagged questions unfinished", "Over-flagging", "Raise the threshold for second-round selection"]
+        ]
+      }
+    },
+    {
+      id: "adapt-by-level",
+      heading: "How should different candidates adapt the plan?",
+      paragraphs: [
+        "A candidate still building fundamentals should use the first round to locate a smaller number of high-confidence questions and avoid forcing an aggressive attempt target. The analysis should reveal which core topics need repair before strategy can produce larger gains.",
+        "A stronger Quant candidate can scan faster and may revisit more medium questions, but should still protect against overconfidence on calculation-heavy problems. High ability does not remove the need for selection; it expands the pool of worthwhile choices.",
+        "Candidates with fluctuating scores should keep the attempt framework stable for several mocks before judging it. Changing the order, time split and target simultaneously makes it hard to know what helped."
+      ]
+    },
+    {
+      id: "practice-plan",
+      heading: "A practical three-mock experiment",
+      paragraphs: [
+        "Use the next three mocks as a controlled experiment. In the first, apply the exact 20+20 split and record the outcome. In the second, retain the split but tighten the exit conditions. In the third, adjust the boundary by a few minutes only if the earlier evidence supports it.",
+        "Track attempted questions, accuracy, unattempted easy questions, time lost on abandoned problems and the score produced by each round. This makes the strategy measurable instead of motivational."
+      ],
+      list: [
+        "Mock 1: establish a baseline with the 20+20 structure.",
+        "Mock 2: improve first-round classification and exit discipline.",
+        "Mock 3: make one evidence-based timing adjustment if required.",
+        "After all three: choose the version that gives the best repeatable score, not the highest single result."
+      ]
+    },
+    {
+      id: "exam-day",
+      heading: "How to use the strategy on CAT exam day",
+      paragraphs: [
+        "On the actual day, follow the system already tested in mocks. Do not chase a fixed number of attempts because another learner or video cited it. Paper difficulty, your strongest topics and the questions visible in your slot determine the sensible target.",
+        "If the first few questions are difficult, avoid interpreting that as evidence that the entire section is hard. Continue the scan. If a familiar question becomes messy, use the exit condition and return later. Keep enough final time to complete selected work carefully rather than opening several fresh questions.",
+        "CAT authorities can update exam instructions and the exact paper distribution can vary. Candidates should read the live official guidance and use mock-tested principles rather than assuming that any one question count is guaranteed."
+      ]
+    },
+    {
+      id: "sources",
+      heading: "Video and official sources checked",
+      paragraphs: [
+        "This guide was reviewed on September 26, 2026. Video topics, the 20+20 framework, view count and chapter descriptions come from Rodha's official YouTube page. CAT dates and candidate notices should always be checked on the official CAT website.",
+        "The article explains and expands the strategy in original language. It does not reproduce the video's teaching material or promise a particular score."
+      ],
+      links: [
+        ["Rodha CAT Quant attempt-strategy video", "https://www.youtube.com/watch?v=A-4xnync18Y"],
+        ["Rodha YouTube channel", "https://www.youtube.com/@Rodha/videos"],
+        ["Rodha official website", "https://www.rodha.co.in/"],
+        ["Rodha CAT mocks", "https://mocks.rodha.co.in/"],
+        ["Official CAT 2026 website", "https://iimcat.ac.in/"]
+      ]
+    }
+  ],
+  related: ["/cat-preparation/", "/cat-preparation/mock-tests/", "/cat-coaching/rodha/", "/blog/rodha-cat-2026-working-professional-iim-bangalore-strategy/", "/blog/rodha-snap-2026-sibm-pune-scmhrd-ethics-section-video/", "/blog/"],
+  faqs: [
+    { q: "What is Rodha's 20+20 CAT Quant strategy?", a: "It divides the 40-minute Quant section into an initial round for accessible questions and a second round for the best remaining medium or time-consuming opportunities." },
+    { q: "Should every candidate follow exactly 20+20 minutes?", a: "No. Use it as a tested starting framework. Adjust the boundary only after several mocks show that a different split improves coverage and accuracy." },
+    { q: "When should I leave a CAT Quant question?", a: "Leave when the route is unclear, calculations keep expanding, progress stops beyond your planned limit or continuing would prevent you from seeing easier questions." },
+    { q: "How should I analyse Quant mocks?", a: "Review selection as well as correctness: missed easy questions, time spent on abandoned problems, calculation errors, recognition speed and the quality of first-round choices." },
+    { q: "Does a fixed number of Quant attempts guarantee 99 percentile?", a: "No. Score-percentile relationships and paper difficulty vary. Aim for the best combination of question selection, accuracy and time control in the paper you receive." },
+    { q: "Where can I watch the Rodha Quant strategy video?", a: "It is available on Rodha's official YouTube channel at youtube.com/watch?v=A-4xnync18Y." }
+  ]
+};
+
+const quantHref = `/${quantArticle.slug}/`;
 const xatHref = `/${xatArticle.slug}/`;
 const rodhaHref = `/${rodhaArticle.slug}/`;
 const feeHref = `/${feeArticle.slug}/`;
@@ -429,14 +583,15 @@ const index = {
         table: {
           ...section.table,
           rows: [
+            [quantArticle.title, quantArticle.description, { label: "Read article", href: quantHref }],
             [xatArticle.title, xatArticle.description, { label: "Read article", href: xatHref }],
             [rodhaArticle.title, rodhaArticle.description, { label: "Read article", href: rodhaHref }],
             [feeArticle.title, feeArticle.description, { label: "Read article", href: feeHref }],
-            ...section.table.rows.filter((row) => row[2]?.href !== xatHref && row[2]?.href !== rodhaHref && row[2]?.href !== feeHref)
+            ...section.table.rows.filter((row) => row[2]?.href !== quantHref && row[2]?.href !== xatHref && row[2]?.href !== rodhaHref && row[2]?.href !== feeHref)
           ]
         }
       }
     : section)
 };
 
-module.exports = [index, xatArticle, rodhaArticle, feeArticle, ...priorPages.filter((page) => page.slug !== "blog")];
+module.exports = [index, quantArticle, xatArticle, rodhaArticle, feeArticle, ...priorPages.filter((page) => page.slug !== "blog")];
