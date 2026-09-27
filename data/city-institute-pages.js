@@ -245,5 +245,268 @@ module.exports = [
         "a": "The batch section showed no product when reviewed. Ask the centre directly for the current timetable and intake; this is not evidence that all admissions are closed."
       }
     ]
+  },
+  {
+    "slug": "cat-coaching/delhi/mba-guru",
+    "section": "Delhi NCR institute listing",
+    "title": "MBAGuru Delhi: CAT Coaching, Centres, Fees and Contact",
+    "description": "Research MBAGuru CAT coaching in Delhi: official contacts, learning modes, fee disclosures and enrolment checks. Sources reviewed 27 September 2026.",
+    "answer": "MBAGuru provides classroom CAT preparation in Delhi and an online alternative for NCR students. Its published approach emphasises diagnosis of weak areas and monitored practice. Compare the actual batch and support arrangement before enrolling.",
+    "dateModified": "2026-09-27",
+    "body": [
+      "Official sources reviewed on 27 September 2026. This city listing adds local detail to the existing national profile; branches are not counted as separate institutes. Provider descriptions are attributed claims, not audited classroom performance or guaranteed outcomes."
+    ],
+    "sections": [
+      {
+        "id": "contact",
+        "heading": "Delhi centres and official contact",
+        "paragraphs": [
+          "The official contact page lists Connaught Place, Hudson Lane, Nirman Vihar, Rajouri Garden and Kohat Enclave. Selected contacts are shown below; confirm the current intake before travelling."
+        ],
+        "table": {
+          "headers": [
+            "Centre",
+            "Address",
+            "Telephone"
+          ],
+          "rows": [
+            [
+              "Connaught Place",
+              "P 11/90, first floor, Outer Circle, New Delhi 110001",
+              "+91 9311067486; 011 43528138"
+            ],
+            [
+              "North Campus",
+              "2513, Hudson Lane, Kingsway Camp, GTB Nagar, Delhi 110009",
+              "+91 9311067482; 011 42466908"
+            ],
+            [
+              "East Delhi",
+              "E 366, ground floor, near Nirman Vihar Metro gate 4, New Delhi 110092",
+              "+91 9311067481; 011 42487481"
+            ]
+          ]
+        },
+        "links": [
+          [
+            "Official centre directory and email: info@mbaguru.in",
+            "https://mbaguru.in/contact/"
+          ]
+        ]
+      },
+      {
+        "id": "programme",
+        "heading": "Classroom programme, mocks and support",
+        "paragraphs": [
+          "MBAGuru describes ADAPTIVE Prep as preparation adjusted to a student’s strengths and gaps. Its classroom page advertises three-hour sessions, batches capped at 30, checked homework, doubt-clearing support and AIRCAT analysis. It identifies AIRCATs as 20+ proctored mock CATs. These are provider disclosures; ask which elements remain available in the batch you join.",
+          "Our assessment: this format is worth investigating when regular practice and follow-up matter more than access to additional video content. Ask to see how a weak topic produces a specific follow-up assignment and how a completed mock is reviewed."
+        ],
+        "links": [
+          [
+            "Official classroom programme",
+            "https://mbaguru.in/mbaguru-classroom-cat-coaching/"
+          ]
+        ]
+      },
+      {
+        "id": "faculty",
+        "heading": "Faculty information and batch allocation",
+        "paragraphs": [
+          "The official faculty page lists Vaibhav Kushwah and Rohit Tamotia for Quant, Deekshant Sahrawat among DILR mentors, and Sumesh Unni and Ankit Srivastava among VARC mentors. These are faculty-pool listings, not confirmation of who teaches a particular Delhi batch. Request the current section-wise roster and a demo."
+        ],
+        "links": [
+          [
+            "Official faculty directory",
+            "https://mbaguru.in/faculty/"
+          ]
+        ]
+      },
+      {
+        "id": "fees",
+        "heading": "Online fee disclosure versus classroom fees",
+        "paragraphs": [
+          "The official online fee page publishes ₹35,000–₹45,000 including GST, varying with duration, exam year and offer. This is an online range, not a verified Delhi classroom quote. It describes live teaching, recordings, books by courier, doubt support, mocks and interview preparation.",
+          "The classroom page asks applicants to confirm fees during counselling. No exact classroom price or currently available start date was established in this review. The provider advertises a full refund within 15 days or six classes, whichever comes first; request the applicable written policy and claim procedure before payment."
+        ],
+        "links": [
+          [
+            "Official online fees and inclusions",
+            "https://mbaguru.in/cat-online-coaching-fees/"
+          ],
+          [
+            "Classroom fee and refund disclosure",
+            "https://mbaguru.in/mbaguru-classroom-cat-coaching/"
+          ]
+        ]
+      },
+      {
+        "id": "decision",
+        "heading": "Enrolment checklist for Delhi NCR students",
+        "paragraphs": [
+          "Evaluate a sample class and a sample marked assignment before deciding. A small advertised batch does not by itself establish teaching quality or individual mentor access.",
+          "Confirm class days, recording expiry, missed-session recovery, the exact CAT versus other-exam test count, PI-WAT entitlement and total price. For a late-cycle intake, request the remaining syllabus plan rather than assuming the full advertised teaching hours are still ahead.",
+          "For Noida, Gurugram or other NCR locations, calculate the weekly round-trip commute before choosing a Delhi centre. Online availability does not establish a physical branch in your neighbourhood. We have not independently audited student results and do not assign a numerical rating."
+        ],
+        "links": []
+      },
+      {
+        "id": "compare",
+        "heading": "Related institute research",
+        "paragraphs": [],
+        "links": [
+          [
+            "Delhi NCR coaching directory",
+            "/cat-coaching/delhi/"
+          ],
+          [
+            "MBAGuru national profile",
+            "/cat-coaching/mba-guru/"
+          ],
+          [
+            "Career Launcher Delhi",
+            "/cat-coaching/delhi/career-launcher/"
+          ],
+          [
+            "Review methodology",
+            "/methodology/"
+          ]
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does the ₹35,000–₹45,000 range apply to Delhi classroom coaching?",
+        "a": "No. That is the provider’s published online fee range. Ask for a separate written classroom quotation."
+      },
+      {
+        "q": "Are MBAGuru branches separate institutes in this directory?",
+        "a": "No. Delhi branches belong to one institute and count as one provider in comparisons."
+      }
+    ]
+  },
+  {
+    "slug": "cat-coaching/delhi/career-launcher",
+    "section": "Delhi NCR institute listing",
+    "title": "Career Launcher Delhi: CAT Coaching, Centres, Fees and Contact",
+    "description": "Research Career Launcher CAT coaching in Delhi: official contacts, learning modes, fee disclosures and enrolment checks. Sources reviewed 27 September 2026.",
+    "answer": "Career Launcher offers Delhi classroom and online CAT preparation, alongside other MBA entrance options. Compare the local branch, package inclusions and mock-review support; the national brand name alone does not establish fit for a particular student.",
+    "dateModified": "2026-09-27",
+    "body": [
+      "Official sources reviewed on 27 September 2026. This city listing adds local detail to the existing national profile; branches are not counted as separate institutes. Provider descriptions are attributed claims, not audited classroom performance or guaranteed outcomes."
+    ],
+    "sections": [
+      {
+        "id": "contact",
+        "heading": "Selected Delhi centres and contacts",
+        "table": {
+          "headers": [
+            "Centre",
+            "Address",
+            "Contact"
+          ],
+          "rows": [
+            [
+              "Connaught Place",
+              "A-18, Middle Circle, Rama House, New Delhi 110001",
+              "+91 9289911842; cp@careerlauncher.com"
+            ],
+            [
+              "Dwarka",
+              "Second floor, Plot 23, Sector 12A, above IDFC Bank, New Delhi 110075",
+              "+91 9289911865; dwarka@careerlauncher.com"
+            ],
+            [
+              "North Campus",
+              "8, second floor, Hudson Lane, Kingsway Camp, New Delhi 110009",
+              "+91 8800705747; nc@careerlauncher.com"
+            ]
+          ]
+        },
+        "paragraphs": [
+          "The official Delhi directory also lists NSP, South Extension, Rajouri Garden, CP Kanchenjunga and Preet Vihar. These are branches of one institute. Confirm the address and current batch directly."
+        ],
+        "links": [
+          [
+            "Official Delhi centre directory",
+            "https://www.careerlauncher.com/delhi/"
+          ]
+        ]
+      },
+      {
+        "id": "programmes",
+        "heading": "Course coverage and package differences",
+        "paragraphs": [
+          "The Delhi CAT page covers CAT, XAT, NMAT, SNAP and CMAT, with classroom and online choices. Programme cards describe different live-hour and session totals; several advertise 30 full-length CAT mocks and 45 CAT sectionals. A separate test-series card lists 30+1 mocks. Treat these as different products, not cumulative entitlements.",
+          "The page describes Telegram doubt support, mentoring and recorded pre-class material. Physical books are labelled as an add-on in one card and included in others. Ask for the exact product name and feature sheet."
+        ],
+        "links": [
+          [
+            "Official Delhi CAT programmes",
+            "https://www.careerlauncher.com/delhi/cat-coaching-delhi/"
+          ]
+        ]
+      },
+      {
+        "id": "faculty",
+        "heading": "Faculty and mentoring checks",
+        "paragraphs": [
+          "The Delhi CAT page makes general faculty-experience and percentile claims, but this review did not establish the current teaching roster for each branch. Ask who teaches QA, DILR and VARC in your batch and whether mentoring is individual or shared.",
+          "Our assessment: a sample class should help you judge explanation pace, time spent discussing mistakes and whether you can comfortably ask questions. A national mentor’s appearance in marketing is not evidence of regular access at your local centre."
+        ],
+        "links": []
+      },
+      {
+        "id": "fees",
+        "heading": "Fees, batches and disclosures",
+        "paragraphs": [
+          "No final branch-specific classroom fee or current start date was verified from the reviewed Delhi pages. Ask for a written total with GST and identify paid extras before comparing prices.",
+          "Keep course duration, target exam year, recording access, books, mocks, interview preparation and refund terms on the same quote. For a current-cycle admission, confirm what teaching has already finished and whether missed content is recoverable."
+        ],
+        "links": []
+      },
+      {
+        "id": "fit",
+        "heading": "Who should consider Career Launcher Delhi?",
+        "paragraphs": [
+          "Our editorial assessment: worth shortlisting if you want a local classroom option and a choice of broader MBA entrance preparation packages. Students who already have reliable teaching may prefer to compare test-series-only access before buying another full course.",
+          "The main limitation is package complexity: headline test counts cannot tell you how much feedback you will receive. Ask for a demonstration of one completed mock’s analysis, the process for unresolved doubts and a realistic weekly timetable.",
+          "Compare two reachable centres at your actual travel time. A far-away centre with an attractive advertised programme can still leave less time for independent practice. This desk review does not audit success rates, classroom delivery or student satisfaction; no rating or rank is assigned."
+        ],
+        "links": []
+      },
+      {
+        "id": "compare",
+        "heading": "Related institute research",
+        "paragraphs": [],
+        "links": [
+          [
+            "Delhi NCR coaching directory",
+            "/cat-coaching/delhi/"
+          ],
+          [
+            "Career Launcher national profile",
+            "/cat-coaching/career-launcher/"
+          ],
+          [
+            "MBAGuru Delhi",
+            "/cat-coaching/delhi/mba-guru/"
+          ],
+          [
+            "Review methodology",
+            "/methodology/"
+          ]
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can all Career Launcher Delhi package features be combined?",
+        "a": "No. The official page shows multiple products. Confirm the selected package and included services in writing."
+      },
+      {
+        "q": "Is a current Delhi classroom fee confirmed here?",
+        "a": "No. Contact the selected centre for a current quotation covering taxes and any extras."
+      }
+    ]
   }
 ];
