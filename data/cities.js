@@ -2,6 +2,8 @@ const cities = [
   {
     name: "Delhi",
     slug: "delhi",
+    researchedAt: "27 September 2026",
+    researchedListings: [["MBAGuru Delhi: verified local details", "/cat-coaching/delhi/mba-guru/"], ["Career Launcher Delhi: verified local details", "/cat-coaching/delhi/career-launcher/"]],
     state: "Delhi NCR",
     popularAreas: ["Connaught Place", "South Delhi", "Laxmi Nagar", "Noida", "Gurugram"],
     summary:
