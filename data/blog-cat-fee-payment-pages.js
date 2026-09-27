@@ -570,6 +570,180 @@ const quantArticle = {
   ]
 };
 
+const varcArticle = {
+  slug: "blog/rodha-cat-varc-100-second-skip-rule-mock-strategy",
+  title: "Rodha CAT VARC Mock Strategy: The 100-Second Skip Rule Explained",
+  section: "CAT 2026 Video Guide",
+  description: "Rodha's Brijesh Sir explains a CAT VARC mock strategy built around attempt order, 10-minute checkpoints, the 100-second skip rule and accuracy.",
+  answer: "Rodha faculty Brijesh Sir recommends entering every CAT VARC mock with a planned attempt order, checking progress at 10-minute intervals and leaving a passage or question when roughly 100 seconds produce no useful progress. The rule is a decision trigger, not a demand to finish every question in 100 seconds. Read RCs for structure, judge verbal-ability questions by logical flow, flag uncertain options and protect accuracy instead of chasing a fixed 20-attempt target.",
+  body: [
+    "Rodha published a new 16-minute CAT 2026 VARC strategy video on September 26, 2026. It had crossed 1,600 views when checked on September 27. Brijesh Sir uses the video to address a common mock-test problem: candidates increase attempts without improving selection, then lose marks through avoidable errors.",
+    "The method combines five ideas: decide an attempt order before the mock, use 10-minute progress checks, apply a 100-second skip trigger, read RC passages for structure rather than isolated detail, and reserve the final minutes for flagged questions. This guide turns those ideas into a repeatable practice system while making clear where candidates should adapt the timings to their own evidence."
+  ],
+  sections: [
+    {
+      id: "video-summary",
+      heading: "What does the Rodha VARC strategy video cover?",
+      paragraphs: [
+        "The video is designed for aspirants taking full-length CAT mocks or VARC sectionals. Its starting point is that a high attempt count is not automatically a strong strategy. Trying to reach 20 questions can backfire when the additional attempts are poorly selected or rushed, because CAT scoring depends on correct net marks rather than the number of questions opened.",
+        "Brijesh Sir organises the section around attempt-order planning, 10-minute checkpoints, a 100-second skip rule, RC structure reading, para-jumble flow checks and a short final review. The framework is practical because each element can be observed after a mock: what you attempted first, where time was lost, which questions deserved a skip and whether flagged questions were reviewed calmly."
+      ],
+      links: [
+        ["Watch Rodha's CAT VARC mock-strategy video", "https://www.youtube.com/watch?v=-Dnau2cvRz8"],
+        ["Rodha YouTube channel", "https://www.youtube.com/@Rodha/videos"],
+        ["Rodha official website", "https://www.rodha.co.in/"],
+        ["Rodha CAT mock portal", "https://mocks.rodha.co.in/"]
+      ]
+    },
+    {
+      id: "quick-answer",
+      heading: "Rodha VARC mock strategy at a glance",
+      table: {
+        headers: ["Decision", "Suggested approach", "What to measure after the mock"],
+        rows: [
+          ["Attempt order", "Choose an RC-first, VA-first or mixed order before starting", "Whether the opening order improved calm, accuracy and coverage"],
+          ["Progress control", "Check the section at roughly 10-minute intervals", "Questions completed, accuracy risk and time remaining"],
+          ["Stuck question", "Use about 100 seconds without meaningful progress as a skip trigger", "Time recovered and easier questions reached later"],
+          ["Reading comprehension", "Track argument structure, paragraph roles and author movement", "Errors caused by details versus errors caused by misunderstanding the passage"],
+          ["Verbal ability", "Test logical flow, purpose and option fit rather than intuition alone", "Which question types remain inconsistent"],
+          ["Final review", "Return only to useful flags and check marked answers", "Whether review changed answers for a clear reason"]
+        ]
+      }
+    },
+    {
+      id: "attempt-order",
+      heading: "How should you choose an attempt order in CAT VARC?",
+      paragraphs: [
+        "There is no single best starting order for every candidate. Some readers settle quickly when they begin with an approachable RC passage. Others prefer para summary or another compact VA question to establish rhythm. The value of an order comes from repeatability and evidence, not from copying a topper's sequence.",
+        "Test one order across at least three comparable sectionals. Record the first ten minutes, the number of clean attempts, and your accuracy by question type. If you begin with RC, compare whether you select passages well or automatically open the first one. If you begin with VA, check whether short questions are genuinely quick or merely feel less demanding.",
+        "Avoid changing the order midway through every mock. That makes the result difficult to interpret. Keep the broad sequence stable, then adjust only one decision at a time, such as which RC to open first or how many VA questions to sample before returning to passages."
+      ],
+      list: [
+        "RC-first can suit candidates whose comprehension is stable and who prefer longer focus blocks.",
+        "VA-first can suit candidates who convert para summary or odd-one-out questions reliably.",
+        "A mixed order can work when it is rehearsed, but frequent switching can create avoidable transition cost.",
+        "Use mock evidence to choose; do not treat the order as a rule supplied by the exam."
+      ]
+    },
+    {
+      id: "checkpoints",
+      heading: "How to use 10-minute checkpoints without watching the clock constantly",
+      paragraphs: [
+        "A checkpoint is a brief status check, not an interruption after every question. At around 10, 20 and 30 minutes, note where you are, how many answers are high-confidence and whether the current plan still gives you access to the rest of the section. This prevents one passage or a cluster of VA questions from quietly consuming most of the allotted time.",
+        "The checkpoint should answer three questions: am I converting questions accurately, am I still following the chosen order, and do I need to shorten or expand the next block? If the opening passage was unusually difficult, the correct response may be to reset and select better rather than to accelerate every remaining question.",
+        "Do not use a checkpoint as a fixed attempt quota. Reaching a prescribed number with weak accuracy can damage the score. The useful measure is quality-adjusted progress: confident answers completed, manageable questions still available and enough time preserved for decisions at the end."
+      ]
+    },
+    {
+      id: "100-second-rule",
+      heading: "What is the 100-second skip rule for CAT VARC?",
+      paragraphs: [
+        "The 100-second rule is best understood as an exit alarm. If you have spent roughly a minute and forty seconds on a question or passage entry point without forming a useful interpretation, eliminating options or identifying a clear next step, move on and preserve the remaining section.",
+        "It does not mean every RC question must be completed within 100 seconds. Some questions rely on a passage you already understand and may take far less time; others can justify more time because two options remain and the relevant evidence is clear. The trigger matters when time is being spent without progress.",
+        "Before each mock, define what progress looks like. For RC, it could be locating the relevant paragraph and understanding the question's demand. For para summary, it could be identifying the central claim and eliminating scope errors. For para jumbles, it could be finding a mandatory pair or a clear opening sentence. When none of those signals appears, skipping is a rational scoring choice.",
+        "Candidates who read more slowly should not force the same stopwatch limit on an entire passage. Apply the rule to indecision and stalled solving, then calibrate it after several mocks. The aim is to stop sunk-cost behaviour, not to create panic."
+      ],
+      list: [
+        "Skip when you are rereading the same lines without a new interpretation.",
+        "Skip when no option can be eliminated for a defensible reason.",
+        "Skip when a para-jumble arrangement keeps restarting without a stable link.",
+        "Continue a little longer only when a clear route remains and the expected payoff justifies it.",
+        "Flag selectively; too many flags simply postpone the same problem."
+      ]
+    },
+    {
+      id: "rc-structure",
+      heading: "RC strategy: read the passage for structure, not a memory test",
+      paragraphs: [
+        "The video recommends following the structure of an RC passage instead of attempting to memorise every fact. While reading, identify the broad subject, the author's purpose, and the job performed by each paragraph. A paragraph may introduce a debate, present evidence, challenge an earlier view or draw a conclusion. That map makes later retrieval faster.",
+        "Notice transitions such as however, therefore, for example and in contrast. They reveal changes in direction and relationships between claims. After each paragraph, hold a short mental label rather than a detailed summary. The labels should help you return to evidence when a question asks about inference, tone or the role of a specific statement.",
+        "When evaluating options, separate what the passage supports from what sounds generally reasonable. Extreme language, expanded scope and reversed relationships are common reasons an option fails. Return to the relevant passage location when two options remain; do not choose only because one uses familiar words.",
+        "Mock analysis should classify RC errors. A comprehension error requires slower structural reading or vocabulary work. An option error requires better elimination. A selection error means the passage itself was a poor first choice. Treating all three as 'VARC weakness' hides the fix."
+      ]
+    },
+    {
+      id: "verbal-ability",
+      heading: "How to approach para jumbles, para summary and odd-one-out questions",
+      paragraphs: [
+        "For para jumbles, look for logical dependencies rather than arranging sentences by topic alone. Definitions usually precede references, a claim may precede an example, and pronouns need a clear antecedent. Build reliable pairs or small blocks first, then test whether the complete sequence reads as one developing argument.",
+        "Para-summary questions require coverage of the passage's central claim without importing examples or opinions that are only peripheral. Eliminate options that are too narrow, too broad, more extreme than the paragraph, or accurate in detail but wrong in emphasis.",
+        "In odd-one-out questions, identify the shared progression among the sentences before isolating the outsider. A sentence may discuss the same subject yet break the argument's chronology, viewpoint or cause-and-effect chain. Topic overlap by itself does not prove that a sentence belongs.",
+        "Paragraph-completion questions, where included in the live paper or mocks, should be judged through tone, logical direction and the unresolved purpose of the paragraph. Candidates should always follow the official CAT interface and instructions for the question types that actually appear."
+      ]
+    },
+    {
+      id: "accuracy",
+      heading: "Why accuracy should come before a 20-attempt target",
+      paragraphs: [
+        "The headline example in the Rodha description is a candidate chasing 20 attempts and getting 12 wrong. The lesson is not that 20 attempts are always excessive. A strong reader may attempt that many accurately in a suitable paper. The problem is treating an attempt count as a target independent of passage difficulty and individual accuracy.",
+        "Track net marks by attempt band across mocks. If scores are strongest at 14 to 16 careful attempts and weaken sharply above that level, the immediate task is improving selection before increasing volume. If accuracy remains stable while several easy questions are left untouched, then reading speed or section navigation may deserve attention.",
+        "Accuracy also includes the discipline not to change an answer without evidence. During review, change an option only when you can state the missed passage clue, scope problem or logical link. Anxiety is not a reason to replace a considered answer."
+      ],
+      table: {
+        headers: ["Pattern in mock data", "Likely interpretation", "Practice response"],
+        rows: [
+          ["Attempts rise but net score falls", "Selection or late-section accuracy is weakening", "Set a confidence threshold and analyse the final attempts"],
+          ["High accuracy but many easy questions unseen", "Navigation or reading speed may be limiting coverage", "Practise passage selection and timed scanning"],
+          ["RC errors cluster in inference questions", "Option elimination or textual support is weak", "Write why each rejected option is unsupported"],
+          ["VA accuracy varies widely", "Question-type method is unstable", "Use separate drills before recombining in sectionals"],
+          ["Frequent answer changes become wrong", "Review is driven by doubt rather than evidence", "Require a specific reason before changing an answer"]
+        ]
+      }
+    },
+    {
+      id: "final-review",
+      heading: "How to use the final three minutes of a VARC mock",
+      paragraphs: [
+        "A short closing review works only when flags are selective. Return first to a question where the passage is understood and one precise decision remains. Do not reopen the hardest passage simply because it was skipped earlier.",
+        "Check that answers were marked as intended and that no solvable flagged item was forgotten. For TITA questions, verify order and entry carefully. Avoid beginning a fresh, dense RC question if the remaining time cannot support reading, reasoning and marking.",
+        "The final review should feel procedural rather than emotional. Its purpose is to capture a small number of recoverable marks, not to reconstruct the entire section."
+      ]
+    },
+    {
+      id: "practice-plan",
+      heading: "A four-mock plan to test the strategy",
+      paragraphs: [
+        "Use four sectionals or full mocks to evaluate the framework under similar conditions. Keep the attempt order constant for the first two tests, then change it only if the evidence is poor. Use the same checkpoint notes and record every skip triggered by stalled progress.",
+        "After each test, analyse the decision timeline before reading solutions. Recreate where you were at 10, 20 and 30 minutes, which questions were left, and whether the 100-second trigger protected time or caused a premature exit. Then review content errors.",
+        "After four mocks, retain only the elements that improve repeatable net scores. The method should produce calmer selection and cleaner accuracy, not just a more complicated set of rules."
+      ],
+      list: [
+        "Mock 1: establish your normal attempt order and checkpoint baseline.",
+        "Mock 2: apply the 100-second trigger consistently and record every skip.",
+        "Mock 3: refine RC passage selection and structural notes.",
+        "Mock 4: rehearse selective flagging and a final three-minute review.",
+        "Compare net score, accuracy, easy questions missed and time lost without progress."
+      ]
+    },
+    {
+      id: "sources",
+      heading: "Video and official sources checked",
+      paragraphs: [
+        "This guide was reviewed on September 27, 2026. The video title, publication date, view count, chapter list and strategy topics were checked on Rodha's official YouTube page. The explanations and practice framework above are original editorial analysis of those topics.",
+        "Rodha's timing rules are preparation guidance, not CAT regulations. Candidates should use the official CAT website for examination dates, instructions and candidate notices, and should adapt mock strategy using their own performance data."
+      ],
+      links: [
+        ["Rodha VARC mock-strategy video", "https://www.youtube.com/watch?v=-Dnau2cvRz8"],
+        ["Rodha YouTube channel", "https://www.youtube.com/@Rodha/videos"],
+        ["Rodha official website", "https://www.rodha.co.in/"],
+        ["Rodha CAT mocks", "https://mocks.rodha.co.in/"],
+        ["Official CAT 2026 website", "https://iimcat.ac.in/"]
+      ]
+    }
+  ],
+  related: ["/cat-preparation/", "/cat-preparation/mock-tests/", "/cat-2026/exam-pattern/", "/cat-coaching/rodha/", "/blog/rodha-cat-quant-attempt-strategy-20-20-minute-split/", "/blog/"],
+  faqs: [
+    { q: "What is the 100-second skip rule in CAT VARC?", a: "It is a decision trigger: if roughly 100 seconds produce no meaningful progress, skip or flag the question and use the remaining time on better opportunities." },
+    { q: "Does every VARC question have to be solved in 100 seconds?", a: "No. The rule targets stalled solving, not all questions. Adapt the timing using mock data and the progress you are making." },
+    { q: "Should I begin CAT VARC with RC or verbal ability?", a: "Either can work. Test a stable order across several mocks and choose the one that gives you the best combination of calm, coverage and accuracy." },
+    { q: "How often should I check time in VARC?", a: "Brijesh Sir suggests broad 10-minute checkpoints. Use them as status reviews rather than fixed attempt quotas." },
+    { q: "How should I read a CAT RC passage?", a: "Track the central purpose, paragraph roles and changes in the author's argument. Return to specific details when a question requires evidence." },
+    { q: "Is attempting 20 VARC questions a bad strategy?", a: "Not automatically. It becomes harmful when the target forces weak selection or low accuracy. Use net mock scores to identify a sustainable attempt range." },
+    { q: "Where can I watch Rodha's VARC strategy video?", a: "The video is available on Rodha's official YouTube channel at youtube.com/watch?v=-Dnau2cvRz8." }
+  ]
+};
+
+const varcHref = `/${varcArticle.slug}/`;
 const quantHref = `/${quantArticle.slug}/`;
 const xatHref = `/${xatArticle.slug}/`;
 const rodhaHref = `/${rodhaArticle.slug}/`;
@@ -583,15 +757,16 @@ const index = {
         table: {
           ...section.table,
           rows: [
+            [varcArticle.title, varcArticle.description, { label: "Read article", href: varcHref }],
             [quantArticle.title, quantArticle.description, { label: "Read article", href: quantHref }],
             [xatArticle.title, xatArticle.description, { label: "Read article", href: xatHref }],
             [rodhaArticle.title, rodhaArticle.description, { label: "Read article", href: rodhaHref }],
             [feeArticle.title, feeArticle.description, { label: "Read article", href: feeHref }],
-            ...section.table.rows.filter((row) => row[2]?.href !== quantHref && row[2]?.href !== xatHref && row[2]?.href !== rodhaHref && row[2]?.href !== feeHref)
+            ...section.table.rows.filter((row) => row[2]?.href !== varcHref && row[2]?.href !== quantHref && row[2]?.href !== xatHref && row[2]?.href !== rodhaHref && row[2]?.href !== feeHref)
           ]
         }
       }
     : section)
 };
 
-module.exports = [index, quantArticle, xatArticle, rodhaArticle, feeArticle, ...priorPages.filter((page) => page.slug !== "blog")];
+module.exports = [index, varcArticle, quantArticle, xatArticle, rodhaArticle, feeArticle, ...priorPages.filter((page) => page.slug !== "blog")];
