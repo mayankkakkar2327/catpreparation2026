@@ -769,4 +769,8 @@ const index = {
     : section)
 };
 
+const mumbaiGuide = require("./city-institute-pages").find(page => page.slug === "blog/best-cat-coaching-in-mumbai");
+const latestArticles = index.sections.find(section => section.id === "latest-articles");
+latestArticles.table.rows.unshift([mumbaiGuide.title, mumbaiGuide.description, { label: "Read article", href: "/blog/best-cat-coaching-in-mumbai/" }]);
+
 module.exports = [index, varcArticle, quantArticle, xatArticle, rodhaArticle, feeArticle, ...priorPages.filter((page) => page.slug !== "blog")];
