@@ -12,6 +12,8 @@ const cities = [
   {
     name: "Mumbai",
     slug: "mumbai",
+    researchedAt: "28 September 2026",
+    researchedListings: [["IMS Mumbai: local details", "/cat-coaching/mumbai/ims/"], ["CATKing Mumbai: local details", "/cat-coaching/mumbai/catking/"], ["Compare five Mumbai institutes", "/blog/best-cat-coaching-in-mumbai/"]],
     state: "Maharashtra",
     popularAreas: ["Dadar", "Andheri", "Thane", "Vashi", "Borivali"],
     summary:
