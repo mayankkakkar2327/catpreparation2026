@@ -508,5 +508,501 @@ module.exports = [
         "a": "No. Contact the selected centre for a current quotation covering taxes and any extras."
       }
     ]
+  },
+  {
+    "slug": "cat-coaching/mumbai/ims",
+    "title": "IMS Mumbai: CAT Courses, Centres, Fees and Contacts",
+    "section": "Mumbai CAT coaching research",
+    "description": "IMS Mumbai: CAT Courses, Centres, Fees and Contacts. Compare verified sources, fees, learning modes and questions to ask before joining. Reviewed 28 September 2026.",
+    "answer": "IMS has Mumbai classroom centres alongside online and test-series options. Shortlist a reachable branch and compare the teaching roster, mentoring access and exact mock package before choosing a course.",
+    "body": [
+      "Sources reviewed on 28 September 2026. Provider programme statements are disclosures, not independently audited results. Current seat availability and batch-specific faculty must be confirmed before enrolment."
+    ],
+    "sections": [
+      {
+        "id": "contact",
+        "heading": "Selected Mumbai centre contacts",
+        "paragraphs": [
+          "The official city directory lists these CAT locations. Call 9167127127 for the listed centres and confirm the current room and timetable before visiting."
+        ],
+        "links": [
+          [
+            "Official IMS Mumbai directory",
+            "https://www.imsindia.com/center/mumbai/"
+          ]
+        ],
+        "table": {
+          "headers": [
+            "Centre",
+            "Address",
+            "Email"
+          ],
+          "rows": [
+            [
+              "Dadar",
+              "Unit 19A, first floor, Rajaram Estate, Rajaramseth Lad Chowk, Naigaon Cross Road, Dadar East 400014",
+              "dadar@imsindia.com"
+            ],
+            [
+              "Churchgate",
+              "22, first floor, Khetan Bhavan, 198 Jamshedji Tata Road, Churchgate 400020",
+              "churchgate@imsindia.com"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "courses",
+        "heading": "CAT programmes and mock-test breakdown",
+        "paragraphs": [
+          "The Mumbai campaign describes classroom, live-online, self-learning and SimCAT plans. Its CAT 2026 block advertises 300+ teaching hours, 150 hours of video content and 110+ full-length mocks, including 40+ SimCATs and 70 tests for other management entrances. These totals describe the advertised package, not remaining teaching for a late joiner.",
+          "Mentoring and GDPI support are mentioned. Request the selected plan’s test inventory, mentor-session entitlement and interview-support conditions rather than treating all displayed plans as identical."
+        ],
+        "links": [
+          [
+            "Official Mumbai programme disclosures",
+            "https://www.imsindia.com/campaign/cat-coaching-mumbai.html"
+          ]
+        ]
+      },
+      {
+        "id": "faculty",
+        "heading": "Faculty and local teaching arrangements",
+        "paragraphs": [
+          "The city page names Nilesh Mitra and Rajesh Lad as Quant mentors and Deepak Hasija as a Verbal mentor. This is a city faculty pool, not a confirmed allocation to every branch.",
+          "Ask for a demo with the teachers assigned to your batch. Check whether the explanation pace suits your current level and how unanswered doubts are followed up."
+        ],
+        "links": [
+          [
+            "Official mentor listings",
+            "https://www.imsindia.com/center/mumbai/"
+          ]
+        ]
+      },
+      {
+        "id": "fees",
+        "heading": "Fees and details still to confirm",
+        "paragraphs": [
+          "The reviewed campaign page directs pricing enquiries to counselling; it does not provide a final local classroom quote. Ask for GST, books, recordings and test-series costs in one written total.",
+          "The campaign’s Andheri heading and address disagree about east versus west. Use the current branch directory and call before travelling. No new batch start date or available seat was independently confirmed."
+        ],
+        "links": []
+      },
+      {
+        "id": "fit",
+        "heading": "Our assessment and enrolment checklist",
+        "paragraphs": [
+          "IMS is worth comparing when a local class routine and a defined test programme are priorities. A good decision depends on whether the branch offers usable feedback, not on the size of an advertised question bank.",
+          "Before paying, request the remaining syllabus calendar, access expiry, missed-class arrangement, mock-review process and refund terms. Compare a classroom quote with the online plan only after matching inclusions. We do not assign a numerical rating or promise outcomes."
+        ],
+        "links": []
+      },
+      {
+        "id": "related",
+        "heading": "Related research",
+        "paragraphs": [],
+        "links": [
+          [
+            "Mumbai comparison guide",
+            "/blog/best-cat-coaching-in-mumbai/"
+          ],
+          [
+            "Mumbai directory",
+            "/cat-coaching/mumbai/"
+          ],
+          [
+            "IMS national profile",
+            "/cat-coaching/ims/"
+          ]
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Are all 110+ advertised IMS mocks CAT tests?",
+        "a": "No. The advertised total combines SimCATs with tests for other management entrances. Confirm your chosen plan’s breakdown."
+      },
+      {
+        "q": "Is an IMS Mumbai classroom price verified here?",
+        "a": "No final classroom quote was displayed in the campaign reviewed. Request a written quote from the branch."
+      }
+    ]
+  },
+  {
+    "slug": "cat-coaching/mumbai/catking",
+    "title": "CATKing Mumbai: Offline Centres, Hybrid Course and Fees",
+    "section": "Mumbai CAT coaching research",
+    "description": "CATKing Mumbai: Offline Centres, Hybrid Course and Fees. Compare verified sources, fees, learning modes and questions to ask before joining. Reviewed 28 September 2026.",
+    "answer": "CATKing lists Mumbai-region classroom centres and a hybrid CAT course. Compare the in-person timetable with the online component, and confirm the exact product name before paying.",
+    "body": [
+      "Sources reviewed on 28 September 2026. Provider programme statements are disclosures, not independently audited results. Current seat availability and batch-specific faculty must be confirmed before enrolment."
+    ],
+    "sections": [
+      {
+        "id": "contact",
+        "heading": "Mumbai-region centres and contacts",
+        "paragraphs": [
+          "The official centre directory lists Andheri, Borivali and Thane. Admissions: 8999118999. Email: support@catking.in. Thane is included as part of the wider Mumbai coaching market."
+        ],
+        "links": [
+          [
+            "Official CATKing centres",
+            "https://catking.in/offline-centers"
+          ]
+        ],
+        "table": {
+          "headers": [
+            "Centre",
+            "Listed address"
+          ],
+          "rows": [
+            [
+              "Andheri East",
+              "Office 201, second floor, Vertex Vikas Building, Mumbai 400069"
+            ],
+            [
+              "Borivali West",
+              "310, third floor, Sai Leela Apartment, SV Road, opposite Moksh Plaza, Datta Park"
+            ],
+            [
+              "Thane West",
+              "Third floor, Panama Planet, Gopal Krishna Gokhale Marg, near Gaondevi Mandir 400602"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "course",
+        "heading": "Hybrid programme and displayed price",
+        "paragraphs": [
+          "The CAT 2026 hybrid page shows online plus Mumbai offline teaching and a displayed offer of ₹34,999. Confirm taxes, coupon rules and the final payable amount. Its title and course labels mix Intensive, Offline and Hybrid wording; ask which exact package you are buying.",
+          "The page advertises 45 CAT mocks and 45 sectionals, non-CAT preparation and a doubt forum. It names Sumit Sir for verbal workshops. This does not establish the branch teaching roster or a guaranteed response time."
+        ],
+        "links": [
+          [
+            "Official hybrid course page",
+            "https://courses.catking.in/courses/cat-hybrid-2026"
+          ]
+        ]
+      },
+      {
+        "id": "terms",
+        "heading": "Books, validity and batch checks",
+        "paragraphs": [
+          "The course FAQ lists printed books as an extra ₹2,000. The content states validity to 30 May 2027, while a navigation label mentions April 2027. Obtain written confirmation of expiry and inclusions.",
+          "No branch-specific start date or open seat was confirmed. Ask how often you attend physically, which sessions are live online, how missed classes are recovered and which local teachers handle doubts."
+        ],
+        "links": []
+      },
+      {
+        "id": "assessment",
+        "heading": "Who should consider it?",
+        "paragraphs": [
+          "Our assessment: shortlist this option if you want a local touchpoint with digital study access and preparation for more than CAT. Request a timetable separating classroom sessions from streamed or recorded content; the word hybrid alone is not enough to compare workloads.",
+          "Check a sample mock and its explanation quality in the section you find hardest. Then compare the support you can realistically use against a classroom-only quote and an online-only quote.",
+          "Published marketing claims and testimonials were not audited. No star rating, placement claim or percentile guarantee is assigned in this listing."
+        ],
+        "links": []
+      },
+      {
+        "id": "related",
+        "heading": "Related research",
+        "paragraphs": [],
+        "links": [
+          [
+            "Mumbai comparison guide",
+            "/blog/best-cat-coaching-in-mumbai/"
+          ],
+          [
+            "Mumbai directory",
+            "/cat-coaching/mumbai/"
+          ],
+          [
+            "CATKing national profile",
+            "/cat-coaching/catking/"
+          ]
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does the displayed CATKing offer establish the final price?",
+        "a": "No. Confirm checkout taxes, coupon rules, printed-material charges and the precise package before paying."
+      },
+      {
+        "q": "Are Andheri, Borivali and Thane counted as different institutes?",
+        "a": "No. They are locations of one brand and count as one institute in comparisons."
+      }
+    ]
+  },
+  {
+    "slug": "blog/best-cat-coaching-in-mumbai",
+    "title": "Best CAT Coaching in Mumbai: 5 Institutes Compared",
+    "section": "Mumbai CAT coaching research",
+    "description": "Best CAT Coaching in Mumbai: 5 Institutes Compared. Compare verified sources, fees, learning modes and questions to ask before joining. Reviewed 28 September 2026.",
+    "answer": "Five Mumbai CAT coaching options to compare are IMS, Career Launcher, T.I.M.E., CATKing and CPLC Education. The best fit depends on your local teacher, commute, mock feedback, schedule and written course inclusions—not a universal rank.",
+    "body": [
+      "Sources reviewed on 28 September 2026. Provider programme statements are disclosures, not independently audited results. Current seat availability and batch-specific faculty must be confirmed before enrolment."
+    ],
+    "sections": [
+      {
+        "id": "methodology",
+        "heading": "How this shortlist was researched",
+        "paragraphs": [
+          "This is an unranked editorial shortlist of five distinct providers with Mumbai-specific official information. We checked local presence, CAT relevance, learning format, support disclosures and price clarity. We did not mystery-shop classes, audit student outcomes or use paid placement to order this list.",
+          "Mumbai here includes nearby Thane and Navi Mumbai where a provider’s city network covers them. Multiple branches count as one institute. Official websites establish what is advertised; they cannot by themselves establish current classroom quality.",
+          "The site’s city directory remains the place to browse providers. This article helps compare the five options and identify the questions each leaves unanswered. Fees not independently established from a current offer are marked for enquiry rather than estimated."
+        ],
+        "links": []
+      },
+      {
+        "id": "comparison",
+        "heading": "Mumbai CAT coaching comparison at a glance",
+        "paragraphs": [
+          "The suitability column is our editorial assessment. It is not an institute performance ranking."
+        ],
+        "links": [],
+        "table": {
+          "headers": [
+            "Institute",
+            "Local / learning signal",
+            "Fee position",
+            "Compare if you need"
+          ],
+          "rows": [
+            [
+              "IMS",
+              "Mumbai branches; classroom and online routes",
+              "Obtain a plan-specific quote",
+              "A local teaching and mock-review routine"
+            ],
+            [
+              "Career Launcher",
+              "Mumbai CAT classroom and other preparation products",
+              "Final selected-package quote needed",
+              "CAT plus other MBA entrance preparation"
+            ],
+            [
+              "T.I.M.E.",
+              "Mumbai city network; classroom and online described",
+              "Current branch price not verified",
+              "A nearby centre to evaluate through a demo"
+            ],
+            [
+              "CATKing",
+              "Andheri, Borivali and Thane; hybrid option",
+              "Displayed hybrid offer ₹34,999; reconfirm total",
+              "A mix of digital access and local attendance"
+            ],
+            [
+              "CPLC Education",
+              "Borivali-based MBA entrance option",
+              "Current CAT fee not verified",
+              "A local institute to compare with national brands"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "ims",
+        "heading": "IMS: compare the branch and the SimCAT package",
+        "paragraphs": [
+          "IMS’s official Mumbai directory confirms local CAT centres. Its programme page distinguishes CAT mocks from tests for other MBA exams and offers several learning routes. Do not compare combined mock totals with another institute’s CAT-only count.",
+          "Our assessment: put the branch timetable and a sample mock-analysis discussion ahead of brand familiarity. Ask how a mentor turns repeated errors into a weekly practice plan and whether that service is included."
+        ],
+        "links": [
+          [
+            "Detailed IMS Mumbai listing",
+            "/cat-coaching/mumbai/ims/"
+          ],
+          [
+            "Official Mumbai directory",
+            "https://www.imsindia.com/center/mumbai/"
+          ],
+          [
+            "Official programme page",
+            "https://www.imsindia.com/campaign/cat-coaching-mumbai.html"
+          ]
+        ]
+      },
+      {
+        "id": "career-launcher",
+        "heading": "Career Launcher: compare CAT and other-exam coverage",
+        "paragraphs": [
+          "The Mumbai CAT page advertises classroom sessions, mock tests and online doubt clearing. One card specifies 30 CAT and 82 non-CAT mocks; others show different combinations. These are different packages, so ask which applies to the quote.",
+          "The selected course should match the exams you actually intend to take. A larger combined test total is not automatically more useful. Check whether printed material, interview preparation and personal mentoring are included or separate. A final local fee, current intake and section-wise branch roster were not verified."
+        ],
+        "links": [
+          [
+            "Career Launcher profile",
+            "/cat-coaching/career-launcher/"
+          ],
+          [
+            "Official Mumbai CAT programmes",
+            "https://www.careerlauncher.com/mumbai/cat-coaching/"
+          ]
+        ]
+      },
+      {
+        "id": "time",
+        "heading": "T.I.M.E.: verify the current batch rather than legacy course counts",
+        "paragraphs": [
+          "The current official Mumbai page describes a city network with classroom and online teaching, practice, mocks and doubt support. Its metadata lists areas including Andheri, Borivali, Churchgate and Dadar.",
+          "An older official Mumbai CAT page still refers to 2018–19 teaching and results. We have excluded those old counts from the comparison. Ask the centre for the current exam-year brochure, fees, faculty roster and test inventory.",
+          "Our assessment: consider a convenient branch if you want scheduled classes, but judge it through a demo and a written batch plan. Neither historical results nor a national mock-series name establish the quality of your local teaching."
+        ],
+        "links": [
+          [
+            "T.I.M.E. profile",
+            "/cat-coaching/time/"
+          ],
+          [
+            "Current Mumbai city page",
+            "https://time4education.com/Mumbai/"
+          ],
+          [
+            "Legacy page used only to flag outdated information",
+            "https://timecore.time4education.com/CAT-coaching-in-Mumbai"
+          ]
+        ]
+      },
+      {
+        "id": "catking",
+        "heading": "CATKing: clarify the classroom component of hybrid learning",
+        "paragraphs": [
+          "CATKing’s official centre page lists three Mumbai-region locations. The hybrid course offer is visible, but product labels and validity wording need clarification. Our detailed listing records those questions instead of treating every advertised feature as a confirmed entitlement.",
+          "Our assessment: a hybrid course is useful only if its actual mix fits your routine. Request separate classroom, live-online and self-study timetables before comparing it with a fully offline course."
+        ],
+        "links": [
+          [
+            "Detailed CATKing Mumbai listing",
+            "/cat-coaching/mumbai/catking/"
+          ],
+          [
+            "Official offline centres",
+            "https://catking.in/offline-centers"
+          ],
+          [
+            "Official hybrid offer",
+            "https://courses.catking.in/courses/cat-hybrid-2026"
+          ]
+        ]
+      },
+      {
+        "id": "cplc",
+        "heading": "CPLC Education: a Borivali option for a local comparison",
+        "paragraphs": [
+          "CPLC Education identifies itself as Career Planning & Learning Center. Its official site lists 301, Sai Leela CHS, SV Road, opposite Dharamsi Bhatia Hall, Borivali West; contact +91 9867959506 or vishesh@cplceducation.in. It advertises MBA entrance preparation, study material, mock analysis and mentoring.",
+          "The provider’s own LinkedIn description also identifies CAT and other MBA entrance training in Mumbai. We have not treated similarly named historical CPLC businesses as interchangeable. A current CAT batch price, exact mock count and named teaching roster were not verified.",
+          "Our assessment: this is a useful local alternative to investigate if a nearby teacher and direct contact matter to you. Ask for a CAT-specific demo and plan; general entrance-exam claims do not establish the contents of the course you will receive."
+        ],
+        "links": [
+          [
+            "Official CPLC Education site",
+            "https://cplceducation.in/"
+          ],
+          [
+            "Provider LinkedIn description",
+            "https://in.linkedin.com/company/cplc-education"
+          ]
+        ]
+      },
+      {
+        "id": "fees",
+        "heading": "How to compare fees without comparing different products",
+        "paragraphs": [
+          "Ask each institute for one written quotation containing the target exam year, course format, class hours remaining, all taxes, books, mock tests, recordings, mentoring, interview preparation and refund policy. Keep the quote date. A headline discount without those details is not a reliable comparison.",
+          "The visible CATKing offer is a specific product observation, not a city-wide benchmark or a guaranteed price. We did not verify equivalent current classroom quotes for the other four. That prevents a defensible cheapest-to-most-expensive ranking.",
+          "If you already have teaching and need only practice, price a test series separately. If you struggle with consistency, ask how missed homework and unresolved doubts are followed up; purchasing additional lectures may not address that need."
+        ],
+        "links": []
+      },
+      {
+        "id": "commute",
+        "heading": "Choose a centre around your weekly routine",
+        "paragraphs": [
+          "Compare door-to-door travel at the time your class would actually run, including the return journey. Across Mumbai’s transport corridors, a convenient centre on paper may still cost several practice sessions each week.",
+          "A working professional can compare weekend attendance with an online plan, while a student needing external structure may prefer a nearby regular class. Neither format wins automatically. Choose the arrangement that leaves enough time to solve questions and analyse mistakes independently."
+        ],
+        "links": []
+      },
+      {
+        "id": "demo",
+        "heading": "Questions to take to a demo class",
+        "paragraphs": [],
+        "links": [],
+        "table": {
+          "headers": [
+            "Question",
+            "Evidence to request"
+          ],
+          "rows": [
+            [
+              "Who teaches my batch?",
+              "A section-wise roster and a demo with the assigned teacher"
+            ],
+            [
+              "What happens after a low mock score?",
+              "A sample review and the follow-up practice process"
+            ],
+            [
+              "What can I still complete in this intake?",
+              "Remaining syllabus and revision calendar"
+            ],
+            [
+              "What if I miss sessions?",
+              "Recording access, expiry and make-up policy"
+            ],
+            [
+              "What does the total include?",
+              "A dated all-inclusive quotation and refund terms"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "related",
+        "heading": "Next steps and related research",
+        "paragraphs": [
+          "Shortlist two providers that you can attend consistently, obtain comparable quotes and inspect a sample class and mock review. Recheck official pages before enrolling; source verification is not confirmation of a seat or a promised result."
+        ],
+        "links": [
+          [
+            "Mumbai coaching directory",
+            "/cat-coaching/mumbai/"
+          ],
+          [
+            "Online coaching alternatives",
+            "/cat-coaching/online/"
+          ],
+          [
+            "CAT mock-test guide",
+            "/cat-preparation/mock-tests/"
+          ],
+          [
+            "Our methodology",
+            "/methodology/"
+          ]
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Which is the best CAT coaching in Mumbai?",
+        "a": "There is no verified universal winner. Compare IMS, Career Launcher, T.I.M.E., CATKing and CPLC Education by assigned teacher, commute, mock feedback, timetable and total written cost."
+      },
+      {
+        "q": "Are the institutes ranked from best to worst?",
+        "a": "No. The shortlist is unranked and based on official local information and decision criteria, not independently audited student outcomes."
+      },
+      {
+        "q": "Should I count Thane branches as additional institutes?",
+        "a": "No. This guide includes the wider Mumbai market, but multiple branches of one brand still count as one institute."
+      },
+      {
+        "q": "Are coaching fees guaranteed on this page?",
+        "a": "No. Offers and inclusions change. Obtain a current written quotation for the precise programme before paying."
+      }
+    ]
   }
 ];
