@@ -39,6 +39,8 @@ const cities = [
   {
     name: "Hyderabad",
     slug: "hyderabad",
+    researchedAt: "29 September 2026",
+    researchedListings: [["IMS Hyderabad: local details", "/cat-coaching/hyderabad/ims/"], ["Career Launcher Hyderabad: local details", "/cat-coaching/hyderabad/career-launcher/"]],
     state: "Telangana",
     popularAreas: ["Ameerpet", "Madhapur", "Kukatpally", "Secunderabad", "Gachibowli"],
     summary:
