@@ -743,6 +743,200 @@ const varcArticle = {
   ]
 };
 
+const iimaPlacementArticle = {
+  slug: "blog/iim-ahmedabad-placements-2026-2-31-crore-package-explained",
+  title: "IIM Ahmedabad Placements 2026 Explained: What the Rs 2.31 Crore Package Means",
+  section: "IIM Placement Analysis",
+  description: "IIM Ahmedabad's audited 2026 placement report records Rs 2.31 crore as maximum earning potential, not guaranteed cash. See salary, offers and recruiter data.",
+  answer: "IIM Ahmedabad's audited PGP placement report lists Rs 2.31 crore as the highest combined maximum earning potential after converting an international offer into INR. It is not the highest fixed salary or guaranteed cash. Across 392 accepted offers, the combined median maximum earning potential was Rs 37 lakh, while the combined median total guaranteed cash was Rs 32.5 lakh. The report records 386 domestic and six international offers.",
+  body: [
+    "Rodha published a new video on September 28, 2026, explaining the headline around IIM Ahmedabad's Rs 2.31 crore package. The video crossed 3,900 views within roughly 12 hours. Its central message is useful for MBA aspirants: placement figures need to be read by salary head, location and sample size rather than treated as one interchangeable CTC number.",
+    "We checked the claims against IIM Ahmedabad's audited Final Placement Report 2026. The official tables separate fixed yearly cash, one-time payments, total guaranteed cash and maximum earning potential. That distinction changes the meaning of the biggest number and gives candidates a more realistic view of the batch outcome."
+  ],
+  sections: [
+    {
+      id: "direct-answer",
+      heading: "What does the Rs 2.31 crore IIM Ahmedabad package actually mean?",
+      paragraphs: [
+        "The Rs 2,31,03,000 figure appears in the combined INR table as the maximum earning potential. The report defines maximum earning potential as total guaranteed cash plus the maximum possible variable pay and other first-year components. It can include long-term compensation such as performance-linked pay, stock options and joining or retention elements that are part of the offer.",
+        "That number is therefore not equivalent to fixed annual cash in hand. The highest combined fixed yearly cash component was Rs 90,52,500, while the highest combined total guaranteed cash component was Rs 99,93,960. The Rs 2.31 crore headline came from the maximum earning potential attached to an international offer converted into rupees at the report's stated June 30, 2026 exchange rate.",
+        "The international table shows a maximum earning potential of USD 243,000. Only six accepted offers were international, so this maximum should not be used as a description of the typical IIM Ahmedabad graduate."
+      ],
+      table: {
+        headers: ["Salary measure", "Combined maximum", "Combined mean", "Combined median"],
+        rows: [
+          ["Fixed yearly cash", "Rs 90,52,500", "Rs 29,47,855", "Rs 29,06,523"],
+          ["One-time cash payment", "Rs 12,75,000", "Rs 3,98,570", "Rs 3,00,000"],
+          ["Total guaranteed cash", "Rs 99,93,960", "Rs 32,46,782", "Rs 32,50,000"],
+          ["Maximum earning potential", "Rs 2,31,03,000", "Rs 37,97,495", "Rs 37,00,000"]
+        ]
+      }
+    },
+    {
+      id: "video-summary",
+      heading: "What does the Rodha placement video cover?",
+      paragraphs: [
+        "Presented by Parth, the Rodha video covers the placement process, the Rs 2.31 crore headline, salary breakdown, guaranteed cash, recruiter data, consulting's share and international offers. Its short format is built around reading the audited report instead of repeating the largest package figure without context.",
+        "The video also points to placement transparency. IIM Ahmedabad reports under the Indian Placement Reporting Standards and the 2026 document includes an audit statement from B2K Analytics. The auditor says it validated remuneration, function and location data using recruiter communications supplied through IIMA and found the report compliant with IPRS Revision 2.2."
+      ],
+      links: [
+        ["Watch Rodha's IIM Ahmedabad placements video", "https://www.youtube.com/watch?v=c-Z2km10_sg"],
+        ["Rodha YouTube channel", "https://www.youtube.com/@Rodha/videos"],
+        ["Rodha official website", "https://www.rodha.co.in/"],
+        ["IIM Ahmedabad audited Final Placement Report 2026", "https://www01.iima.ac.in/iprs/gallery/2026/PGP_Audit_Report_Finals_2026.pdf"]
+      ]
+    },
+    {
+      id: "salary-heads",
+      heading: "Fixed salary, guaranteed cash and maximum earning potential",
+      paragraphs: [
+        "Fixed yearly cash is the cleanest starting point for comparison. IIMA defines it as annual basic salary plus guaranteed cash payments and allowances that form part of the annual package. These components are final and are not linked to performance.",
+        "A one-time cash payment is paid once, commonly at joining. Total guaranteed cash is the sum of fixed yearly cash and the one-time cash component. It is broader than fixed pay but still limited to cash that the offer guarantees.",
+        "Maximum earning potential adds the maximum possible variable pay and other first-year compensation included in the offer. Because variable pay may depend on individual or company performance, the maximum is not necessarily what every recipient will earn. Long-term benefits payable after the first year are excluded from this calculation under the report's definition.",
+        "When comparing MBA programmes, candidates should keep the same salary head on both sides. Comparing one school's maximum earning potential with another school's fixed cash median can produce a dramatic but misleading conclusion."
+      ],
+      list: [
+        "Use fixed yearly cash to understand the recurring guaranteed annual cash base.",
+        "Use total guaranteed cash when joining bonuses and other guaranteed one-time payments matter.",
+        "Treat maximum earning potential as an upper-bound first-year figure, not assured take-home pay.",
+        "Check whether a published number is domestic, international or combined.",
+        "Read the median with the sample size before focusing on the maximum."
+      ]
+    },
+    {
+      id: "domestic-data",
+      heading: "What were the domestic salary figures at IIM Ahmedabad in 2026?",
+      paragraphs: [
+        "The audited report includes 386 domestic accepted offers. Domestic fixed yearly cash had a mean of Rs 28,82,958 and a median of Rs 28,81,369. The maximum was Rs 81.6 lakh, while the minimum was Rs 12 lakh.",
+        "Domestic total guaranteed cash averaged Rs 31,83,792 and had a median of Rs 32.5 lakh. Domestic maximum earning potential averaged Rs 36,98,764, with a median of Rs 37 lakh. These figures describe the batch more meaningfully than a single outlier because all 386 domestic offers are represented.",
+        "The fact that the domestic median and mean are relatively close within each headline salary category suggests the central outcome is not being described solely by one or two very large offers. It still does not mean every student received the median; roles, experience, function and employer differed across the batch."
+      ],
+      table: {
+        headers: ["Domestic salary head", "Minimum", "Maximum", "Mean", "Median", "Offers"],
+        rows: [
+          ["Fixed yearly cash", "Rs 12,00,000", "Rs 81,60,000", "Rs 28,82,958", "Rs 28,81,369", "386"],
+          ["Total guaranteed cash", "Rs 12,00,000", "Rs 81,60,000", "Rs 31,83,792", "Rs 32,50,000", "386"],
+          ["Maximum earning potential", "Rs 12,00,000", "Rs 81,60,000", "Rs 36,98,764", "Rs 37,00,000", "386"]
+        ]
+      }
+    },
+    {
+      id: "international-data",
+      heading: "How many international offers were there?",
+      paragraphs: [
+        "The report records six international accepted offers: four in Dubai, one in Hong Kong and one in Japan. Their fixed yearly cash ranged from USD 40,016 to USD 97,500, with a median of USD 77,760.",
+        "International total guaranteed cash reached a maximum of USD 107,640. International maximum earning potential ranged from USD 49,380 to USD 243,000, with a mean of USD 107,170 and a median of USD 81,000.",
+        "The Rs 2.31 crore headline is the INR conversion of the USD 243,000 maximum earning potential, using closing exchange rates dated June 30, 2026. Currency conversion makes the figure easy to compare visually, but cost of living, taxation, relocation and local purchasing power can materially affect the practical value of an overseas offer."
+      ],
+      table: {
+        headers: ["International measure", "Minimum", "Maximum", "Mean", "Median", "Offers"],
+        rows: [
+          ["Fixed yearly cash", "USD 40,016", "USD 97,500", "USD 75,299", "USD 77,760", "6"],
+          ["Total guaranteed cash", "USD 41,236", "USD 107,640", "USD 77,193", "USD 77,760", "6"],
+          ["Maximum earning potential", "USD 49,380", "USD 243,000", "USD 107,170", "USD 81,000", "6"]
+        ]
+      }
+    },
+    {
+      id: "placement-pool",
+      heading: "Was the entire IIM Ahmedabad placement pool placed?",
+      paragraphs: [
+        "The report lists 402 students eligible for placements. Of these, 392 sought placement through the institute and 392 offers were accepted. Ten students did not seek placement through IIMA: three chose entrepreneurship, one planned to return to or join a family business, and six opted out of the campus process.",
+        "This supports the institute's statement that the recruitment cycle was completed for the students who sought campus placement. It is more precise than saying every eligible student accepted a campus job, because ten eligible students followed another path.",
+        "The graduating-pool table lists 408 students in total, including students from the PGP, dual-degree or previous-year categories described in the report. Six PGP or dual-degree students graduating in 2027 were eligible for the 2026 placement process."
+      ],
+      table: {
+        headers: ["Placement-pool measure", "Number"],
+        rows: [
+          ["Students eligible for placements", "402"],
+          ["Students who sought placement through IIMA", "392"],
+          ["Offers accepted", "392"],
+          ["Students who did not seek placement", "10"],
+          ["Domestic accepted offers", "386"],
+          ["International accepted offers", "6"]
+        ]
+      }
+    },
+    {
+      id: "sectors-recruiters",
+      heading: "Which sectors and recruiters dominated IIMA placements?",
+      paragraphs: [
+        "Consulting was the largest sector in the audited offer table, with 155 accepted offers. Banking, Financial Services and Insurance followed with 82, while conglomerates and Information Technology recorded 34 offers each. Sector classification and function classification are separate views: the function table reports 154 consulting roles.",
+        "The report says around 182 firms participated with approximately 267 different roles. More than 50 new firms joined the lateral and final placement process. The recruiter list spans consulting, finance, consumer businesses, healthcare, technology, industrial firms and conglomerates.",
+        "Including pre-placement offers, Accenture Strategy made 36 offers, Boston Consulting Group 33, FinIQ Consulting 24 and McKinsey & Company 21. In investment banking and markets, Goldman Sachs made six offers and Citibank four. Essar Group led general-management recruiting with eight offers, followed by Amazon with six.",
+        "Recruiter counts show where hiring volume was concentrated, but they do not identify a universal best role. A candidate should assess the function, role content, location, career path and compensation structure together."
+      ],
+      table: {
+        headers: ["Sector", "Accepted offers"],
+        rows: [
+          ["Consulting", "155"],
+          ["BFSI", "82"],
+          ["Conglomerate", "34"],
+          ["Information Technology", "34"],
+          ["Consumer Services", "15"],
+          ["Engineering/Technology", "14"],
+          ["Pharmaceutical/Healthcare", "13"],
+          ["Consumer Goods (FMCG)", "12"]
+        ]
+      }
+    },
+    {
+      id: "how-to-read",
+      heading: "How should CAT aspirants read an MBA placement report?",
+      paragraphs: [
+        "Start with the population. Ask how many students were eligible, how many sought placement, how many offers were accepted and whether the salary table covers all accepted offers. A maximum based on six international offers carries a different meaning from a median based on 386 domestic offers.",
+        "Next, identify the salary definition. Fixed cash, guaranteed cash, CTC and maximum earning potential may include different components. Check whether variable pay is assured, whether stock is valued at grant or annualised, and whether long-term components sit outside the first-year number.",
+        "Use medians before means when a distribution can contain large outliers. Then compare the mean and median to understand skew. Review function and sector mix because a consulting-heavy class and a product-heavy class may offer different career outcomes even when their salary medians are similar.",
+        "Finally, remember that a placement report is evidence about a cohort, not a promise to an applicant. Admission profile, academic performance, prior experience, role preferences and market conditions all influence individual results."
+      ],
+      list: [
+        "Confirm the programme and graduating batch named in the report.",
+        "Prefer an audited or IPRS-compliant report where available.",
+        "Match domestic with domestic and international with international.",
+        "Compare median fixed or guaranteed pay before maximum earning potential.",
+        "Check sample sizes, opt-outs and students not participating in placements.",
+        "Read role and sector distribution alongside compensation."
+      ]
+    },
+    {
+      id: "aspirant-takeaway",
+      heading: "What should CAT 2026 aspirants take away from this report?",
+      paragraphs: [
+        "The report confirms broad recruiter participation and strong central salary outcomes for IIMA's PGP class of 2026. It also demonstrates why the largest package should not be the only reason to target a business school. The international maximum earning potential is real within the audited table, but it represents one upper-bound outcome inside a six-offer international sample.",
+        "A more balanced summary is that 392 campus offers were accepted, the combined median total guaranteed cash was Rs 32.5 lakh, the combined median maximum earning potential was Rs 37 lakh, and consulting accounted for the largest sector share. These figures give applicants a stronger basis for evaluating outcomes.",
+        "CAT preparation remains only one part of the path. IIM Ahmedabad admission is highly selective, and eventual placement outcomes depend on performance before and during the programme. Use placement data to understand possibilities and programme fit, not to convert a headline package into an expected personal salary."
+      ]
+    },
+    {
+      id: "sources",
+      heading: "Sources and verification",
+      paragraphs: [
+        "This article was reviewed on September 29, 2026. Salary definitions, student counts, offer locations, sector data and recruiter counts were checked against IIM Ahmedabad's audited Final Placement Report 2026. The placement-process context was also checked against IIMA's March 27 consolidated release.",
+        "Rodha's video supplied the topic and the accessible explanation of the headline. The numerical analysis here was written independently from the official report and avoids treating maximum earning potential as guaranteed salary."
+      ],
+      links: [
+        ["IIM Ahmedabad audited Final Placement Report 2026", "https://www01.iima.ac.in/iprs/gallery/2026/PGP_Audit_Report_Finals_2026.pdf"],
+        ["IIM Ahmedabad PGP Final Placements 2025-26 release", "https://www.iima.ac.in/inmediapgp-final-placements-2025-26"],
+        ["Rodha IIM Ahmedabad placements video", "https://www.youtube.com/watch?v=c-Z2km10_sg"],
+        ["Rodha YouTube channel", "https://www.youtube.com/@Rodha/videos"],
+        ["Rodha official website", "https://www.rodha.co.in/"]
+      ]
+    }
+  ],
+  related: ["/iim/", "/mba-colleges/", "/cat-2026/cutoff/", "/cat-preparation/", "/cat-coaching/rodha/", "/blog/"],
+  faqs: [
+    { q: "What was the highest package at IIM Ahmedabad in 2026?", a: "The audited report lists Rs 2,31,03,000 as the highest combined maximum earning potential. It is not fixed yearly cash or guaranteed cash." },
+    { q: "What was the IIM Ahmedabad average package in 2026?", a: "The combined mean maximum earning potential was Rs 37,97,495. The combined mean total guaranteed cash was Rs 32,46,782, and mean fixed yearly cash was Rs 29,47,855." },
+    { q: "What was the median package at IIM Ahmedabad in 2026?", a: "The combined median maximum earning potential was Rs 37 lakh. Median total guaranteed cash was Rs 32.5 lakh and median fixed yearly cash was Rs 29,06,523." },
+    { q: "Was the Rs 2.31 crore IIMA package domestic?", a: "No. It reflects the INR conversion of the maximum earning potential on an international offer reported as USD 243,000." },
+    { q: "How many international offers did IIM Ahmedabad report?", a: "Six: four in Dubai, one in Hong Kong and one in Japan." },
+    { q: "How many students accepted placements at IIMA in 2026?", a: "The report records 392 accepted offers. Ten of 402 placement-eligible students did not seek campus placement." },
+    { q: "Which sector hired the most IIM Ahmedabad students?", a: "Consulting was the largest sector, with 155 accepted offers in the audited sector table." },
+    { q: "Is maximum earning potential the same as take-home salary?", a: "No. It can include guaranteed cash, maximum variable pay and other first-year offer components, so it should not be read as assured take-home pay." }
+  ]
+};
+
+const iimaPlacementHref = `/${iimaPlacementArticle.slug}/`;
 const varcHref = `/${varcArticle.slug}/`;
 const quantHref = `/${quantArticle.slug}/`;
 const xatHref = `/${xatArticle.slug}/`;
@@ -757,12 +951,13 @@ const index = {
         table: {
           ...section.table,
           rows: [
+            [iimaPlacementArticle.title, iimaPlacementArticle.description, { label: "Read article", href: iimaPlacementHref }],
             [varcArticle.title, varcArticle.description, { label: "Read article", href: varcHref }],
             [quantArticle.title, quantArticle.description, { label: "Read article", href: quantHref }],
             [xatArticle.title, xatArticle.description, { label: "Read article", href: xatHref }],
             [rodhaArticle.title, rodhaArticle.description, { label: "Read article", href: rodhaHref }],
             [feeArticle.title, feeArticle.description, { label: "Read article", href: feeHref }],
-            ...section.table.rows.filter((row) => row[2]?.href !== varcHref && row[2]?.href !== quantHref && row[2]?.href !== xatHref && row[2]?.href !== rodhaHref && row[2]?.href !== feeHref)
+            ...section.table.rows.filter((row) => row[2]?.href !== iimaPlacementHref && row[2]?.href !== varcHref && row[2]?.href !== quantHref && row[2]?.href !== xatHref && row[2]?.href !== rodhaHref && row[2]?.href !== feeHref)
           ]
         }
       }
@@ -773,4 +968,4 @@ const mumbaiGuide = require("./city-institute-pages").find(page => page.slug ===
 const latestArticles = index.sections.find(section => section.id === "latest-articles");
 latestArticles.table.rows.unshift([mumbaiGuide.title, mumbaiGuide.description, { label: "Read article", href: "/blog/best-cat-coaching-in-mumbai/" }]);
 
-module.exports = [index, varcArticle, quantArticle, xatArticle, rodhaArticle, feeArticle, ...priorPages.filter((page) => page.slug !== "blog")];
+module.exports = [index, iimaPlacementArticle, varcArticle, quantArticle, xatArticle, rodhaArticle, feeArticle, ...priorPages.filter((page) => page.slug !== "blog")];
