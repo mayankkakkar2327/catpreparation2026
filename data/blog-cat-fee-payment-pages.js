@@ -1158,4 +1158,7 @@ const mumbaiGuide = require("./city-institute-pages").find(page => page.slug ===
 const latestArticles = index.sections.find(section => section.id === "latest-articles");
 latestArticles.table.rows.unshift([mumbaiGuide.title, mumbaiGuide.description, { label: "Read article", href: "/blog/best-cat-coaching-in-mumbai/" }]);
 
+const chennaiGuide = require("./city-institute-pages").find(page => page.slug === "blog/best-cat-coaching-in-chennai");
+latestArticles.table.rows.unshift([chennaiGuide.title, chennaiGuide.description, { label: "Read article", href: "/blog/best-cat-coaching-in-chennai/" }]);
+
 module.exports = [index, lrdiArticle, iimaPlacementArticle, varcArticle, quantArticle, xatArticle, rodhaArticle, feeArticle, ...priorPages.filter((page) => page.slug !== "blog")];
