@@ -57,6 +57,8 @@ const cities = [
   {
     name: "Chennai",
     slug: "chennai",
+    researchedAt: "30 September 2026",
+    researchedListings: [["2IIM Chennai: local details", "/cat-coaching/chennai/2iim/"], ["GradSquare Chennai: local details", "/cat-coaching/chennai/gradsquare/"], ["Compare five Chennai institutes", "/blog/best-cat-coaching-in-chennai/"]],
     state: "Tamil Nadu",
     popularAreas: ["T. Nagar", "Anna Nagar", "Velachery", "Adyar", "Nungambakkam"],
     summary:
