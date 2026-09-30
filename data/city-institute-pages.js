@@ -1253,5 +1253,498 @@ module.exports = [
         "a": "No. The page contains different products and enquiry-based classroom options. Get a dated quote for the exact selected course."
       }
     ]
+  },
+  {
+    "slug": "cat-coaching/chennai/2iim",
+    "title": "2IIM Chennai: Classroom Courses, Fees and Adyar Contact",
+    "section": "Chennai CAT coaching research",
+    "description": "Compare 2IIM Chennai classroom and online options, the CAT 2027 offer, Adyar contact details and questions to ask before joining.",
+    "answer": "2IIM offers Chennai classroom preparation alongside live-online and self-paced study. The reviewed classroom offer is labelled CAT 2027; students targeting CAT 2026 should request a separate remaining-course plan.",
+    "body": [
+      "Sources reviewed on 30 September 2026. Course details are provider disclosures, not independently audited outcomes. Confirm your exam year, current batch, faculty allocation and final quotation before enrolling."
+    ],
+    "sections": [
+      {
+        "id": "contact",
+        "heading": "Adyar centre and contact",
+        "paragraphs": [
+          "The official Adyar page lists first floor, Amaldaz Heights, new no. 23, Adyar Bridge Road, Chennai 600020. Contact 9962648484 or 7305755983; email info@2iim.com. Call to confirm the teaching venue before visiting."
+        ],
+        "links": [
+          [
+            "Official Adyar directions",
+            "https://www.2iim.com/chennai/adyar.shtml"
+          ]
+        ]
+      },
+      {
+        "id": "course",
+        "heading": "Course format and disclosed fee",
+        "paragraphs": [
+          "The main site displays Chennai Classroom CAT 2027 at ₹60,000 including GST. Its card advertises 150+ classroom classes, recorded content, 30 original mocks plus previous papers, books and GDPI preparation. Confirm precisely which online components accompany classroom attendance.",
+          "Rajesh Balasubramanian is identified as the main recorded-content teacher. The site describes discussion-board, email and WhatsApp support. These statements do not establish the teacher assigned to your physical batch or a guaranteed doubt-response time."
+        ],
+        "links": [
+          [
+            "Official course cards and faculty",
+            "https://www.2iim.com/"
+          ]
+        ]
+      },
+      {
+        "id": "pricing",
+        "heading": "Avoid mixing old discounts with current packages",
+        "paragraphs": [
+          "A separate Chennai pricing page still labels its group offer CAT 2024. We have not carried that discount forward into a current quotation. Current seat availability, a classroom start date and the exact remaining CAT 2026 timetable were not confirmed."
+        ],
+        "links": [
+          [
+            "Older pricing page: check its exam year",
+            "https://chennai.2iim.com/pricing.shtml"
+          ]
+        ]
+      },
+      {
+        "id": "fit",
+        "heading": "Our assessment: sample the teaching before committing",
+        "paragraphs": [
+          "This is worth shortlisting if you want to try recorded explanations before choosing a classroom routine. Watch a lesson in your weakest section, then attempt fresh questions without the solution. That gives more useful evidence about fit than a teacher’s advertised score.",
+          "Ask for a section-wise roster and a demo with the person who will actually teach you. If you work full time, check whether the assigned homework can be completed between classes and whether recordings cover missed physical sessions.",
+          "For a late CAT 2026 intake, request a dated plan separating new teaching, revision and mock analysis. Do not assume a long-duration 2027 course can be compressed into the remaining 2026 calendar."
+        ],
+        "links": []
+      },
+      {
+        "id": "checklist",
+        "heading": "Before payment",
+        "paragraphs": [],
+        "links": [],
+        "table": {
+          "headers": [
+            "Check",
+            "Ask for"
+          ],
+          "rows": [
+            [
+              "Teaching allocation",
+              "Names for Quant, VARC and DILR in your batch"
+            ],
+            [
+              "Support",
+              "How to submit doubts and book mentor sessions"
+            ],
+            [
+              "Access",
+              "Recording expiry and missed-class arrangements"
+            ],
+            [
+              "Total cost",
+              "Written inclusions, taxes, books and refund terms"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "related",
+        "heading": "Related research",
+        "paragraphs": [],
+        "links": [
+          [
+            "Chennai comparison guide",
+            "/blog/best-cat-coaching-in-chennai/"
+          ],
+          [
+            "Chennai directory",
+            "/cat-coaching/chennai/"
+          ],
+          [
+            "2IIM national profile",
+            "/cat-coaching/2iim/"
+          ]
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is ₹60,000 a verified CAT 2026 classroom fee?",
+        "a": "No. The reviewed main-site classroom card labels that offer CAT 2027, including GST. Obtain the correct exam-year quote."
+      },
+      {
+        "q": "Does the recorded-content teacher necessarily teach my physical batch?",
+        "a": "No. Ask for the assigned classroom roster and a demo before choosing a branch."
+      }
+    ]
+  },
+  {
+    "slug": "cat-coaching/chennai/gradsquare",
+    "title": "GradSquare Chennai: CAT Courses, Fees and Centre Contacts",
+    "section": "Chennai CAT coaching research",
+    "description": "Check GradSquare Chennai and Tambaram contacts, CAT course formats, conflicting fee disclosures, faculty and enrolment questions.",
+    "answer": "GradSquare advertises CAT classroom and online preparation with Chennai centres. Its official pages disagree on CAT 2026 pricing and some package counts, so obtain a written course-specific quotation.",
+    "body": [
+      "Sources reviewed on 30 September 2026. Course details are provider disclosures, not independently audited outcomes. Confirm your exam year, current batch, faculty allocation and final quotation before enrolling."
+    ],
+    "sections": [
+      {
+        "id": "contact",
+        "heading": "Chennai centres and admissions contact",
+        "paragraphs": [
+          "The course page lists Tambaram at 109A, second floor, Siva Shanmugham Road, above Shanthi Super Market, Chennai 600045; phone 9282442221. Nungambakkam: old no. 69 basement, Karachi Bakery Building, Round Table House, Subba Avenue, D80 Nungambakkam High Road, Chennai 600034; phone 7305053466."
+        ],
+        "links": [
+          [
+            "Official centres",
+            "https://gradsqr.com/cat-coaching/"
+          ]
+        ]
+      },
+      {
+        "id": "fees",
+        "heading": "Two official pages show different CAT 2026 offers",
+        "paragraphs": [
+          "The main CAT page displays ₹45,000 excluding 18% GST for classroom preparation; its Chennai landing page displays ₹40,000 excluding 18% GST. These imply ₹53,100 and ₹47,200 respectively if only that tax is added. Neither is a confirmed final branch quotation.",
+          "The main course page advertises 300+ hours, 30 CAT mocks, 46 other-exam mocks, books, recordings, mock feedback and interview preparation. The other page uses lower teaching-hour and other-exam mock counts. Ask which specification applies."
+        ],
+        "links": [
+          [
+            "Main CAT programme",
+            "https://gradsqr.com/cat-coaching/"
+          ],
+          [
+            "Chennai offer with different figures",
+            "https://gradsqr.com/cat-coaching-in-chennai/"
+          ]
+        ]
+      },
+      {
+        "id": "faculty",
+        "heading": "Faculty and support disclosures",
+        "paragraphs": [
+          "The homepage names Ajay Zener, Kushal Bohra, Varun Krishnan and Richard L among its mentors. It lists counselor@gradsquare.net and the Tambaram contact number. A mentor biography is not confirmation that the person teaches every local batch."
+        ],
+        "links": [
+          [
+            "Official mentor and contact page",
+            "https://gradsqr.com/"
+          ]
+        ]
+      },
+      {
+        "id": "fit",
+        "heading": "Our assessment: inspect the feedback process",
+        "paragraphs": [
+          "Shortlist GradSquare if you want a Chennai provider to compare with the national chains and can attend one of its listed centres regularly. Ask to see what happens after a mock: who reviews the attempt, how errors are classified and when the student gets a revised practice plan.",
+          "A personal-support promise is useful only when access is clear. Check whether you can book a meeting, how often it is included and whether doubts go to your subject teacher. We have not audited results, tested response times or verified seat availability.",
+          "Request a demo in the section you find hardest. Judge whether you can follow the reasoning and apply it independently, rather than simply copying a fast solution."
+        ],
+        "links": []
+      },
+      {
+        "id": "batch",
+        "heading": "Batch and payment questions",
+        "paragraphs": [
+          "No exact current branch start date or named section-wise batch roster was established. For CAT 2026, ask how many advertised hours remain available to a new enrollee and how earlier teaching can be recovered.",
+          "Have admissions resolve the two fee offers in writing. The quote should name the exam year, location, format, taxes, mock package, books, access expiry and refund policy. Keep the dated reply with the payment receipt."
+        ],
+        "links": []
+      },
+      {
+        "id": "related",
+        "heading": "Related research",
+        "paragraphs": [],
+        "links": [
+          [
+            "Compare five Chennai institutes",
+            "/blog/best-cat-coaching-in-chennai/"
+          ],
+          [
+            "Chennai coaching directory",
+            "/cat-coaching/chennai/"
+          ]
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is the current GradSquare Chennai CAT fee?",
+        "a": "Two official pages show different CAT 2026 offers: ₹45,000 and ₹40,000 before 18% GST. Obtain a written quote identifying the exact package."
+      },
+      {
+        "q": "Are Tambaram and Nungambakkam separate institutes?",
+        "a": "No. They are locations of GradSquare and count as one brand in this comparison."
+      }
+    ]
+  },
+  {
+    "slug": "blog/best-cat-coaching-in-chennai",
+    "title": "Best CAT Coaching in Chennai: 5 Institutes Compared",
+    "section": "Chennai CAT coaching research",
+    "description": "Compare IMS, Career Launcher, T.I.M.E., 2IIM and GradSquare in Chennai by local presence, fees, course year, mocks and student suitability.",
+    "answer": "Five Chennai CAT coaching options to compare are IMS, Career Launcher, T.I.M.E., 2IIM and GradSquare. Choose by assigned teacher, achievable travel time, course year, mock feedback and written cost; this is an unranked shortlist.",
+    "body": [
+      "Sources reviewed on 30 September 2026. Course details are provider disclosures, not independently audited outcomes. Confirm your exam year, current batch, faculty allocation and final quotation before enrolling."
+    ],
+    "sections": [
+      {
+        "id": "method",
+        "heading": "How we selected these five institutes",
+        "paragraphs": [
+          "We checked official Chennai centre information and CAT programme disclosures for five distinct brands. Existing national profiles were used for navigation, then local claims were rechecked. Multiple branches are counted once.",
+          "This is a practical shortlist, not an exhaustive census or an independently tested ranking. We did not audit scorecards or classroom outcomes. Provider claims establish what is advertised; a demo and a written branch plan are still needed to assess teaching quality.",
+          "Source links appear beside each provider. Prices refer to specific observed offers, not guaranteed admission quotations. Old or inconsistent information is identified rather than combined into an apparently precise city-wide ranking."
+        ],
+        "links": []
+      },
+      {
+        "id": "table",
+        "heading": "Chennai coaching comparison",
+        "paragraphs": [],
+        "links": [],
+        "table": {
+          "headers": [
+            "Institute",
+            "Local evidence",
+            "Fee position",
+            "Our suggested comparison focus"
+          ],
+          "rows": [
+            [
+              "IMS",
+              "Official Chennai directory",
+              "Final classroom quote not verified",
+              "Branch timetable and mock-review support"
+            ],
+            [
+              "Career Launcher",
+              "Alwarpet in official CAT centre finder",
+              "Current local quote not verified",
+              "Confirm CAT intake at the listed centre"
+            ],
+            [
+              "T.I.M.E.",
+              "Official Chennai city page and brochure",
+              "Current branch quote not verified",
+              "Convenient centre and current batch specification"
+            ],
+            [
+              "2IIM",
+              "Official Adyar contact page",
+              "₹60,000 incl. GST on CAT 2027 classroom card",
+              "Exam year and classroom/recorded mix"
+            ],
+            [
+              "GradSquare",
+              "Tambaram and Nungambakkam listed",
+              "CAT 2026 pages disagree: ₹40,000 / ₹45,000 before GST",
+              "Resolve package and support entitlement"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "ims",
+        "heading": "IMS: compare reachable branches and the mock breakdown",
+        "paragraphs": [
+          "IMS identifies Adyar, Anna Nagar and T Nagar in its Chennai material and describes classroom and online preparation. The CAT campaign separates 40+ SimCATs from 70 other management entrance mocks in its combined total. A combined test count should not be compared with another provider’s CAT-only count.",
+          "Our assessment: compare IMS if you want a branch-based study routine. Ask for the assigned teachers, remaining syllabus, mentor appointments and exact test package. A final local fee and current seat availability were not established."
+        ],
+        "links": [
+          [
+            "Official Chennai directory",
+            "https://www.imsindia.com/center/chennai/"
+          ],
+          [
+            "Official CAT programme details",
+            "https://www.imsindia.com/campaign/cat-coaching-chennai.html"
+          ],
+          [
+            "IMS profile",
+            "/cat-coaching/ims/"
+          ]
+        ]
+      },
+      {
+        "id": "cl",
+        "heading": "Career Launcher: confirm the local CAT intake first",
+        "paragraphs": [
+          "The official CAT centre finder lists Alwarpet at no. 99, Dr Ranga Road, Abhiramapuram 600018; phone 7550330159 and cl.chennai.alwarpet@careerlauncher.com. It lists MBA Classic Extended (Weekday), while the linked local site name highlights CLAT/IPM/BBA. Confirm the CAT programme before visiting.",
+          "An older Chennai CAT page retains pandemic-era online-class wording. We have not used its session counts as a current batch specification. Our assessment: this is a provider to contact when Alwarpet is convenient, with course availability, faculty and price as the first checks."
+        ],
+        "links": [
+          [
+            "Official CAT centre finder",
+            "https://www.careerlauncher.com/cat-mba/coaching-centers/chennai/"
+          ],
+          [
+            "Older Chennai CAT page",
+            "https://www.careerlauncher.com/cat-mba/chennai/"
+          ],
+          [
+            "Career Launcher profile",
+            "/cat-coaching/career-launcher/"
+          ]
+        ]
+      },
+      {
+        "id": "time",
+        "heading": "T.I.M.E.: request the current Chennai brochure",
+        "paragraphs": [
+          "The official Chennai page identifies CAT coaching, and the provider’s CAT 2025/26 brochure lists Chennai locations including Adyar, Anna Nagar, Nungambakkam, Tambaram and Velachery. The current city page exposes limited readable detail, so branch availability and contacts should be reconfirmed directly.",
+          "Our assessment: include a reachable centre in your demo shortlist if you prefer scheduled classes. Ask for the current exam-year syllabus calendar, section-wise faculty, mock entitlements and fee. The older brochure establishes published city presence, not open seats or a current price."
+        ],
+        "links": [
+          [
+            "Official Chennai page",
+            "https://time4education.com/Chennai/"
+          ],
+          [
+            "Official CAT 2025/26 brochure",
+            "https://time4education.com/drupal/sites/default/files/assets/brochures/cat-2025-brochurev1.pdf"
+          ],
+          [
+            "T.I.M.E. profile",
+            "/cat-coaching/time/"
+          ]
+        ]
+      },
+      {
+        "id": "2iim",
+        "heading": "2IIM: distinguish this year’s preparation from next year’s classroom plan",
+        "paragraphs": [
+          "2IIM has an official Adyar contact page and a Chennai classroom offering. The reviewed main-site classroom card is CAT 2027, not a confirmed 2026 classroom package. This distinction matters when deciding how much teaching time you can actually use.",
+          "Our assessment: try sample explanations, then compare the physical timetable with your independent practice schedule. Ask who teaches locally and how classroom attendance connects with recorded study."
+        ],
+        "links": [
+          [
+            "Detailed 2IIM Chennai listing",
+            "/cat-coaching/chennai/2iim/"
+          ],
+          [
+            "Official programmes",
+            "https://www.2iim.com/"
+          ],
+          [
+            "Official Adyar contact",
+            "https://www.2iim.com/chennai/adyar.shtml"
+          ]
+        ]
+      },
+      {
+        "id": "gradsquare",
+        "heading": "GradSquare: compare the promised mentoring and written package",
+        "paragraphs": [
+          "GradSquare lists Chennai centres and CAT preparation. Its official offer pages disagree on CAT 2026 price and some inclusions; the detailed listing records both rather than selecting the cheaper figure as definitive.",
+          "Our assessment: request an example of a mock-review conversation and the follow-up work assigned. Then confirm mentor availability, subject-teacher access and the precise package in writing."
+        ],
+        "links": [
+          [
+            "Detailed GradSquare Chennai listing",
+            "/cat-coaching/chennai/gradsquare/"
+          ],
+          [
+            "Official programme",
+            "https://gradsqr.com/cat-coaching/"
+          ],
+          [
+            "Official Chennai offer",
+            "https://gradsqr.com/cat-coaching-in-chennai/"
+          ]
+        ]
+      },
+      {
+        "id": "fees",
+        "heading": "Compare fees only after matching the exam year",
+        "paragraphs": [
+          "A CAT 2027 full course and a late CAT 2026 intake solve different needs. Put the target exam year at the top of every quote. Next compare remaining teaching, access expiry, books, mocks, recordings, mentoring and interview preparation.",
+          "Tax presentation also differs: the reviewed 2IIM classroom offer includes GST, while the GradSquare offers exclude it. Do not rank these headline prices from cheapest to most expensive; they are not equivalent packages.",
+          "For a repeater who already understands the syllabus, ask whether tests and targeted doubt support would meet the need. A beginner may need a structured teaching plan, but must check that its pace is realistic for the time available."
+        ],
+        "links": []
+      },
+      {
+        "id": "local",
+        "heading": "Choose a Chennai timetable you can sustain",
+        "paragraphs": [
+          "Test the actual journey at your planned class time. Compare centres around Adyar, Anna Nagar, Alwarpet, Nungambakkam or Tambaram against your home, college or office rather than choosing by city-wide reputation alone.",
+          "For weekend learners, check the length of each session and the homework expected before the next one. For weekday learners, leave time for practice after travel. Online classes may reduce commuting, but the replacement routine still needs a quiet study space and regular mock review."
+        ],
+        "links": []
+      },
+      {
+        "id": "demo",
+        "heading": "Five questions for every demo",
+        "paragraphs": [],
+        "links": [],
+        "table": {
+          "headers": [
+            "Question",
+            "Useful evidence"
+          ],
+          "rows": [
+            [
+              "Who teaches my weakest section?",
+              "A demo with the assigned teacher"
+            ],
+            [
+              "What remains in this intake?",
+              "Dated syllabus and revision calendar"
+            ],
+            [
+              "How are low mock scores handled?",
+              "Sample analysis and follow-up exercises"
+            ],
+            [
+              "How do I get doubts resolved?",
+              "Submission channel and stated response process"
+            ],
+            [
+              "What does payment cover?",
+              "One written total with expiry and refund terms"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "related",
+        "heading": "Continue your research",
+        "paragraphs": [],
+        "links": [
+          [
+            "Chennai coaching directory",
+            "/cat-coaching/chennai/"
+          ],
+          [
+            "Online coaching options",
+            "/cat-coaching/online/"
+          ],
+          [
+            "Mock-test preparation guide",
+            "/cat-preparation/mock-tests/"
+          ],
+          [
+            "Editorial methodology",
+            "/methodology/"
+          ]
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Which CAT coaching institute is best in Chennai?",
+        "a": "There is no verified universal winner. Compare IMS, Career Launcher, T.I.M.E., 2IIM and GradSquare using local faculty, timetable, mock feedback and a written quote."
+      },
+      {
+        "q": "Does this guide rank the five institutes?",
+        "a": "No. It is an unranked shortlist based on official local information, with student suitability assessed separately from provider claims."
+      },
+      {
+        "q": "Are the listed fees directly comparable?",
+        "a": "No. Exam years, inclusions and tax treatment differ, and GradSquare pages show conflicting offers. Obtain equivalent written quotes."
+      },
+      {
+        "q": "Can I join a CAT 2027 course for CAT 2026 preparation?",
+        "a": "Do not assume that the timetable fits. Request a separate plan specifying what can be completed for your target exam and which resources are available immediately."
+      }
+    ]
   }
 ];
