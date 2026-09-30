@@ -936,6 +936,195 @@ const iimaPlacementArticle = {
   ]
 };
 
+const lrdiArticle = {
+  slug: "blog/rodha-cat-lrdi-set-selection-exit-strategy",
+  title: "Rodha CAT LRDI Set Selection Strategy: When to Enter, Exit and Move On",
+  section: "CAT 2026 Video Guide",
+  description: "Rodha's Apoorv Sir explains CAT LRDI set selection, section scanning, doable-set signals, sequencing, exit timing and mock analysis.",
+  answer: "Rodha faculty Apoorv Sir recommends treating CAT LRDI as a selection test before treating it as a solving test. Scan every set, classify each by familiarity and visible entry points, sequence the strongest opportunities first, and exit when additional time is not producing concrete progress. A fixed extra five minutes is not automatically justified; the decision should depend on how much structure is already built, what remains, and which unseen sets are still available.",
+  body: [
+    "Rodha published a new CAT 2026 LRDI strategy video on September 29, 2026. It crossed 1,300 views within roughly 14 hours. The video is aimed at learners who have practised many LRDI sets but still struggle to convert that preparation into reliable sectional scores.",
+    "Apoorv Sir focuses on the decisions around solving: how to scan the section, recognise a workable set, choose an order, leave a stalled set and build a personal strategy from mock evidence. This guide turns those ideas into a four-step framework that candidates can test without pretending that one rigid time limit works for everyone."
+  ],
+  sections: [
+    {
+      id: "video-summary",
+      heading: "What does the Rodha LRDI strategy video cover?",
+      paragraphs: [
+        "The 14-minute video begins with a common mismatch: a candidate can solve LRDI sets during practice yet perform poorly in a timed mock. The missing skill is often not logic alone. It is the ability to compare sets, recognise the best starting point and stop investing time when a set is no longer the strongest opportunity.",
+        "The chapter structure covers why LRDI scores go wrong, scanning every set, identifying doable sets, deciding when to exit, and building a personalised attempt strategy. The video description also highlights set sequencing and mock analysis as parts of the same decision system."
+      ],
+      links: [
+        ["Watch Rodha's CAT LRDI set-selection video", "https://www.youtube.com/watch?v=xexE4WHIRoo"],
+        ["Rodha YouTube channel", "https://www.youtube.com/@Rodha/videos"],
+        ["Rodha official website", "https://www.rodha.co.in/"],
+        ["Rodha CAT mock portal", "https://mocks.rodha.co.in/"]
+      ]
+    },
+    {
+      id: "four-step-framework",
+      heading: "The four-step CAT LRDI selection framework",
+      paragraphs: [
+        "A useful way to operationalise the video is to divide LRDI decision-making into four stages: scan, classify, sequence and monitor. The stages are connected. A weak scan produces a poor classification; a poor classification creates the wrong sequence; and a candidate who never monitors progress stays trapped.",
+        "The framework should be rehearsed in sectionals and full mocks. It is not a script to invent on CAT day. The objective is to make selection calmer and faster while preserving enough flexibility for an unusual paper."
+      ],
+      table: {
+        headers: ["Step", "Primary question", "Output"],
+        rows: [
+          ["1. Scan", "What information, variables and question types does each set contain?", "A quick map of the entire section"],
+          ["2. Classify", "Which sets offer a clear entry point and suit my strengths?", "Do now, revisit or leave"],
+          ["3. Sequence", "Which set gives the best expected marks for the time and risk?", "An attempt order"],
+          ["4. Monitor and exit", "Is each additional minute creating usable progress?", "Continue, pause or move on"]
+        ]
+      }
+    },
+    {
+      id: "scan-every-set",
+      heading: "Step 1: scan every LRDI set before committing",
+      paragraphs: [
+        "The video recommends looking across the section before beginning serious work. Scanning does not mean solving each set mentally. It means reading enough to identify the data format, central relationships, number of questions, visible constraints and likely representation.",
+        "A set with familiar subject matter is not necessarily easy. A tournament, arrangement or distribution set can look comfortable while hiding many cases. Conversely, an unfamiliar-looking chart may become direct once two conditions are combined. The scan should judge structure rather than topic labels alone.",
+        "Use a compact notation during mocks. Mark a set as A when it has a clear entry point, B when it appears solvable but needs more setup, and C when the representation is unclear or casework looks excessive. The labels are provisional; their purpose is to support comparison.",
+        "Do not let scanning expand into avoidance. Set a tested boundary for the initial review and move to the best candidate once you have enough information to compare the available sets."
+      ],
+      list: [
+        "Identify what must be arranged, allocated, compared or calculated.",
+        "Count the major entities and constraints before opening detailed cases.",
+        "Notice whether the questions appear independent or depend on one complete solution.",
+        "Look for a direct table, grid, timeline, network or equation-based representation.",
+        "Flag sets whose wording remains ambiguous after a reasonable first read."
+      ]
+    },
+    {
+      id: "doable-signals",
+      heading: "Step 2: how to identify a doable LRDI set",
+      paragraphs: [
+        "A doable set usually offers one or more concrete handles. You may see a forced placement, a small number of cases, a clean table, linked ratios, totals that constrain the possibilities, or questions that can be answered without completing every detail.",
+        "Familiarity matters only when it produces a useful representation. Ask whether you know how to begin, not merely whether you have seen a similar theme. A candidate strong in games and tournaments may still reject one with complicated conditional scoring if another set offers a cleaner start.",
+        "Question design is another signal. Four questions attached to one difficult master arrangement carry greater concentration risk than questions that allow partial conversion. However, a complete master table can also be efficient when the setup is straightforward. Evaluate the expected payoff together with the setup cost.",
+        "Your strengths should influence classification, but mock records should define those strengths. Confidence based on recent accuracy and completion time is more reliable than a general belief such as 'I am good at arrangements.'"
+      ],
+      table: {
+        headers: ["Positive signal", "Warning signal"],
+        rows: [
+          ["A forced value, order or position appears early", "Every variable seems dependent on several unresolved cases"],
+          ["The representation is obvious and compact", "You keep redrawing the data without reducing possibilities"],
+          ["Totals or ratios sharply restrict outcomes", "The set depends on lengthy arithmetic with weak checking options"],
+          ["Some questions can be answered independently", "All questions require a large uncertain master solution"],
+          ["The structure matches a repeatedly practised strength", "The topic feels familiar but the actual setup remains unclear"]
+        ]
+      }
+    },
+    {
+      id: "sequence",
+      heading: "Step 3: sequence sets by expected value, not ego",
+      paragraphs: [
+        "After classification, start with the set that combines clarity, accuracy potential and reasonable completion time. The hardest-looking set is not worth extra marks, and solving it first does not demonstrate greater preparation.",
+        "A strong sequence often begins with a clear A set, moves to the next best set after a deliberate rescan, and keeps uncertain sets for later. The order can change as the paper reveals itself. If a B set becomes simpler after reading its questions, promote it. If an A set produces hidden complexity, downgrade it.",
+        "Avoid selecting a set only because the first question looks direct. Check whether the remaining questions justify the setup. Equally, do not reject a set because its opening paragraph is long if the actual data and questions are clean.",
+        "The best sequence is personal. One candidate may convert calculation-heavy DI quickly; another may gain more from logic sets with minimal arithmetic. Compare net marks and time by set family across several mocks before finalising preferences."
+      ]
+    },
+    {
+      id: "exit-rule",
+      heading: "Step 4: when should you exit a stuck LRDI set?",
+      paragraphs: [
+        "The video's title challenges the habit of giving every set 'five more minutes.' Extra time is justified only when there is evidence that the set is moving toward answers. Time already spent is not a reason to spend more; that is the sunk-cost trap.",
+        "Progress means something observable: a stable representation, fewer cases, several fixed values, a nearly complete question path or a verified partial answer. Re-reading the same condition, repeatedly changing the table or creating new cases without eliminating old ones is activity without progress.",
+        "Before a mock, define an exit trigger. It can combine time with state: for example, if the planned review point arrives and you still lack a valid representation or a route to the first question, leave. A candidate who has completed most of a table may rationally continue longer than someone who has not identified the variables.",
+        "Exiting does not always mean abandoning the set permanently. Preserve legible work, flag the set and return only after checking better opportunities. A clean pause is different from repeatedly switching between two incomplete sets."
+      ],
+      list: [
+        "Exit when the representation remains unstable after a tested decision window.",
+        "Exit when cases are multiplying faster than constraints eliminate them.",
+        "Exit when calculations restart because the underlying logic is uncertain.",
+        "Continue when the structure is verified and only bounded execution remains.",
+        "Return later only if the section scan shows no stronger unused opportunity."
+      ]
+    },
+    {
+      id: "time-budget",
+      heading: "Should every LRDI set get the same amount of time?",
+      paragraphs: [
+        "No. Equal time allocation ignores differences in setup, question count and candidate strength. A direct DI set may produce answers quickly, while a logic set may require a longer setup followed by rapid conversion. The decision should be based on expected marks from the remaining work.",
+        "Use broad checkpoints instead of a universal per-set deadline. At each checkpoint, ask how many high-confidence questions have been converted, whether the current set is progressing and what remains unseen. This protects the section without forcing an arbitrary exit from a nearly solved set.",
+        "Do not copy another learner's target number of sets. CAT difficulty and section composition can vary, and the sensible attempt count depends on accuracy. Follow the live paper and the official instructions provided for your slot."
+      ]
+    },
+    {
+      id: "mock-analysis",
+      heading: "How to analyse LRDI mocks for selection quality",
+      paragraphs: [
+        "Analyse the first ten minutes before studying solutions. Reconstruct the order in which you read the sets, the labels you assigned and why you chose the opening set. Then compare those decisions with the set difficulty you discovered later.",
+        "Separate four kinds of loss: selection loss, representation loss, execution loss and calculation loss. Selection loss occurs when an easier set was ignored. Representation loss occurs when the right set was chosen but modelled poorly. Execution loss comes from incomplete casework or missed constraints. Calculation loss is arithmetic or transcription error.",
+        "Record every abandoned set with the time spent and the state reached. A quick exit from a bad choice can be a good decision even if it produced no marks. A set completed after excessive time may still be a poor decision if easier marks were left unseen.",
+        "The goal of analysis is to improve the next selection, not to prove that every set was eventually solvable. Re-solving without a timer builds concepts; replaying the decision timeline builds exam strategy."
+      ],
+      table: {
+        headers: ["Mock finding", "Likely issue", "Next practice action"],
+        rows: [
+          ["Easy set was never opened", "Incomplete scan or attachment to the first set", "Run timed scan-and-rank drills"],
+          ["Correct set chosen but no table formed", "Representation weakness", "Practise translating conditions before full solving"],
+          ["Many cases created and abandoned", "Weak constraint order", "Start with the most restrictive conditions"],
+          ["Set completed but consumed too much time", "Late exit or inefficient execution", "Define a state-based checkpoint"],
+          ["Repeated arithmetic mistakes", "Calculation and checking weakness", "Use cleaner notation and one planned verification"]
+        ]
+      }
+    },
+    {
+      id: "practice-plan",
+      heading: "A five-session plan to build set-selection skill",
+      paragraphs: [
+        "Selection improves when it is practised separately from solving. Use the first session only to scan and rank groups of sets. In later sessions, solve the top-ranked set, test exit triggers and compare predicted difficulty with actual completion data.",
+        "Keep the source and difficulty mix broad enough to avoid memorising patterns. Include arrangements, games, routes, distributions, tables, charts and hybrid sets, while giving more attention to the categories that expose repeated weaknesses.",
+        "After five sessions, write a one-page personal protocol: scanning order, classification labels, positive signals, exit triggers and review questions. Keep it short enough to use under pressure."
+      ],
+      list: [
+        "Session 1: scan eight sets and rank them without solving.",
+        "Session 2: solve only the top-ranked set from two different sectionals.",
+        "Session 3: practise leaving when representation does not stabilise.",
+        "Session 4: complete a full timed LRDI sectional using broad checkpoints.",
+        "Session 5: replay the same sectional and compare the original selection with the ideal order."
+      ]
+    },
+    {
+      id: "exam-day",
+      heading: "How to apply the framework on CAT exam day",
+      paragraphs: [
+        "Use the system that has already survived several mocks. Begin with a controlled scan, choose the clearest opportunity and avoid interpreting one difficult set as evidence that the whole section is impossible.",
+        "Keep your work readable enough to resume a flagged set. When progress stalls, compare the remaining work with the unseen alternatives before granting more time. Once you switch, commit to the next decision instead of carrying frustration forward.",
+        "Accuracy remains central. Two well-selected sets can be more valuable than scattered work across several sets, but no fixed set count guarantees a percentile. The actual paper, marking scheme and official instructions govern the attempt."
+      ]
+    },
+    {
+      id: "sources",
+      heading: "Video and official sources checked",
+      paragraphs: [
+        "This guide was reviewed on September 30, 2026. The publication date, view count, chapter structure and strategy topics were checked on Rodha's official YouTube page. The four-step framework and mock-analysis process are original editorial expansions of the video's themes.",
+        "Rodha's guidance is preparation advice, not an official CAT rule. Candidates should check the CAT website for current exam notices and instructions, then use their own mock data to calibrate scanning and exit decisions."
+      ],
+      links: [
+        ["Rodha CAT LRDI set-selection video", "https://www.youtube.com/watch?v=xexE4WHIRoo"],
+        ["Rodha YouTube channel", "https://www.youtube.com/@Rodha/videos"],
+        ["Rodha official website", "https://www.rodha.co.in/"],
+        ["Rodha CAT mocks", "https://mocks.rodha.co.in/"],
+        ["Official CAT 2026 website", "https://iimcat.ac.in/"]
+      ]
+    }
+  ],
+  related: ["/cat-preparation/", "/cat-preparation/mock-tests/", "/cat-2026/exam-pattern/", "/cat-coaching/rodha/", "/blog/rodha-cat-varc-100-second-skip-rule-mock-strategy/", "/blog/rodha-cat-quant-attempt-strategy-20-20-minute-split/", "/blog/"],
+  faqs: [
+    { q: "How should I select an LRDI set in CAT?", a: "Scan the full section, compare entry points and case complexity, then choose the set with the best combination of clarity, accuracy potential and reasonable completion time." },
+    { q: "When should I leave an LRDI set?", a: "Leave when additional time is not producing a stable representation, fewer cases or a clear route to answers. Time already spent is not a reason to continue." },
+    { q: "Should I give every LRDI set five more minutes?", a: "No. Continue only when measurable progress justifies the extra time and no better unused opportunity is available." },
+    { q: "Is set selection more important than solving speed?", a: "Both matter, but poor set selection can prevent strong solving ability from converting into marks. Selection determines where your limited time is invested." },
+    { q: "How can I practise LRDI set selection?", a: "Run scan-and-rank drills, predict difficulty before solving, record exit decisions and compare your original order with the ideal order after each mock." },
+    { q: "How many LRDI sets should I attempt for 99 percentile?", a: "There is no guaranteed set count. Difficulty and score-percentile relationships vary, so prioritise accurate conversion of the best sets in the paper." },
+    { q: "Where can I watch Rodha's LRDI strategy video?", a: "It is available on Rodha's official YouTube channel at youtube.com/watch?v=xexE4WHIRoo." }
+  ]
+};
+
+const lrdiHref = `/${lrdiArticle.slug}/`;
 const iimaPlacementHref = `/${iimaPlacementArticle.slug}/`;
 const varcHref = `/${varcArticle.slug}/`;
 const quantHref = `/${quantArticle.slug}/`;
@@ -951,13 +1140,14 @@ const index = {
         table: {
           ...section.table,
           rows: [
+            [lrdiArticle.title, lrdiArticle.description, { label: "Read article", href: lrdiHref }],
             [iimaPlacementArticle.title, iimaPlacementArticle.description, { label: "Read article", href: iimaPlacementHref }],
             [varcArticle.title, varcArticle.description, { label: "Read article", href: varcHref }],
             [quantArticle.title, quantArticle.description, { label: "Read article", href: quantHref }],
             [xatArticle.title, xatArticle.description, { label: "Read article", href: xatHref }],
             [rodhaArticle.title, rodhaArticle.description, { label: "Read article", href: rodhaHref }],
             [feeArticle.title, feeArticle.description, { label: "Read article", href: feeHref }],
-            ...section.table.rows.filter((row) => row[2]?.href !== iimaPlacementHref && row[2]?.href !== varcHref && row[2]?.href !== quantHref && row[2]?.href !== xatHref && row[2]?.href !== rodhaHref && row[2]?.href !== feeHref)
+            ...section.table.rows.filter((row) => row[2]?.href !== lrdiHref && row[2]?.href !== iimaPlacementHref && row[2]?.href !== varcHref && row[2]?.href !== quantHref && row[2]?.href !== xatHref && row[2]?.href !== rodhaHref && row[2]?.href !== feeHref)
           ]
         }
       }
@@ -968,4 +1158,4 @@ const mumbaiGuide = require("./city-institute-pages").find(page => page.slug ===
 const latestArticles = index.sections.find(section => section.id === "latest-articles");
 latestArticles.table.rows.unshift([mumbaiGuide.title, mumbaiGuide.description, { label: "Read article", href: "/blog/best-cat-coaching-in-mumbai/" }]);
 
-module.exports = [index, iimaPlacementArticle, varcArticle, quantArticle, xatArticle, rodhaArticle, feeArticle, ...priorPages.filter((page) => page.slug !== "blog")];
+module.exports = [index, lrdiArticle, iimaPlacementArticle, varcArticle, quantArticle, xatArticle, rodhaArticle, feeArticle, ...priorPages.filter((page) => page.slug !== "blog")];
