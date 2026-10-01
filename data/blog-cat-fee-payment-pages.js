@@ -1124,6 +1124,301 @@ const lrdiArticle = {
   ]
 };
 
+const jbimsArticle = {
+  "slug": "blog/jbims-mba-placements-fees-admission-cutoffs-roi",
+  "title": "JBIMS MBA Guide: Placements, Fees, Admission, Cutoffs and ROI Explained",
+  "section": "MBA College Guide",
+  "description": "A practical JBIMS MBA guide covering MMS admission routes, cutoff context, official placement reports, fees, ROI, campus tradeoffs and alumni strength.",
+  "answer": "JBIMS is a strong-value MBA option for candidates who want a two-year, Mumbai-based management programme with established recruiter access and a large alumni network. Its flagship MMS admission is conducted through Maharashtra's centralised process, and JBIMS says MAH-MBA CET, CAT and CMAT may be considered under the applicable rules. The headline attraction is return on investment, but candidates should compare the current category-wise fee notice with the latest official placement report instead of relying on an old fee or a single salary number.",
+  "body": [
+    "Rodha published a JBIMS college-analysis video on September 30, 2026. It crossed 1,100 views within about 12 hours. The video covers the institute's 'CEO Factory' reputation, placements and recruiters, admission routes, cutoff expectations, campus tradeoffs, alumni legacy and return on investment.",
+    "This guide expands those themes using JBIMS's official website, its placement-report archive and its admissions information. It separates verified facts from interpretation because fee notices, CAP rules, seat categories and cutoffs can change by admission cycle."
+  ],
+  "sections": [
+    {
+      "id": "quick-facts",
+      "heading": "JBIMS at a glance",
+      "paragraphs": [
+        "Jamnalal Bajaj Institute of Management Studies is an autonomous institute of the University of Mumbai located at Churchgate in South Mumbai. Its flagship full-time programme is the two-year Master of Management Studies, commonly referred to as MMS. The institute also offers M.Sc. Finance, MHRD, a three-year part-time MMS and doctoral study, so applicants should not mix the eligibility, fee or placement data of one programme with another.",
+        "JBIMS's location is part of its value proposition. Students study close to Mumbai's financial and corporate districts, and the institute combines permanent faculty with visiting practitioners. The tradeoff is that it is a compact urban campus rather than a large residential campus. Candidates seeking a traditional residential experience should weigh that difference alongside placements and fees."
+      ],
+      "table": {
+        "headers": [
+          "Area",
+          "What candidates should know"
+        ],
+        "rows": [
+          [
+            "Flagship programme",
+            "Two-year full-time MMS"
+          ],
+          [
+            "Location",
+            "Churchgate, Mumbai"
+          ],
+          [
+            "Admission route",
+            "Maharashtra CAP under the rules applicable to the admission cycle"
+          ],
+          [
+            "Exams mentioned by JBIMS",
+            "MAH-MBA CET, CAT and CMAT for MMS, subject to current CAP rules"
+          ],
+          [
+            "Specialisations",
+            "Finance, Marketing, Operations and Supply Chain Management, Human Resources, and Systems and Digital Business"
+          ],
+          [
+            "Placement evidence",
+            "Use the programme-specific report in the official JBIMS placement archive"
+          ],
+          [
+            "Campus format",
+            "Compact, city-centre academic campus rather than a large residential campus"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "video-summary",
+      "heading": "What does Rodha's JBIMS video cover?",
+      "paragraphs": [
+        "The video is organised into four chapters: the JBIMS legacy, placements and recruiters, admission through MAH CET and other routes, and the relationship between campus life, alumni strength and ROI. That structure is useful because a college decision should not be based on only the highest package or only the fee.",
+        "Rodha presents JBIMS as a high-ROI institute with a deep corporate legacy. That is a reasonable starting hypothesis, but applicants should verify each current number. The most dependable workflow is to read the official placement report for the exact programme and graduating batch, check the current admission and payment notice, and then compare those documents with personal goals."
+      ],
+      "links": [
+        [
+          "Watch Rodha's JBIMS guide",
+          "https://www.youtube.com/watch?v=C_1TWOtrq0w"
+        ],
+        [
+          "Rodha YouTube channel",
+          "https://www.youtube.com/@Rodha/videos"
+        ],
+        [
+          "Rodha official website",
+          "https://www.rodha.co.in/"
+        ],
+        [
+          "Rodha CAT mock portal",
+          "https://mocks.rodha.co.in/"
+        ]
+      ]
+    },
+    {
+      "id": "programmes",
+      "heading": "Which JBIMS programme are you evaluating?",
+      "paragraphs": [
+        "Most candidates searching for 'JBIMS MBA' mean the two-year MMS. That programme covers core management disciplines before students move toward specialisation. JBIMS lists Finance, Marketing, Operations and Supply Chain Management, Human Resources, and Systems and Digital Business among the MMS specialisations.",
+        "M.Sc. Finance and MHRD are separate two-year programmes with narrower academic aims and their own admission processes. The part-time MMS is a three-year course for working professionals. A placement report for M.Sc. Finance should not be used as evidence for MMS outcomes, and a part-time programme fee should not be compared with the full-time MMS fee.",
+        "Before building a shortlist, write down the exact programme name, admission cycle and candidate category. This simple step prevents many misleading comparisons."
+      ]
+    },
+    {
+      "id": "admission",
+      "heading": "How does JBIMS MMS admission work?",
+      "paragraphs": [
+        "JBIMS states that selection for its MMS programme is conducted through the Common Admission Process, or CAP, run by the Maharashtra admission authority. Its official FAQ says applicants may appear for MAH-MBA CET and that national-level examinations such as CAT and CMAT are also considered. The exact eligibility of each score, candidature type, seat category and round must be confirmed in the current CAP brochure.",
+        "A qualifying exam score does not by itself guarantee a seat. Candidates must complete the applicable registration, document verification, option-filling and reporting steps within the official schedule. Maharashtra State, All India and other candidature categories can have different seat treatment and merit lists.",
+        "Applicants should treat the institute website and the Maharashtra CET Cell portal as complementary sources. JBIMS publishes institute notices and reporting instructions; the CAP authority publishes the governing schedule, seat matrix, merit lists and allotment rules."
+      ],
+      "table": {
+        "headers": [
+          "Step",
+          "What to verify"
+        ],
+        "rows": [
+          [
+            "Entrance exam",
+            "Whether your MAH-MBA CET, CAT or CMAT score is valid for your candidature category"
+          ],
+          [
+            "CAP registration",
+            "Dates, document requirements and application status"
+          ],
+          [
+            "Merit and options",
+            "Category-specific merit number, seat matrix and preference order"
+          ],
+          [
+            "Allotment",
+            "Acceptance rules, freeze or betterment options and deadlines"
+          ],
+          [
+            "Institute reporting",
+            "JBIMS document list, fee notice and reporting instructions"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "cutoffs",
+      "heading": "What cutoff is required for JBIMS?",
+      "paragraphs": [
+        "There is no single timeless JBIMS cutoff. Closing percentiles depend on the exam, candidature type, reservation category, seat pool, round and the number of candidates competing that year. A general-category All India candidate and a Maharashtra reserved-category candidate are not looking at the same comparison point.",
+        "Popular websites often compress several closing scores into one headline such as '99.9+ percentile'. That may describe the intensity of competition in a particular pool, but it is not a substitute for the official round-wise allotment list. Use historical cutoffs only to set a target range; use the current CAP documents for an admission decision.",
+        "The practical approach is to compare your score with the latest official closing data for the same exam and category, then keep realistic alternatives in the option form. A high target is sensible, but preference filling should not depend on an unofficial prediction."
+      ],
+      "bullets": [
+        "Match the cutoff to the same exam, category and candidature type.",
+        "Check the closing figure by CAP round rather than using one generic number.",
+        "Distinguish minimum eligibility from the score at which a seat actually closed.",
+        "Keep screenshots or PDFs of official allotment data for your records.",
+        "Do not assume that a previous year's closing percentile will repeat."
+      ]
+    },
+    {
+      "id": "fees-roi",
+      "heading": "JBIMS fees and ROI: how should candidates calculate value?",
+      "paragraphs": [
+        "JBIMS publishes category-specific payment instructions during admission. The amount can differ by programme, year and category, and concessions may require valid documents. For that reason, this guide does not freeze one fee as a permanent fact. The 2025-26 MMS CAP page, for example, displayed an open-category amount of Rs 4,22,175; candidates applying in a later cycle should use the current reporting and payment notice rather than carrying that figure forward.",
+        "Return on investment is stronger than a simple 'average salary divided by tuition fee' calculation. Add living costs, commuting, devices, deposits and the income forgone during two years. On the benefit side, consider the range of roles, recruiter continuity, alumni access and whether the curriculum supports your target function.",
+        "JBIMS can remain attractive on this broader test because its academic fee has historically been lower than that of many private two-year MBA programmes and its Mumbai location supports corporate exposure. But a low fee does not make every career goal automatic. Candidates should inspect role mix and recruiter sectors, not just compensation."
+      ],
+      "table": {
+        "headers": [
+          "ROI input",
+          "How to evaluate it"
+        ],
+        "rows": [
+          [
+            "Academic fee",
+            "Current JBIMS category-wise payment notice"
+          ],
+          [
+            "Living cost",
+            "Housing or commute, food and personal expenses in Mumbai"
+          ],
+          [
+            "Opportunity cost",
+            "Salary or experience forgone during full-time study"
+          ],
+          [
+            "Placement outcome",
+            "Median and average data, role mix and batch coverage"
+          ],
+          [
+            "Career fit",
+            "Relevance of offered functions and sectors to your target"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "placements",
+      "heading": "How to read JBIMS placement reports correctly",
+      "paragraphs": [
+        "JBIMS maintains an official placement-report archive and lists a Unified Final Placement Report for 2024-26 alongside programme-specific historical reports. The word 'unified' matters: when a document covers multiple programmes, candidates should check whether a statistic applies to MMS, M.Sc. Finance, MHRD or the combined group.",
+        "Start with batch size and the population represented. Then compare median compensation with average compensation. The median is less affected by a few unusually high offers and often gives a more useful picture of the centre of the batch. The highest package is evidence that a role existed, not a forecast for a typical student.",
+        "Next, inspect sector and role distribution. BFSI, investment banking, consulting, FMCG, technology, general management and other sectors can each offer different work, progression and compensation structures. Recruiter logos show participation, but they do not reveal how many offers were made or for which roles.",
+        "Finally, check the report's definition of CTC and whether domestic and international offers are separated. Compare like with like when evaluating JBIMS against another school."
+      ],
+      "links": [
+        [
+          "Official JBIMS placement-report archive",
+          "https://www.jbims.edu/placement-reports"
+        ],
+        [
+          "Official JBIMS website",
+          "https://www.jbims.edu/"
+        ]
+      ]
+    },
+    {
+      "id": "alumni",
+      "heading": "Why is JBIMS called the CEO Factory?",
+      "paragraphs": [
+        "JBIMS and its community commonly use the 'CEO Factory' label to describe a long record of alumni reaching leadership positions. The institute itself highlights this legacy on its placement page. For a candidate, the useful part of the claim is not the nickname alone but the potential access to an established network across finance, consulting, consumer businesses, industry and entrepreneurship.",
+        "Alumni value is difficult to reduce to one metric. Look for active mentoring, guest sessions, live projects, internship access and responsiveness in the function you want to enter. A broad legacy can help, but students still need to build skills, prepare for interviews and contribute to campus processes."
+      ]
+    },
+    {
+      "id": "campus-tradeoffs",
+      "heading": "JBIMS campus life: advantages and tradeoffs",
+      "paragraphs": [
+        "The Churchgate location puts students inside Mumbai's business ecosystem and can make industry interaction convenient. The student-driven culture and visiting-faculty model can expose learners to practical perspectives. For candidates who value a dense professional network and an urban setting, this can be a meaningful advantage.",
+        "The same model is not identical to a large residential IIM campus. Space, housing arrangements and the rhythm of city commuting may shape the experience. Candidates should ask current students about accommodation, daily schedules, clubs, exchange opportunities and workload rather than inferring campus life from placement data."
+      ]
+    },
+    {
+      "id": "decision",
+      "heading": "Who should prioritise JBIMS?",
+      "paragraphs": [
+        "JBIMS deserves a high place on the shortlist of candidates who are comfortable with the applicable CAP route, want access to Mumbai's corporate market, value alumni depth and care about controlling the total cost of an MBA. It can be especially compelling when the current fee and official placement profile align with the candidate's target function.",
+        "Candidates may prefer another school if a fully residential campus, a different geography, a specialised curriculum or a particular recruiter ecosystem is more important. The best choice is not the school with the strongest nickname; it is the school whose programme, roles, cost and learning environment fit the candidate's plan."
+      ],
+      "bullets": [
+        "Read the current CAP brochure and JBIMS reporting notice.",
+        "Download the latest placement report for the exact programme.",
+        "Compare median outcomes and role mix, not only the highest package.",
+        "Estimate total two-year cost, including Mumbai living expenses.",
+        "Speak with recent students about academics, committees and campus logistics."
+      ]
+    },
+    {
+      "id": "sources",
+      "heading": "Sources checked and editorial note",
+      "paragraphs": [
+        "This guide was reviewed on October 1, 2026. Rodha's official video supplied the discussion themes. Programme, admission and placement-report statements were checked against the official JBIMS website and its placement archive. Current CAP rules and cutoffs should be verified on the Maharashtra CET Cell portal because they can change by cycle.",
+        "Rodha's video is preparation and college-research commentary; it is not an admission authority. Where the video uses broad terms such as cutoff or ROI, this article adds category, programme and document context so readers can verify the claim."
+      ],
+      "links": [
+        [
+          "Rodha JBIMS video",
+          "https://www.youtube.com/watch?v=C_1TWOtrq0w"
+        ],
+        [
+          "JBIMS official website",
+          "https://www.jbims.edu/"
+        ],
+        [
+          "JBIMS placement reports",
+          "https://www.jbims.edu/placement-reports"
+        ],
+        [
+          "Maharashtra CET Cell",
+          "https://cetcell.mahacet.org/"
+        ]
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is JBIMS an MBA or MMS college?",
+      "a": "JBIMS's flagship two-year full-time management programme is the Master of Management Studies, or MMS. Candidates often use MBA as a generic search term, but the official programme name is MMS."
+    },
+    {
+      "q": "Which exams are accepted for JBIMS MMS?",
+      "a": "JBIMS says MAH-MBA CET and national-level exams such as CAT and CMAT may be considered. The valid route depends on the current Maharashtra CAP rules and the candidate's candidature category."
+    },
+    {
+      "q": "What CAT percentile is required for JBIMS?",
+      "a": "There is no universal CAT cutoff. Closing levels vary by exam, category, candidature type, seat pool and round. Check current official CAP merit and allotment data."
+    },
+    {
+      "q": "What is the fee for JBIMS MMS?",
+      "a": "Use the current category-wise reporting and payment notice. Fees can change by cycle and category; older figures should not be treated as the current payable amount."
+    },
+    {
+      "q": "Does JBIMS have good ROI?",
+      "a": "JBIMS is widely considered a strong-value option because of its fee profile, recruiter access and alumni network. Calculate ROI using the current fee, living cost, opportunity cost, median placement outcome and role fit."
+    },
+    {
+      "q": "Is JBIMS a residential campus?",
+      "a": "JBIMS is a compact city-centre institute at Churchgate, Mumbai. Candidates should verify current accommodation arrangements and compare the experience with residential campuses."
+    },
+    {
+      "q": "Where can I find official JBIMS placement data?",
+      "a": "JBIMS publishes programme and batch reports in the placement-report archive on its official website."
+    },
+    {
+      "q": "Where can I watch Rodha's JBIMS guide?",
+      "a": "The video is available on Rodha's official YouTube channel at youtube.com/watch?v=C_1TWOtrq0w."
+    }
+  ]
+};
+
+const jbimsHref = `/${jbimsArticle.slug}/`;
 const lrdiHref = `/${lrdiArticle.slug}/`;
 const iimaPlacementHref = `/${iimaPlacementArticle.slug}/`;
 const varcHref = `/${varcArticle.slug}/`;
@@ -1140,6 +1435,7 @@ const index = {
         table: {
           ...section.table,
           rows: [
+            [jbimsArticle.title, jbimsArticle.description, { label: "Read article", href: jbimsHref }],
             [lrdiArticle.title, lrdiArticle.description, { label: "Read article", href: lrdiHref }],
             [iimaPlacementArticle.title, iimaPlacementArticle.description, { label: "Read article", href: iimaPlacementHref }],
             [varcArticle.title, varcArticle.description, { label: "Read article", href: varcHref }],
@@ -1147,7 +1443,7 @@ const index = {
             [xatArticle.title, xatArticle.description, { label: "Read article", href: xatHref }],
             [rodhaArticle.title, rodhaArticle.description, { label: "Read article", href: rodhaHref }],
             [feeArticle.title, feeArticle.description, { label: "Read article", href: feeHref }],
-            ...section.table.rows.filter((row) => row[2]?.href !== lrdiHref && row[2]?.href !== iimaPlacementHref && row[2]?.href !== varcHref && row[2]?.href !== quantHref && row[2]?.href !== xatHref && row[2]?.href !== rodhaHref && row[2]?.href !== feeHref)
+            ...section.table.rows.filter((row) => row[2]?.href !== jbimsHref && row[2]?.href !== lrdiHref && row[2]?.href !== iimaPlacementHref && row[2]?.href !== varcHref && row[2]?.href !== quantHref && row[2]?.href !== xatHref && row[2]?.href !== rodhaHref && row[2]?.href !== feeHref)
           ]
         }
       }
@@ -1161,4 +1457,4 @@ latestArticles.table.rows.unshift([mumbaiGuide.title, mumbaiGuide.description, {
 const chennaiGuide = require("./city-institute-pages").find(page => page.slug === "blog/best-cat-coaching-in-chennai");
 latestArticles.table.rows.unshift([chennaiGuide.title, chennaiGuide.description, { label: "Read article", href: "/blog/best-cat-coaching-in-chennai/" }]);
 
-module.exports = [index, lrdiArticle, iimaPlacementArticle, varcArticle, quantArticle, xatArticle, rodhaArticle, feeArticle, ...priorPages.filter((page) => page.slug !== "blog")];
+module.exports = [index, jbimsArticle, lrdiArticle, iimaPlacementArticle, varcArticle, quantArticle, xatArticle, rodhaArticle, feeArticle, ...priorPages.filter((page) => page.slug !== "blog")];
