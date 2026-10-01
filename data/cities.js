@@ -31,6 +31,8 @@ const cities = [
   {
     name: "Pune",
     slug: "pune",
+    researchedAt: "1 October 2026",
+    researchedListings: [["IMS Pune: local details", "/cat-coaching/pune/ims/"], ["Career Launcher Pune: local details", "/cat-coaching/pune/career-launcher/"]],
     state: "Maharashtra",
     popularAreas: ["FC Road", "Viman Nagar", "Kothrud", "Hinjewadi", "Wakad"],
     summary:
