@@ -1746,5 +1746,264 @@ module.exports = [
         "a": "Do not assume that the timetable fits. Request a separate plan specifying what can be completed for your target exam and which resources are available immediately."
       }
     ]
+  },
+  {
+    "slug": "cat-coaching/pune/ims",
+    "title": "IMS Pune: CAT Courses, Centres, Fees and Contacts",
+    "section": "Pune CAT coaching research",
+    "description": "Review IMS Pune centre contacts, CAT and other MBA exam options, SimCAT inclusions, faculty disclosures and fee questions.",
+    "answer": "IMS offers Pune classroom preparation alongside online, self-learning and test-series options. Compare your nearest centre, the precise mock package and remaining teaching calendar before choosing a course.",
+    "body": [
+      "Sources reviewed on 1 October 2026. Programme statements are provider disclosures. We have not audited student outcomes or confirmed open seats; ask for the current exam-year quotation and assigned faculty before enrolling."
+    ],
+    "sections": [
+      {
+        "id": "centres",
+        "heading": "Selected Pune centre contacts",
+        "paragraphs": [
+          "The official campaign lists these centres. Confirm the current teaching room and timetable before travelling."
+        ],
+        "links": [
+          [
+            "Official Pune programme and locations",
+            "https://www.imsindia.com/campaign/cat-coaching-pune.html"
+          ]
+        ],
+        "table": {
+          "headers": [
+            "Centre",
+            "Address",
+            "Contact"
+          ],
+          "rows": [
+            [
+              "Deccan",
+              "1216/6/1 Fergusson Chambers, first floor, opposite Fergusson College Gate 1, FC Road, Pune 411004",
+              "8291895022; deccan@imsindia.com"
+            ],
+            [
+              "Aundh",
+              "Office 5, second floor, Business Avenue, DP Road, Pune 411007",
+              "9960957975; aundh@imsindia.com"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "programme",
+        "heading": "CAT programme and mock-test inclusions",
+        "paragraphs": [
+          "The CAT 2026 campaign advertises 300+ coaching hours, 150 hours of video content and 110+ combined full-length mocks: 40+ SimCATs and 70 other management entrance tests. It also mentions mentoring and GDPI support.",
+          "The E-CATAPULT 2026 block contains a CAT 2025 reference. Confirm the purchased product’s exam year and validity instead of assuming every block has been updated."
+        ],
+        "links": [
+          [
+            "Official CAT campaign",
+            "https://www.imsindia.com/campaign/cat-coaching-pune.html"
+          ]
+        ]
+      },
+      {
+        "id": "faculty",
+        "heading": "Faculty, formats and support",
+        "paragraphs": [
+          "The city page names Chintan Shah as chief mentor and Shrikant Gosavi among its mentors. It describes CAT preparation, NMAT, SNAP, XAT and MBA CET options, classroom and online learning, recordings and doubt support. These are city-level disclosures, not a section-wise roster for your batch."
+        ],
+        "links": [
+          [
+            "Official Pune city page and mentors",
+            "https://www.imsindia.com/center/pune/"
+          ]
+        ]
+      },
+      {
+        "id": "fees",
+        "heading": "Fees and batch availability",
+        "paragraphs": [
+          "No final Pune classroom fee was disclosed on the reviewed campaign page; it directs pricing enquiries to counselling. No exact new classroom start date or open seat was confirmed.",
+          "Ask for one written total that identifies the exam year, taxes, books, recordings, tests, mentor sessions, interview preparation, access expiry and refund terms. For CAT 2026, ask how much advertised teaching remains available to a new student."
+        ],
+        "links": []
+      },
+      {
+        "id": "fit",
+        "heading": "Our assessment and demo checklist",
+        "paragraphs": [
+          "Shortlist a reachable IMS centre if you want scheduled teaching and a structured mock-review routine. Compare travel at your actual class time: a convenient branch can leave more time for solving questions and analysing mistakes.",
+          "Use the demo to test your weakest section. Ask the assigned teacher to explain an unfamiliar problem, then try a similar question independently. A national brand or a large question bank does not establish that the teaching pace suits you.",
+          "Ask how mock analysis becomes next week’s practice plan and whether the teacher checks progress. For students targeting several MBA exams, request a separate calendar for non-CAT topics rather than assuming the combined mock count includes complete teaching for each exam."
+        ],
+        "links": []
+      },
+      {
+        "id": "related",
+        "heading": "Related Pune research",
+        "paragraphs": [],
+        "links": [
+          [
+            "Pune coaching directory",
+            "/cat-coaching/pune/"
+          ],
+          [
+            "Career Launcher Pune",
+            "/cat-coaching/pune/career-launcher/"
+          ],
+          [
+            "IMS national profile",
+            "/cat-coaching/ims/"
+          ]
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Are all 110+ advertised IMS mocks CAT tests?",
+        "a": "No. The campaign combines 40+ SimCATs with 70 tests for other management entrances. Check the breakdown for your selected plan."
+      },
+      {
+        "q": "Is a current Pune classroom fee verified here?",
+        "a": "No final branch quotation was displayed on the campaign reviewed. Request a dated all-inclusive quote."
+      }
+    ]
+  },
+  {
+    "slug": "cat-coaching/pune/career-launcher",
+    "title": "Career Launcher Pune: CAT Courses, Centres and Fees",
+    "section": "Pune CAT coaching research",
+    "description": "Compare Career Launcher Pune locations, displayed programme prices, test inclusions, teaching formats and questions for admissions.",
+    "answer": "Career Launcher lists Pune centres and classroom, live-online and hybrid preparation. Its page displays several product offers; those prices should not be treated as a final branch-specific classroom quotation.",
+    "body": [
+      "Sources reviewed on 1 October 2026. Programme statements are provider disclosures. We have not audited student outcomes or confirmed open seats; ask for the current exam-year quotation and assigned faculty before enrolling."
+    ],
+    "sections": [
+      {
+        "id": "centres",
+        "heading": "Selected Pune locations and contacts",
+        "paragraphs": [
+          "The official city directory lists six locations, including Aundh, FC Road, Kharadi, Wakad, PCMC and Undri. Two useful contact points are below; branches of one brand count as one institute."
+        ],
+        "links": [
+          [
+            "Official Pune centre directory",
+            "https://www.careerlauncher.com/pune/"
+          ]
+        ],
+        "table": {
+          "headers": [
+            "Centre",
+            "Address",
+            "Contact"
+          ],
+          "rows": [
+            [
+              "FC Road",
+              "Offices 1–2, third floor, Land Square Shopping Complex, above Fastrack, near Rupali Restaurant, Shivajinagar 411004",
+              "8484820200; pune@careerlauncher.com"
+            ],
+            [
+              "Kharadi",
+              "Office 105, Pride Icon, above Atithi Restaurant, Mundhwa–Hadapsar Bypass, Kharadi 411014",
+              "8149450005; cl.pune.kharadi@careerlauncher.com"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "courses",
+        "heading": "Course formats, mocks and displayed offers",
+        "paragraphs": [
+          "The Pune CAT page describes CAT, XAT, NMAT, SNAP, MBA-CET and CMAT preparation, with classroom, online and hybrid formats. A displayed ₹36,500 card lists 150+ live sessions, 30 CAT mocks, 45 sectionals, mentorship, printed material and Telegram doubt support. A ₹39,500 card adds non-CAT sessions and tests.",
+          "These are observed product-card prices, not a confirmed tax-inclusive classroom quote. Ask which product, delivery format and target exam year the offer covers."
+        ],
+        "links": [
+          [
+            "Official Pune CAT programmes and offers",
+            "https://www.careerlauncher.com/pune/cat-coaching-pune/"
+          ]
+        ]
+      },
+      {
+        "id": "faculty",
+        "heading": "Faculty and batch details to establish",
+        "paragraphs": [
+          "The page describes weekday, weekend and fast-track options. However, a named section-wise roster, exact next batch date, current seats and final branch fee were not established from the reviewed material.",
+          "Ask for the Quant, VARC and DILR teachers assigned to your batch and attend a demo with them. Testimonials and broad faculty claims cannot establish who will teach you or how quickly a doubt will be resolved."
+        ],
+        "links": []
+      },
+      {
+        "id": "fit",
+        "heading": "Our assessment: compare the local teaching arrangement",
+        "paragraphs": [
+          "This is worth comparing if one of the listed Pune centres fits your routine and you want preparation for several MBA entrance exams. Start with the timetable and the exact exam bundle, then judge the quality of a sample class and mock-review discussion.",
+          "For a working learner, clarify whether hybrid means optional attendance, streamed classroom sessions or a separate online course. Ask what happens if work causes you to miss a lesson and whether catch-up recordings remain available through your exam.",
+          "A repeater may need targeted feedback more than a full lecture schedule. Request a sample analysis showing which errors were conceptual, time-related or caused by question selection, and what practice the mentor would prescribe."
+        ],
+        "links": []
+      },
+      {
+        "id": "payment",
+        "heading": "Before enrolling",
+        "paragraphs": [],
+        "links": [],
+        "table": {
+          "headers": [
+            "Question",
+            "Evidence to request"
+          ],
+          "rows": [
+            [
+              "Which course am I buying?",
+              "Product name, exam year, branch and format"
+            ],
+            [
+              "What is the final payable amount?",
+              "Taxes, books, tests and all add-ons in one quote"
+            ],
+            [
+              "How much teaching remains?",
+              "Dated syllabus, revision and mock calendar"
+            ],
+            [
+              "What support is included?",
+              "Mentor access, doubt process and interview terms"
+            ],
+            [
+              "What if my schedule changes?",
+              "Recording expiry, transfer and refund conditions"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "related",
+        "heading": "Related Pune research",
+        "paragraphs": [],
+        "links": [
+          [
+            "Pune coaching directory",
+            "/cat-coaching/pune/"
+          ],
+          [
+            "IMS Pune",
+            "/cat-coaching/pune/ims/"
+          ],
+          [
+            "Career Launcher national profile",
+            "/cat-coaching/career-launcher/"
+          ]
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does the ₹36,500 card establish a Pune classroom price?",
+        "a": "No. It is a displayed product offer. Confirm the exam year, format, taxes and branch-specific inclusions before paying."
+      },
+      {
+        "q": "Are the six Pune centres six different institutes?",
+        "a": "No. They are branches of Career Launcher and are counted as one distinct institute."
+      }
+    ]
   }
 ];
