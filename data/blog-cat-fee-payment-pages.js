@@ -1418,6 +1418,361 @@ const jbimsArticle = {
   ]
 };
 
+const last60DaysArticle = {
+  "slug": "blog/cat-2026-last-60-days-strategy-mocks-practice",
+  "title": "CAT 2026 Last 60 Days Strategy: Mocks, Revision and Section-Wise Practice",
+  "section": "CAT 2026 Video Guide",
+  "description": "A practical CAT 2026 last 60 days plan based on KD Sir and Rishabh Jain's Rodha discussion, covering mocks, analysis, QA, LRDI, VARC and burnout.",
+  "answer": "In the final 60 days before CAT 2026, shift from open-ended syllabus coverage to a closed improvement loop: take a mock, diagnose the causes of lost marks, repair two or three priorities, test them in sectionals, and return to the next mock. Keep revising high-frequency concepts, maintain daily section contact, and track decisions rather than reacting to one percentile. Falling mock scores are useful evidence when the analysis identifies whether the cause was knowledge, selection, timing, accuracy or fatigue.",
+  "body": [
+    "Rodha published a 26-minute CAT 2026 strategy conversation on October 1, 2026. The video crossed 3,200 views within about 10 hours. KD Sir speaks with Rishabh Jain, an IIM Indore student presented in the video as a 99.91-percentiler, about his preparation record, score fluctuations, burnout and the work he would prioritise in the final two months.",
+    "This guide converts the conversation into a structured 60-day plan. It does not treat one topper's schedule as a universal formula. Available hours, section levels and mock scores differ, so the framework is designed to be measured and adapted."
+  ],
+  "sections": [
+    {
+      "id": "video-summary",
+      "heading": "What does Rodha's CAT last 60 days video cover?",
+      "paragraphs": [
+        "The discussion begins with Rishabh's 9/8/6 academic profile and his route to IIM Indore, then examines how he reached a reported 99.91 percentile in CAT. It addresses a concern many aspirants carry: whether a weaker graduation CGPA ends the possibility of entering a strong business school. The sensible conclusion is neither reassurance nor panic. Academic history matters differently across institutes, but the part still under the candidate's control is the exam score and the quality of the college shortlist.",
+        "The most actionable chapters deal with the last 60 days: recovering from falling mock scores, avoiding burnout, tracking preparation, and allocating work across Quant, LRDI and VARC. The video also asks what Rishabh would change if he prepared again, which is valuable because retrospective lessons often reveal wasted effort more clearly than success slogans."
+      ],
+      "links": [
+        [
+          "Watch Rodha's CAT 2026 last 60 days strategy",
+          "https://www.youtube.com/watch?v=sjQMoyNw924"
+        ],
+        [
+          "Rodha YouTube channel",
+          "https://www.youtube.com/@Rodha/videos"
+        ],
+        [
+          "Rodha official website",
+          "https://www.rodha.co.in/"
+        ],
+        [
+          "Rodha CAT mock portal",
+          "https://mocks.rodha.co.in/"
+        ]
+      ]
+    },
+    {
+      "id": "core-principle",
+      "heading": "The central rule: let mock analysis choose the next week's work",
+      "paragraphs": [
+        "The final two months are too short for preparation driven by mood. Every full mock should produce a small set of decisions for the next cycle. If analysis only records a percentile, the test has not been used fully. The real output is a list of errors, time traps, missed easy questions and section-specific repairs.",
+        "Classify every meaningful loss. A concept error means the underlying idea was unavailable or misunderstood. An execution error means the method was known but applied incorrectly. A selection error means the candidate chose a low-value question or set while a better opportunity remained. A timing error means the order or time budget broke down. A composure error includes rushed reading, panic switching and unplanned guessing.",
+        "After classification, choose no more than two or three repair priorities. Trying to fix ten problems before the next mock usually creates shallow work. A precise goal such as 'leave algebra questions without a clean equation after two minutes' is more testable than 'improve Quant.'"
+      ],
+      "table": {
+        "headers": [
+          "Mock loss",
+          "Typical evidence",
+          "Repair action"
+        ],
+        "rows": [
+          [
+            "Concept",
+            "Solution uses an idea you could not recall",
+            "Revise the concept and solve a compact graded set"
+          ],
+          [
+            "Execution",
+            "Correct method, wrong algebra or calculation",
+            "Redo untimed, then repeat under a short timer"
+          ],
+          [
+            "Selection",
+            "Hard question attempted before an easier one",
+            "Run scan-and-rank drills and define exit signals"
+          ],
+          [
+            "Timing",
+            "One part of the section consumes the plan",
+            "Use section checkpoints tested in sectionals"
+          ],
+          [
+            "Composure",
+            "Reading, switching or guessing becomes erratic",
+            "Rehearse a reset routine in the next mock"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "sixty-day-phases",
+      "heading": "A three-phase CAT 2026 plan for the final 60 days",
+      "paragraphs": [
+        "A useful 60-day plan has three phases rather than sixty unrelated schedules. The first phase closes only high-value gaps and establishes a stable test routine. The second phase increases mock-to-repair cycles. The final phase protects confidence, revises accumulated evidence and reduces experiments.",
+        "This is not a demand to stop learning new material on a fixed date. A candidate with a major arithmetic gap may still need concept work. The distinction is that every topic must now justify its place through likely score impact and available practice time."
+      ],
+      "table": {
+        "headers": [
+          "Phase",
+          "Primary goal",
+          "Suggested emphasis"
+        ],
+        "rows": [
+          [
+            "Days 60-41",
+            "Stabilise fundamentals and section method",
+            "Targeted revision, sectionals, one or two mocks weekly"
+          ],
+          [
+            "Days 40-16",
+            "Convert learning into repeatable mock performance",
+            "Two or three mocks weekly with deep analysis and repair"
+          ],
+          [
+            "Days 15-1",
+            "Protect execution and recall",
+            "Representative mocks, formula and error-log revision, sleep and routine"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "mock-frequency",
+      "heading": "How many CAT mocks should you take in the last 60 days?",
+      "paragraphs": [
+        "There is no universally correct number. The useful frequency is the highest one that still allows complete analysis and repair. Two well-analysed mocks can produce more improvement than five tests taken back to back. Candidates with a full-time job may use one weekday sectional and one weekend mock; full-time students may support a higher frequency if analysis quality remains strong.",
+        "Keep at least one full cycle between many mocks: test, analyse, revise, practise and retest. Consecutive mocks can occasionally build stamina, but they should not become the default response to a bad score. A low percentile followed immediately by another test often measures the same unresolved problems.",
+        "Use comparable conditions. Start at the planned time, remove interruptions, follow the official section order and do not pause to check solutions. The mock should test the system you intend to use, not an idealised version of your day."
+      ],
+      "bullets": [
+        "Do not select mock frequency from another aspirant's social-media schedule.",
+        "Count analysis time as part of the mock, not as optional extra work.",
+        "Use at least one alternative mock source only if you can review both properly.",
+        "Track raw score, accuracy, attempts, time use and error type by section.",
+        "Review trends over several mocks instead of reacting to one rank."
+      ]
+    },
+    {
+      "id": "score-fluctuations",
+      "heading": "What should you do when CAT mock scores fall?",
+      "paragraphs": [
+        "Score volatility is normal because mock difficulty, question mix, peer population and personal readiness vary. The dangerous response is to rebuild the entire plan after every result. First compare raw scores and section behaviour, not only percentile. A harder paper can lower the raw score while preserving decision quality.",
+        "Look for repeated causes across three to five tests. If VARC accuracy falls only when attempts rise, the problem may be selection. If LRDI varies with the first set chosen, the repair is scanning and exit discipline. If Quant drops after twenty-five minutes, fatigue or sequencing may matter more than formulas.",
+        "Create a short recovery protocol for bad mocks. Take a break, analyse after emotions settle, extract three lessons and complete one controlled repair session. Confidence should come from a process that can be repeated, not from avoiding difficult papers."
+      ]
+    },
+    {
+      "id": "quant",
+      "heading": "Quant strategy for the final 60 days",
+      "paragraphs": [
+        "Quant preparation should now combine recall, mixed practice and selection. Continue repairing high-yield gaps in arithmetic, algebra and geometry, but avoid spending several days consuming lectures without testing whether the concept converts under time pressure.",
+        "Use short mixed sets so the topic is not announced in advance. CAT requires the candidate to recognise the underlying structure before solving. After each set, mark questions as immediate, workable with time, or poor choices. The classification is as important as the solution.",
+        "Maintain a formula and pattern notebook small enough to revise repeatedly. Add only items that have caused an error or delay. In mocks, test a two-round approach: secure clear questions first, then return to selected medium problems. Leave when the route remains unclear or the algebra becomes disproportionate to the likely mark."
+      ],
+      "table": {
+        "headers": [
+          "Quant block",
+          "Purpose"
+        ],
+        "rows": [
+          [
+            "Concept revision",
+            "Repair a verified weakness from mocks or sectionals"
+          ],
+          [
+            "Mixed practice",
+            "Improve recognition without topic labels"
+          ],
+          [
+            "Timed sectional",
+            "Test scanning, order and exit decisions"
+          ],
+          [
+            "Error-log redo",
+            "Confirm that earlier mistakes no longer repeat"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "lrdi",
+      "heading": "LRDI strategy for the final 60 days",
+      "paragraphs": [
+        "LRDI improvement needs variety and presentation discipline. Solve sets from different families, but do not judge practice only by completion. Record how long it took to understand the set, choose a representation, reach the first answer and verify the result.",
+        "A clean table, diagram or case split reduces both time and error. If the representation keeps changing, pause and ask whether a stronger constraint was missed. During a sectional, scan the available sets before committing and use state-based exit rules: continue when the structure is stable and progress is measurable; leave when cases multiply without reduction.",
+        "After every mock, rank the sets as they should have been attempted with hindsight. Compare that order with the order actually chosen. This reveals whether the main problem was logic or selection."
+      ]
+    },
+    {
+      "id": "varc",
+      "heading": "VARC strategy for the final 60 days",
+      "paragraphs": [
+        "VARC is especially vulnerable to overcorrection. A poor mock can tempt candidates to change reading speed, passage order and option method simultaneously. Change one variable at a time and judge it across several tests.",
+        "Daily reading is useful only when paired with active comprehension. Summarise the author's purpose, paragraph roles and shifts in tone. For RC practice, explain why each rejected option is wrong; this exposes recurring traps such as excessive scope, reversed logic, unsupported detail and language stronger than the passage.",
+        "For verbal ability, practise para summary, para jumbles and odd-sentence questions in small timed groups, then study the logic behind the sequence or summary. In full mocks, use realistic checkpoints rather than forcing a fixed attempt count. Net marks matter more than opening every question."
+      ]
+    },
+    {
+      "id": "tracking",
+      "heading": "How should you track CAT preparation?",
+      "paragraphs": [
+        "The video includes a chapter on how Rishabh tracked his preparation. A useful tracker should reduce confusion, not become another project. Keep one row per mock or sectional with date, source, score, attempts, accuracy, time pattern, top errors and the next repair action.",
+        "Add a weekly view showing completed mocks, revised topics, solved LRDI sets, RC passages and unresolved weaknesses. Do not reward volume without quality. Fifty questions rushed without review may be less valuable than fifteen selected questions whose errors were understood and repeated correctly.",
+        "At the end of each week, answer three questions: what improved, what repeated, and what should be removed from next week's plan? Removing low-value work is part of strategy."
+      ]
+    },
+    {
+      "id": "burnout",
+      "heading": "How to prevent burnout in the last two months",
+      "paragraphs": [
+        "Burnout often appears as declining concentration, avoidance of analysis, irregular sleep or the urge to replace the plan every few days. More hours are not automatically the answer. A tired candidate may increase activity while reducing useful learning.",
+        "Fix a sustainable weekly rhythm with one lighter block, predictable sleep and boundaries around mock review. Working professionals should protect a small weekday minimum and use weekends for longer tests. Full-time students should avoid turning every day into a twelve-hour emergency.",
+        "Use rest deliberately after intense mocks, but distinguish recovery from unplanned disappearance. A short walk, exercise, meal or evening off can restore attention. Several days of avoiding the error log usually increases anxiety."
+      ]
+    },
+    {
+      "id": "sample-week",
+      "heading": "Sample one-week CAT plan inside the 60-day phase",
+      "paragraphs": [
+        "The table below is a template, not a compulsory timetable. Move the full mock to the day when uninterrupted time is available. Keep daily contact with all three sections, while giving extra blocks to the weakness identified by the last analysis."
+      ],
+      "table": {
+        "headers": [
+          "Day",
+          "Primary work"
+        ],
+        "rows": [
+          [
+            "Monday",
+            "Review last mock, classify errors and select three repairs"
+          ],
+          [
+            "Tuesday",
+            "Quant repair plus one RC and one LRDI set"
+          ],
+          [
+            "Wednesday",
+            "VARC sectional, review options and revise Quant errors"
+          ],
+          [
+            "Thursday",
+            "LRDI sectional, representation review and light reading"
+          ],
+          [
+            "Friday",
+            "Mixed Quant set, verbal ability practice and formula revision"
+          ],
+          [
+            "Saturday",
+            "Full CAT mock under exam conditions"
+          ],
+          [
+            "Sunday",
+            "Deep mock analysis, redo missed opportunities and plan next week"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "profile",
+      "heading": "Does a low graduation CGPA make CAT preparation pointless?",
+      "paragraphs": [
+        "No single profile number answers that question. Institutes use different shortlisting formulas and may assign different weight to Class 10, Class 12, graduation, work experience, diversity and CAT performance. A lower graduation score can reduce competitiveness at some schools, but it does not erase every MBA option.",
+        "Build a diversified shortlist using current official admission policies. The exam score remains one of the largest controllable inputs, so the final 60 days should focus on performance rather than repeatedly judging an academic record that cannot be changed."
+      ],
+      "links": [
+        [
+          "Explore IIM admission guidance",
+          "/iim/"
+        ],
+        [
+          "Compare MBA colleges",
+          "/mba-colleges/"
+        ],
+        [
+          "Review the CAT 2026 exam guide",
+          "/cat-2026/"
+        ]
+      ]
+    },
+    {
+      "id": "final-checklist",
+      "heading": "CAT 2026 last 60 days checklist",
+      "bullets": [
+        "Choose a mock frequency that leaves enough time for analysis and repair.",
+        "Track raw score, attempts, accuracy, selection errors and time traps.",
+        "Limit each improvement cycle to two or three priorities.",
+        "Keep mixed Quant practice and a compact revision notebook.",
+        "Practise LRDI scanning, representation and exit decisions.",
+        "Protect VARC accuracy and analyse why options are wrong.",
+        "Use current official college criteria for profile-based shortlisting.",
+        "Stabilise sleep, food and test timing before the final phase.",
+        "Reduce new resources and finish the material already selected.",
+        "Judge progress across several mocks, not one percentile."
+      ]
+    },
+    {
+      "id": "sources",
+      "heading": "Video and official context",
+      "paragraphs": [
+        "This article was reviewed on October 2, 2026. The video's publication date, view count, chapter structure and topics were checked on Rodha's official YouTube channel. The 60-day phases, error taxonomy, tracking format and weekly plan are original editorial expansions designed to make the discussion actionable.",
+        "A topper interview describes one preparation experience and does not guarantee the same score or admission outcome. Candidates should use the official CAT website for exam notices and each institute's official admission policy for profile and shortlisting decisions."
+      ],
+      "links": [
+        [
+          "Rodha CAT 2026 last 60 days video",
+          "https://www.youtube.com/watch?v=sjQMoyNw924"
+        ],
+        [
+          "Rodha YouTube channel",
+          "https://www.youtube.com/@Rodha/videos"
+        ],
+        [
+          "Rodha official website",
+          "https://www.rodha.co.in/"
+        ],
+        [
+          "Rodha CAT mock portal",
+          "https://mocks.rodha.co.in/"
+        ],
+        [
+          "Official CAT website",
+          "https://iimcat.ac.in/"
+        ]
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What should I do in the last 60 days before CAT 2026?",
+      "a": "Use repeated mock-analysis-repair cycles, revise high-value concepts, practise every section and stabilise your exam routine. Let error evidence choose the next week's priorities."
+    },
+    {
+      "q": "How many mocks should I take in the last two months?",
+      "a": "Take the highest number you can analyse and repair properly. For many candidates this is one to three mocks per week, but available time and preparation level matter more than copying a fixed count."
+    },
+    {
+      "q": "What if my CAT mock scores are falling?",
+      "a": "Compare raw scores and error patterns across several mocks. Identify whether the cause is concepts, execution, selection, timing or fatigue, then repair only the strongest repeated causes."
+    },
+    {
+      "q": "Should I learn new topics in the final 60 days?",
+      "a": "Yes, when a topic is a verified high-value gap and enough time remains to practise it. Avoid broad new resource collection that displaces mocks, revision and analysis."
+    },
+    {
+      "q": "How should working professionals plan the final two months?",
+      "a": "Protect a sustainable weekday minimum, reserve an uninterrupted weekend block for a mock, and complete analysis before taking the next test. Recordings and compact repair sessions can reduce schedule friction."
+    },
+    {
+      "q": "How can I improve LRDI in 60 days?",
+      "a": "Practise varied sets, track representation and selection, run timed sectionals, and review whether your actual set order matched the best order visible after the test."
+    },
+    {
+      "q": "How can I improve VARC accuracy before CAT?",
+      "a": "Analyse rejected options, track recurring traps, maintain daily active reading and test one strategy change at a time across multiple sectionals."
+    },
+    {
+      "q": "Where can I watch the Rodha CAT 2026 strategy video?",
+      "a": "The KD Sir and Rishabh Jain discussion is available on Rodha's official YouTube channel at youtube.com/watch?v=sjQMoyNw924."
+    }
+  ]
+};
+
+const last60DaysHref = `/${last60DaysArticle.slug}/`;
 const jbimsHref = `/${jbimsArticle.slug}/`;
 const lrdiHref = `/${lrdiArticle.slug}/`;
 const iimaPlacementHref = `/${iimaPlacementArticle.slug}/`;
@@ -1435,6 +1790,7 @@ const index = {
         table: {
           ...section.table,
           rows: [
+            [last60DaysArticle.title, last60DaysArticle.description, { label: "Read article", href: last60DaysHref }],
             [jbimsArticle.title, jbimsArticle.description, { label: "Read article", href: jbimsHref }],
             [lrdiArticle.title, lrdiArticle.description, { label: "Read article", href: lrdiHref }],
             [iimaPlacementArticle.title, iimaPlacementArticle.description, { label: "Read article", href: iimaPlacementHref }],
@@ -1443,7 +1799,7 @@ const index = {
             [xatArticle.title, xatArticle.description, { label: "Read article", href: xatHref }],
             [rodhaArticle.title, rodhaArticle.description, { label: "Read article", href: rodhaHref }],
             [feeArticle.title, feeArticle.description, { label: "Read article", href: feeHref }],
-            ...section.table.rows.filter((row) => row[2]?.href !== jbimsHref && row[2]?.href !== lrdiHref && row[2]?.href !== iimaPlacementHref && row[2]?.href !== varcHref && row[2]?.href !== quantHref && row[2]?.href !== xatHref && row[2]?.href !== rodhaHref && row[2]?.href !== feeHref)
+            ...section.table.rows.filter((row) => row[2]?.href !== last60DaysHref && row[2]?.href !== jbimsHref && row[2]?.href !== lrdiHref && row[2]?.href !== iimaPlacementHref && row[2]?.href !== varcHref && row[2]?.href !== quantHref && row[2]?.href !== xatHref && row[2]?.href !== rodhaHref && row[2]?.href !== feeHref)
           ]
         }
       }
@@ -1457,4 +1813,4 @@ latestArticles.table.rows.unshift([mumbaiGuide.title, mumbaiGuide.description, {
 const chennaiGuide = require("./city-institute-pages").find(page => page.slug === "blog/best-cat-coaching-in-chennai");
 latestArticles.table.rows.unshift([chennaiGuide.title, chennaiGuide.description, { label: "Read article", href: "/blog/best-cat-coaching-in-chennai/" }]);
 
-module.exports = [index, jbimsArticle, lrdiArticle, iimaPlacementArticle, varcArticle, quantArticle, xatArticle, rodhaArticle, feeArticle, ...priorPages.filter((page) => page.slug !== "blog")];
+module.exports = [index, last60DaysArticle, jbimsArticle, lrdiArticle, iimaPlacementArticle, varcArticle, quantArticle, xatArticle, rodhaArticle, feeArticle, ...priorPages.filter((page) => page.slug !== "blog")];
