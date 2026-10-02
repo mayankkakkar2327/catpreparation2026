@@ -51,6 +51,8 @@ const cities = [
   {
     name: "Kolkata",
     slug: "kolkata",
+    researchedAt: "2 October 2026",
+    researchedListings: [["IMS Kolkata: local details", "/cat-coaching/kolkata/ims/"], ["Erudite Kolkata: local details", "/cat-coaching/kolkata/erudite/"], ["Compare five Kolkata institutes", "/blog/best-cat-coaching-in-kolkata/"]],
     state: "West Bengal",
     popularAreas: ["Park Street", "Salt Lake", "Gariahat", "Jadavpur", "Rajarhat"],
     summary:
