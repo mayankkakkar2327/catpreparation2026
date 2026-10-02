@@ -2005,5 +2005,528 @@ module.exports = [
         "a": "No. They are branches of Career Launcher and are counted as one distinct institute."
       }
     ]
+  },
+  {
+    "slug": "cat-coaching/kolkata/ims",
+    "title": "IMS Kolkata: CAT Courses, Centres, Fees and Contacts",
+    "section": "Kolkata CAT coaching research",
+    "description": "Check IMS Kolkata centre contacts, CAT preparation formats, SimCAT inclusions and questions about fees, faculty and batch availability.",
+    "answer": "IMS lists CAT centres at Park Street, Gariahat and Salt Lake, alongside online preparation. Compare the local timetable and exact mock package before selecting a course.",
+    "body": [
+      "Sources reviewed on 2 October 2026. Programme statements are provider disclosures, not independently audited outcomes. Confirm the current batch, assigned teachers and written quotation before enrolling."
+    ],
+    "sections": [
+      {
+        "id": "contact",
+        "heading": "Selected Kolkata centre contacts",
+        "paragraphs": [],
+        "links": [
+          [
+            "Official IMS Kolkata directory",
+            "https://www.imsindia.com/center/kolkata/"
+          ]
+        ],
+        "table": {
+          "headers": [
+            "Centre",
+            "Address",
+            "Contact"
+          ],
+          "rows": [
+            [
+              "Park Street",
+              "Rooms 6A–6B, ground floor, Shri Manjari, 1/1 Camac Street, Kolkata 700071",
+              "8291895027; parkstreet@imsindia.com"
+            ],
+            [
+              "Gariahat",
+              "Second floor, 190/1 Rash Behari Avenue, above Junior Gupta Brothers, Kolkata 700029",
+              "8291895019; gariahat@imsindia.com"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "course",
+        "heading": "Formats and test-series distinctions",
+        "paragraphs": [
+          "The official city page describes classroom, live-online and self-learning options, recordings, mentoring and doubt support. A named section-wise teaching roster for a current local batch was not established."
+        ],
+        "links": [
+          [
+            "Official formats and support",
+            "https://www.imsindia.com/center/kolkata/"
+          ]
+        ]
+      },
+      {
+        "id": "mocks",
+        "heading": "Read the mock breakdown before comparing plans",
+        "paragraphs": [
+          "The Kolkata campaign lists SimCAT Comprehensive and Plus packages with 40+ SimCATs and 70 tests for other management entrances. Its simpler SimCAT plan instead specifies 16 proctored and 25 take-home SimCATs. These are different plans, not benefits to combine into one entitlement.",
+          "The campaign directs fee enquiries to counselling. A final local classroom fee, current intake date and open seat were not confirmed."
+        ],
+        "links": [
+          [
+            "Official Kolkata CAT programme and pricing enquiry",
+            "https://www.imsindia.com/campaign/cat-coaching-kolkata.html"
+          ]
+        ]
+      },
+      {
+        "id": "fit",
+        "heading": "Our assessment: compare the actual branch experience",
+        "paragraphs": [
+          "IMS is worth shortlisting when one of its listed centres fits your weekly travel and you want scheduled teaching with test practice. Attend a demo with the teacher assigned to your weakest section; the national brand alone cannot establish classroom fit.",
+          "Ask for a sample mock review. A useful discussion should identify why questions were missed and lead to a manageable practice plan. Clarify whether this feedback is included, how appointments are booked and what happens when you miss a class.",
+          "For a late CAT 2026 enrolment, request the remaining syllabus and revision calendar. A course advertised over a full preparation cycle does not mean all those hours remain available to a new student."
+        ],
+        "links": []
+      },
+      {
+        "id": "fees",
+        "heading": "Get a comparable written quotation",
+        "paragraphs": [],
+        "links": [],
+        "table": {
+          "headers": [
+            "Item",
+            "What to establish"
+          ],
+          "rows": [
+            [
+              "Target year",
+              "CAT 2026 or CAT 2027 and access expiry"
+            ],
+            [
+              "Teaching",
+              "Assigned teachers, remaining classes and recordings"
+            ],
+            [
+              "Testing",
+              "CAT-only mocks, other-exam tests and analysis"
+            ],
+            [
+              "Support",
+              "Mentor sessions, doubts and interview preparation"
+            ],
+            [
+              "Payment",
+              "Taxes, books, additional charges and refund terms"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "related",
+        "heading": "Related research",
+        "paragraphs": [],
+        "links": [
+          [
+            "Kolkata comparison guide",
+            "/blog/best-cat-coaching-in-kolkata/"
+          ],
+          [
+            "Kolkata coaching directory",
+            "/cat-coaching/kolkata/"
+          ],
+          [
+            "IMS national profile",
+            "/cat-coaching/ims/"
+          ]
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Are all advertised IMS tests CAT mocks?",
+        "a": "No. Some packages combine SimCATs with tests for other management entrances. Check your selected plan’s breakdown."
+      },
+      {
+        "q": "Is a current IMS Kolkata classroom fee confirmed?",
+        "a": "No. The reviewed campaign directs pricing enquiries to counselling; obtain a dated branch quotation."
+      }
+    ]
+  },
+  {
+    "slug": "cat-coaching/kolkata/erudite",
+    "title": "Erudite Kolkata: CAT Courses, Fees and Camac Street Contact",
+    "section": "Kolkata CAT coaching research",
+    "description": "Review Erudite Kolkata contact details, blended CAT teaching, published batch dates, mock-test caveats and enrolment questions.",
+    "answer": "Erudite offers Kolkata classroom preparation with digital resources, plus online and self-paced options. Its pages mix exam years and test counts, so request the specification for your exact course.",
+    "body": [
+      "Sources reviewed on 2 October 2026. Programme statements are provider disclosures, not independently audited outcomes. Confirm the current batch, assigned teachers and written quotation before enrolling."
+    ],
+    "sections": [
+      {
+        "id": "contact",
+        "heading": "Camac Street office and admissions contact",
+        "paragraphs": [
+          "The official classroom page lists its head office at second floor, Mansarovar Apartment, 3B Camac Street, Kolkata 700016. Contact 9007060337, 9007537856 or 6292001011; email erudite@erudite.in. Confirm your teaching venue when booking a visit."
+        ],
+        "links": [
+          [
+            "Official classroom and contact page",
+            "https://erudite.in/cat-classroom-course-in-kolkata/"
+          ]
+        ]
+      },
+      {
+        "id": "course",
+        "heading": "Teaching, mentoring and test disclosures",
+        "paragraphs": [
+          "The classroom page describes face-to-face classes combined with recorded lessons, personal mentoring and on-demand doubt sessions. It includes a CAT 2026/27/28 heading but retains CAT 2024/25 wording. Different sections list different mock categories and totals, so we do not present them as one confirmed current package."
+        ],
+        "links": [
+          [
+            "Official blended classroom description",
+            "https://erudite.in/cat-classroom-course-in-kolkata/"
+          ]
+        ]
+      },
+      {
+        "id": "batch",
+        "heading": "Published dates and fees",
+        "paragraphs": [
+          "On review, the homepage announced a CAT 2026 crash course starting 19 September 2026 and CAT 2027 starting 20 September. Both dates had passed by our verification date; they do not establish that a new student can still join.",
+          "No final classroom price or named section-wise current batch roster was established. Ask admissions for the correct exam-year brochure, teachers, remaining timetable and all-inclusive quotation."
+        ],
+        "links": [
+          [
+            "Official notice board and course options",
+            "https://erudite.in/"
+          ]
+        ]
+      },
+      {
+        "id": "fit",
+        "heading": "Our assessment: test how blended learning works for you",
+        "paragraphs": [
+          "Shortlist Erudite if you want a Kolkata classroom provider with digital revision support. During a demo, ask which work is taught in person and which is expected before or after class. The amount of content matters less than whether you can complete and apply it.",
+          "Ask to see how an individual mentor follows up on a weak mock. Clarify whether your doubts reach the relevant subject teacher and whether appointments are included or require a separate plan.",
+          "A beginner should request an assessment of the gap between their present level and the remaining course. A repeater can ask whether targeted revision and analysis are available without buying a full cycle of lectures."
+        ],
+        "links": []
+      },
+      {
+        "id": "checklist",
+        "heading": "Questions before payment",
+        "paragraphs": [],
+        "links": [],
+        "table": {
+          "headers": [
+            "Question",
+            "Evidence to request"
+          ],
+          "rows": [
+            [
+              "Can I join this intake?",
+              "Current availability and a catch-up plan"
+            ],
+            [
+              "Which tests are included?",
+              "Separate CAT, sectional, previous-paper and other-exam counts"
+            ],
+            [
+              "Who teaches me?",
+              "Section-wise roster and demo"
+            ],
+            [
+              "What does the fee cover?",
+              "Taxes, materials, mentoring, recordings and interview support"
+            ],
+            [
+              "When does access end?",
+              "Written validity, transfer and refund terms"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "related",
+        "heading": "Related Kolkata research",
+        "paragraphs": [],
+        "links": [
+          [
+            "Five-institute comparison",
+            "/blog/best-cat-coaching-in-kolkata/"
+          ],
+          [
+            "Kolkata directory",
+            "/cat-coaching/kolkata/"
+          ],
+          [
+            "IMS Kolkata",
+            "/cat-coaching/kolkata/ims/"
+          ]
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Are the September Erudite dates upcoming batches?",
+        "a": "No. The published 19 and 20 September 2026 dates had passed when checked on 2 October. Confirm late admission or the next intake."
+      },
+      {
+        "q": "Is an Erudite classroom price confirmed here?",
+        "a": "No final current classroom quotation was established from the reviewed pages. Request one for the precise exam year and format."
+      }
+    ]
+  },
+  {
+    "slug": "blog/best-cat-coaching-in-kolkata",
+    "title": "Best CAT Coaching in Kolkata: 5 Institutes Compared",
+    "section": "Kolkata CAT coaching research",
+    "description": "Compare IMS, Career Launcher, T.I.M.E., Erudite and Sagar Sir Coaching in Kolkata by location, format, support, fee clarity and student fit.",
+    "answer": "Five Kolkata CAT coaching options to compare are IMS, Career Launcher, T.I.M.E., Erudite and Sagar Sir Coaching. This unranked shortlist focuses on local access, teaching format, mock feedback and written course terms.",
+    "body": [
+      "Sources reviewed on 2 October 2026. Programme statements are provider disclosures, not independently audited outcomes. Confirm the current batch, assigned teachers and written quotation before enrolling."
+    ],
+    "sections": [
+      {
+        "id": "method",
+        "heading": "How this shortlist was researched",
+        "paragraphs": [
+          "We checked official local pages for five distinct providers with CAT preparation and Kolkata presence. Multiple locations of one brand count once. Existing national profiles provide background links; local claims were rechecked for this guide.",
+          "This is a practical shortlist, not an exhaustive directory or a ranking based on audited outcomes. We did not attend classes, test response times or verify student scorecards. Suitability comments below are editorial judgments about what to investigate.",
+          "Official information varies in detail and freshness. A listed centre establishes published local presence, not an open seat. Current fees, assigned teachers and the remaining syllabus require a branch-specific reply."
+        ],
+        "links": []
+      },
+      {
+        "id": "compare",
+        "heading": "Kolkata CAT coaching comparison",
+        "paragraphs": [],
+        "links": [],
+        "table": {
+          "headers": [
+            "Institute",
+            "Published local presence",
+            "Format signal",
+            "Key check before joining"
+          ],
+          "rows": [
+            [
+              "IMS",
+              "Park Street, Gariahat, Salt Lake",
+              "Classroom and digital options",
+              "Exact SimCAT plan and local teacher"
+            ],
+            [
+              "Career Launcher",
+              "Park Street, Gariahat, Salt Lake",
+              "CAT long-duration and crash-course options",
+              "Current CAT intake and quotation"
+            ],
+            [
+              "T.I.M.E.",
+              "Park Street, Salt Lake, Jadavpur",
+              "Classroom and live-online CAT",
+              "Current test package and missed-class support"
+            ],
+            [
+              "Erudite",
+              "Camac Street office; Kolkata classroom course",
+              "Blended classroom and digital study",
+              "Exam-year wording and remaining classes"
+            ],
+            [
+              "Sagar Sir Coaching",
+              "Tala address on official site",
+              "Online/offline; individual or small-group advertised",
+              "Section coverage, test provision and total fee"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "ims",
+        "heading": "IMS: match the branch and the test package",
+        "paragraphs": [
+          "IMS’s official directory identifies three Kolkata centres. Its programme pages describe several learning formats and different SimCAT packages. Treat combined CAT and other-exam test totals carefully when comparing with another provider.",
+          "Our assessment: investigate a reachable branch if you want a regular study routine. Ask who reviews your mocks and whether that review produces a specific practice plan. A national test platform does not establish the quality of the assigned local class."
+        ],
+        "links": [
+          [
+            "Detailed IMS Kolkata listing",
+            "/cat-coaching/kolkata/ims/"
+          ],
+          [
+            "Official directory",
+            "https://www.imsindia.com/center/kolkata/"
+          ],
+          [
+            "Official CAT programme",
+            "https://www.imsindia.com/campaign/cat-coaching-kolkata.html"
+          ]
+        ]
+      },
+      {
+        "id": "cl",
+        "heading": "Career Launcher: check the current local CAT course",
+        "paragraphs": [
+          "The official Kolkata page lists Salt Lake, Park Street and Gariahat. Park Street is at third floor, Park Centre Building, 24B Park Street, Kolkata 700016; contact 03340017777 or cal.cl@careerlauncher.com. The page lists two-year, one-year and crash-course CAT options and offers demos.",
+          "Our assessment: use the demo to compare teaching pace and homework expectations. The page also covers other entrance exams, so ask for CAT-specific faculty, mocks and support rather than assuming every general benefit applies. A current local fee, exact intake and section-wise roster were not established."
+        ],
+        "links": [
+          [
+            "Official Kolkata centres and programmes",
+            "https://www.careerlauncher.com/kolkata/index.jsp"
+          ],
+          [
+            "Career Launcher profile",
+            "/cat-coaching/career-launcher/"
+          ]
+        ]
+      },
+      {
+        "id": "time",
+        "heading": "T.I.M.E.: compare teaching and selection-stage support",
+        "paragraphs": [
+          "The official Kolkata CAT page identifies Salt Lake, Park Street and Jadavpur, with classroom and live-online preparation. It describes concept training, digital resources, backup classes and GD/WAT/PI support. Those are provider disclosures; confirm eligibility and inclusions for the chosen plan.",
+          "Our assessment: compare a nearby branch if you need scheduled teaching. Ask to inspect a sample mock review and the current batch calendar. We have not treated historical selection figures as a local success rate or older scholarship advertisements as current discounts."
+        ],
+        "links": [
+          [
+            "Official Kolkata CAT page",
+            "https://timecore.time4education.com/CAT-coaching-in-Kolkata"
+          ],
+          [
+            "T.I.M.E. profile",
+            "/cat-coaching/time/"
+          ]
+        ]
+      },
+      {
+        "id": "erudite",
+        "heading": "Erudite: clarify the blend and the exam year",
+        "paragraphs": [
+          "Erudite’s Kolkata classroom offer combines physical teaching with digital material. Its site contains mixed exam-year references; the detailed listing records the uncertainty and the already-passed September batch announcements.",
+          "Our assessment: ask admissions to show how classroom lessons, independent practice and mentor follow-up fit into a normal week. For a late joiner, a written catch-up plan matters more than the total historical content library."
+        ],
+        "links": [
+          [
+            "Detailed Erudite Kolkata listing",
+            "/cat-coaching/kolkata/erudite/"
+          ],
+          [
+            "Official classroom page",
+            "https://erudite.in/cat-classroom-course-in-kolkata/"
+          ],
+          [
+            "Official notice board",
+            "https://erudite.in/"
+          ]
+        ]
+      },
+      {
+        "id": "sagar",
+        "heading": "Sagar Sir Coaching: a local option in Tala",
+        "paragraphs": [
+          "The official site lists 151, 2 Indra Biswas Road, Tala, Kolkata 700037, phone 6289210774 and info@sagarsircoaching.com. It advertises online and offline CAT preparation, individual teaching or groups of ten, mocks and GD/PI/WAT guidance. These are advertised arrangements, not a verified current batch size.",
+          "Our assessment: investigate this option if direct teacher access and the Tala location suit you. Ask who covers each CAT section, whether tests use a full exam-style interface, how analysis is delivered and what the complete course costs. A numerical current fee, exact mock inventory and new batch date were not established."
+        ],
+        "links": [
+          [
+            "Official Sagar Sir Coaching site",
+            "https://sagarsircoaching.com/"
+          ]
+        ]
+      },
+      {
+        "id": "fees",
+        "heading": "Why this guide does not publish a cheapest-to-costliest ranking",
+        "paragraphs": [
+          "We did not establish equivalent, current, all-inclusive classroom quotations for the five providers. A test-series fee, a full course, an online offer and a monthly tuition charge are different purchases. Combining them into a single price ranking would be misleading.",
+          "Request a dated quote naming the target exam year, location, format, remaining teaching, books, mocks, recordings, mentor access, interview preparation, taxes and refund terms. Compare only after those fields are filled in.",
+          "A discount is useful only if the underlying course fits your needs. Ask whether a lower price removes support, shortens access or changes which tests are included."
+        ],
+        "links": []
+      },
+      {
+        "id": "local",
+        "heading": "Choose around your actual Kolkata routine",
+        "paragraphs": [
+          "Map the journey from college or work at the time the class runs, including the trip home. Park Street, Gariahat, Salt Lake, Jadavpur and Tala are different travel commitments; a familiar brand across town may leave less time for independent practice.",
+          "For weekend study, check the length of the sessions and homework between meetings. For online study, decide when you will attempt timed sets and review mistakes. Whichever format you choose, the useful measure is the routine you can sustain."
+        ],
+        "links": []
+      },
+      {
+        "id": "decision",
+        "heading": "A practical demo-class checklist",
+        "paragraphs": [],
+        "links": [],
+        "table": {
+          "headers": [
+            "Need",
+            "Ask to see"
+          ],
+          "rows": [
+            [
+              "Concept clarity",
+              "A lesson with the assigned teacher in your weakest section"
+            ],
+            [
+              "Mock improvement",
+              "A sample analysis followed by a practice plan"
+            ],
+            [
+              "Late admission",
+              "A dated remaining syllabus and revision calendar"
+            ],
+            [
+              "Doubt access",
+              "Submission channel, mentor booking and response process"
+            ],
+            [
+              "Price clarity",
+              "One written quotation with inclusions and expiry"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "related",
+        "heading": "Continue your research",
+        "paragraphs": [],
+        "links": [
+          [
+            "Kolkata coaching directory",
+            "/cat-coaching/kolkata/"
+          ],
+          [
+            "Online coaching options",
+            "/cat-coaching/online/"
+          ],
+          [
+            "Mock-test preparation guide",
+            "/cat-preparation/mock-tests/"
+          ],
+          [
+            "Editorial methodology",
+            "/methodology/"
+          ]
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Which is the best CAT coaching institute in Kolkata?",
+        "a": "No universal winner is established here. Compare IMS, Career Launcher, T.I.M.E., Erudite and Sagar Sir Coaching using assigned teachers, travel, feedback and written terms."
+      },
+      {
+        "q": "Are these five institutes ranked?",
+        "a": "No. The shortlist is unranked and based on official local information, with editorial advice about suitability."
+      },
+      {
+        "q": "Are the fees and seats guaranteed?",
+        "a": "No. Current equivalent classroom quotations and open seats were not verified. Confirm the chosen programme directly."
+      },
+      {
+        "q": "Should a CAT 2026 late joiner buy a full course?",
+        "a": "Ask first for an assessment and remaining teaching plan. Targeted revision or test feedback may fit some students better, while others need structured concept teaching."
+      }
+    ]
   }
 ];
