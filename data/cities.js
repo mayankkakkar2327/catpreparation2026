@@ -71,6 +71,8 @@ const cities = [
   {
     name: "Ahmedabad",
     slug: "ahmedabad",
+    researchedAt: "7 October 2026",
+    researchedListings: [["IMS Ahmedabad: local details", "/cat-coaching/ahmedabad/ims/"], ["Ekoching Ahmedabad: local details", "/cat-coaching/ahmedabad/ekoching/"], ["Compare five Ahmedabad institutes", "/blog/best-cat-coaching-in-ahmedabad/"]],
     state: "Gujarat",
     popularAreas: ["Navrangpura", "Satellite", "CG Road", "Vastrapur", "Maninagar"],
     summary:
