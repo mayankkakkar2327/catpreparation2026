@@ -2163,4 +2163,7 @@ latestArticles.table.rows.unshift([chennaiGuide.title, chennaiGuide.description,
 const kolkataGuide = require("./city-institute-pages").find(page => page.slug === "blog/best-cat-coaching-in-kolkata");
 latestArticles.table.rows.unshift([kolkataGuide.title, kolkataGuide.description, { label: "Read article", href: "/blog/best-cat-coaching-in-kolkata/" }]);
 
+const ahmedabadGuide = require("./city-institute-pages").find(page => page.slug === "blog/best-cat-coaching-in-ahmedabad");
+latestArticles.table.rows.unshift([ahmedabadGuide.title, ahmedabadGuide.description, { label: "Read article", href: "/blog/best-cat-coaching-in-ahmedabad/" }]);
+
 module.exports = [index, varc40MinuteArticle, last60DaysArticle, jbimsArticle, lrdiArticle, iimaPlacementArticle, varcArticle, quantArticle, xatArticle, rodhaArticle, feeArticle, ...priorPages.filter((page) => page.slug !== "blog")];
