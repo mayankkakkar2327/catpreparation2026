@@ -1772,6 +1772,352 @@ const last60DaysArticle = {
   ]
 };
 
+const varc40MinuteArticle = {
+  "slug": "blog/cat-2026-varc-mock-strategy-40-minute-plan",
+  "title": "CAT 2026 VARC Mock Strategy: A Realistic 40-Minute Attempt Plan",
+  "section": "CAT 2026 Video Guide",
+  "description": "Build a realistic CAT 2026 VARC mock strategy using your own baseline, RC selection, a 20-minute checkpoint, one-minute leave rules and decision logs.",
+  "answer": "A practical CAT VARC strategy should begin with your own recent mock data, not a topper's attempt count. Use three to five mocks to estimate a stable baseline, scan RC passages briefly before committing, review progress at the 20-minute mark, and leave a question when one focused minute produces no defensible elimination or structure. After the mock, identify the five costliest decisions and change only one repeatable behaviour before the next test.",
+  "body": [
+    "Rodha published Sharwari Mam's CAT 2026 VARC mock-strategy video on September 30, 2026. It had crossed 7,200 views when checked on October 7. The video focuses on building a realistic plan for both easy and difficult VARC sections instead of copying a fixed number of attempts.",
+    "This article turns the video's ideas into a measurable system for sectionals and full mocks. It explains how to establish a baseline, choose RC passages, use the 40-minute map, handle TITA questions and review decisions without treating one strategy as compulsory for every candidate."
+  ],
+  "sections": [
+    {
+      "id": "video-summary",
+      "heading": "What does Rodha's VARC mock-strategy video cover?",
+      "paragraphs": [
+        "The 15-minute discussion is organised around six decisions: establish a baseline from recent mocks, create a 40-minute section map, select an RC passage quickly, use a one-minute leave rule, compare para summary with difficult para jumbles, and analyse the five decisions that cost the most marks or time.",
+        "The central idea is personal calibration. A candidate who attempts 14 questions at high accuracy should not suddenly chase 20 because a topper used that number. Another candidate may be under-attempting because too much time is spent re-reading. The right target is the next evidence-based range, not an aspirational number detached from current performance."
+      ],
+      "links": [
+        [
+          "Watch Rodha's VARC mock-strategy video",
+          "https://www.youtube.com/watch?v=z0Gyi5UvK18"
+        ],
+        [
+          "Rodha YouTube channel",
+          "https://www.youtube.com/@Rodha/videos"
+        ],
+        [
+          "Rodha official website",
+          "https://www.rodha.co.in/"
+        ],
+        [
+          "Rodha CAT mock portal",
+          "https://mocks.rodha.co.in/"
+        ]
+      ]
+    },
+    {
+      "id": "baseline",
+      "heading": "Step 1: find your VARC attempt baseline from recent mocks",
+      "paragraphs": [
+        "Use the last three to five comparable VARC mocks or sectionals. For each one, record attempts, correct answers, wrong answers, unattempted questions, net score and time split between RC and verbal ability. Do not use only the best paper; the baseline should reflect the range you can reproduce.",
+        "Calculate accuracy by question type. Two candidates with 16 attempts can have different priorities: one may lose marks through RC inference questions, while the other may spend too long on para jumbles. The section-wide attempt count hides that difference.",
+        "Set a target band rather than a single number. If recent mocks show 13 to 15 attempts with strong accuracy, the next experiment might be 14 to 16 with better passage selection. A target band leaves room for paper difficulty and avoids forcing poor questions."
+      ],
+      "table": {
+        "headers": [
+          "Metric",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Attempt range",
+            "Shows the volume you currently sustain under time pressure"
+          ],
+          [
+            "Accuracy",
+            "Reveals whether more attempts are likely to add or destroy net marks"
+          ],
+          [
+            "RC versus VA time",
+            "Shows where the 40 minutes are actually being spent"
+          ],
+          [
+            "Question-type accuracy",
+            "Identifies the next repair more precisely than total score"
+          ],
+          [
+            "Unattempted easy questions",
+            "Exposes selection and sequencing errors"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "forty-minute-map",
+      "heading": "Step 2: build a flexible 40-minute VARC map",
+      "paragraphs": [
+        "A section map is a sequence of checkpoints, not a rigid minute-by-minute script. Decide where you are likely to begin, when you will evaluate progress and how much time you want available for the final selection. Test the map in several mocks before CAT day.",
+        "The midway check at around 20 minutes is useful because it catches drift while enough time remains to respond. Ask three questions: how many high-confidence answers have been completed, is the current passage still worth finishing, and which question types remain unseen?",
+        "If the paper is difficult, the response may be fewer attempts with stricter selection. If it is easy, the response may be faster movement after clear answers. Difficulty should change the target, but it should not erase the decision process."
+      ],
+      "table": {
+        "headers": [
+          "Checkpoint",
+          "Decision"
+        ],
+        "rows": [
+          [
+            "Opening minutes",
+            "Scan passage topics and begin with the clearest fit"
+          ],
+          [
+            "After first RC",
+            "Check time, accuracy confidence and whether the passage choice was sound"
+          ],
+          [
+            "Around 20 minutes",
+            "Compare completed high-confidence answers with the remaining section"
+          ],
+          [
+            "Final phase",
+            "Prioritise the strongest unseen or flagged opportunities"
+          ],
+          [
+            "Last minute",
+            "Verify only marked answers where a concrete reason for review exists"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "rc-selection",
+      "heading": "How to choose an RC passage in 30 to 40 seconds",
+      "paragraphs": [
+        "The video recommends a short selection window rather than reading every passage deeply. Look at the topic, sentence density, paragraph length and the first few lines to judge whether the structure is readable. Then compare passages instead of deciding in isolation.",
+        "Topic familiarity is only one signal. A familiar topic can contain dense argumentation, while an unfamiliar topic may have a clear structure and direct questions. Select for readability, argument visibility and personal evidence from mocks.",
+        "Once committed, read for the author's purpose, paragraph roles, contrasts and shifts in position. Avoid memorising details. The questions will direct you back to local evidence when needed."
+      ]
+    },
+    {
+      "id": "leave-rule",
+      "heading": "How should the one-minute leave rule work?",
+      "paragraphs": [
+        "The one-minute rule is a decision trigger for a question that is not moving. It does not mean every VARC question must be solved in sixty seconds. RC reading creates context that can make later questions faster, while a para summary may need careful comparison.",
+        "Leave when a focused minute produces no defensible elimination, no clear evidence location and no logical structure. Continuing only because time has already been spent is a sunk-cost decision. Flag the question if the platform allows it and return only after checking better opportunities.",
+        "Continue when the evidence has been located and the remaining work is a bounded comparison between two options. The distinction is progress: additional time should reduce uncertainty, not repeat the same reading."
+      ],
+      "table": {
+        "headers": [
+          "Continue",
+          "Leave or flag"
+        ],
+        "rows": [
+          [
+            "You have located the relevant passage evidence",
+            "You are rereading without identifying evidence"
+          ],
+          [
+            "Two options remain and the difference is testable",
+            "All options still appear equally plausible"
+          ],
+          [
+            "The para structure is nearly complete",
+            "The para jumble has no stable link after repeated trials"
+          ],
+          [
+            "A quick verification can settle the answer",
+            "The question is consuming time needed for unseen items"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "bad-rc",
+      "heading": "What should you do after choosing a bad RC passage?",
+      "paragraphs": [
+        "A poor opening passage does not require abandoning the entire plan. First distinguish a difficult passage from a difficult question. The passage may be understandable even if one inference question is ambiguous. Complete the questions with clear textual support and leave the costly one.",
+        "If the passage itself remains opaque and no paragraph map is forming, exit cleanly. Note the point of exit and move to the best remaining passage. Switching becomes harmful when the candidate repeatedly returns without a new reason.",
+        "During analysis, ask whether the initial 30-to-40-second scan showed warning signs. If it did, the repair is passage selection. If it did not, the repair may be faster recognition of a stalled read."
+      ]
+    },
+    {
+      "id": "va-order",
+      "heading": "Para summary, para completion and para jumbles: what should come first?",
+      "paragraphs": [
+        "Rodha's video highlights the tradeoff between para summary and a difficult para jumble, especially when the jumble is a TITA question without negative marking. The absence of a penalty does not make a question free: it can still consume time that could produce a more reliable mark elsewhere.",
+        "Para summary often offers visible options and a structured elimination process. Check whether the option preserves the central claim, scope and tone without adding an unsupported conclusion. A difficult para jumble may provide no options and several plausible sequences, making its opportunity cost higher.",
+        "Sequence by expected value, not by a universal hierarchy. A candidate consistently strong at para jumbles may keep them earlier. Another candidate may secure para summary and para completion first, then attempt TITA questions with remaining time."
+      ]
+    },
+    {
+      "id": "tita",
+      "heading": "How should you treat TITA questions in CAT VARC?",
+      "paragraphs": [
+        "TITA questions do not carry the same wrong-answer penalty as multiple-choice questions under recent CAT patterns, but candidates must follow the official instructions for their exam. No negative marking does not mean unlimited time or random priority.",
+        "Attempt a TITA question when a coherent structure or answer is emerging. If it remains a blind guess after the decision window, record an answer only if time permits and the interface rules allow it. Do not sacrifice a high-confidence MCQ merely because the TITA question feels risk-free.",
+        "In analysis, track TITA time separately. A question that produces no penalty but consumes four minutes can still be one of the costliest decisions in the section."
+      ]
+    },
+    {
+      "id": "difficulty",
+      "heading": "How should attempt targets change for easy and tough VARC papers?",
+      "paragraphs": [
+        "An easy section usually rewards faster movement and a wider attempt range, but accuracy can fall when candidates assume every question is straightforward. A difficult section requires stricter selection and emotional control. The goal in both cases is net marks, not matching a fixed number.",
+        "Use the baseline as an anchor. If a paper feels easier, add attempts only where comprehension and elimination remain clean. If it feels harder, protect accuracy and avoid trying to recover time through rushed verbal-ability guesses.",
+        "Percentile cannot be predicted reliably from attempts alone because paper difficulty and candidate performance vary. Judge whether the section plan selected the best available questions."
+      ]
+    },
+    {
+      "id": "review",
+      "heading": "Review the five costliest decisions after every VARC mock",
+      "paragraphs": [
+        "The video's final chapter recommends a mock-analysis routine built around costly decisions. A costly decision is not limited to a wrong answer. It can be an easy question left unseen, a passage chosen too early, an answer changed without evidence or three minutes spent on a low-confidence TITA item.",
+        "List the five decisions in order of score impact or time impact. For each, write what happened, what signal was missed and what single behaviour will change in the next mock. This keeps analysis connected to future action.",
+        "Change only one major strategy variable per mock. If passage order, attempt target, skip rule and VA sequence all change at once, the result cannot show which adjustment helped."
+      ],
+      "table": {
+        "headers": [
+          "Costly decision",
+          "Possible next-mock rule"
+        ],
+        "rows": [
+          [
+            "Wrong first passage",
+            "Compare all passage openings before committing"
+          ],
+          [
+            "Stayed on one RC question too long",
+            "Use the one-minute no-progress trigger"
+          ],
+          [
+            "Missed easy para summary",
+            "Reserve a planned VA review window"
+          ],
+          [
+            "Changed a correct answer without evidence",
+            "Change only when a specific contradiction is found"
+          ],
+          [
+            "Forced a TITA para jumble",
+            "Cap the attempt unless a stable link appears"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "logbook",
+      "heading": "A simple VARC mock logbook",
+      "paragraphs": [
+        "Keep the logbook compact enough to maintain. Record the mock name, difficulty impression, attempt count, accuracy, RC order, VA order, five costly decisions and one experiment for the next paper.",
+        "Add recurring option traps. Common examples include extreme language, scope shifts, reversed cause and effect, statements that are true but do not answer the question, and conclusions stronger than the passage permits.",
+        "Review the log every three to five mocks. If the same error continues, the previous repair rule was either too vague or not practised between tests."
+      ]
+    },
+    {
+      "id": "practice-week",
+      "heading": "One-week practice cycle for CAT VARC",
+      "paragraphs": [
+        "The following cycle supports the video framework without requiring a full mock every day. Adjust volume to college, work and preparation level."
+      ],
+      "table": {
+        "headers": [
+          "Day",
+          "VARC work"
+        ],
+        "rows": [
+          [
+            "Monday",
+            "Analyse the latest mock and identify five costly decisions"
+          ],
+          [
+            "Tuesday",
+            "Two RC passages focused on option elimination"
+          ],
+          [
+            "Wednesday",
+            "VA set covering summary, completion and para jumbles"
+          ],
+          [
+            "Thursday",
+            "Timed VARC sectional using the 20-minute check"
+          ],
+          [
+            "Friday",
+            "Redo errors and revise the option-trap log"
+          ],
+          [
+            "Saturday",
+            "Full CAT mock under exam conditions"
+          ],
+          [
+            "Sunday",
+            "Deep review and choose one strategy change"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "sources",
+      "heading": "Video and official context",
+      "paragraphs": [
+        "This guide was reviewed on October 7, 2026. The publication date, view count, chapter structure and listed strategy points were checked on Rodha's official YouTube channel. The tables, logbook and practice cycle are original editorial expansions.",
+        "The strategy is preparation guidance, not an official CAT rule. Exam format and marking instructions should be verified on the official CAT website and in the instructions shown during the test."
+      ],
+      "links": [
+        [
+          "Rodha VARC mock-strategy video",
+          "https://www.youtube.com/watch?v=z0Gyi5UvK18"
+        ],
+        [
+          "Rodha YouTube channel",
+          "https://www.youtube.com/@Rodha/videos"
+        ],
+        [
+          "Rodha official website",
+          "https://www.rodha.co.in/"
+        ],
+        [
+          "Rodha CAT mock portal",
+          "https://mocks.rodha.co.in/"
+        ],
+        [
+          "Official CAT website",
+          "https://iimcat.ac.in/"
+        ]
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is a good attempt count for CAT VARC?",
+      "a": "There is no universal number. Build a target band from three to five recent mocks using attempts, accuracy and paper difficulty."
+    },
+    {
+      "q": "How should I divide 40 minutes in CAT VARC?",
+      "a": "Use a flexible map with an opening passage-selection phase, a progress check around 20 minutes and a final phase for the strongest remaining opportunities."
+    },
+    {
+      "q": "How quickly should I select an RC passage?",
+      "a": "Sharwari Mam suggests a brief 30-to-40-second comparison using readability, structure and personal comfort, without trying to solve each passage during the scan."
+    },
+    {
+      "q": "What is the one-minute leave rule in VARC?",
+      "a": "It is a trigger to leave or flag a question when roughly one focused minute produces no evidence, elimination or structural progress. It is not a universal solving-time cap."
+    },
+    {
+      "q": "Should I attempt every TITA question?",
+      "a": "No. TITA may avoid a wrong-answer penalty under the applicable pattern, but it still consumes time. Attempt when a reasoned answer is emerging."
+    },
+    {
+      "q": "How do I analyse a CAT VARC mock?",
+      "a": "Record the five costliest decisions, identify the missed signal and choose one repeatable change for the next mock."
+    },
+    {
+      "q": "What should I do if the first RC is difficult?",
+      "a": "Answer questions with clear evidence, leave the ambiguous one, and exit the passage if no usable structure is forming. Do not let one passage control the section."
+    },
+    {
+      "q": "Where can I watch Rodha's VARC strategy video?",
+      "a": "It is available on Rodha's official YouTube channel at youtube.com/watch?v=z0Gyi5UvK18."
+    }
+  ]
+};
+
+const varc40MinuteHref = `/${varc40MinuteArticle.slug}/`;
 const last60DaysHref = `/${last60DaysArticle.slug}/`;
 const jbimsHref = `/${jbimsArticle.slug}/`;
 const lrdiHref = `/${lrdiArticle.slug}/`;
@@ -1790,6 +2136,7 @@ const index = {
         table: {
           ...section.table,
           rows: [
+            [varc40MinuteArticle.title, varc40MinuteArticle.description, { label: "Read article", href: varc40MinuteHref }],
             [last60DaysArticle.title, last60DaysArticle.description, { label: "Read article", href: last60DaysHref }],
             [jbimsArticle.title, jbimsArticle.description, { label: "Read article", href: jbimsHref }],
             [lrdiArticle.title, lrdiArticle.description, { label: "Read article", href: lrdiHref }],
@@ -1799,7 +2146,7 @@ const index = {
             [xatArticle.title, xatArticle.description, { label: "Read article", href: xatHref }],
             [rodhaArticle.title, rodhaArticle.description, { label: "Read article", href: rodhaHref }],
             [feeArticle.title, feeArticle.description, { label: "Read article", href: feeHref }],
-            ...section.table.rows.filter((row) => row[2]?.href !== last60DaysHref && row[2]?.href !== jbimsHref && row[2]?.href !== lrdiHref && row[2]?.href !== iimaPlacementHref && row[2]?.href !== varcHref && row[2]?.href !== quantHref && row[2]?.href !== xatHref && row[2]?.href !== rodhaHref && row[2]?.href !== feeHref)
+            ...section.table.rows.filter((row) => row[2]?.href !== varc40MinuteHref && row[2]?.href !== last60DaysHref && row[2]?.href !== jbimsHref && row[2]?.href !== lrdiHref && row[2]?.href !== iimaPlacementHref && row[2]?.href !== varcHref && row[2]?.href !== quantHref && row[2]?.href !== xatHref && row[2]?.href !== rodhaHref && row[2]?.href !== feeHref)
           ]
         }
       }
@@ -1816,4 +2163,4 @@ latestArticles.table.rows.unshift([chennaiGuide.title, chennaiGuide.description,
 const kolkataGuide = require("./city-institute-pages").find(page => page.slug === "blog/best-cat-coaching-in-kolkata");
 latestArticles.table.rows.unshift([kolkataGuide.title, kolkataGuide.description, { label: "Read article", href: "/blog/best-cat-coaching-in-kolkata/" }]);
 
-module.exports = [index, last60DaysArticle, jbimsArticle, lrdiArticle, iimaPlacementArticle, varcArticle, quantArticle, xatArticle, rodhaArticle, feeArticle, ...priorPages.filter((page) => page.slug !== "blog")];
+module.exports = [index, varc40MinuteArticle, last60DaysArticle, jbimsArticle, lrdiArticle, iimaPlacementArticle, varcArticle, quantArticle, xatArticle, rodhaArticle, feeArticle, ...priorPages.filter((page) => page.slug !== "blog")];
