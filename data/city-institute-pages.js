@@ -2528,5 +2528,479 @@ module.exports = [
         "a": "Ask first for an assessment and remaining teaching plan. Targeted revision or test feedback may fit some students better, while others need structured concept teaching."
       }
     ]
+  },
+  {
+    "slug": "cat-coaching/ahmedabad/ims",
+    "title": "IMS Ahmedabad: CAT Courses, Fees and Centre Contact",
+    "section": "Ahmedabad CAT coaching research",
+    "description": "Check IMS Ahmedabad location, CAT 2027 programme disclosures, SimCAT plans, faculty information and enrolment questions.",
+    "answer": "IMS lists an Ahmedabad CAT centre on Gujarat University Road. Its campaign now advertises CAT 2027 teaching alongside CAT 2026 test-series cards, so match the course year to your intended exam.",
+    "body": [
+      "Sources reviewed on 7 October 2026. Programme details are provider disclosures. Current seats, assigned teachers and final quotations must be confirmed directly; outcomes have not been independently audited."
+    ],
+    "sections": [
+      {
+        "id": "contact",
+        "heading": "Ahmedabad centre and contact",
+        "paragraphs": [
+          "The city page lists 202/203, Vishwanath Northview, beside the Regional Passport Office, Gujarat University Road. Contact 7041774887 or ahmedabad@imsindia.com. Its postal-code wording differs from the national locator; confirm the map pin before visiting."
+        ],
+        "links": [
+          [
+            "Official Ahmedabad centre",
+            "https://www.imsindia.com/center/ahmedabad/"
+          ],
+          [
+            "National centre locator",
+            "https://www.imsindia.com/locate-center/"
+          ]
+        ]
+      },
+      {
+        "id": "programme",
+        "heading": "What the CAT campaign advertises",
+        "paragraphs": [
+          "The CAT 2027 block describes 300+ teaching hours, 150 hours of video content and 110+ combined mocks, including 40+ SimCATs and 70 other management entrance tests, with mentoring and GDPI support. Classroom, live-online, self-learning and test-series routes are shown.",
+          "The same page retains CAT 2026 SimCAT cards and a CAT 2025 reference under E-CATAPULT 2027. Request written confirmation of the product year and access expiry rather than combining all displayed features."
+        ],
+        "links": [
+          [
+            "Official Ahmedabad programme disclosures",
+            "https://www.imsindia.com/campaign/cat-coaching-ahmedabad.html"
+          ]
+        ]
+      },
+      {
+        "id": "faculty",
+        "heading": "Faculty and local allocation",
+        "paragraphs": [
+          "The city page names Vipul Tyagi, Ujjwal Sir, Tridal Sir, Jaydev Jaswani and Abhishek Gautam among its mentors. This establishes a published faculty pool, not the section-wise roster for your chosen batch."
+        ],
+        "links": [
+          [
+            "Official mentor information",
+            "https://www.imsindia.com/center/ahmedabad/"
+          ]
+        ]
+      },
+      {
+        "id": "fees",
+        "heading": "Fees, dates and availability",
+        "paragraphs": [
+          "A final current Ahmedabad classroom price and exact new batch start date were not established from the reviewed pages. Ask admissions for a dated quote and remaining syllabus calendar.",
+          "The quote should separate taxes, books, mock tests, recordings, mentoring and interview preparation. For a CAT 2026 late joiner, ask which teaching can actually be completed in the time remaining; a CAT 2027 full course is a different purchase."
+        ],
+        "links": []
+      },
+      {
+        "id": "fit",
+        "heading": "Our assessment and questions for a demo",
+        "paragraphs": [
+          "Shortlist IMS if its centre and schedule fit your regular travel and you want a defined mock programme. Use a demo in your weakest section to test whether you can apply the explanation to an unfamiliar problem.",
+          "Ask to see a sample mock-review discussion. Useful feedback should lead to specific practice, not only a percentile report. Establish who follows up, how often you can meet a mentor and whether missed classes can be recovered.",
+          "If you already have concept teaching elsewhere, compare a test-series package on its own. Buying more lecture content is not necessarily the answer to poor question selection or inconsistent analysis."
+        ],
+        "links": []
+      },
+      {
+        "id": "related",
+        "heading": "Related Ahmedabad research",
+        "paragraphs": [],
+        "links": [
+          [
+            "Ahmedabad comparison guide",
+            "/blog/best-cat-coaching-in-ahmedabad/"
+          ],
+          [
+            "Ahmedabad directory",
+            "/cat-coaching/ahmedabad/"
+          ],
+          [
+            "IMS national profile",
+            "/cat-coaching/ims/"
+          ]
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is the advertised teaching programme for CAT 2026?",
+        "a": "The reviewed main campaign block is labelled CAT 2027. Separate CAT 2026 test-series cards remain visible; confirm the exact product before paying."
+      },
+      {
+        "q": "Are all 110+ mocks CAT tests?",
+        "a": "No. The stated total combines SimCATs with other management entrance tests."
+      }
+    ]
+  },
+  {
+    "slug": "cat-coaching/ahmedabad/ekoching",
+    "title": "Ekoching Ahmedabad: CAT Classes, Faculty and Contact",
+    "section": "Ahmedabad CAT coaching research",
+    "description": "Review Ekoching Ahmedabad location, CAT learning formats, faculty disclosures, mock-test counts and fee questions.",
+    "answer": "Ekoching offers Ahmedabad classroom and online CAT preparation. Its official pages describe mentoring and mixed CAT/other-exam test packages; ask for the exact plan, exam year and final fee.",
+    "body": [
+      "Sources reviewed on 7 October 2026. Programme details are provider disclosures. Current seats, assigned teachers and final quotations must be confirmed directly; outcomes have not been independently audited."
+    ],
+    "sections": [
+      {
+        "id": "contact",
+        "heading": "Vastrapur contact details",
+        "paragraphs": [
+          "The official offline page lists 301, Sunrise Mall, near Mansi Circle, Vastrapur, Ahmedabad 380015. Contact 9974127618 or support@ekoching.com. Confirm the current classroom venue and visiting time directly."
+        ],
+        "links": [
+          [
+            "Official offline classes and contact",
+            "https://ekoching.com/Offline-Classes/"
+          ]
+        ]
+      },
+      {
+        "id": "course",
+        "heading": "Advertised learning and support",
+        "paragraphs": [
+          "The Ahmedabad CAT page describes weekday/weekend and offline/online batches, mentoring, 100+ combined CAT and other-exam mocks, and 500+ topic/sectional tests. It also mentions NMAT, SNAP and XAT preparation and interview-stage guidance.",
+          "The general offline page instead mentions 35+ mocks and a doubt-clearing corner. These may describe different packages; do not add the numbers together or assume all tests are CAT-only."
+        ],
+        "links": [
+          [
+            "Ahmedabad CAT course",
+            "https://ekoching.com/cat-coaching-ahmedabad/"
+          ],
+          [
+            "General offline offerings",
+            "https://ekoching.com/Offline-Classes/"
+          ]
+        ]
+      },
+      {
+        "id": "faculty",
+        "heading": "Published faculty names",
+        "paragraphs": [
+          "The CAT page names Prashant Sugandh for verbal training, Shailesh Chaudhari for LRDI, and Bhargav Kumar and Kartik Baldwa for QA/LRDI, among other teachers. Ask which teachers are assigned to your selected batch."
+        ],
+        "links": [
+          [
+            "Official team disclosures",
+            "https://ekoching.com/cat-coaching-ahmedabad/"
+          ]
+        ]
+      },
+      {
+        "id": "fees",
+        "heading": "Details that need a written confirmation",
+        "paragraphs": [
+          "No final classroom fee, current seat availability or exact CAT intake date was established. The batch-detail text refers to school-grade students and an undated next week, so it is not reliable evidence of a current CAT start date.",
+          "Obtain a dated quote identifying exam year, teaching format, taxes, materials, test inventory, mentor access, recordings, interview preparation and refund terms."
+        ],
+        "links": []
+      },
+      {
+        "id": "fit",
+        "heading": "Our assessment: inspect the local support arrangement",
+        "paragraphs": [
+          "This is a useful Ahmedabad provider to compare if the Vastrapur location fits your routine and you want contact with subject teachers. Ask how the advertised mentoring works in a normal week: booking, frequency, follow-up and who handles unresolved doubts.",
+          "Sample a class with the assigned teacher rather than relying on score claims in biographies. After the demo, attempt an unfamiliar question to see whether the approach transfers to independent practice.",
+          "For multiple MBA exams, request a calendar showing when non-CAT topics are taught and tested. For a late intake, separate remaining live teaching from an archive of earlier lessons. Those distinctions make the quotation comparable with another institute."
+        ],
+        "links": []
+      },
+      {
+        "id": "related",
+        "heading": "Related research",
+        "paragraphs": [],
+        "links": [
+          [
+            "Ahmedabad comparison guide",
+            "/blog/best-cat-coaching-in-ahmedabad/"
+          ],
+          [
+            "Ahmedabad coaching directory",
+            "/cat-coaching/ahmedabad/"
+          ],
+          [
+            "IMS Ahmedabad",
+            "/cat-coaching/ahmedabad/ims/"
+          ]
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does Ekoching advertise 100 CAT-only mocks?",
+        "a": "No. Its Ahmedabad page describes 100+ mocks covering CAT and other management entrance tests. Request a plan-specific breakdown."
+      },
+      {
+        "q": "Is a current classroom fee confirmed?",
+        "a": "No final classroom quotation was established from the reviewed pages. Ask for a dated all-inclusive quote."
+      }
+    ]
+  },
+  {
+    "slug": "blog/best-cat-coaching-in-ahmedabad",
+    "title": "Best CAT Coaching in Ahmedabad: 5 Institutes Compared",
+    "section": "Ahmedabad CAT coaching research",
+    "description": "Compare IMS, Ekoching, Career Launcher, T.I.M.E. and Endeavor in Ahmedabad by location, learning format, fee clarity and student suitability.",
+    "answer": "Five Ahmedabad CAT coaching options to compare are IMS, Ekoching, Career Launcher, T.I.M.E. and Endeavor. This unranked shortlist helps you compare local teaching, travel, mock feedback and written course inclusions.",
+    "body": [
+      "Sources reviewed on 7 October 2026. Programme details are provider disclosures. Current seats, assigned teachers and final quotations must be confirmed directly; outcomes have not been independently audited."
+    ],
+    "sections": [
+      {
+        "id": "method",
+        "heading": "How this shortlist was researched",
+        "paragraphs": [
+          "We checked official city, programme and contact pages for five distinct providers with Ahmedabad CAT preparation. Multiple branches count as one brand. Existing national profiles provide background links; local information was rechecked for this guide.",
+          "This is not an exhaustive directory or a ranking based on audited student outcomes. We did not attend classes or test support response times. Suitability comments are editorial judgments about what students should investigate.",
+          "We did not establish equivalent current classroom quotations for all five. Unconfirmed fees and dates are marked rather than filled with estimates, third-party ratings or old discounts."
+        ],
+        "links": []
+      },
+      {
+        "id": "comparison",
+        "heading": "Ahmedabad CAT coaching at a glance",
+        "paragraphs": [],
+        "links": [],
+        "table": {
+          "headers": [
+            "Provider",
+            "Published local signal",
+            "Learning signal",
+            "Priority check"
+          ],
+          "rows": [
+            [
+              "IMS",
+              "Gujarat University Road centre",
+              "CAT 2027 teaching and 2026 test-series cards",
+              "Product year and expiry"
+            ],
+            [
+              "Ekoching",
+              "Vastrapur contact address",
+              "Classroom/online; combined CAT and other-exam mocks",
+              "Plan-specific test and mentoring entitlement"
+            ],
+            [
+              "Career Launcher",
+              "SP Nagar, Navrangpura centre",
+              "Classroom, online and hybrid described",
+              "Assigned faculty and current CAT intake"
+            ],
+            [
+              "T.I.M.E.",
+              "Amarnath Business Centre, Navrangpura",
+              "CAT/MBA, mocks and support described",
+              "Current branch quotation and timetable"
+            ],
+            [
+              "Endeavor",
+              "Official Ahmedabad centre page",
+              "CAT and allied management entrances",
+              "Teaching venue and current batch details"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "ims",
+        "heading": "IMS: match the exam year before comparing packages",
+        "paragraphs": [
+          "IMS lists a Gujarat University Road CAT location and several learning routes. Its campaign mixes CAT 2027 teaching with 2026 test-series cards and older wording, so the detailed listing separates those observations.",
+          "Our assessment: compare a demo and a sample mock review if you need structured teaching. Confirm the chosen product’s year, validity and teacher allocation before evaluating the volume of content."
+        ],
+        "links": [
+          [
+            "Detailed IMS Ahmedabad listing",
+            "/cat-coaching/ahmedabad/ims/"
+          ],
+          [
+            "Official centre",
+            "https://www.imsindia.com/center/ahmedabad/"
+          ],
+          [
+            "Official programme",
+            "https://www.imsindia.com/campaign/cat-coaching-ahmedabad.html"
+          ]
+        ]
+      },
+      {
+        "id": "ekoching",
+        "heading": "Ekoching: clarify the test inventory and mentor access",
+        "paragraphs": [
+          "Ekoching publishes a Vastrapur address and CAT classroom information. Its pages show different test totals and a faculty pool; these do not automatically define the package or teachers assigned to a new student.",
+          "Our assessment: investigate the local doubt-clearing arrangement and how mock feedback becomes next week’s practice. Ask for a written CAT-only versus other-exam test breakdown."
+        ],
+        "links": [
+          [
+            "Detailed Ekoching Ahmedabad listing",
+            "/cat-coaching/ahmedabad/ekoching/"
+          ],
+          [
+            "Official CAT page",
+            "https://ekoching.com/cat-coaching-ahmedabad/"
+          ],
+          [
+            "Official offline/contact page",
+            "https://ekoching.com/Offline-Classes/"
+          ]
+        ]
+      },
+      {
+        "id": "cl",
+        "heading": "Career Launcher: verify the Navrangpura intake",
+        "paragraphs": [
+          "The local microsite lists A102, Karmyog Heights, SV Desai Marg, Sardar Patel Nagar, Navrangpura 380009. Contact 9978559986 or 6353842725; email cl_ahmedabad@careerlauncher.com. It names Bhavik Thakkar and Chandraveer Jain for Quant/LRDI and Akshit Mishra for VARC among its team.",
+          "The city CAT page describes classroom, online and hybrid modes, with mentoring and tests. The local batch section shows no product available; this is not evidence that the centre is closed, but it does not confirm an intake.",
+          "Our assessment: ask for a CAT-specific demo, timetable and final quotation. National testimonials and faculty biographies cannot establish the teacher or feedback you will receive."
+        ],
+        "links": [
+          [
+            "Official local centre and team",
+            "https://www.careerlauncher.com/ahmedabad-new/"
+          ],
+          [
+            "Official Ahmedabad CAT programmes",
+            "https://www.careerlauncher.com/ahmedabad/cat-coaching/"
+          ],
+          [
+            "Career Launcher profile",
+            "/cat-coaching/career-launcher/"
+          ]
+        ]
+      },
+      {
+        "id": "time",
+        "heading": "T.I.M.E.: compare the current Navrangpura offering",
+        "paragraphs": [
+          "The official Ahmedabad listing identifies 308, third floor, ABC2, Amarnath Business Centre, St Xaviers Road, Navrangpura 380009, with contacts 9256569990 and 7600881286. It lists CAT/MBA preparation and describes classroom/online options, materials, mocks, doubt support and mentoring.",
+          "Our assessment: use that local contact to obtain the current exam-year specification. Ask which tests, review sessions and interview support are included. A current branch fee, start date and section-wise teaching roster were not established."
+        ],
+        "links": [
+          [
+            "Official Ahmedabad centre",
+            "https://time4education.com/Ahmedabad/"
+          ],
+          [
+            "T.I.M.E. profile",
+            "/cat-coaching/time/"
+          ]
+        ]
+      },
+      {
+        "id": "endeavor",
+        "heading": "Endeavor: confirm the teaching venue before visiting",
+        "paragraphs": [
+          "Endeavor’s official Ahmedabad page describes CAT and allied MBA entrance preparation, mock analysis and GDPI support. It lists a Suyojan Towers address off CG Road, while its general contact page lists an Ahmedabad office at The Address, Vijay Cross Road. These may serve different purposes; confirm the actual classroom venue.",
+          "The centre page also retains a Republic scholarship promotion without a current validity date. We have not treated it as an available discount.",
+          "Our assessment: request a current batch plan and meet the assigned teachers. Confirm what is taught locally, how doubts are handled and whether the quoted fee includes interview preparation."
+        ],
+        "links": [
+          [
+            "Official Ahmedabad centre",
+            "https://www.endeavorcareers.com/centers/ahmedabad/"
+          ],
+          [
+            "Official contact page",
+            "https://www.endeavorcareers.com/contact/"
+          ]
+        ]
+      },
+      {
+        "id": "fees",
+        "heading": "How to compare fees without mixing different products",
+        "paragraphs": [
+          "Ask each provider for one dated quote with the same fields: exam year, branch, mode, remaining teaching, materials, CAT mocks, other-exam mocks, recordings, mentoring, interview preparation, taxes and refund terms.",
+          "A CAT 2027 full course, CAT 2026 revision package and test series address different needs. Do not compare their headline prices as though they buy the same support. Undated scholarship banners also need fresh written confirmation.",
+          "For repeaters, the question may be whether additional teaching is needed at all. A demo and diagnostic discussion can help separate conceptual gaps from poor question selection or inconsistent review."
+        ],
+        "links": []
+      },
+      {
+        "id": "travel",
+        "heading": "Choose an Ahmedabad routine you can sustain",
+        "paragraphs": [
+          "Compare the actual journey from home, college or work at class time. Vastrapur and Navrangpura options may create very different weekly travel commitments. Include the return trip when deciding how much independent practice remains feasible.",
+          "Weekend teaching can suit some working learners, but long sessions still require preparation and review between classes. Online access helps only if you protect regular study time and actually use feedback."
+        ],
+        "links": []
+      },
+      {
+        "id": "demo",
+        "heading": "Questions for the demo and counselling visit",
+        "paragraphs": [],
+        "links": [],
+        "table": {
+          "headers": [
+            "Question",
+            "Useful evidence"
+          ],
+          "rows": [
+            [
+              "Who teaches my weakest section?",
+              "Demo with the assigned teacher"
+            ],
+            [
+              "What remains in this intake?",
+              "Dated teaching and revision calendar"
+            ],
+            [
+              "What follows a weak mock?",
+              "Sample analysis and corrective practice plan"
+            ],
+            [
+              "How do doubts reach a teacher?",
+              "Submission and follow-up process"
+            ],
+            [
+              "What does the payment buy?",
+              "One quotation with inclusions, expiry and refund terms"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "related",
+        "heading": "Continue your research",
+        "paragraphs": [],
+        "links": [
+          [
+            "Ahmedabad coaching directory",
+            "/cat-coaching/ahmedabad/"
+          ],
+          [
+            "Online coaching alternatives",
+            "/cat-coaching/online/"
+          ],
+          [
+            "Mock-test guide",
+            "/cat-preparation/mock-tests/"
+          ],
+          [
+            "Editorial methodology",
+            "/methodology/"
+          ]
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Which CAT coaching is best in Ahmedabad?",
+        "a": "No universal winner is established here. Compare IMS, Ekoching, Career Launcher, T.I.M.E. and Endeavor using local teachers, schedule, feedback and written inclusions."
+      },
+      {
+        "q": "Are these providers ranked?",
+        "a": "No. This is an unranked shortlist based on official local information and practical selection criteria."
+      },
+      {
+        "q": "Are current classroom fees confirmed?",
+        "a": "Equivalent current quotations were not established for all five. Obtain a dated quote for the exact course rather than relying on headline offers."
+      },
+      {
+        "q": "Do old scholarship banners confirm a current discount?",
+        "a": "No. Ask the provider for current eligibility, validity and a written final price."
+      }
+    ]
   }
 ];
