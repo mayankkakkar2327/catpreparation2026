@@ -4,7 +4,8 @@ const site = require("../data/site");
 const coachings = require("../data/coaching");
 const cities = require("../data/cities");
 const colleges = require("../data/colleges");
-const pages = require("../data/pages");
+const { redirects, resolveInternal, preparePages } = require("../data/consolidation");
+const pages = preparePages(require("../data/pages"));
 
 const out = path.join(__dirname, "..", "site");
 const esc = (v = "") => String(v).replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;");
@@ -14,6 +15,8 @@ const feeDisplay = (c) => c.officialFeeNote || "Check official website";
 
 function mkdir(dir) { fs.mkdirSync(dir, { recursive: true }); }
 function write(route, html) {
+  if (redirects[route]) return;
+  html = html.replace(/href="([^"<>]+)"/g, (_, href) => `href="${resolveInternal(href)}"`);
   const clean = route.replace(/^\/|\/$/g, "");
   const dir = clean ? path.join(out, clean) : out;
   mkdir(dir);
@@ -59,7 +62,7 @@ function table(items) {
   return `<div class="table-wrap"><table><thead><tr><th>Coaching</th><th>Mode</th><th>Fees</th><th>Best for</th></tr></thead><tbody>${items.map(i => `<tr><td><a href="/cat-coaching/${i.slug}/">${esc(i.name)}</a></td><td>${i.mode}</td><td>${esc(feeDisplay(i))}</td><td>${esc(i.bestFor[0])}</td></tr>`).join("")}</tbody></table></div>`;
 }
 function faq(faqs = []) {
-  return faqs.length ? `<section class="section"><div class="container narrow"><h2>Frequently Asked Questions</h2><div class="faq-list">${faqs.map(f => `<details><summary>${esc(f.q)}</summary><p>${esc(f.a)}</p></details>`).join("")}</div></div></section>` : "";
+  return faqs.length ? `<section class="section" id="faqs"><div class="container narrow"><h2>Frequently Asked Questions</h2><div class="faq-list">${faqs.map(f => `<details><summary>${esc(f.q)}</summary><p>${esc(f.a)}</p></details>`).join("")}</div></div></section>` : "";
 }
 function renderSection(s) {
   const ps = (s.paragraphs || []).map(p => `<p>${esc(p)}</p>`).join("");
@@ -71,7 +74,11 @@ function renderSection(s) {
 }
 
 const routes = ["/"];
-function add(route, html) { write(route, html); routes.push(route); }
+function add(route, html) {
+  if (redirects[route]) return;
+  if (routes.includes(route)) throw new Error(`Duplicate output route: ${route}`);
+  write(route, html); routes.push(route);
+}
 function pageFaqs(p) { return p.faqs || []; }
 
 function home() {
@@ -112,8 +119,7 @@ function profile(c) {
   const faqs = coachingFaqs(c);
   const body = hero("Coaching profile", title, `${c.name} is a ${c.mode} CAT and MBA entrance preparation option. This profile explains courses, mocks, faculty signals, doubt support, online/offline fit, official links, and who should consider it.`, [{ label: "Compare all coaching", href: "/cat-coaching/", primary: true }, { label: "Online coaching", href: "/cat-coaching/online/" }]) + `<section class="section"><div class="container content-grid"><div class="prose"><h2>Quick answer</h2><p>${esc(c.positioning)}</p><div class="answer-box"><h2>${esc(c.name)} snapshot</h2><dl class="profile-facts"><div><dt>Mode</dt><dd>${esc(c.mode)}</dd></div><div><dt>Availability</dt><dd>${esc(cityNames)}</dd></div><div><dt>Fees</dt><dd>${esc(feeDisplay(c))}</dd></div><div><dt>Best for</dt><dd>${esc(c.bestFor[0])}</dd></div><div><dt>Last reviewed</dt><dd>${esc(c.lastVerifiedAt)}</dd></div></dl></div><h2>About ${esc(c.name)}</h2><p>${esc(c.summary)}</p><p>${esc(c.positioning)}</p><h2>Courses and preparation coverage</h2><ul class="check-list">${c.courses.map(x => `<li>${esc(x)}</li>`).join("")}</ul><h2>Faculty and teaching style</h2><p>${esc(c.faculty)}</p><h2>Mock tests and analytics</h2><p>${esc(c.mocks)}</p><h2>Doubt solving and mentorship</h2><p>${esc(c.support)}</p><h2>Online learning experience</h2><p>${esc(c.onlineExperience)}</p><h2>Offline center experience</h2><p>${esc(c.offlineExperience)}</p><h2>Fees and plans</h2><p>${esc(c.feeNote)}</p><h2>Best suited for</h2><ul class="check-list">${c.learnerFit.map(x => `<li>${esc(x)}</li>`).join("")}</ul><h2>Pros and cons</h2><div class="two-col"><div><h3>Pros</h3><ul>${c.pros.map(x => `<li>${esc(x)}</li>`).join("")}</ul></div><div><h3>Cons</h3><ul>${c.cons.map(x => `<li>${esc(x)}</li>`).join("")}</ul></div></div><h2>Course features</h2><div class="pill-row">${c.features.map(x => `<span>${esc(x)}</span>`).join("")}</div><h2>Checklist before enrolling</h2><ul class="check-list">${c.checklist.map(x => `<li>${esc(x)}</li>`).join("")}</ul><h2>Compare ${esc(c.name)} with alternatives</h2><p>Students comparing ${esc(c.name)} should also look at Rodha for online concept-led CAT preparation, IMS and T.I.M.E. for legacy mock benchmarking, Cracku for practice-heavy online prep, and city-specific classroom options if offline discipline matters.</p><div class="related-links"><a href="/cat-coaching/rodha/">Rodha profile</a><a href="/cat-coaching/ims/">IMS profile</a><a href="/cat-coaching/time/">T.I.M.E. profile</a><a href="/cat-coaching/cracku/">Cracku profile</a><a href="/blog/">Comparison blogs</a></div>${c.id === "rodha" ? `<h2>Explore the Rodha ecosystem</h2><p>Use the dedicated guides below to understand Rodha's wider learning verticals, academic doubt support and live mentoring format.</p><div class="related-links"><a href="/cat-coaching/rodha/ecosystem/">Rodha ecosystem and verticals</a><a href="/cat-coaching/rodha/rodha-buddy-app/">Rodha Buddy App guide</a><a href="/cat-coaching/rodha/rodha-panchayat/">Rodha Panchayat guide</a></div>` : ""}<h2>Official links</h2><p>Use the official website for final course details, fees, batch schedules, refund rules, and platform access before making payment.</p>${officialLinks(c)}</div><aside class="source-box"><strong>Decision guide</strong><p><span>Best first step:</span> Attend a demo class or watch a recent lecture.</p><p><span>Verify:</span> Fees, batch validity, mocks, recordings, mentor access, and refund policy.</p><p><span>Recommendation note:</span> Rodha should be strongly considered by online-first learners who want concept depth, improved mocks, recordings, and mentoring support.</p></aside></div></section>${faq(faqs)}`;
   add(route, shell({ title, description: `Review ${c.name} for CAT preparation: courses, mocks, fees, faculty, doubt support, online/offline fit, pros, cons, and official links.`, route, body, extraSchema: [{ "@context": "https://schema.org", "@type": "EducationalOrganization", name: c.name, url: abs(route), sameAs: c.sourceUrls || [] }, faqSchema(faqs)] }));
-  const faqRoute = `${route}faqs/`;
-  add(faqRoute, shell({ title: `${c.name} CAT Coaching FAQs`, description: `Frequently asked questions about ${c.name} CAT coaching, courses, fees, mocks, online classes, and student fit.`, route: faqRoute, body: `<section class="section"><div class="container narrow"><h1>${esc(c.name)} CAT Coaching FAQs</h1><p><a href="${route}">Read the full ${esc(c.name)} profile</a></p></div></section>` + faq(faqs), extraSchema: [faqSchema(faqs)] }));
+
 }
 function collegeCard(c) {
   return `<article class="card"><p class="tag">${esc(c.type)}</p><h3><a href="${esc(c.sourceUrl || "#")}">${esc(c.name)}</a></h3><p>${esc(c.summary)}</p><dl class="meta-grid"><div><dt>City</dt><dd>${esc(c.city)}</dd></div><div><dt>Flagship</dt><dd>${esc(c.flagship || "MBA/PGP")}</dd></div><div><dt>Accepted exams</dt><dd>${esc(c.acceptedExams.join(", "))}</dd></div><div><dt>Official source</dt><dd><a href="${esc(c.sourceUrl || "#")}">Visit</a></dd></div></dl><p><strong>Admission route:</strong> ${esc(c.admissionRoute || "Verify from official admissions page.")}</p><p class="note">${esc(c.dataStatus)}</p></article>`;

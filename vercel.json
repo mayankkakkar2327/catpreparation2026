@@ -8,14 +8,244 @@
   "redirects": [
     {
       "source": "/(.*)",
-      "has": [{ "type": "host", "value": "catpreparation2026.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "catpreparation2026.com"
+        }
+      ],
       "destination": "https://www.catpreparation2026.com/$1",
       "permanent": true
     },
     {
       "source": "/(.*)",
-      "has": [{ "type": "host", "value": "catpreparation2026.vercel.app" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "catpreparation2026.vercel.app"
+        }
+      ],
       "destination": "https://www.catpreparation2026.com/$1",
+      "permanent": true
+    },
+    {
+      "source": "/blog/physics-wallah-vs-unacademy-cat-2026/",
+      "destination": "/blog/unacademy-cat-vs-mba-wallah-cat-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/physics-wallah-vs-unacademy-cat-2026",
+      "destination": "/blog/unacademy-cat-vs-mba-wallah-cat-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/rodha-vs-iquanta-mba-entrance-exams-india/",
+      "destination": "/blog/rodha-vs-iquanta-cat-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/rodha-vs-iquanta-mba-entrance-exams-india",
+      "destination": "/blog/rodha-vs-iquanta-cat-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/cat-coaching/rodha/faqs/",
+      "destination": "/cat-coaching/rodha/#faqs",
+      "permanent": true
+    },
+    {
+      "source": "/cat-coaching/rodha/faqs",
+      "destination": "/cat-coaching/rodha/#faqs",
+      "permanent": true
+    },
+    {
+      "source": "/cat-coaching/ims/faqs/",
+      "destination": "/cat-coaching/ims/#faqs",
+      "permanent": true
+    },
+    {
+      "source": "/cat-coaching/ims/faqs",
+      "destination": "/cat-coaching/ims/#faqs",
+      "permanent": true
+    },
+    {
+      "source": "/cat-coaching/time/faqs/",
+      "destination": "/cat-coaching/time/#faqs",
+      "permanent": true
+    },
+    {
+      "source": "/cat-coaching/time/faqs",
+      "destination": "/cat-coaching/time/#faqs",
+      "permanent": true
+    },
+    {
+      "source": "/cat-coaching/career-launcher/faqs/",
+      "destination": "/cat-coaching/career-launcher/#faqs",
+      "permanent": true
+    },
+    {
+      "source": "/cat-coaching/career-launcher/faqs",
+      "destination": "/cat-coaching/career-launcher/#faqs",
+      "permanent": true
+    },
+    {
+      "source": "/cat-coaching/cracku/faqs/",
+      "destination": "/cat-coaching/cracku/#faqs",
+      "permanent": true
+    },
+    {
+      "source": "/cat-coaching/cracku/faqs",
+      "destination": "/cat-coaching/cracku/#faqs",
+      "permanent": true
+    },
+    {
+      "source": "/cat-coaching/2iim/faqs/",
+      "destination": "/cat-coaching/2iim/#faqs",
+      "permanent": true
+    },
+    {
+      "source": "/cat-coaching/2iim/faqs",
+      "destination": "/cat-coaching/2iim/#faqs",
+      "permanent": true
+    },
+    {
+      "source": "/cat-coaching/iquanta/faqs/",
+      "destination": "/cat-coaching/iquanta/#faqs",
+      "permanent": true
+    },
+    {
+      "source": "/cat-coaching/iquanta/faqs",
+      "destination": "/cat-coaching/iquanta/#faqs",
+      "permanent": true
+    },
+    {
+      "source": "/cat-coaching/elites-grid/faqs/",
+      "destination": "/cat-coaching/elites-grid/#faqs",
+      "permanent": true
+    },
+    {
+      "source": "/cat-coaching/elites-grid/faqs",
+      "destination": "/cat-coaching/elites-grid/#faqs",
+      "permanent": true
+    },
+    {
+      "source": "/cat-coaching/catking/faqs/",
+      "destination": "/cat-coaching/catking/#faqs",
+      "permanent": true
+    },
+    {
+      "source": "/cat-coaching/catking/faqs",
+      "destination": "/cat-coaching/catking/#faqs",
+      "permanent": true
+    },
+    {
+      "source": "/cat-coaching/endeavor/faqs/",
+      "destination": "/cat-coaching/endeavor/#faqs",
+      "permanent": true
+    },
+    {
+      "source": "/cat-coaching/endeavor/faqs",
+      "destination": "/cat-coaching/endeavor/#faqs",
+      "permanent": true
+    },
+    {
+      "source": "/cat-coaching/mba-guru/faqs/",
+      "destination": "/cat-coaching/mba-guru/#faqs",
+      "permanent": true
+    },
+    {
+      "source": "/cat-coaching/mba-guru/faqs",
+      "destination": "/cat-coaching/mba-guru/#faqs",
+      "permanent": true
+    },
+    {
+      "source": "/cat-coaching/alchemist/faqs/",
+      "destination": "/cat-coaching/alchemist/#faqs",
+      "permanent": true
+    },
+    {
+      "source": "/cat-coaching/alchemist/faqs",
+      "destination": "/cat-coaching/alchemist/#faqs",
+      "permanent": true
+    },
+    {
+      "source": "/cat-coaching/tathagat/faqs/",
+      "destination": "/cat-coaching/tathagat/#faqs",
+      "permanent": true
+    },
+    {
+      "source": "/cat-coaching/tathagat/faqs",
+      "destination": "/cat-coaching/tathagat/#faqs",
+      "permanent": true
+    },
+    {
+      "source": "/cat-coaching/hitbullseye/faqs/",
+      "destination": "/cat-coaching/hitbullseye/#faqs",
+      "permanent": true
+    },
+    {
+      "source": "/cat-coaching/hitbullseye/faqs",
+      "destination": "/cat-coaching/hitbullseye/#faqs",
+      "permanent": true
+    },
+    {
+      "source": "/cat-coaching/unacademy-cat/faqs/",
+      "destination": "/cat-coaching/unacademy-cat/#faqs",
+      "permanent": true
+    },
+    {
+      "source": "/cat-coaching/unacademy-cat/faqs",
+      "destination": "/cat-coaching/unacademy-cat/#faqs",
+      "permanent": true
+    },
+    {
+      "source": "/cat-coaching/pw-mba/faqs/",
+      "destination": "/cat-coaching/pw-mba/#faqs",
+      "permanent": true
+    },
+    {
+      "source": "/cat-coaching/pw-mba/faqs",
+      "destination": "/cat-coaching/pw-mba/#faqs",
+      "permanent": true
+    },
+    {
+      "source": "/cat-coaching/erudite/faqs/",
+      "destination": "/cat-coaching/erudite/#faqs",
+      "permanent": true
+    },
+    {
+      "source": "/cat-coaching/erudite/faqs",
+      "destination": "/cat-coaching/erudite/#faqs",
+      "permanent": true
+    },
+    {
+      "source": "/cat-coaching/ascent-education/faqs/",
+      "destination": "/cat-coaching/ascent-education/#faqs",
+      "permanent": true
+    },
+    {
+      "source": "/cat-coaching/ascent-education/faqs",
+      "destination": "/cat-coaching/ascent-education/#faqs",
+      "permanent": true
+    },
+    {
+      "source": "/cat-coaching/proton-training/faqs/",
+      "destination": "/cat-coaching/proton-training/#faqs",
+      "permanent": true
+    },
+    {
+      "source": "/cat-coaching/proton-training/faqs",
+      "destination": "/cat-coaching/proton-training/#faqs",
+      "permanent": true
+    },
+    {
+      "source": "/cat-coaching/mentors-eduserv/faqs/",
+      "destination": "/cat-coaching/mentors-eduserv/#faqs",
+      "permanent": true
+    },
+    {
+      "source": "/cat-coaching/mentors-eduserv/faqs",
+      "destination": "/cat-coaching/mentors-eduserv/#faqs",
       "permanent": true
     }
   ]
