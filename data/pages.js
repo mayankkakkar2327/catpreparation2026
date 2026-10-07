@@ -1,126 +1,2230 @@
-const iimLinks = {
-  "IIM Ahmedabad": "https://www.iima.ac.in/academics/mba/admissions",
-  "IIM Bangalore": "https://www.iimb.ac.in/programmes/pgp",
-  "IIM Calcutta": "https://www.iimcal.ac.in/programs/pgp/admissions",
-  "IIM Lucknow": "https://www.iiml.ac.in/programmes/post-graduate-programme",
-  "IIM Kozhikode": "https://iimk.ac.in/academic-programmes/pgp",
-  "IIM Indore": "https://www.iimidr.ac.in/academic-programmes/post-graduate-program-in-management/",
-  "IIM Mumbai": "https://iimmumbai.ac.in/",
-  "IIM Shillong": "https://www.iimshillong.ac.in/",
-  "IIM Rohtak": "https://www.iimrohtak.ac.in/",
-  "IIM Ranchi": "https://iimranchi.ac.in/",
-  "IIM Raipur": "https://iimraipur.ac.in/",
-  "IIM Tiruchirappalli": "https://www.iimtrichy.ac.in/",
-  "IIM Udaipur": "https://www.iimu.ac.in/",
-  "IIM Kashipur": "https://www.iimkashipur.ac.in/",
-  "IIM Nagpur": "https://www.iimnagpur.ac.in/",
-  "IIM Visakhapatnam": "https://www.iimv.ac.in/",
-  "IIM Amritsar": "https://iimamritsar.ac.in/",
-  "IIM Bodh Gaya": "https://iimbg.ac.in/",
-  "IIM Jammu": "https://www.iimj.ac.in/",
-  "IIM Sambalpur": "https://iimsambalpur.ac.in/",
-  "IIM Sirmaur": "https://www.iimsirmaur.ac.in/"
-};
-const linked = (label, href) => ({ label, href });
-const iimRows = Object.entries(iimLinks).map(([name, href]) => [linked(name, href), name.replace("IIM ", ""), "CAT"]);
-
-const cat2026Sections = [
-  { id: "what-is-cat-exam", heading: "What is CAT Exam?", paragraphs: ["CAT, or the Common Admission Test, is India's most important MBA entrance exam for admission to the IIMs and many leading non-IIM business schools such as FMS, MDI, SPJIMR, IIT management departments, and other CAT-accepting colleges.", "The exam evaluates a candidate's ability across Verbal Ability and Reading Comprehension, Data Interpretation and Logical Reasoning, and Quantitative Aptitude. Around a few lakh aspirants appear for CAT every year, while the most sought-after MBA seats remain limited, which makes percentile, section-wise balance, and interview readiness important."] },
-  { id: "cat-exam-pattern", heading: "CAT Exam Pattern", paragraphs: ["CAT is conducted as a computer-based test in English. The exact CAT 2026 pattern must be checked from the official notification, but recent CAT papers make the three-section structure the safest starting point for preparation."], table: { headers: ["Exam element", "CAT 2026 preparation reference"], rows: [["Sections", "3: VARC, DILR, and Quantitative Aptitude"], ["Total questions", "Around 68, based on recent CAT pattern"], ["Total marks", "Around 204, if 68 questions carry 3 marks each"], ["Language", "English"], ["Question format", "MCQ and non-MCQ/TITA questions"], ["Mode", "Computer-based online test at exam centres"], ["Answer options", "Usually 4 options for MCQs"], ["Verification note", "Final section count, duration, and marking rules should be confirmed from the official CAT 2026 notification"]] } },
-  { id: "how-to-score-99-percentile-in-cat", heading: "How to score 99%ile in CAT?", paragraphs: ["A 99 percentile CAT score is built through consistent basics, timed practice, mock analysis, and section-wise control. The goal is not to attempt every question; it is to select the right questions, avoid avoidable negatives, and protect performance across all three sections.", "A practical 99 percentile plan should move from foundation to application to full-length mocks. Students can use self-study, offline mentoring, or online coaching such as Rodha, but the deciding factor is whether the preparation system gives concept clarity, enough practice, quality mocks, and serious post-mock review."], list: ["Build fundamentals first in arithmetic, algebra, reading comprehension, and LRDI set selection.", "Track accuracy from the beginning because CAT penalizes poor question selection.", "Practice section tests before full mocks so weak areas are visible early.", "Analyze every mock for missed easy questions, time traps, repeated errors, and section strategy.", "Create a repeatable exam-day plan for attempts, skip decisions, and last-minute review."] },
-  { id: "cat-syllabus", heading: "What is the syllabus for CAT?", paragraphs: ["CAT does not usually publish a fixed chapter-wise syllabus. Aspirants prepare from previous-year trends across VARC, DILR, and Quantitative Aptitude. The list below is a practical CAT 2026 syllabus map for preparation."], columns: [{ title: "Quantitative Aptitude", items: ["Averages, ratio, proportion, mixture and alligation", "Percentages, profit and loss, simple and compound interest", "Time, speed and distance; time and work", "Geometry and mensuration", "Quadratic equations, polynomials and simple equations", "Progressions, series, inequalities, modulus and functions", "Logarithms, surds, indices, probability and permutations-combinations", "Number system and Venn diagrams"] }, { title: "DILR", items: ["Tables, line graphs, bar graphs and pie charts", "Quant-based data interpretation", "Linear and circular arrangements", "Cubes, Venn diagrams, selection and distribution", "Games and tournaments", "Network flow diagrams and binary logic"] }, { title: "VARC", items: ["Reading comprehension", "Para summary", "Odd sentence out", "Para jumbles", "Para completion"] }] },
-  { id: "cat-score-vs-percentile-2025", heading: "What is CAT Score Vs Percentile for CAT 2025?", paragraphs: ["CAT score versus percentile changes every year with paper difficulty, slot normalization, and candidate performance. The table below should be treated as an indicative CAT 2025 score-to-percentile reference, not an official cutoff."], table: { headers: ["CAT percentile", "Approximate overall score"], rows: [["99.99 percentile", "133"], ["99.90 percentile", "111.37"], ["99.5 percentile", "93"], ["99 percentile", "85"], ["98 percentile", "76"], ["95 percentile", "62"], ["90 percentile", "51.5"], ["85 percentile", "44"], ["80 percentile", "38"]] } },
-  { id: "iim-mba-seats", heading: "How many MBA Seats are there in IIMs?", paragraphs: ["IIM seat intake changes by program and year, so aspirants should verify the latest MBA/PGP intake from each IIM's official admission page. The table below provides a working reference for major IIM MBA seats."], table: { headers: ["IIM", "Approximate MBA/PGP seats"], rows: [["IIM Ahmedabad", "408"], ["IIM Amritsar", "334"], ["IIM Bangalore", "530"], ["IIM Bodh Gaya", "300"], ["IIM Calcutta", "480"], ["IIM Indore", "487"], ["IIM Jammu", "246"], ["IIM Kashipur", "321"], ["IIM Kozhikode", "484"], ["IIM Lucknow", "566"], ["IIM Mumbai", "278"], ["IIM Nagpur", "267"], ["IIM Raipur", "377"], ["IIM Ranchi", "246"], ["IIM Rohtak", "399"], ["IIM Sambalpur", "197"], ["IIM Shillong", "382"], ["IIM Sirmaur", "281"], ["IIM Tiruchirappalli", "378"], ["IIM Udaipur", "361"], ["IIM Visakhapatnam", "383"]] } },
-  { id: "important-topics-cat-2026", heading: "What are the important topics for CAT 2026?", paragraphs: ["Important CAT topics are those that repeatedly appear in previous papers and also help students improve test-taking control. Aspirants should still prepare broadly, because CAT can change the mix of questions in any year."], columns: [{ title: "VARC", items: ["Reading comprehension from science and technology", "Business and economics passages", "History, philosophy, art and culture passages", "Para summary, para jumbles and odd sentence out"] }, { title: "DILR", items: ["Games and tournaments", "Venn diagrams", "Selection and distribution", "Caselets and mixed reasoning sets"] }, { title: "Quant", items: ["Averages, ratio, mixtures and alligation", "Percentages, profit and loss, SI and CI", "Time-speed-distance and time-work", "Quadratic equations, polynomials and simple equations"] }] },
-  { id: "online-vs-offline-cat-coaching", heading: "Which is better CAT online coaching or CAT offline coaching?", paragraphs: ["Online CAT coaching is usually better for aspirants who need flexibility, recorded lessons, lower travel time, and the ability to study alongside college or work. Offline CAT coaching can be better for students who want fixed classroom discipline, face-to-face doubt solving, and a local peer group.", "The best choice is not only online versus offline; it is fit. Compare faculty quality, course structure, mock analysis, doubt support, fees, and your own consistency before choosing a coaching option. For online-first learners, Rodha can be one option to compare with other CAT preparation platforms."] }
+// Core CAT information reviewed against official sources on 7 October 2026.
+module.exports = [
+  {
+    "slug": "cat-2026",
+    "title": "CAT 2026: Exam Date, Eligibility, Pattern and Syllabus",
+    "section": "CAT 2026",
+    "description": "CAT 2026 is on November 29. Check registration status, November 4 admit cards, official eligibility, exam pattern and a practical preparation plan.",
+    "answer": "CAT 2026 is scheduled for 29 November 2026, with admit-card download starting on 4 November. Registration and the announced correction window are closed. The official standard format is three sections in 120 minutes. Use this guide to check confirmed rules, choose the detailed page you need and plan the remaining preparation.",
+    "updated": "2026-10-07",
+    "body": [
+      "Last verified: 7 October 2026. This is an independent preparation guide; applications, admit cards and official notices are available through iimcat.ac.in."
+    ],
+    "sections": [
+      {
+        "id": "at-a-glance",
+        "heading": "CAT 2026 at a glance",
+        "paragraphs": [
+          "CAT is the Common Admission Test used for admission to management programmes at the IIMs and by listed non-IIM institutions. Taking CAT is one part of the admission process; each institution sets its own selection requirements."
+        ],
+        "table": {
+          "headers": [
+            "Question",
+            "Current answer"
+          ],
+          "rows": [
+            [
+              "Who is conducting CAT 2026?",
+              "IIM Indore, as announced in the official July 26 release"
+            ],
+            [
+              "When is the exam?",
+              "Sunday, 29 November 2026, in three sessions"
+            ],
+            [
+              "Can I still register?",
+              "No; the final registration deadline was September 22"
+            ],
+            [
+              "When do admit cards begin?",
+              "November 4, according to the official portal"
+            ],
+            [
+              "What is the standard format?",
+              "VARC, DILR and QA; 120 minutes, 40 per section"
+            ],
+            [
+              "What are the graduation thresholds?",
+              "50% for General/EWS/NC-OBC; 45% for SC/ST/PwBD"
+            ]
+          ]
+        },
+        "links": [
+          [
+            "Official CAT 2026 website and current notices",
+            "https://iimcat.ac.in/"
+          ],
+          [
+            "Official July 26 press release: test date, sections and timing",
+            "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT_2026_Press_Release_26-07-2026.pdf"
+          ],
+          [
+            "CAT 2026 Information Bulletin: eligibility, fees, admissions and score validity",
+            "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT2026InformationBulletin_26-07-2026_V2.pdf"
+          ]
+        ]
+      },
+      {
+        "id": "dates",
+        "heading": "Important dates and what comes next",
+        "paragraphs": [
+          "The payment extension and edit window applied to existing applicants only. Neither reopened registration. Results are described in the bulletin as likely in the first week of January 2027; a precise result date is not confirmed here."
+        ],
+        "table": {
+          "headers": [
+            "Milestone",
+            "Date or status"
+          ],
+          "rows": [
+            [
+              "Registration closed",
+              "September 22, 5:00 PM IST"
+            ],
+            [
+              "Payment-only extension ended",
+              "September 24, 5:00 PM IST"
+            ],
+            [
+              "Limited edits ended",
+              "October 6, 5:00 PM"
+            ],
+            [
+              "Admit-card download begins",
+              "November 4"
+            ],
+            [
+              "Exam day",
+              "November 29"
+            ]
+          ]
+        },
+        "links": [
+          [
+            "Complete CAT 2026 calendar",
+            "/cat-2026/important-dates/"
+          ],
+          [
+            "September 29 notice: limited edit window on October 5–6",
+            "https://g03.tcsion.com//per/g03/pub/726/EForms/image/ImageDocUpload/71161/7/3001928417.pdf"
+          ],
+          [
+            "September 22 notice: fee-payment extension only",
+            "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT_2026_Media_Release_22-09-2026.pdf"
+          ]
+        ]
+      },
+      {
+        "id": "eligibility",
+        "heading": "Who meets the CAT eligibility requirements?",
+        "paragraphs": [
+          "The bulletin requires a recognised bachelor’s degree or an eligible equivalent/professional qualification with the relevant marks. Final-year students and candidates awaiting results can be eligible, with completion evidence required by the admitting IIM if selected.",
+          "Use your university’s certified CGPA conversion method. Do not apply a generic conversion formula if your institution provides one. CAT eligibility and admission competitiveness are separate questions."
+        ],
+        "links": [
+          [
+            "Eligibility, final-year rules and CGPA examples",
+            "/cat-2026/eligibility/"
+          ],
+          [
+            "Registration records, fees and corrections",
+            "/cat-2026/registration/"
+          ]
+        ]
+      },
+      {
+        "id": "pattern",
+        "heading": "Exam pattern: confirmed structure versus assumptions",
+        "paragraphs": [
+          "The July release confirms 40 minutes each for VARC, DILR and Quantitative Ability, in that order, without switching sections while answering a section. The standard duration is 120 minutes.",
+          "The reviewed release does not confirm a total question count or full numerical marking scheme. A fixed total such as 68 questions or 204 marks should not be assumed without the official instructions. Follow official test and mock instructions for those details and any approved accommodations."
+        ],
+        "links": [
+          [
+            "CAT 2026 pattern and mock-analysis checklist",
+            "/cat-2026/exam-pattern/"
+          ],
+          [
+            "Official July 26 press release: test date, sections and timing",
+            "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT_2026_Press_Release_26-07-2026.pdf"
+          ]
+        ]
+      },
+      {
+        "id": "syllabus",
+        "heading": "What should you study?",
+        "paragraphs": [
+          "The official section names provide the framework. A practical study map includes reading comprehension and verbal reasoning; data interpretation and logical sets; and quantitative fundamentals such as arithmetic, algebra and geometry.",
+          "That map is preparation guidance, not an official chapter list or fixed weightage forecast. Use timed work to identify whether the problem is understanding, accuracy, selection or pacing before choosing the next study task."
+        ],
+        "links": [
+          [
+            "Section-wise syllabus and study checklist",
+            "/cat-2026/syllabus/"
+          ],
+          [
+            "Preparation guide",
+            "/cat-preparation/"
+          ]
+        ]
+      },
+      {
+        "id": "preparation-decisions",
+        "heading": "A useful preparation cycle for the remaining weeks",
+        "paragraphs": [
+          "Begin with your latest mock rather than a generic target number of attempts. Select a small number of recurring errors, repair them with focused practice and test the change in the next timed attempt. Keep separate observations for all three sections.",
+          "A working candidate may need shorter weekday sessions and a longer weekend mock review. A full-time candidate may have more practice time, but neither benefits from taking tests without analysing them. This is editorial planning advice, not a promised percentile formula."
+        ],
+        "list": [
+          "Protect regular reading and evidence-based answer elimination in VARC.",
+          "Practise choosing and representing DILR sets before committing long stretches of time.",
+          "Redo Quant errors and then attempt fresh mixed problems.",
+          "Keep the application record safe and check admit-card details when released."
+        ]
+      },
+      {
+        "id": "admissions",
+        "heading": "How CAT connects to IIM and other MBA admissions",
+        "paragraphs": [
+          "The bulletin lists participating IIM programmes, including IIM Guwahati. It does not provide a single fixed seat count or common shortlist formula for every programme. Check the programme’s own policy for academic cutoffs, CAT requirements, work-experience considerations and later selection stages.",
+          "Non-IIM institutions using CAT scores manage their own admissions. A CAT application should not be assumed to complete every business-school application. Check the programme and admission year before using a seat-intake figure or cutoff estimate."
+        ],
+        "links": [
+          [
+            "IIM admissions guide",
+            "/iim/"
+          ],
+          [
+            "MBA college directory",
+            "/mba-colleges/"
+          ],
+          [
+            "CAT 2026 Information Bulletin: eligibility, fees, admissions and score validity",
+            "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT2026InformationBulletin_26-07-2026_V2.pdf"
+          ]
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is the next CAT 2026 milestone?",
+        "a": "The official portal lists admit-card download from November 4; the exam is on November 29."
+      },
+      {
+        "q": "Has registration reopened?",
+        "a": "No. The official notices distinguish the closed September 22 registration deadline from later payment-only and limited-edit windows."
+      },
+      {
+        "q": "Does CAT publish a chapter-wise syllabus in the reviewed release?",
+        "a": "No. The July release confirms sections and timing; our topic checklist is preparation guidance."
+      },
+      {
+        "q": "Does a CAT score guarantee an IIM seat?",
+        "a": "No. Each IIM applies its own admission criteria and selection process."
+      }
+    ],
+    "related": [
+      "/cat-2026/important-dates/",
+      "/cat-2026/registration/",
+      "/cat-2026/eligibility/",
+      "/cat-2026/exam-pattern/",
+      "/cat-2026/syllabus/",
+      "/cat-2026/latest-news/"
+    ],
+    "sourceNotes": [
+      "Official sources were checked on 7 October 2026. Later dated notices take precedence over the original bulletin where a deadline has changed. Study plans and worked examples are editorial guidance, not official exam rules."
+    ],
+    "sourceLinks": [
+      [
+        "Official CAT 2026 website and current notices",
+        "https://iimcat.ac.in/"
+      ],
+      [
+        "CAT 2026 Information Bulletin: eligibility, fees, admissions and score validity",
+        "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT2026InformationBulletin_26-07-2026_V2.pdf"
+      ],
+      [
+        "Official July 26 press release: test date, sections and timing",
+        "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT_2026_Press_Release_26-07-2026.pdf"
+      ],
+      [
+        "September 22 notice: fee-payment extension only",
+        "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT_2026_Media_Release_22-09-2026.pdf"
+      ],
+      [
+        "September 29 notice: limited edit window on October 5–6",
+        "https://g03.tcsion.com//per/g03/pub/726/EForms/image/ImageDocUpload/71161/7/3001928417.pdf"
+      ]
+    ]
+  },
+  {
+    "slug": "cat-2026/syllabus",
+    "title": "CAT 2026 Syllabus: VARC, DILR and Quant Topics",
+    "section": "CAT 2026",
+    "description": "Build a CAT 2026 study plan across VARC, DILR and Quant. Use a practical topic checklist clearly separated from official test-format announcements.",
+    "answer": "CAT 2026 has three announced sections: VARC, DILR and Quantitative Ability. The official July 26 release confirms these sections but does not publish a chapter-by-chapter syllabus. The topic map below is an editorial preparation checklist, not an official syllabus PDF or a prediction of chapter weightage.",
+    "updated": "2026-10-07",
+    "body": [
+      "Last verified: 7 October 2026. This is an independent preparation guide; applications, admit cards and official notices are available through iimcat.ac.in."
+    ],
+    "sections": [
+      {
+        "id": "official-vs-study-map",
+        "heading": "What does “CAT syllabus” mean here?",
+        "paragraphs": [
+          "For preparation, a syllabus is a way to organise skills and practice. It should not be confused with a guarantee that a chapter will appear or carry a fixed number of marks. The official format gives you the section structure; your study map turns that structure into work you can schedule.",
+          "Use the three lists below to diagnose gaps. Begin with an honest timed sample, identify the concepts or decisions behind errors, and return to comparable questions after correction. Avoid judging readiness only by how many lectures you have watched."
+        ],
+        "links": [
+          [
+            "Official July 26 press release: test date, sections and timing",
+            "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT_2026_Press_Release_26-07-2026.pdf"
+          ]
+        ]
+      },
+      {
+        "id": "varc-topics",
+        "heading": "VARC: reading comprehension and verbal reasoning",
+        "paragraphs": [
+          "Reading comprehension practice should develop argument tracking, main-idea recognition, inference and evidence-based elimination. Read across unfamiliar subjects so that topic discomfort does not automatically become a reason to skip a passage.",
+          "For verbal practice, work on paragraph structure, concise summaries, sentence placement and logical continuity. The list is deliberately a coverage checklist; it does not promise that every item will appear in CAT 2026."
+        ],
+        "table": {
+          "headers": [
+            "Practice area",
+            "Skill to build"
+          ],
+          "rows": [
+            [
+              "Main idea and author’s purpose",
+              "Separate the central argument from supporting examples"
+            ],
+            [
+              "Inference and tone",
+              "Choose what the passage supports, without adding assumptions"
+            ],
+            [
+              "Paragraph summaries",
+              "Retain the essential claim without distortion or extra conclusions"
+            ],
+            [
+              "Sentence ordering and paragraph coherence",
+              "Track references, contrasts, sequence and cause-and-effect links"
+            ],
+            [
+              "Sentence placement or completion",
+              "Test whether an option fits both the preceding and following context"
+            ]
+          ]
+        },
+        "list": [
+          "After each passage, explain why every rejected option fails.",
+          "Track whether errors come from comprehension, inference or rushing.",
+          "Use accuracy and time together; speed without understanding is not progress."
+        ]
+      },
+      {
+        "id": "dilr-topics",
+        "heading": "DILR: interpreting data and managing constraints",
+        "paragraphs": [
+          "Prepare Data Interpretation and Logical Reasoning as connected problem-solving skills. A set may combine a table, conditions, arithmetic and case elimination. Recognising the most workable representation is often more valuable than remembering a topic label."
+        ],
+        "table": {
+          "headers": [
+            "Practice area",
+            "Examples of work"
+          ],
+          "rows": [
+            [
+              "Data interpretation",
+              "Tables, charts, comparisons, percentages, ratios and missing values"
+            ],
+            [
+              "Arrangements",
+              "Ordering, grouping, scheduling and allocation constraints"
+            ],
+            [
+              "Selection and distribution",
+              "Choose valid combinations and distribute items under conditions"
+            ],
+            [
+              "Sets and networks",
+              "Venn-style information, routes, relationships and connected conditions"
+            ],
+            [
+              "Games and tournaments",
+              "Translate rules and results into a consistent model"
+            ],
+            [
+              "Mixed caselets",
+              "Combine quantitative information with logical deductions"
+            ]
+          ]
+        },
+        "list": [
+          "Write constraints clearly before making assumptions.",
+          "Test a representation: table, diagram, cases or a compact notation.",
+          "Practise abandoning a set when no productive route emerges.",
+          "Analyse both the solving method and the initial decision to choose the set."
+        ]
+      },
+      {
+        "id": "quant-topics",
+        "heading": "Quantitative Ability: a practical topic checklist",
+        "paragraphs": [
+          "Start with concepts that let you interpret numerical relationships confidently, then practise mixed problems where the method is not announced in advance. The sequence below is a study recommendation, not an official priority ranking."
+        ],
+        "table": {
+          "headers": [
+            "Area",
+            "Topics to cover"
+          ],
+          "rows": [
+            [
+              "Arithmetic",
+              "Percentages, ratios, averages, mixtures, profit and loss, interest, time and work, speed and distance"
+            ],
+            [
+              "Algebra",
+              "Linear and quadratic equations, inequalities, functions, exponents, logarithms and sequences"
+            ],
+            [
+              "Geometry and mensuration",
+              "Lines, angles, triangles, circles, polygons, coordinate basics, area and volume"
+            ],
+            [
+              "Number properties",
+              "Integers, factors, multiples, divisibility and remainders"
+            ],
+            [
+              "Counting and probability",
+              "Basic counting principles, permutations, combinations and probability"
+            ]
+          ]
+        },
+        "list": [
+          "Write why a formula applies before memorising shortcuts.",
+          "Redo missed questions without seeing the solution.",
+          "Use units, estimates and boundary cases to check answers.",
+          "Keep a short error log of concept gaps and recurring calculation mistakes."
+        ]
+      },
+      {
+        "id": "weekly-plan",
+        "heading": "Turn the checklist into a weekly preparation cycle",
+        "paragraphs": [
+          "Use current mock results to set priorities. A beginner and an advanced candidate should not spend identical time on every chapter. Protect practice in all three sections while directing extra repair time toward the weakest repeatable skill."
+        ],
+        "table": {
+          "headers": [
+            "Step",
+            "Practical action"
+          ],
+          "rows": [
+            [
+              "Diagnose",
+              "Take a timed sectional or review a recent full mock"
+            ],
+            [
+              "Choose",
+              "Select two or three specific weaknesses, not entire subjects"
+            ],
+            [
+              "Repair",
+              "Review the concept and solve a small targeted set"
+            ],
+            [
+              "Retest",
+              "Attempt fresh questions under time limits"
+            ],
+            [
+              "Review",
+              "Record accuracy, time and causes of avoidable errors"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "weightage",
+        "heading": "Should you trust fixed topic-weightage tables?",
+        "paragraphs": [
+          "Do not treat a projected percentage as a rule for CAT 2026. A preparation provider may analyse an earlier paper, but that does not establish the future paper’s distribution. If you use a weightage table, check its exam year, slot, question classification and source.",
+          "The same caution applies to claims that a particular score guarantees 99 percentile. Your preparation decisions should be based on broad coverage, accuracy and question selection; exact percentile outcomes depend on the actual exam and candidate performance."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is this an official CAT 2026 syllabus?",
+        "a": "No. The official release confirms three sections; this page provides a clearly labelled editorial study checklist."
+      },
+      {
+        "q": "Which sections should I prepare?",
+        "a": "Verbal Ability and Reading Comprehension, Data Interpretation and Logical Reasoning, and Quantitative Ability."
+      },
+      {
+        "q": "Can I skip topics outside a predicted high-weightage list?",
+        "a": "A prediction is not a guarantee. Cover fundamentals broadly and use mock evidence to prioritise repair."
+      },
+      {
+        "q": "How should I track syllabus completion?",
+        "a": "Track whether you can solve fresh problems accurately under time limits, not only whether you finished lessons."
+      }
+    ],
+    "related": [
+      "/cat-2026/exam-pattern/",
+      "/cat-preparation/",
+      "/cat-coaching/online/",
+      "/cat-2026/"
+    ],
+    "sourceNotes": [
+      "Official sources were checked on 7 October 2026. Later dated notices take precedence over the original bulletin where a deadline has changed. Study plans and worked examples are editorial guidance, not official exam rules."
+    ],
+    "sourceLinks": [
+      [
+        "Official July 26 press release: test date, sections and timing",
+        "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT_2026_Press_Release_26-07-2026.pdf"
+      ],
+      [
+        "Official CAT 2026 website and current notices",
+        "https://iimcat.ac.in/"
+      ]
+    ]
+  },
+  {
+    "slug": "cat-2026/eligibility",
+    "title": "CAT 2026 Eligibility: Marks, Final Year and CGPA Rules",
+    "section": "CAT 2026",
+    "description": "Check official CAT 2026 eligibility: 50% or 45% graduation marks, final-year and professional qualifications, CGPA conversion and category documents.",
+    "answer": "The CAT 2026 bulletin requires a recognised bachelor’s degree with at least 50% marks or equivalent CGPA, reduced to 45% for SC, ST and PwBD candidates. Eligible final-year candidates and specified professional-qualification holders can also apply. Meeting CAT eligibility does not guarantee an IIM shortlist or admission.",
+    "updated": "2026-10-07",
+    "body": [
+      "Last verified: 7 October 2026. This is an independent preparation guide; applications, admit cards and official notices are available through iimcat.ac.in."
+    ],
+    "sections": [
+      {
+        "id": "minimum-marks",
+        "heading": "CAT 2026 minimum marks by category",
+        "paragraphs": [
+          "The category distinction is important: the 45% relaxation applies to SC, ST and PwBD, not automatically to every reserved category. General, EWS and NC-OBC candidates need at least 50%. These are eligibility thresholds, not CAT percentile cutoffs."
+        ],
+        "table": {
+          "headers": [
+            "Category",
+            "Minimum qualifying marks"
+          ],
+          "rows": [
+            [
+              "General, EWS, NC-OBC",
+              "50% or equivalent CGPA"
+            ],
+            [
+              "SC, ST, PwBD",
+              "45% or equivalent CGPA"
+            ]
+          ]
+        },
+        "links": [
+          [
+            "CAT 2026 Information Bulletin: eligibility, fees, admissions and score validity",
+            "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT2026InformationBulletin_26-07-2026_V2.pdf"
+          ]
+        ]
+      },
+      {
+        "id": "qualifications",
+        "heading": "Which qualifications are covered?",
+        "paragraphs": [
+          "The bulletin covers a bachelor’s degree from a recognised university or institution, or an equivalent qualification recognised by the Ministry of Education. It also lists completed professional qualifications: CA, CS, ICWA (CMA) and Fellow of the Institute of Actuaries of India (FIAI), with the required percentage.",
+          "The listed routes are a completed eligible degree, a completed eligible professional qualification, or the final year of a bachelor’s degree. A short coaching certificate or a standalone online course is not a substitute for these qualifications. Check the precise status of an unusual qualification with the official authority."
+        ],
+        "links": [
+          [
+            "CAT 2026 Information Bulletin: eligibility, fees, admissions and score validity",
+            "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT2026InformationBulletin_26-07-2026_V2.pdf"
+          ]
+        ]
+      },
+      {
+        "id": "final-year",
+        "heading": "Can final-year students and candidates awaiting results apply?",
+        "paragraphs": [
+          "Yes. Candidates appearing for the final year of the bachelor’s or equivalent qualification, and those who completed degree requirements but are awaiting results, are covered by the bulletin.",
+          "If selected, admission can be provisional. A Principal or Registrar certificate must confirm completion of all degree requirements, issued by the date stipulated by the respective IIM. There is no single completion-certificate deadline supplied here for every programme: follow the institution making the offer.",
+          "Keep your latest marksheets, expected completion information and institution contact details ready. Do not present a pending degree as already completed."
+        ]
+      },
+      {
+        "id": "cgpa",
+        "heading": "How should CGPA be converted to percentage?",
+        "paragraphs": [
+          "Use the conversion procedure certified by your university or institution. Do not automatically multiply CGPA by 9.5, 10 or another internet formula.",
+          "Only if the university confirms that it has no conversion scheme does the bulletin prescribe: obtained CGPA ÷ maximum possible CGPA × 100. For example, 7.2 out of 10 gives 72% under that fallback; if the university has its own formula, its certified procedure takes precedence.",
+          "Marks and rounding must follow the applicable institutional rules. A worked example is not permission to round a below-threshold result upward."
+        ],
+        "links": [
+          [
+            "CAT 2026 Information Bulletin: eligibility, fees, admissions and score validity",
+            "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT2026InformationBulletin_26-07-2026_V2.pdf"
+          ]
+        ]
+      },
+      {
+        "id": "category-documents",
+        "heading": "Category documents and verification",
+        "paragraphs": [
+          "For CAT 2026, the bulletin specifies NC-OBC certificates issued on or after April 1, 2026. EWS certificates must be valid for 2026–27 and assessed for financial year 2025–26. Applicants should use the official proformas and the applicable Central Government criteria.",
+          "The bulletin describes a conditional undertaking process for certain pending NC-OBC/EWS certificates and warns that an incomplete document set can lead to disqualification. It also says category changes will not be entertained after registration. Read the actual provisions rather than treating a certificate from another admission cycle as automatically sufficient."
+        ],
+        "links": [
+          [
+            "CAT 2026 Information Bulletin: eligibility, fees, admissions and score validity",
+            "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT2026InformationBulletin_26-07-2026_V2.pdf"
+          ],
+          [
+            "Official CAT 2026 website and current notices",
+            "https://iimcat.ac.in/"
+          ]
+        ]
+      },
+      {
+        "id": "eligibility-vs-admission",
+        "heading": "Eligibility is the first check, not an admission prediction",
+        "paragraphs": [
+          "IIMs can apply their own academic cutoffs, CAT requirements and selection weights. Prior academics, relevant work experience and other inputs may influence shortlisting; later interview or assessment stages also vary by programme.",
+          "The general eligibility section does not prescribe a minimum period of work experience for all CAT applicants. A specialised or executive programme can nevertheless have additional requirements. Read the target programme’s admission policy separately.",
+          "As registration is now closed, satisfying the academic criteria does not create a late-application route. Existing candidates should retain documents for later verification."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is 45% enough for CAT 2026?",
+        "a": "The 45% threshold applies to SC, ST and PwBD candidates. General, EWS and NC-OBC candidates need 50% or equivalent CGPA."
+      },
+      {
+        "q": "Can a final-year student be eligible?",
+        "a": "Yes, subject to the bulletin’s requirements and the completion certificate required by the admitting IIM if selected."
+      },
+      {
+        "q": "Should I multiply CGPA by 9.5?",
+        "a": "Only if that is your university’s certified conversion procedure. Use the bulletin’s ratio formula only where the university confirms no conversion scheme."
+      },
+      {
+        "q": "Does eligibility guarantee an IIM call?",
+        "a": "No. Individual IIMs set shortlisting and selection criteria beyond minimum CAT eligibility."
+      }
+    ],
+    "related": [
+      "/cat-2026/registration/",
+      "/cat-2026/important-dates/",
+      "/iim/",
+      "/cat-2026/"
+    ],
+    "sourceNotes": [
+      "Official sources were checked on 7 October 2026. Later dated notices take precedence over the original bulletin where a deadline has changed. Study plans and worked examples are editorial guidance, not official exam rules."
+    ],
+    "sourceLinks": [
+      [
+        "CAT 2026 Information Bulletin: eligibility, fees, admissions and score validity",
+        "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT2026InformationBulletin_26-07-2026_V2.pdf"
+      ],
+      [
+        "Official CAT 2026 website and current notices",
+        "https://iimcat.ac.in/"
+      ]
+    ]
+  },
+  {
+    "slug": "cat-2026/exam-pattern",
+    "title": "CAT 2026 Exam Pattern: Sections, Timing and Marking",
+    "section": "CAT 2026",
+    "description": "Official CAT 2026 format: three sections, 120 minutes and 40 minutes per section. See what is confirmed and what still needs official instructions.",
+    "answer": "The official CAT 2026 press release confirms a 120-minute test with three sections: VARC, DILR and Quantitative Ability. Candidates get 40 minutes per section and cannot switch sections while answering one. The release does not state the total question count or a complete marking scheme; these should not be presented as confirmed 2026 numbers.",
+    "updated": "2026-10-07",
+    "body": [
+      "Last verified: 7 October 2026. This is an independent preparation guide; applications, admit cards and official notices are available through iimcat.ac.in."
+    ],
+    "sections": [
+      {
+        "id": "confirmed-format",
+        "heading": "What is officially confirmed for CAT 2026?",
+        "paragraphs": [
+          "The July 26 press release is the source for the structure below. The information bulletin confirms a computer-based test on November 29 in three sessions. Your allotted session and centre will be on your admit card."
+        ],
+        "table": {
+          "headers": [
+            "Feature",
+            "Confirmed information"
+          ],
+          "rows": [
+            [
+              "Mode",
+              "Computer-based test"
+            ],
+            [
+              "Test day",
+              "29 November 2026"
+            ],
+            [
+              "Sessions",
+              "Three; candidate allotment is separate from section order"
+            ],
+            [
+              "Standard duration",
+              "120 minutes"
+            ],
+            [
+              "Section I",
+              "Verbal Ability and Reading Comprehension (VARC)"
+            ],
+            [
+              "Section II",
+              "Data Interpretation and Logical Reasoning (DILR)"
+            ],
+            [
+              "Section III",
+              "Quantitative Ability (QA)"
+            ],
+            [
+              "Standard time per section",
+              "40 minutes"
+            ],
+            [
+              "Switching between sections",
+              "Not permitted while answering a section"
+            ]
+          ]
+        },
+        "links": [
+          [
+            "Official July 26 press release: test date, sections and timing",
+            "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT_2026_Press_Release_26-07-2026.pdf"
+          ],
+          [
+            "CAT 2026 Information Bulletin: eligibility, fees, admissions and score validity",
+            "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT2026InformationBulletin_26-07-2026_V2.pdf"
+          ]
+        ]
+      },
+      {
+        "id": "not-confirmed",
+        "heading": "Are 68 questions and 204 marks confirmed?",
+        "paragraphs": [
+          "Not by the official documents reviewed for this page. The July press release specifies timing and section names but does not prescribe a question count. The bulletin is primarily about eligibility, registration and admission.",
+          "This guide therefore does not label 68 questions, a fixed section-wise split or 204 total marks as the final CAT 2026 pattern. A coaching mock can use those settings without making them an official promise. Check later CAT notices and the official mock instructions for any additional detail."
+        ],
+        "table": {
+          "headers": [
+            "Detail",
+            "How to treat it now"
+          ],
+          "rows": [
+            [
+              "Total questions and section-wise split",
+              "Not specified in the reviewed announcement; do not lock strategy to a count"
+            ],
+            [
+              "Total maximum marks",
+              "Depends on the final questions and marking instructions"
+            ],
+            [
+              "MCQ/non-MCQ mix and penalties",
+              "Verify from official test/mock instructions when available"
+            ],
+            [
+              "Any approved candidate-specific timing accommodation",
+              "Follow the applicable official instructions and your documentation; do not infer it from the standard timing table"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "section-timer",
+        "heading": "How should the sectional timer change your practice?",
+        "paragraphs": [
+          "Practise each section within its own 40-minute limit. A strong Quant performance cannot recover unused VARC time if the official interface does not let you move time across sections. Your preparation should therefore include three separate selection strategies.",
+          "For VARC, practise understanding passages and rejecting unsupported answer choices. For DILR, spend a short initial scan comparing sets before committing. For QA, identify questions you can solve reliably and leave time-consuming dead ends. These are preparation suggestions, not mandated attempt orders.",
+          "After a mock, record where time was lost: passage rereading, a DILR set with no workable entry point, or algebra that grew more complicated without progress. Repair the cause rather than simply trying to attempt more questions."
+        ]
+      },
+      {
+        "id": "marking",
+        "heading": "How to handle marking rules without guessing",
+        "paragraphs": [
+          "Before a mock, read its scoring rules and label the score as belonging to that mock. Do not compare raw marks from tests with different question counts or scoring systems as if they were equivalent.",
+          "For the actual exam, read the official instructions for correct answers, incorrect answers, unattempted questions and any non-MCQ items. A question format with no wrong-answer penalty, if provided, can still cost valuable time. Guessing strategy should depend on the real rules and evidence, not a slogan.",
+          "The official release says a mock will be available on the CAT website to explain the format. Use it to learn navigation and controls; do not assume its questions predict the live paper."
+        ],
+        "links": [
+          [
+            "Official July 26 press release: test date, sections and timing",
+            "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT_2026_Press_Release_26-07-2026.pdf"
+          ],
+          [
+            "Official CAT 2026 website and current notices",
+            "https://iimcat.ac.in/"
+          ]
+        ]
+      },
+      {
+        "id": "mock-review",
+        "heading": "A practical mock-analysis checklist",
+        "paragraphs": [
+          "Keep analysis tied to decisions you can change in the next attempt."
+        ],
+        "list": [
+          "Record attempts and accuracy separately for all three sections.",
+          "Mark solvable questions left unseen because of poor time allocation.",
+          "Identify the passage or set that consumed time without enough return.",
+          "Redo mistakes untimed to separate concept gaps from selection errors.",
+          "Choose one strategy change for the next mock, so its effect is observable.",
+          "Rehearse the official interface when the CAT mock is available."
+        ]
+      },
+      {
+        "id": "exam-day",
+        "heading": "What the admit card adds to the pattern",
+        "paragraphs": [
+          "Three test sessions do not mean candidates may choose any session on exam day. Follow your assigned session, reporting requirements and centre details. The official portal lists admit-card download from November 4.",
+          "This page covers the standard announced structure. Candidates with approved accommodations should check their specific official instructions rather than calculating additional time from an unofficial article."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How long is CAT 2026?",
+        "a": "The announced standard duration is 120 minutes, with 40 minutes for each of the three sections."
+      },
+      {
+        "q": "Can I switch sections?",
+        "a": "The July 26 press release says candidates cannot switch from one section to another while answering a section."
+      },
+      {
+        "q": "How many questions will CAT 2026 have?",
+        "a": "The official documents reviewed here do not confirm a count. Do not treat a coaching mock’s question count as a final CAT announcement."
+      },
+      {
+        "q": "Is the marking scheme confirmed on this page?",
+        "a": "No exact numerical marking scheme is asserted. Follow the official CAT mock and test instructions when issued."
+      }
+    ],
+    "related": [
+      "/cat-2026/syllabus/",
+      "/cat-2026/important-dates/",
+      "/cat-preparation/",
+      "/cat-2026/"
+    ],
+    "sourceNotes": [
+      "Official sources were checked on 7 October 2026. Later dated notices take precedence over the original bulletin where a deadline has changed. Study plans and worked examples are editorial guidance, not official exam rules."
+    ],
+    "sourceLinks": [
+      [
+        "Official July 26 press release: test date, sections and timing",
+        "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT_2026_Press_Release_26-07-2026.pdf"
+      ],
+      [
+        "CAT 2026 Information Bulletin: eligibility, fees, admissions and score validity",
+        "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT2026InformationBulletin_26-07-2026_V2.pdf"
+      ],
+      [
+        "Official CAT 2026 website and current notices",
+        "https://iimcat.ac.in/"
+      ]
+    ]
+  },
+  {
+    "slug": "cat-2026/important-dates",
+    "title": "CAT 2026 Important Dates: Exam, Admit Card and Deadlines",
+    "section": "CAT 2026",
+    "description": "CAT 2026 registration and corrections are closed. Check the November 4 admit-card date, November 29 exam and official deadline history.",
+    "answer": "CAT 2026 is scheduled for Sunday, 29 November 2026. Admit-card download begins on 4 November. Registration closed on 22 September; the separate fee-payment extension ended on 24 September, and the limited edit window ended on 6 October. These are different deadlines, not successive reopenings of registration.",
+    "updated": "2026-10-07",
+    "body": [
+      "Last verified: 7 October 2026. This is an independent preparation guide; applications, admit cards and official notices are available through iimcat.ac.in."
+    ],
+    "sections": [
+      {
+        "id": "official-calendar",
+        "heading": "CAT 2026 calendar and current status",
+        "paragraphs": [
+          "Use the status column to distinguish a completed window from the next action. The older July bulletin still contains September 15 as the registration deadline; the current official website and September notices establish the later September 22 cutoff."
+        ],
+        "table": {
+          "headers": [
+            "Milestone",
+            "Official date or window",
+            "Status on 7 October"
+          ],
+          "rows": [
+            [
+              "Registration opened",
+              "3 August 2026, 10:00 AM IST",
+              "Completed"
+            ],
+            [
+              "Final registration deadline",
+              "22 September 2026, 5:00 PM IST",
+              "Closed; supersedes the original September 15 deadline"
+            ],
+            [
+              "Payment-only extension",
+              "24 September 2026, 5:00 PM IST",
+              "Closed; only for candidates registered by September 22"
+            ],
+            [
+              "Limited application edits",
+              "5 October, 10:00 AM to 6 October 2026, 5:00 PM",
+              "Closed; photograph, signature and test state/city preferences"
+            ],
+            [
+              "Admit-card download begins",
+              "4 November 2026",
+              "Scheduled; use the official candidate login"
+            ],
+            [
+              "CAT test day",
+              "29 November 2026, Sunday",
+              "Scheduled in three sessions"
+            ],
+            [
+              "Result",
+              "Likely first week of January 2027",
+              "Indicative bulletin timeline, not a fixed result date"
+            ],
+            [
+              "Score validity ends",
+              "31 December 2027",
+              "As stated in the information bulletin"
+            ]
+          ]
+        },
+        "links": [
+          [
+            "Official CAT 2026 website and current notices",
+            "https://iimcat.ac.in/"
+          ],
+          [
+            "September 22 notice: fee-payment extension only",
+            "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT_2026_Media_Release_22-09-2026.pdf"
+          ],
+          [
+            "September 29 notice: limited edit window on October 5–6",
+            "https://g03.tcsion.com//per/g03/pub/726/EForms/image/ImageDocUpload/71161/7/3001928417.pdf"
+          ],
+          [
+            "CAT 2026 Information Bulletin: eligibility, fees, admissions and score validity",
+            "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT2026InformationBulletin_26-07-2026_V2.pdf"
+          ]
+        ]
+      },
+      {
+        "id": "next-step",
+        "heading": "What should a registered candidate do now?",
+        "paragraphs": [
+          "Retain your submitted application and payment confirmation. The next scheduled portal milestone is admit-card download on November 4. Open the candidate login from iimcat.ac.in and use the centre, session and reporting instructions on your own admit card.",
+          "Do not book travel on the assumption that a preferred city is the final allotted centre. The bulletin says city allotment is subject to availability and permits a nearby city in exceptional cases. Check the complete venue address once the admit card is issued."
+        ],
+        "list": [
+          "Keep the email address and mobile number used for CAT active.",
+          "Save an offline copy of the application and successful-payment record.",
+          "Set a reminder to check the official portal on November 4.",
+          "Continue mocks and revision while waiting; an admit-card announcement is not an extension of registration."
+        ]
+      },
+      {
+        "id": "deadline-history",
+        "heading": "Why do different websites show different registration dates?",
+        "paragraphs": [
+          "July 26 documents initially listed September 15. The official website subsequently moved the final registration deadline to September 22 at 5:00 PM. The September 22 media release then allowed only already-registered candidates to finish paying by September 24.",
+          "A separate September 29 notice announced limited edits on October 5–6 for successfully registered, fee-paid applicants. It did not allow new applications. When dates conflict, compare the notice date and the exact action covered instead of choosing the latest-looking headline."
+        ],
+        "links": [
+          [
+            "September 22 notice: fee-payment extension only",
+            "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT_2026_Media_Release_22-09-2026.pdf"
+          ],
+          [
+            "September 29 notice: limited edit window on October 5–6",
+            "https://g03.tcsion.com//per/g03/pub/726/EForms/image/ImageDocUpload/71161/7/3001928417.pdf"
+          ]
+        ]
+      },
+      {
+        "id": "missed-window",
+        "heading": "What if you missed registration or corrections?",
+        "paragraphs": [
+          "As of this review, new CAT 2026 registration is closed and the announced edit window has ended. The September 29 notice expressly said no further extension would be granted beyond that edit deadline. Do not assume an old application link or an unofficial promise creates another opportunity.",
+          "If an already-submitted application has an unresolved problem, contact the helpdesk shown on the official CAT website with your application reference and relevant records. A helpdesk query is not a guarantee of reopening or changing the form. For other MBA exams, check their own official calendars separately."
+        ]
+      },
+      {
+        "id": "result-and-validity",
+        "heading": "Result date and score validity are different",
+        "paragraphs": [
+          "The bulletin says results are likely in the first week of January 2027. That is an indicative period, not a confirmed result day. CAT 2026 scores remain valid until December 31, 2027 according to the same document.",
+          "A valid score does not mean every college application stays open until that date. Each IIM and non-IIM programme sets its own admission calendar and selection requirements."
+        ],
+        "links": [
+          [
+            "CAT 2026 Information Bulletin: eligibility, fees, admissions and score validity",
+            "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT2026InformationBulletin_26-07-2026_V2.pdf"
+          ]
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "When is CAT 2026?",
+        "a": "The official test date is Sunday, 29 November 2026, with three sessions."
+      },
+      {
+        "q": "Is CAT 2026 registration still open?",
+        "a": "No. It closed on 22 September 2026 at 5:00 PM IST. The later payment and correction windows did not reopen registration."
+      },
+      {
+        "q": "When can I download the admit card?",
+        "a": "The official website lists 4 November 2026 as the start date. The bulletin gives November 4–29 as the download period."
+      },
+      {
+        "q": "Is the CAT result date confirmed?",
+        "a": "The bulletin says results are likely in the first week of January 2027; it does not give a fixed result date."
+      }
+    ],
+    "related": [
+      "/cat-2026/registration/",
+      "/cat-2026/exam-pattern/",
+      "/cat-2026/latest-news/",
+      "/cat-2026/"
+    ],
+    "sourceNotes": [
+      "Official sources were checked on 7 October 2026. Later dated notices take precedence over the original bulletin where a deadline has changed. Study plans and worked examples are editorial guidance, not official exam rules."
+    ],
+    "sourceLinks": [
+      [
+        "Official CAT 2026 website and current notices",
+        "https://iimcat.ac.in/"
+      ],
+      [
+        "CAT 2026 Information Bulletin: eligibility, fees, admissions and score validity",
+        "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT2026InformationBulletin_26-07-2026_V2.pdf"
+      ],
+      [
+        "September 22 notice: fee-payment extension only",
+        "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT_2026_Media_Release_22-09-2026.pdf"
+      ],
+      [
+        "September 29 notice: limited edit window on October 5–6",
+        "https://g03.tcsion.com//per/g03/pub/726/EForms/image/ImageDocUpload/71161/7/3001928417.pdf"
+      ]
+    ]
+  },
+  {
+    "slug": "cat-2026/registration",
+    "title": "CAT 2026 Registration: Status, Fees and Corrections",
+    "section": "CAT 2026",
+    "description": "CAT 2026 registration closed September 22. Understand the separate payment and edit windows, category-wise fees and records to keep.",
+    "answer": "CAT 2026 registration is closed. The last registration deadline was 22 September 2026 at 5:00 PM IST. The payment-only extension ended on 24 September, and the limited correction window ended on 6 October. Existing candidates should preserve their application records and prepare for admit-card download from 4 November.",
+    "updated": "2026-10-07",
+    "body": [
+      "Last verified: 7 October 2026. This is an independent preparation guide; applications, admit cards and official notices are available through iimcat.ac.in."
+    ],
+    "sections": [
+      {
+        "id": "status",
+        "heading": "Registration, payment and corrections: three separate windows",
+        "paragraphs": [
+          "An account, a submitted application and a successful fee payment are not interchangeable records. Check the status of your own application through the Registered Candidate Login reached from the official CAT website."
+        ],
+        "table": {
+          "headers": [
+            "Action",
+            "Who it applied to",
+            "Final deadline"
+          ],
+          "rows": [
+            [
+              "Registration",
+              "New CAT 2026 applicants",
+              "22 September, 5:00 PM IST"
+            ],
+            [
+              "Extended fee payment",
+              "Candidates registered by the September 22 deadline",
+              "24 September, 5:00 PM IST"
+            ],
+            [
+              "Limited edits",
+              "Successfully registered candidates who paid the fee",
+              "6 October, 5:00 PM"
+            ]
+          ]
+        },
+        "links": [
+          [
+            "Official CAT 2026 website and current notices",
+            "https://iimcat.ac.in/"
+          ],
+          [
+            "September 22 notice: fee-payment extension only",
+            "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT_2026_Media_Release_22-09-2026.pdf"
+          ],
+          [
+            "September 29 notice: limited edit window on October 5–6",
+            "https://g03.tcsion.com//per/g03/pub/726/EForms/image/ImageDocUpload/71161/7/3001928417.pdf"
+          ]
+        ]
+      },
+      {
+        "id": "fees",
+        "heading": "What was the CAT 2026 application fee?",
+        "paragraphs": [
+          "The information bulletin lists one CAT registration fee, paid once regardless of how many IIMs a candidate selected. Fees once paid are non-refundable under the bulletin. Do not confuse this with a separate application fee that a non-IIM business school may charge."
+        ],
+        "table": {
+          "headers": [
+            "Candidate category",
+            "CAT registration fee"
+          ],
+          "rows": [
+            [
+              "SC, ST and PwBD",
+              "₹1,350"
+            ],
+            [
+              "All other candidates, including General, EWS and NC-OBC",
+              "₹2,700"
+            ]
+          ]
+        },
+        "links": [
+          [
+            "CAT 2026 Information Bulletin: eligibility, fees, admissions and score validity",
+            "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT2026InformationBulletin_26-07-2026_V2.pdf"
+          ]
+        ]
+      },
+      {
+        "id": "application-record",
+        "heading": "What should your application record contain?",
+        "paragraphs": [
+          "The registration guide is the reference for the form and its upload specifications. For an already-submitted application, keep the exact records used rather than reconstructing details from memory. Do not enter a fresh payment solely because a bank notification is confusing; reconcile it with the candidate dashboard first."
+        ],
+        "links": [
+          [
+            "Official CAT 2026 registration guide",
+            "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT_2026_Registration_Guide.pdf"
+          ],
+          [
+            "CAT 2026 Information Bulletin: eligibility, fees, admissions and score validity",
+            "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT2026InformationBulletin_26-07-2026_V2.pdf"
+          ]
+        ],
+        "list": [
+          "Application reference and a copy of the submitted form.",
+          "Successful-payment acknowledgement or receipt, with the transaction reference.",
+          "Academic marksheets and the university’s CGPA conversion rule where applicable.",
+          "The category or disability documents applicable to the claim made in the form.",
+          "Photograph, signature and the test-city choices submitted.",
+          "A working email address and mobile number throughout selection."
+        ]
+      },
+      {
+        "id": "process",
+        "heading": "How the application process worked",
+        "paragraphs": [
+          "The sequence was to register through the official portal, complete the application, provide the required academic and category information, select programmes and test-city preferences, upload the requested files, review the form and pay the applicable fee. This is a record of the completed process, not an invitation to start a new application after the deadline.",
+          "The bulletin required five preferred test cities. Preference does not guarantee a particular venue or session; the admit card is the authoritative record of the assigned centre. Exact upload formats and form-field requirements belong to the official registration guide, so this page does not substitute guessed file-size limits."
+        ],
+        "links": [
+          [
+            "Official CAT 2026 registration guide",
+            "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT_2026_Registration_Guide.pdf"
+          ],
+          [
+            "CAT 2026 Information Bulletin: eligibility, fees, admissions and score validity",
+            "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT2026InformationBulletin_26-07-2026_V2.pdf"
+          ]
+        ]
+      },
+      {
+        "id": "corrections",
+        "heading": "What could be changed during the October edit window?",
+        "paragraphs": [
+          "The September 29 notice permitted changes to the photograph, signature and test state/city preferences between October 5 at 10:00 AM and October 6 at 5:00 PM. It applied only to candidates who had successfully registered and paid.",
+          "The notice did not announce general editing of every field. The bulletin also states that category changes are not entertained after registration. As of October 7, the announced correction window has ended; an older screenshot of an Edit button is not proof that editing remains available."
+        ],
+        "links": [
+          [
+            "September 29 notice: limited edit window on October 5–6",
+            "https://g03.tcsion.com//per/g03/pub/726/EForms/image/ImageDocUpload/71161/7/3001928417.pdf"
+          ],
+          [
+            "CAT 2026 Information Bulletin: eligibility, fees, admissions and score validity",
+            "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT2026InformationBulletin_26-07-2026_V2.pdf"
+          ]
+        ]
+      },
+      {
+        "id": "certificates",
+        "heading": "NC-OBC and EWS certificate records",
+        "paragraphs": [
+          "The bulletin requires an NC-OBC certificate issued on or after April 1, 2026. For EWS, it specifies validity for 2026–27 based on financial year 2025–26. It also describes a conditional undertaking route for applicants who had applied for the valid certificate but had not received it at registration.",
+          "That route required the specified undertaking, the older certificate and evidence of applying for the current certificate together in one PDF. It was not a blanket waiver of documentation. Consult the bulletin and preserve the documents actually submitted; individual eligibility and verification are decided by the authorities."
+        ],
+        "links": [
+          [
+            "CAT 2026 Information Bulletin: eligibility, fees, admissions and score validity",
+            "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT2026InformationBulletin_26-07-2026_V2.pdf"
+          ]
+        ]
+      },
+      {
+        "id": "after-registration",
+        "heading": "What to do after registration",
+        "paragraphs": [
+          "If the dashboard confirms a completed application and payment, retain the records and focus on preparation. Check the official website for the November 4 admit-card release and later notices.",
+          "For a payment mismatch or another unresolved application issue, use the helpdesk details displayed on iimcat.ac.in. Include the application reference and transaction evidence where relevant. Never share passwords or OTPs with a third-party coaching or information website."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can I apply for CAT 2026 now?",
+        "a": "No new registration window is open in the official notices checked on October 7. Registration closed September 22."
+      },
+      {
+        "q": "Did the September 24 extension allow new registrations?",
+        "a": "No. It covered fee payment only for candidates registered by September 22."
+      },
+      {
+        "q": "Could I change every field during corrections?",
+        "a": "No. The notice listed photograph, signature and test state/city preferences only."
+      },
+      {
+        "q": "Do I pay the CAT fee separately for each IIM?",
+        "a": "The bulletin says the CAT registration fee is paid once regardless of the number of institutes selected. Other institutions may have separate application processes."
+      }
+    ],
+    "related": [
+      "/cat-2026/important-dates/",
+      "/cat-2026/eligibility/",
+      "/cat-2026/exam-pattern/",
+      "/cat-2026/"
+    ],
+    "sourceNotes": [
+      "Official sources were checked on 7 October 2026. Later dated notices take precedence over the original bulletin where a deadline has changed. Study plans and worked examples are editorial guidance, not official exam rules."
+    ],
+    "sourceLinks": [
+      [
+        "Official CAT 2026 website and current notices",
+        "https://iimcat.ac.in/"
+      ],
+      [
+        "CAT 2026 Information Bulletin: eligibility, fees, admissions and score validity",
+        "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT2026InformationBulletin_26-07-2026_V2.pdf"
+      ],
+      [
+        "Official CAT 2026 registration guide",
+        "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT_2026_Registration_Guide.pdf"
+      ],
+      [
+        "September 22 notice: fee-payment extension only",
+        "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT_2026_Media_Release_22-09-2026.pdf"
+      ],
+      [
+        "September 29 notice: limited edit window on October 5–6",
+        "https://g03.tcsion.com//per/g03/pub/726/EForms/image/ImageDocUpload/71161/7/3001928417.pdf"
+      ]
+    ]
+  },
+  {
+    "slug": "cat-2026/admit-card",
+    "title": "CAT 2026 Admit Card: Download, Exam Center, and Instructions",
+    "section": "CAT 2026",
+    "answer": "CAT 2026 admit card instructions should be followed exactly as published by the official CAT authority.",
+    "sections": [],
+    "sourceNotes": [],
+    "sourceLinks": [],
+    "description": "CAT 2026 admit card instructions should be followed exactly as published by the official CAT authority.",
+    "body": [
+      "This page is structured for search engines and AI assistants with a direct answer, source policy, FAQs, and related links.",
+      "Exact dates, fees, cutoffs, and admission rules should be updated only after checking official CAT, IIM, college, or institute sources."
+    ],
+    "faqs": [
+      {
+        "q": "Is this CAT 2026 information final?",
+        "a": "Fact-heavy details should be verified from official sources before decisions are made."
+      }
+    ]
+  },
+  {
+    "slug": "cat-2026/cutoff",
+    "title": "CAT 2026 Cutoff: IIM Shortlisting, Percentile, and Category Notes",
+    "section": "CAT 2026",
+    "answer": "CAT cutoffs vary by IIM, program, category, academic profile, and admission stage. Read each IIM's official admission policy.",
+    "sections": [],
+    "sourceNotes": [],
+    "sourceLinks": [],
+    "description": "CAT cutoffs vary by IIM, program, category, academic profile, and admission stage. Read each IIM's official admission policy.",
+    "body": [
+      "This page is structured for search engines and AI assistants with a direct answer, source policy, FAQs, and related links.",
+      "Exact dates, fees, cutoffs, and admission rules should be updated only after checking official CAT, IIM, college, or institute sources."
+    ],
+    "faqs": [
+      {
+        "q": "Is this CAT 2026 information final?",
+        "a": "Fact-heavy details should be verified from official sources before decisions are made."
+      }
+    ]
+  },
+  {
+    "slug": "cat-2026/latest-news",
+    "title": "CAT 2026 Latest News: Admit Card and Exam Updates",
+    "section": "CAT 2026",
+    "description": "CAT 2026 updates checked October 7: corrections closed October 6, admit cards start November 4 and the exam is November 29. Read official notices.",
+    "answer": "Latest checked status, 7 October 2026: CAT registration, the payment-only extension and the limited correction window have ended. Admit-card download is scheduled to begin on 4 November, followed by the exam on 29 November. Read the dated notices below before acting on an older registration headline.",
+    "updated": "2026-10-07",
+    "body": [
+      "Last verified: 7 October 2026. This is an independent preparation guide; applications, admit cards and official notices are available through iimcat.ac.in."
+    ],
+    "sections": [
+      {
+        "id": "current-status",
+        "heading": "What changed most recently?",
+        "paragraphs": [
+          "The September 29 official notice announced a limited edit window from October 5 at 10:00 AM to October 6 at 5:00 PM. That window has now ended. It covered photograph, signature and test state/city preferences for successfully registered candidates who had paid the fee.",
+          "There is no new registration opportunity in that notice. The next scheduled milestone displayed on the CAT website is admit-card download from November 4."
+        ],
+        "links": [
+          [
+            "September 29 notice: limited edit window on October 5–6",
+            "https://g03.tcsion.com//per/g03/pub/726/EForms/image/ImageDocUpload/71161/7/3001928417.pdf"
+          ],
+          [
+            "Official CAT 2026 website and current notices",
+            "https://iimcat.ac.in/"
+          ]
+        ]
+      },
+      {
+        "id": "notice-tracker",
+        "heading": "CAT 2026 official notice tracker",
+        "paragraphs": [
+          "This tracker separates publication dates from the dates on which an action was due. A notice can remain online after its action window has closed."
+        ],
+        "table": {
+          "headers": [
+            "Notice or source",
+            "What it established",
+            "What it means on October 7"
+          ],
+          "rows": [
+            [
+              "September 29 edit-window release",
+              "Limited edits on October 5–6",
+              "The announced correction period is over"
+            ],
+            [
+              "September 22 fee-payment release",
+              "Eligible registered candidates could pay until September 24",
+              "Payment extension is over; registration was not reopened"
+            ],
+            [
+              "Current CAT homepage",
+              "Final registration cutoff September 22; admit cards November 4; test November 29",
+              "Use the remaining future milestones"
+            ],
+            [
+              "July 26 bulletin and press release",
+              "Eligibility, fees, test structure and initial calendar",
+              "Use later notices where deadlines changed"
+            ]
+          ]
+        },
+        "links": [
+          [
+            "September 29 notice: limited edit window on October 5–6",
+            "https://g03.tcsion.com//per/g03/pub/726/EForms/image/ImageDocUpload/71161/7/3001928417.pdf"
+          ],
+          [
+            "September 22 notice: fee-payment extension only",
+            "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT_2026_Media_Release_22-09-2026.pdf"
+          ],
+          [
+            "Official July 26 press release: test date, sections and timing",
+            "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT_2026_Press_Release_26-07-2026.pdf"
+          ],
+          [
+            "CAT 2026 Information Bulletin: eligibility, fees, admissions and score validity",
+            "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT2026InformationBulletin_26-07-2026_V2.pdf"
+          ]
+        ]
+      },
+      {
+        "id": "candidate-actions",
+        "heading": "What should candidates do now?",
+        "paragraphs": [
+          "Check that you have your submitted application and payment record, then return to preparation. On November 4, access the candidate login through iimcat.ac.in and read your allotted centre and session details.",
+          "An unresolved application problem should go to the official helpdesk; a news article cannot determine whether an individual form is valid or promise an exception. Do not follow unofficial payment or login links received through messages."
+        ],
+        "links": [
+          [
+            "Full official-date timeline",
+            "/cat-2026/important-dates/"
+          ],
+          [
+            "Registration and correction explanation",
+            "/cat-2026/registration/"
+          ],
+          [
+            "Confirmed test structure",
+            "/cat-2026/exam-pattern/"
+          ]
+        ],
+        "list": [
+          "Keep your registered email and phone available.",
+          "Retain the exact application and transaction records.",
+          "Use the official portal for candidate-specific status.",
+          "Review all three sections through mocks and targeted error correction."
+        ]
+      },
+      {
+        "id": "archive",
+        "heading": "Earlier CAT reporting: read with its publication context",
+        "paragraphs": [
+          "The articles below explain earlier announcements. A headline saying registration started describes a past event; it does not mean applications are open today. The current-status summary at the top of this page is the reference for this review date."
+        ],
+        "links": [
+          [
+            "Original CAT notification report",
+            "/blog/cat-2026-notification-out-registration-exam-date/"
+          ],
+          [
+            "Registration opening report — historical",
+            "/blog/cat-2026-registration-started-apply-online-iimcat/"
+          ],
+          [
+            "September 22 registration deadline extension — historical",
+            "/blog/cat-2026-registration-deadline-extended-september-22/"
+          ],
+          [
+            "September 24 payment-only extension — historical",
+            "/blog/cat-2026-fee-payment-window-september-24/"
+          ]
+        ]
+      },
+      {
+        "id": "other-exams",
+        "heading": "Checking XAT, SNAP, NMAT and CMAT updates",
+        "paragraphs": [
+          "Other MBA entrance exams have separate registration, scheduling and institution-application rules. A change to CAT does not extend any of those deadlines. The links below are official destinations for their current calendars; this CAT update does not represent them as open or closed without a separate current check.",
+          "For a useful shortlist, first confirm whether the target programme accepts the exam, then check both the exam registration and the programme application deadline. Preserve the confirmation from each process."
+        ],
+        "links": [
+          [
+            "XAT official website",
+            "https://xatonline.in/"
+          ],
+          [
+            "SNAP official website",
+            "https://www.snaptest.org/"
+          ],
+          [
+            "NMAT by GMAC official website",
+            "https://www.mba.com/exams/nmat"
+          ],
+          [
+            "NTA CMAT official website",
+            "https://exams.nta.ac.in/CMAT/"
+          ],
+          [
+            "MBA entrance exam guide",
+            "/mba-entrance-exams/"
+          ]
+        ]
+      },
+      {
+        "id": "how-to-read-updates",
+        "heading": "How to verify a new deadline headline",
+        "paragraphs": [
+          "Open the announcement from the exam’s own website, check the notice date and identify exactly who can act. Then separate registration, payment, corrections, admit-card download and college admissions. Similar wording can describe very different permissions.",
+          "A source note is useful only if the linked document supports the claim. This page links directly to the CAT notices used in this update and labels completed windows rather than leaving old instructions active."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is CAT registration open on October 7?",
+        "a": "No. Registration ended September 22, payment-only relief ended September 24 and the announced edits ended October 6."
+      },
+      {
+        "q": "What was the latest correction window?",
+        "a": "The September 29 notice set October 5 at 10:00 AM to October 6 at 5:00 PM for photograph, signature and test state/city preferences."
+      },
+      {
+        "q": "When is the next scheduled CAT event?",
+        "a": "Admit-card download begins November 4, followed by the November 29 exam."
+      },
+      {
+        "q": "Can an old news article confirm today’s application status?",
+        "a": "No. Check the current official portal and later dated notices, and distinguish the action each deadline covers."
+      }
+    ],
+    "related": [
+      "/cat-2026/",
+      "/cat-2026/important-dates/",
+      "/cat-2026/registration/",
+      "/blog/"
+    ],
+    "sourceNotes": [
+      "Official sources were checked on 7 October 2026. Later dated notices take precedence over the original bulletin where a deadline has changed. Study plans and worked examples are editorial guidance, not official exam rules."
+    ],
+    "sourceLinks": [
+      [
+        "Official CAT 2026 website and current notices",
+        "https://iimcat.ac.in/"
+      ],
+      [
+        "September 29 notice: limited edit window on October 5–6",
+        "https://g03.tcsion.com//per/g03/pub/726/EForms/image/ImageDocUpload/71161/7/3001928417.pdf"
+      ],
+      [
+        "September 22 notice: fee-payment extension only",
+        "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT_2026_Media_Release_22-09-2026.pdf"
+      ],
+      [
+        "Official July 26 press release: test date, sections and timing",
+        "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT_2026_Press_Release_26-07-2026.pdf"
+      ],
+      [
+        "CAT 2026 Information Bulletin: eligibility, fees, admissions and score validity",
+        "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT2026InformationBulletin_26-07-2026_V2.pdf"
+      ]
+    ]
+  },
+  {
+    "slug": "cat-preparation",
+    "title": "CAT Preparation 2026: Study Plan, Books, Mocks, and Section Strategy",
+    "section": "Preparation",
+    "answer": "CAT 2026 preparation should combine concept building, timed practice, mock analysis, revision, and section-wise strategy.",
+    "sections": [
+      {
+        "id": "study-plan",
+        "heading": "CAT 2026 complete study plan",
+        "paragraphs": [
+          "A serious CAT plan should move through four stages: foundation, practice, mocks and final revision. The exact pace depends on starting level, but a 6-8 month plan works well for most college students and working professionals."
+        ],
+        "table": {
+          "headers": [
+            "Phase",
+            "Timeline",
+            "Main work"
+          ],
+          "rows": [
+            [
+              "Foundation",
+              "Days 1-60",
+              "Arithmetic, algebra basics, reading habit, LRDI set types and grammar/VA basics"
+            ],
+            [
+              "Practice",
+              "Days 61-120",
+              "Topic tests, sectional drills, RC accuracy, DILR selection and QA mixed practice"
+            ],
+            [
+              "Mock build-up",
+              "Days 121-170",
+              "Weekly full mocks, sectionals, error logs and strategy experiments"
+            ],
+            [
+              "Final stretch",
+              "Last 30-45 days",
+              "2-3 mocks weekly, revision notebooks, formula review and slot strategy"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "books",
+        "heading": "CAT books and resources",
+        "paragraphs": [
+          "Books are useful for structured practice, but they should not replace mocks and previous-year CAT papers. Pick fewer resources and complete them well."
+        ],
+        "columns": [
+          {
+            "title": "Quant",
+            "items": [
+              "Arun Sharma Quantitative Aptitude",
+              "Sarvesh K Verma Quantitative Aptitude",
+              "Previous-year CAT QA questions"
+            ]
+          },
+          {
+            "title": "VARC",
+            "items": [
+              "Arun Sharma and Meenakshi Upadhyay VARC",
+              "Daily editorials and long-form reading",
+              "Previous-year CAT RC and VA questions"
+            ]
+          },
+          {
+            "title": "DILR",
+            "items": [
+              "Arun Sharma DILR",
+              "Previous-year CAT DILR sets",
+              "Sectional tests from a reliable mock platform"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mocks",
+        "heading": "Mocks and analysis",
+        "paragraphs": [
+          "Mocks should be used to improve decisions, not just to collect scores. After every mock, identify easy missed questions, wrong attempts, time traps and section-wise attempt quality."
+        ],
+        "list": [
+          "Start with one diagnostic mock to understand baseline.",
+          "Use sectional tests when one section is dragging down overall percentile.",
+          "Maintain an error log split by concept gap, calculation error, misread question and poor selection.",
+          "Rodha learners can check the official Rodha portal for courses, mocks and practice resources."
+        ],
+        "links": [
+          [
+            "Rodha official portal",
+            "https://www.rodha.co.in/"
+          ],
+          [
+            "Rodha CAT 200-day strategy videos on YouTube",
+            "https://www.youtube.com/results?search_query=Rodha+CAT+200+days+strategy"
+          ]
+        ]
+      },
+      {
+        "id": "section-strategy",
+        "heading": "Section-wise CAT strategy",
+        "columns": [
+          {
+            "title": "VARC",
+            "items": [
+              "Read daily for comprehension, not vocabulary alone",
+              "Practice RC passage selection",
+              "Track accuracy by question type",
+              "Do para summary and odd-one-out in timed sets"
+            ]
+          },
+          {
+            "title": "DILR",
+            "items": [
+              "Solve fewer sets but choose better",
+              "Build familiarity with arrangements, games, Venn, routes and caselets",
+              "Practice set abandonment decisions",
+              "Review every missed easy set"
+            ]
+          },
+          {
+            "title": "Quant",
+            "items": [
+              "Prioritize arithmetic, algebra and geometry first",
+              "Revise formulas weekly",
+              "Practice mental calculation and approximation",
+              "Separate concept errors from silly mistakes"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "weekly-routine",
+        "heading": "Weekly routine",
+        "list": [
+          "5 days: concept and practice blocks for two sections per day.",
+          "1 day: full mock or two sectionals plus deep analysis.",
+          "1 day: revision, weak-area repair and reading backlog.",
+          "Working professionals should keep weekday sessions shorter and protect one long weekend mock-analysis block."
+        ]
+      }
+    ],
+    "sourceNotes": [
+      "Preparation guidance is editorial and should be adapted to the student's starting level, target percentile, academic schedule and mock performance.",
+      "Rodha links are included as external preparation resources because the user requested Rodha mock and strategy references; aspirants should compare course fit before enrolling."
+    ],
+    "sourceLinks": [
+      [
+        "Official CAT website",
+        "https://iimcat.ac.in/"
+      ],
+      [
+        "Rodha official portal",
+        "https://www.rodha.co.in/"
+      ],
+      [
+        "Rodha CAT strategy search on YouTube",
+        "https://www.youtube.com/results?search_query=Rodha+CAT+200+days+strategy"
+      ]
+    ],
+    "description": "CAT 2026 preparation should combine concept building, timed practice, mock analysis, revision, and section-wise strategy.",
+    "body": [],
+    "faqs": [
+      {
+        "q": "Is this Preparation information final?",
+        "a": "Fact-heavy details should be verified from official sources before decisions are made."
+      }
+    ]
+  },
+  {
+    "slug": "cat-preparation/mock-tests",
+    "title": "CAT Mock Tests 2026: How to Choose and Analyze Mocks",
+    "section": "Preparation",
+    "answer": "CAT mocks build speed, accuracy, stamina, and strategy. The real value comes from post-mock analysis.",
+    "sections": [],
+    "sourceNotes": [],
+    "sourceLinks": [],
+    "description": "CAT mocks build speed, accuracy, stamina, and strategy. The real value comes from post-mock analysis.",
+    "body": [
+      "This page is structured for search engines and AI assistants with a direct answer, source policy, FAQs, and related links.",
+      "Exact dates, fees, cutoffs, and admission rules should be updated only after checking official CAT, IIM, college, or institute sources."
+    ],
+    "faqs": [
+      {
+        "q": "Is this Preparation information final?",
+        "a": "Fact-heavy details should be verified from official sources before decisions are made."
+      }
+    ]
+  },
+  {
+    "slug": "cat-coaching/test-series",
+    "title": "CAT Test Series 2026: Compare Mocks, Analysis, and Sectional Tests",
+    "section": "Coaching",
+    "answer": "A good CAT test series should provide full-length mocks, sectional tests, percentile benchmarking, and detailed analysis.",
+    "sections": [],
+    "sourceNotes": [],
+    "sourceLinks": [],
+    "description": "A good CAT test series should provide full-length mocks, sectional tests, percentile benchmarking, and detailed analysis.",
+    "body": [
+      "This page is structured for search engines and AI assistants with a direct answer, source policy, FAQs, and related links.",
+      "Exact dates, fees, cutoffs, and admission rules should be updated only after checking official CAT, IIM, college, or institute sources."
+    ],
+    "faqs": [
+      {
+        "q": "Is this Coaching information final?",
+        "a": "Fact-heavy details should be verified from official sources before decisions are made."
+      }
+    ]
+  },
+  {
+    "slug": "mba-entrance-exams",
+    "title": "MBA Entrance Exams in India: CAT, XAT, SNAP, NMAT, CMAT, MAT",
+    "section": "Exams",
+    "answer": "CAT is the main entrance exam for IIMs, while XAT, SNAP, NMAT, CMAT, MAT, and MAH MBA CET open additional MBA pathways.",
+    "sections": [
+      {
+        "id": "exam-comparison",
+        "heading": "MBA entrance exam comparison",
+        "paragraphs": [
+          "MBA aspirants should not treat CAT as the only path. CAT remains the main route for IIMs and many top B-schools, while XAT, SNAP, NMAT, CMAT, MAT and MAH MBA CET open additional college pools."
+        ],
+        "table": {
+          "headers": [
+            "Exam",
+            "Best known for",
+            "Typical accepted by",
+            "Official website"
+          ],
+          "rows": [
+            [
+              "CAT",
+              "IIMs and top CAT-accepting B-schools",
+              "IIMs, FMS, MDI, SPJIMR, IIT MBA departments, IIFT and many others",
+              {
+                "label": "iimcat.ac.in",
+                "href": "https://iimcat.ac.in/"
+              }
+            ],
+            [
+              "XAT",
+              "XLRI and XAMI-associated institutes",
+              "XLRI, XIMB/XIM University, IMT, XAT-accepting PGDM colleges",
+              {
+                "label": "xatonline.in",
+                "href": "https://xatonline.in/"
+              }
+            ],
+            [
+              "SNAP",
+              "Symbiosis MBA programmes",
+              "SIBM Pune, SCMHRD, SIIB and other Symbiosis institutes",
+              {
+                "label": "snaptest.org",
+                "href": "https://www.snaptest.org/"
+              }
+            ],
+            [
+              "NMAT",
+              "NMIMS and other NMAT-accepting MBA programmes",
+              "NMIMS Mumbai and other NMAT by GMAC participating schools",
+              {
+                "label": "mba.com/nmat",
+                "href": "https://www.mba.com/exams/nmat"
+              }
+            ],
+            [
+              "CMAT",
+              "AICTE-approved MBA/PGDM colleges",
+              "GIM, Great Lakes, K J Somaiya, Welingkar and other CMAT-accepting colleges",
+              {
+                "label": "NTA CMAT",
+                "href": "https://exams.nta.ac.in/CMAT/"
+              }
+            ],
+            [
+              "MAT",
+              "Wide MBA college coverage and multiple yearly attempts",
+              "MAT-participating B-schools across India",
+              {
+                "label": "mat.aima.in",
+                "href": "https://mat.aima.in/"
+              }
+            ],
+            [
+              "MAH MBA CET",
+              "Maharashtra MBA/MMS CAP admissions",
+              "JBIMS, SIMSREE, PUMBA and Maharashtra CAP colleges",
+              {
+                "label": "cetcell.mahacet.org",
+                "href": "https://cetcell.mahacet.org/"
+              }
+            ]
+          ]
+        }
+      },
+      {
+        "id": "cat",
+        "heading": "CAT",
+        "paragraphs": [
+          "CAT is the most important exam for IIM aspirants and is also accepted by many non-IIM colleges. Preparation should focus on VARC, DILR and Quantitative Aptitude, with full-length mocks and sectional analysis."
+        ],
+        "list": [
+          "Best for: IIMs, FMS, MDI, IIT MBA departments and CAT-accepting PGDM colleges.",
+          "Preparation overlap: highest overlap with XAT, CMAT, MAT and many institute interviews.",
+          "Action: track only iimcat.ac.in for final dates, fees and official instructions."
+        ]
+      },
+      {
+        "id": "xat",
+        "heading": "XAT",
+        "paragraphs": [
+          "XAT is strongly associated with XLRI and includes a different test personality from CAT. Aspirants should prepare decision making separately along with verbal, quant and data interpretation practice."
+        ],
+        "list": [
+          "Best for: XLRI Jamshedpur/Delhi NCR and XAT-accepting schools.",
+          "Strategy: add decision-making case practice after CAT fundamentals are stable.",
+          "Action: verify current pattern and dates on xatonline.in."
+        ]
+      },
+      {
+        "id": "snap-nmat",
+        "heading": "SNAP and NMAT",
+        "paragraphs": [
+          "SNAP and NMAT are speed-oriented exams with different formats from CAT. They reward quick arithmetic, grammar, reasoning and repeatable test-taking rhythm."
+        ],
+        "list": [
+          "SNAP is the key route for Symbiosis MBA institutes.",
+          "NMAT is the key route for NMIMS and other NMAT-accepting programmes.",
+          "Use separate mocks because timing and question style are different from CAT."
+        ]
+      },
+      {
+        "id": "cmat-mat-cet",
+        "heading": "CMAT, MAT and MAH MBA CET",
+        "paragraphs": [
+          "CMAT, MAT and MAH MBA CET are useful backup or parallel routes for aspirants targeting a wider set of MBA colleges. They can be prepared alongside CAT, but GK, speed and state-specific CAP rules need separate attention."
+        ],
+        "list": [
+          "CMAT: useful for AICTE-approved MBA/PGDM colleges.",
+          "MAT: useful for broad college coverage and multiple yearly windows.",
+          "MAH MBA CET: important for Maharashtra MBA/MMS colleges and CAP-based admissions."
+        ]
+      }
+    ],
+    "sourceNotes": [
+      "Exam details are curated from official exam websites and should be rechecked before applications because dates, fees, pattern and participating institutes can change by cycle.",
+      "This page is designed as an MBA exam map: use it to decide which exams to add around CAT, then verify each final application on the official exam portal."
+    ],
+    "sourceLinks": [
+      [
+        "CAT official website",
+        "https://iimcat.ac.in/"
+      ],
+      [
+        "XAT official website",
+        "https://xatonline.in/"
+      ],
+      [
+        "SNAP official website",
+        "https://www.snaptest.org/"
+      ],
+      [
+        "NMAT official website",
+        "https://www.mba.com/exams/nmat"
+      ],
+      [
+        "CMAT official website",
+        "https://exams.nta.ac.in/CMAT/"
+      ],
+      [
+        "MAT official website",
+        "https://mat.aima.in/"
+      ],
+      [
+        "MAH CET Cell",
+        "https://cetcell.mahacet.org/"
+      ]
+    ],
+    "description": "CAT is the main entrance exam for IIMs, while XAT, SNAP, NMAT, CMAT, MAT, and MAH MBA CET open additional MBA pathways.",
+    "body": [],
+    "faqs": [
+      {
+        "q": "Is this Exams information final?",
+        "a": "Fact-heavy details should be verified from official sources before decisions are made."
+      }
+    ]
+  },
+  {
+    "slug": "iim",
+    "title": "IIM Admissions: CAT, Shortlisting, Fees, Cutoffs, and Placements",
+    "section": "IIMs",
+    "answer": "IIM admissions usually use CAT scores along with academic profile, category, work experience, written ability or analytical writing test, personal interview performance, and institute-specific criteria.",
+    "sections": [
+      {
+        "id": "iim-admission-overview",
+        "heading": "IIM admission overview",
+        "paragraphs": [
+          "IIM admissions are not based on CAT percentile alone. For the flagship MBA or PGP programmes, CAT is normally the first major screening input, but every IIM publishes its own admission policy for shortlisting and final selection.",
+          "Aspirants should treat each IIM separately because the weight given to CAT score, Class 10 and 12 marks, graduation marks, academic diversity, gender diversity, work experience, written test and personal interview can vary widely."
+        ]
+      },
+      {
+        "id": "role-of-cat",
+        "heading": "Role of CAT in IIM admissions",
+        "paragraphs": [
+          "CAT is the common entrance test used by the IIMs for domestic flagship MBA/PGP admissions. The official CAT bulletin states that candidates must also check the concerned IIM and programme website for eligibility, admission process and other requirements.",
+          "A high CAT percentile can open shortlist opportunities, but it does not guarantee admission because final calls depend on institute-specific composite scores and interview performance."
+        ]
+      },
+      {
+        "id": "shortlisting-process",
+        "heading": "IIM shortlisting process",
+        "paragraphs": [
+          "Most IIMs first apply minimum sectional and overall CAT percentile cutoffs. Candidates who clear those filters are evaluated using a composite score that may include CAT performance, academic profile, category, work experience and diversity factors."
+        ],
+        "table": {
+          "headers": [
+            "Shortlisting factor",
+            "How it is commonly used"
+          ],
+          "rows": [
+            [
+              "CAT overall percentile",
+              "Primary entrance-test filter and scoring component"
+            ],
+            [
+              "CAT sectional percentile",
+              "Minimum VARC, DILR and QA thresholds may apply"
+            ],
+            [
+              "Class 10 and 12 marks",
+              "Often used for academic consistency"
+            ],
+            [
+              "Graduation marks/discipline",
+              "Used differently by different IIMs"
+            ],
+            [
+              "Work experience",
+              "May add profile weight within defined ranges"
+            ],
+            [
+              "Academic/gender diversity",
+              "Used by some IIMs to build a diverse cohort"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "wat-pi-final-selection",
+        "heading": "WAT, PI and final selection",
+        "paragraphs": [
+          "After shortlisting, IIMs typically conduct Personal Interviews and may conduct a Written Ability Test or Analytical Writing Test depending on the institute. Final admission is based on a weighted score, not just interview marks.",
+          "The final selection formula should always be read from the relevant IIM's latest admission policy because weights can change from year to year."
+        ]
+      },
+      {
+        "id": "iim-fees",
+        "heading": "IIM fees",
+        "paragraphs": [
+          "IIM fees vary by institute, programme and batch. Older IIMs and newer IIMs may have different fee structures, and the payable amount can include tuition, hostel, academic charges, caution deposit and other components.",
+          "Use official fee pages or admission offer documents before publishing exact fee numbers. This platform should avoid stale fee claims unless the fee has been verified against the latest official source."
+        ]
+      },
+      {
+        "id": "iim-cutoffs",
+        "heading": "IIM cutoffs",
+        "paragraphs": [
+          "IIM cutoffs have two layers: qualifying cutoffs and actual shortlist competitiveness. Qualifying cutoffs are minimum eligibility filters, while the percentile required for a real shortlist can be much higher depending on category, profile and institute.",
+          "For general-category candidates targeting older IIMs, very high percentiles are often needed, but profile and category can significantly change the outcome. Always verify the official minimum cutoffs and admission criteria PDF for the relevant admission year."
+        ]
+      },
+      {
+        "id": "iim-placements",
+        "heading": "IIM placements",
+        "paragraphs": [
+          "IIM placement data should be quoted only from official placement reports or audited institute releases. Average CTC, median CTC, highest CTC, recruiter count and sector split can vary by programme and batch.",
+          "For student decisions, median CTC, role quality, sector distribution, batch size and fee should be read together instead of relying only on highest package headlines."
+        ]
+      },
+      {
+        "id": "all-iims",
+        "heading": "All IIMs in India",
+        "paragraphs": [
+          "India currently has 21 IIMs relevant for CAT aspirants. The college directory page lists every IIM with city, flagship programme, admission route and official source link."
+        ],
+        "table": {
+          "headers": [
+            "IIM",
+            "City",
+            "Main entrance route"
+          ],
+          "rows": [
+            [
+              {
+                "label": "IIM Ahmedabad",
+                "href": "https://www.iima.ac.in/academics/mba/admissions"
+              },
+              "Ahmedabad",
+              "CAT"
+            ],
+            [
+              {
+                "label": "IIM Bangalore",
+                "href": "https://www.iimb.ac.in/programmes/pgp"
+              },
+              "Bangalore",
+              "CAT"
+            ],
+            [
+              {
+                "label": "IIM Calcutta",
+                "href": "https://www.iimcal.ac.in/programs/pgp/admissions"
+              },
+              "Calcutta",
+              "CAT"
+            ],
+            [
+              {
+                "label": "IIM Lucknow",
+                "href": "https://www.iiml.ac.in/programmes/post-graduate-programme"
+              },
+              "Lucknow",
+              "CAT"
+            ],
+            [
+              {
+                "label": "IIM Kozhikode",
+                "href": "https://iimk.ac.in/academic-programmes/pgp"
+              },
+              "Kozhikode",
+              "CAT"
+            ],
+            [
+              {
+                "label": "IIM Indore",
+                "href": "https://www.iimidr.ac.in/academic-programmes/post-graduate-program-in-management/"
+              },
+              "Indore",
+              "CAT"
+            ],
+            [
+              {
+                "label": "IIM Mumbai",
+                "href": "https://iimmumbai.ac.in/"
+              },
+              "Mumbai",
+              "CAT"
+            ],
+            [
+              {
+                "label": "IIM Shillong",
+                "href": "https://www.iimshillong.ac.in/"
+              },
+              "Shillong",
+              "CAT"
+            ],
+            [
+              {
+                "label": "IIM Rohtak",
+                "href": "https://www.iimrohtak.ac.in/"
+              },
+              "Rohtak",
+              "CAT"
+            ],
+            [
+              {
+                "label": "IIM Ranchi",
+                "href": "https://iimranchi.ac.in/"
+              },
+              "Ranchi",
+              "CAT"
+            ],
+            [
+              {
+                "label": "IIM Raipur",
+                "href": "https://iimraipur.ac.in/"
+              },
+              "Raipur",
+              "CAT"
+            ],
+            [
+              {
+                "label": "IIM Tiruchirappalli",
+                "href": "https://www.iimtrichy.ac.in/"
+              },
+              "Tiruchirappalli",
+              "CAT"
+            ],
+            [
+              {
+                "label": "IIM Udaipur",
+                "href": "https://www.iimu.ac.in/"
+              },
+              "Udaipur",
+              "CAT"
+            ],
+            [
+              {
+                "label": "IIM Kashipur",
+                "href": "https://www.iimkashipur.ac.in/"
+              },
+              "Kashipur",
+              "CAT"
+            ],
+            [
+              {
+                "label": "IIM Nagpur",
+                "href": "https://www.iimnagpur.ac.in/"
+              },
+              "Nagpur",
+              "CAT"
+            ],
+            [
+              {
+                "label": "IIM Visakhapatnam",
+                "href": "https://www.iimv.ac.in/"
+              },
+              "Visakhapatnam",
+              "CAT"
+            ],
+            [
+              {
+                "label": "IIM Amritsar",
+                "href": "https://iimamritsar.ac.in/"
+              },
+              "Amritsar",
+              "CAT"
+            ],
+            [
+              {
+                "label": "IIM Bodh Gaya",
+                "href": "https://iimbg.ac.in/"
+              },
+              "Bodh Gaya",
+              "CAT"
+            ],
+            [
+              {
+                "label": "IIM Jammu",
+                "href": "https://www.iimj.ac.in/"
+              },
+              "Jammu",
+              "CAT"
+            ],
+            [
+              {
+                "label": "IIM Sambalpur",
+                "href": "https://iimsambalpur.ac.in/"
+              },
+              "Sambalpur",
+              "CAT"
+            ],
+            [
+              {
+                "label": "IIM Sirmaur",
+                "href": "https://www.iimsirmaur.ac.in/"
+              },
+              "Sirmaur",
+              "CAT"
+            ]
+          ]
+        }
+      }
+    ],
+    "sourceNotes": [
+      "Curated from official CAT/IIM sources: official CAT website and information bulletin, IIM Ahmedabad MBA admissions and shortlisting criteria, and the official admission/placement pages of individual IIMs.",
+      "Fees, cutoffs and placements are treated as year-sensitive data. Exact numbers should be updated only from the latest official admission policy, fee page, placement report or audited institute release.",
+      "For final decisions, candidates should read the concerned IIM programme page because eligibility, category rules, sectional cutoffs, interview process and final selection weights can change by admission year."
+    ],
+    "sourceLinks": [
+      [
+        "Official CAT website",
+        "https://iimcat.ac.in/"
+      ],
+      [
+        "CAT 2025 Information Bulletin",
+        "https://www.iima.ac.in/sites/default/files/2025-08/Information_Bulletin.pdf"
+      ],
+      [
+        "IIM Ahmedabad MBA admissions",
+        "https://www.iima.ac.in/academics/mba/admissions"
+      ],
+      [
+        "IIM Bangalore PGP",
+        "https://www.iimb.ac.in/programmes/pgp"
+      ],
+      [
+        "IIM Calcutta admissions",
+        "https://www.iimcal.ac.in/programs/pgp/admissions"
+      ],
+      [
+        "IIM Kozhikode PGP",
+        "https://iimk.ac.in/academic-programmes/pgp"
+      ]
+    ],
+    "description": "IIM admissions usually use CAT scores along with academic profile, category, work experience, written ability or analytical writing test, personal interview performance, and institute-specific criteria.",
+    "body": [],
+    "faqs": [
+      {
+        "q": "Is this IIMs information final?",
+        "a": "Fact-heavy details should be verified from official sources before decisions are made."
+      }
+    ]
+  },
+  {
+    "slug": "iim/selection-criteria",
+    "title": "IIM Selection Criteria: CAT Score, Academics, Work Experience, WAT and PI",
+    "section": "IIMs",
+    "answer": "IIM selection criteria are institute-specific and usually combine CAT performance with academics, category, work experience, WAT, PI, and diversity factors.",
+    "sections": [],
+    "sourceNotes": [],
+    "sourceLinks": [],
+    "description": "IIM selection criteria are institute-specific and usually combine CAT performance with academics, category, work experience, WAT, PI, and diversity factors.",
+    "body": [
+      "This page is structured for search engines and AI assistants with a direct answer, source policy, FAQs, and related links.",
+      "Exact dates, fees, cutoffs, and admission rules should be updated only after checking official CAT, IIM, college, or institute sources."
+    ],
+    "faqs": [
+      {
+        "q": "Is this IIMs information final?",
+        "a": "Fact-heavy details should be verified from official sources before decisions are made."
+      }
+    ]
+  }
 ];
-const cat2026SourceNotes = ["Verified on July 7, 2026 against the official CAT website and CAT 2025 Information Bulletin/Advertisement linked from IIM Ahmedabad. The official bulletin confirms CAT is a computer-based test conducted by the IIMs, CAT scores are used for admission to IIM management programmes, and candidates must check the concerned IIM/programme website for final eligibility and admission process details.", "IIM Ahmedabad's official MBA admissions page confirms CAT is part of the domestic MBA admission process and that selection considers exam score, past academic performance, Analytical Writing Test and Personal Interview performance.", "CAT 2026 final dates, pattern, fees, centres and rules are not treated as final until the CAT 2026 notification is published on the official CAT website. IIM seat/intake figures should be rechecked from individual IIM admission pages before publication decisions."];
-const cat2026SourceLinks = [["Official CAT website", "https://iimcat.ac.in/"], ["CAT 2025 Information Bulletin", "https://www.iima.ac.in/sites/default/files/2025-08/Information_Bulletin.pdf"], ["CAT 2025 Advertisement", "https://www.iima.ac.in/sites/default/files/2025-08/CAT_2025_Advertisement_English.pdf"], ["IIM Ahmedabad MBA admissions", "https://www.iima.ac.in/academics/mba/admissions"]];
-
-const iimSections = [
-  { id: "iim-admission-overview", heading: "IIM admission overview", paragraphs: ["IIM admissions are not based on CAT percentile alone. For the flagship MBA or PGP programmes, CAT is normally the first major screening input, but every IIM publishes its own admission policy for shortlisting and final selection.", "Aspirants should treat each IIM separately because the weight given to CAT score, Class 10 and 12 marks, graduation marks, academic diversity, gender diversity, work experience, written test and personal interview can vary widely."] },
-  { id: "role-of-cat", heading: "Role of CAT in IIM admissions", paragraphs: ["CAT is the common entrance test used by the IIMs for domestic flagship MBA/PGP admissions. The official CAT bulletin states that candidates must also check the concerned IIM and programme website for eligibility, admission process and other requirements.", "A high CAT percentile can open shortlist opportunities, but it does not guarantee admission because final calls depend on institute-specific composite scores and interview performance."] },
-  { id: "shortlisting-process", heading: "IIM shortlisting process", paragraphs: ["Most IIMs first apply minimum sectional and overall CAT percentile cutoffs. Candidates who clear those filters are evaluated using a composite score that may include CAT performance, academic profile, category, work experience and diversity factors."], table: { headers: ["Shortlisting factor", "How it is commonly used"], rows: [["CAT overall percentile", "Primary entrance-test filter and scoring component"], ["CAT sectional percentile", "Minimum VARC, DILR and QA thresholds may apply"], ["Class 10 and 12 marks", "Often used for academic consistency"], ["Graduation marks/discipline", "Used differently by different IIMs"], ["Work experience", "May add profile weight within defined ranges"], ["Academic/gender diversity", "Used by some IIMs to build a diverse cohort"]] } },
-  { id: "wat-pi-final-selection", heading: "WAT, PI and final selection", paragraphs: ["After shortlisting, IIMs typically conduct Personal Interviews and may conduct a Written Ability Test or Analytical Writing Test depending on the institute. Final admission is based on a weighted score, not just interview marks.", "The final selection formula should always be read from the relevant IIM's latest admission policy because weights can change from year to year."] },
-  { id: "iim-fees", heading: "IIM fees", paragraphs: ["IIM fees vary by institute, programme and batch. Older IIMs and newer IIMs may have different fee structures, and the payable amount can include tuition, hostel, academic charges, caution deposit and other components.", "Use official fee pages or admission offer documents before publishing exact fee numbers. This platform should avoid stale fee claims unless the fee has been verified against the latest official source."] },
-  { id: "iim-cutoffs", heading: "IIM cutoffs", paragraphs: ["IIM cutoffs have two layers: qualifying cutoffs and actual shortlist competitiveness. Qualifying cutoffs are minimum eligibility filters, while the percentile required for a real shortlist can be much higher depending on category, profile and institute.", "For general-category candidates targeting older IIMs, very high percentiles are often needed, but profile and category can significantly change the outcome. Always verify the official minimum cutoffs and admission criteria PDF for the relevant admission year."] },
-  { id: "iim-placements", heading: "IIM placements", paragraphs: ["IIM placement data should be quoted only from official placement reports or audited institute releases. Average CTC, median CTC, highest CTC, recruiter count and sector split can vary by programme and batch.", "For student decisions, median CTC, role quality, sector distribution, batch size and fee should be read together instead of relying only on highest package headlines."] },
-  { id: "all-iims", heading: "All IIMs in India", paragraphs: ["India currently has 21 IIMs relevant for CAT aspirants. The college directory page lists every IIM with city, flagship programme, admission route and official source link."], table: { headers: ["IIM", "City", "Main entrance route"], rows: iimRows } }
-];
-const iimSourceNotes = ["Curated from official CAT/IIM sources: official CAT website and information bulletin, IIM Ahmedabad MBA admissions and shortlisting criteria, and the official admission/placement pages of individual IIMs.", "Fees, cutoffs and placements are treated as year-sensitive data. Exact numbers should be updated only from the latest official admission policy, fee page, placement report or audited institute release.", "For final decisions, candidates should read the concerned IIM programme page because eligibility, category rules, sectional cutoffs, interview process and final selection weights can change by admission year."];
-const iimSourceLinks = [["Official CAT website", "https://iimcat.ac.in/"], ["CAT 2025 Information Bulletin", "https://www.iima.ac.in/sites/default/files/2025-08/Information_Bulletin.pdf"], ["IIM Ahmedabad MBA admissions", "https://www.iima.ac.in/academics/mba/admissions"], ["IIM Bangalore PGP", "https://www.iimb.ac.in/programmes/pgp"], ["IIM Calcutta admissions", "https://www.iimcal.ac.in/programs/pgp/admissions"], ["IIM Kozhikode PGP", "https://iimk.ac.in/academic-programmes/pgp"]];
-
-const examSections = [
-  { id: "exam-comparison", heading: "MBA entrance exam comparison", paragraphs: ["MBA aspirants should not treat CAT as the only path. CAT remains the main route for IIMs and many top B-schools, while XAT, SNAP, NMAT, CMAT, MAT and MAH MBA CET open additional college pools."], table: { headers: ["Exam", "Best known for", "Typical accepted by", "Official website"], rows: [["CAT", "IIMs and top CAT-accepting B-schools", "IIMs, FMS, MDI, SPJIMR, IIT MBA departments, IIFT and many others", linked("iimcat.ac.in", "https://iimcat.ac.in/")], ["XAT", "XLRI and XAMI-associated institutes", "XLRI, XIMB/XIM University, IMT, XAT-accepting PGDM colleges", linked("xatonline.in", "https://xatonline.in/")], ["SNAP", "Symbiosis MBA programmes", "SIBM Pune, SCMHRD, SIIB and other Symbiosis institutes", linked("snaptest.org", "https://www.snaptest.org/")], ["NMAT", "NMIMS and other NMAT-accepting MBA programmes", "NMIMS Mumbai and other NMAT by GMAC participating schools", linked("mba.com/nmat", "https://www.mba.com/exams/nmat")], ["CMAT", "AICTE-approved MBA/PGDM colleges", "GIM, Great Lakes, K J Somaiya, Welingkar and other CMAT-accepting colleges", linked("NTA CMAT", "https://exams.nta.ac.in/CMAT/")], ["MAT", "Wide MBA college coverage and multiple yearly attempts", "MAT-participating B-schools across India", linked("mat.aima.in", "https://mat.aima.in/")], ["MAH MBA CET", "Maharashtra MBA/MMS CAP admissions", "JBIMS, SIMSREE, PUMBA and Maharashtra CAP colleges", linked("cetcell.mahacet.org", "https://cetcell.mahacet.org/")]] } },
-  { id: "cat", heading: "CAT", paragraphs: ["CAT is the most important exam for IIM aspirants and is also accepted by many non-IIM colleges. Preparation should focus on VARC, DILR and Quantitative Aptitude, with full-length mocks and sectional analysis."], list: ["Best for: IIMs, FMS, MDI, IIT MBA departments and CAT-accepting PGDM colleges.", "Preparation overlap: highest overlap with XAT, CMAT, MAT and many institute interviews.", "Action: track only iimcat.ac.in for final dates, fees and official instructions."] },
-  { id: "xat", heading: "XAT", paragraphs: ["XAT is strongly associated with XLRI and includes a different test personality from CAT. Aspirants should prepare decision making separately along with verbal, quant and data interpretation practice."], list: ["Best for: XLRI Jamshedpur/Delhi NCR and XAT-accepting schools.", "Strategy: add decision-making case practice after CAT fundamentals are stable.", "Action: verify current pattern and dates on xatonline.in."] },
-  { id: "snap-nmat", heading: "SNAP and NMAT", paragraphs: ["SNAP and NMAT are speed-oriented exams with different formats from CAT. They reward quick arithmetic, grammar, reasoning and repeatable test-taking rhythm."], list: ["SNAP is the key route for Symbiosis MBA institutes.", "NMAT is the key route for NMIMS and other NMAT-accepting programmes.", "Use separate mocks because timing and question style are different from CAT."] },
-  { id: "cmat-mat-cet", heading: "CMAT, MAT and MAH MBA CET", paragraphs: ["CMAT, MAT and MAH MBA CET are useful backup or parallel routes for aspirants targeting a wider set of MBA colleges. They can be prepared alongside CAT, but GK, speed and state-specific CAP rules need separate attention."], list: ["CMAT: useful for AICTE-approved MBA/PGDM colleges.", "MAT: useful for broad college coverage and multiple yearly windows.", "MAH MBA CET: important for Maharashtra MBA/MMS colleges and CAP-based admissions."] }
-];
-const examSourceNotes = ["Exam details are curated from official exam websites and should be rechecked before applications because dates, fees, pattern and participating institutes can change by cycle.", "This page is designed as an MBA exam map: use it to decide which exams to add around CAT, then verify each final application on the official exam portal."];
-const examSourceLinks = [["CAT official website", "https://iimcat.ac.in/"], ["XAT official website", "https://xatonline.in/"], ["SNAP official website", "https://www.snaptest.org/"], ["NMAT official website", "https://www.mba.com/exams/nmat"], ["CMAT official website", "https://exams.nta.ac.in/CMAT/"], ["MAT official website", "https://mat.aima.in/"], ["MAH CET Cell", "https://cetcell.mahacet.org/"]];
-
-const prepSections = [
-  { id: "study-plan", heading: "CAT 2026 complete study plan", paragraphs: ["A serious CAT plan should move through four stages: foundation, practice, mocks and final revision. The exact pace depends on starting level, but a 6-8 month plan works well for most college students and working professionals."], table: { headers: ["Phase", "Timeline", "Main work"], rows: [["Foundation", "Days 1-60", "Arithmetic, algebra basics, reading habit, LRDI set types and grammar/VA basics"], ["Practice", "Days 61-120", "Topic tests, sectional drills, RC accuracy, DILR selection and QA mixed practice"], ["Mock build-up", "Days 121-170", "Weekly full mocks, sectionals, error logs and strategy experiments"], ["Final stretch", "Last 30-45 days", "2-3 mocks weekly, revision notebooks, formula review and slot strategy"]] } },
-  { id: "books", heading: "CAT books and resources", paragraphs: ["Books are useful for structured practice, but they should not replace mocks and previous-year CAT papers. Pick fewer resources and complete them well."], columns: [{ title: "Quant", items: ["Arun Sharma Quantitative Aptitude", "Sarvesh K Verma Quantitative Aptitude", "Previous-year CAT QA questions"] }, { title: "VARC", items: ["Arun Sharma and Meenakshi Upadhyay VARC", "Daily editorials and long-form reading", "Previous-year CAT RC and VA questions"] }, { title: "DILR", items: ["Arun Sharma DILR", "Previous-year CAT DILR sets", "Sectional tests from a reliable mock platform"] }] },
-  { id: "mocks", heading: "Mocks and analysis", paragraphs: ["Mocks should be used to improve decisions, not just to collect scores. After every mock, identify easy missed questions, wrong attempts, time traps and section-wise attempt quality."], list: ["Start with one diagnostic mock to understand baseline.", "Use sectional tests when one section is dragging down overall percentile.", "Maintain an error log split by concept gap, calculation error, misread question and poor selection.", "Rodha learners can check the official Rodha portal for courses, mocks and practice resources."], links: [["Rodha official portal", "https://www.rodha.co.in/"], ["Rodha CAT 200-day strategy videos on YouTube", "https://www.youtube.com/results?search_query=Rodha+CAT+200+days+strategy"]] },
-  { id: "section-strategy", heading: "Section-wise CAT strategy", columns: [{ title: "VARC", items: ["Read daily for comprehension, not vocabulary alone", "Practice RC passage selection", "Track accuracy by question type", "Do para summary and odd-one-out in timed sets"] }, { title: "DILR", items: ["Solve fewer sets but choose better", "Build familiarity with arrangements, games, Venn, routes and caselets", "Practice set abandonment decisions", "Review every missed easy set"] }, { title: "Quant", items: ["Prioritize arithmetic, algebra and geometry first", "Revise formulas weekly", "Practice mental calculation and approximation", "Separate concept errors from silly mistakes"] }] },
-  { id: "weekly-routine", heading: "Weekly routine", list: ["5 days: concept and practice blocks for two sections per day.", "1 day: full mock or two sectionals plus deep analysis.", "1 day: revision, weak-area repair and reading backlog.", "Working professionals should keep weekday sessions shorter and protect one long weekend mock-analysis block."] }
-];
-const prepSourceNotes = ["Preparation guidance is editorial and should be adapted to the student's starting level, target percentile, academic schedule and mock performance.", "Rodha links are included as external preparation resources because the user requested Rodha mock and strategy references; aspirants should compare course fit before enrolling."];
-const prepSourceLinks = [["Official CAT website", "https://iimcat.ac.in/"], ["Rodha official portal", "https://www.rodha.co.in/"], ["Rodha CAT strategy search on YouTube", "https://www.youtube.com/results?search_query=Rodha+CAT+200+days+strategy"]];
-
-const newsSections = [
-  { id: "latest-news", heading: "Latest MBA entrance exam news — September 22, 2026", paragraphs: ["CAT, XAT, SNAP and NMAT application windows are currently open. The official XAT site has also added four associate institutes and one XAMI member to its latest updates. The table below is ordered by the most recent actionable update and uses official exam portals as the primary verification layer.", "Candidates should complete forms early, save payment confirmation and remember that registering for an entrance test may not automatically complete a separate B-school or programme application."], table: { headers: ["Updated", "Exam update", "Candidate deadline or action", "Official source"], rows: [
-    ["September 22, 2026", "The official XAT 2027 website lists Narayana Business School, Mahindra University, Dayananda Sagar Business School and Sparsh Global Business School as new associate institutes, and XIMI Jaipur as a new XAMI member.", "Use XAT acceptance as a shortlist signal, then verify the exact programme and submit each institute application separately.", linked("Read the verified update", "/blog/xat-2027-new-associate-institutes-xami-member/")],
-    ["September 17, 2026", "CAT 2026 registration is open. IIM Indore will conduct CAT on November 29, 2026.", "Apply by September 22, 2026 at 5:00 PM. Keep academic details, photograph, signature and category documents ready.", linked("CAT portal", "https://iimcat.ac.in/")],
-    ["September 2, 2026", "Maharashtra CET Cell has issued a notice covering institute-level and vacant-seat admissions after CAP rounds for technical education courses.", "MBA/MMS candidates participating in the 2026–27 admission cycle should check the course admission portal and institute-level vacancy instructions.", linked("CET Cell notices", "https://cetcell.mahacet.org/notices/")],
-    ["August 21, 2026", "SNAP 2026 applications are open for Symbiosis MBA programmes.", "Register and pay by November 25. Tests are on December 13, 19 and 26; the official result date is January 12, 2027.", linked("SNAP dates", "https://www.snaptest.org/snap-important-dates")],
-    ["August 20, 2026", "NMAT by GMAC registration and scheduling are open for the 2026 India testing cycle.", "Registration closes October 10, scheduling closes October 22 and exam delivery runs from November 2 to December 20.", linked("NMAT portal", "https://www.mba.com/exams/nmat")],
-    ["July 15, 2026", "XAT 2027 registration is open. XLRI states that 250+ B-schools accept XAT scores.", "Apply by December 6. Admit card download is tentatively from December 20; XAT is scheduled for January 3, 2027 from 2:00 PM to 5:00 PM.", linked("XAT portal", "https://xatonline.in/")],
-    ["As of September 2, 2026", "A fresh CMAT cycle notification is not listed on the official NTA CMAT portal.", "Do not rely on predicted dates or unofficial application links. Monitor the official NTA CMAT website.", linked("NTA CMAT", "https://exams.nta.ac.in/CMAT/")]
-  ] } },
-  { id: "deadline-dashboard", heading: "Open MBA entrance exam application windows", table: { headers: ["Exam", "Registration status", "Closing date", "Exam window/date"], rows: [
-    ["CAT 2026", "Open", "September 22, 2026, 5:00 PM", "November 29, 2026"],
-    ["NMAT 2026", "Open", "October 10, 2026", "November 2–December 20, 2026"],
-    ["SNAP 2026", "Open", "November 25, 2026", "December 13, 19 and 26, 2026"],
-    ["XAT 2027", "Open", "December 6, 2026", "January 3, 2027, 2:00–5:00 PM"],
-    ["CMAT", "New cycle not officially announced", "Not announced", "Not announced"]
-  ] } },
-  { id: "what-to-do-now", heading: "What MBA aspirants should do this week", list: ["Complete CAT 2026 registration well before September 22 and save the submitted form and payment receipt.", "Register for NMAT only after checking whether your target programmes accept the score and whether they require a separate application.", "Shortlist Symbiosis institutes before paying SNAP programme-registration fees.", "Add XAT decision-making practice without weakening your CAT mock and revision plan.", "If you are in the Maharashtra MBA/MMS admission cycle, check current CAP and institute-level vacancy instructions directly on the CET Cell portal.", "Ignore speculative CMAT dates until NTA publishes a notice on its official portal."] },
-  { id: "exam-wise-impact", heading: "How these updates affect CAT 2026 preparation", paragraphs: ["CAT should remain the primary preparation track for most IIM-focused candidates, but application work cannot be postponed indefinitely. A practical approach is to finish forms in one controlled session and return to preparation instead of repeatedly revisiting portals.", "NMAT and SNAP require more speed-focused practice than CAT, while XAT needs dedicated decision-making preparation. Build these adjustments around the CAT plan instead of starting four separate syllabi."], table: { headers: ["Exam", "Main preparation adjustment"], rows: [["CAT", "Prioritise full mocks, sectionals, revision and question selection."], ["NMAT", "Practise speed, section-order decisions and a no-negative-marking attempt strategy."], ["SNAP", "Use short timed drills for reasoning, verbal precision and arithmetic speed."], ["XAT", "Add decision-making cases and prepare for the exam's distinct verbal and GK components."], ["MAH MBA CET/CAP", "Follow admission notices and vacancy rules; this is an admissions-process update, not a new preparation cycle."]] } },
-  { id: "verification-rule", heading: "How this news tracker is verified", paragraphs: ["This tracker was reviewed on September 22, 2026. Official exam and government admission portals are treated as the final authority for dates, payments, test rules and admission actions. Where an official portal has not announced a new cycle, this page says so instead of publishing an expected date.", "Schedules can still change. Open the linked official source once more immediately before registration, payment, scheduling, admit-card download or institute reporting."] }
-];
-const newsSourceNotes = ["Latest-news items are curated from official exam and government admission portals. Official portals override media reports for dates, fees and rules.", "The tracker carries a visible review date and distinguishes open registrations from cycles that have not yet been officially announced."];
-const newsSourceLinks = [["Official CAT website", "https://iimcat.ac.in/"], ["XAT 2027 official website", "https://xatonline.in/"], ["SNAP 2026 important dates", "https://www.snaptest.org/snap-important-dates"], ["NMAT 2026 official website", "https://www.mba.com/exams/nmat"], ["Maharashtra CET Cell notices", "https://cetcell.mahacet.org/notices/"], ["CMAT official website", "https://exams.nta.ac.in/CMAT/"]];
-
-const pages = [
-  ["cat-2026", "CAT 2026: Exam Overview, Pattern, Syllabus, Dates, and Preparation", "CAT 2026", "CAT 2026 is expected to be the main MBA entrance test for IIM and top B-school admissions. Track official CAT updates and prepare across VARC, DILR, and Quantitative Aptitude.", cat2026Sections, cat2026SourceNotes, cat2026SourceLinks],
-  ["cat-2026/syllabus", "CAT 2026 Syllabus: VARC, DILR, and Quant Topics", "CAT 2026", "The CAT 2026 syllabus should be prepared across VARC, DILR, and Quantitative Aptitude, using previous CAT papers and official pattern updates."],
-  ["cat-2026/eligibility", "CAT 2026 Eligibility: Qualification, Marks, Final-Year Rules, and Categories", "CAT 2026", "CAT 2026 eligibility should be confirmed from the official notification before applying, especially for final-year, category, and marks rules."],
-  ["cat-2026/exam-pattern", "CAT 2026 Exam Pattern: Sections, Duration, and Marking Scheme", "CAT 2026", "CAT 2026 exam pattern details should be verified from the official notification. Preparation should center on VARC, DILR, and Quant."],
-  ["cat-2026/important-dates", "CAT 2026 Important Dates: Notification, Registration, Admit Card, Exam, Result", "CAT 2026", "CAT 2026 dates should be treated as tentative until official CAT notification confirms registration, admit card, exam, and result dates."],
-  ["cat-2026/registration", "CAT 2026 Registration: Application Process, Fees, and Documents", "CAT 2026", "CAT 2026 registration details should be confirmed from the official CAT website, including fee, documents, and correction window rules."],
-  ["cat-2026/admit-card", "CAT 2026 Admit Card: Download, Exam Center, and Instructions", "CAT 2026", "CAT 2026 admit card instructions should be followed exactly as published by the official CAT authority."],
-  ["cat-2026/cutoff", "CAT 2026 Cutoff: IIM Shortlisting, Percentile, and Category Notes", "CAT 2026", "CAT cutoffs vary by IIM, program, category, academic profile, and admission stage. Read each IIM's official admission policy."],
-  ["cat-2026/latest-news", "MBA Entrance Exam Latest News 2026: CAT, XAT, SNAP, NMAT and CMAT Updates", "News", "As of September 22, 2026, CAT, XAT, SNAP and NMAT registrations are open. Track the CAT deadline, new XAT institutes, verified exam dates and pending CMAT announcements.", newsSections, newsSourceNotes, newsSourceLinks],
-  ["cat-preparation", "CAT Preparation 2026: Study Plan, Books, Mocks, and Section Strategy", "Preparation", "CAT 2026 preparation should combine concept building, timed practice, mock analysis, revision, and section-wise strategy.", prepSections, prepSourceNotes, prepSourceLinks],
-  ["cat-preparation/mock-tests", "CAT Mock Tests 2026: How to Choose and Analyze Mocks", "Preparation", "CAT mocks build speed, accuracy, stamina, and strategy. The real value comes from post-mock analysis."],
-  ["cat-coaching/test-series", "CAT Test Series 2026: Compare Mocks, Analysis, and Sectional Tests", "Coaching", "A good CAT test series should provide full-length mocks, sectional tests, percentile benchmarking, and detailed analysis."],
-  ["mba-entrance-exams", "MBA Entrance Exams in India: CAT, XAT, SNAP, NMAT, CMAT, MAT", "Exams", "CAT is the main entrance exam for IIMs, while XAT, SNAP, NMAT, CMAT, MAT, and MAH MBA CET open additional MBA pathways.", examSections, examSourceNotes, examSourceLinks],
-  ["iim", "IIM Admissions: CAT, Shortlisting, Fees, Cutoffs, and Placements", "IIMs", "IIM admissions usually use CAT scores along with academic profile, category, work experience, written ability or analytical writing test, personal interview performance, and institute-specific criteria.", iimSections, iimSourceNotes, iimSourceLinks],
-  ["iim/selection-criteria", "IIM Selection Criteria: CAT Score, Academics, Work Experience, WAT and PI", "IIMs", "IIM selection criteria are institute-specific and usually combine CAT performance with academics, category, work experience, WAT, PI, and diversity factors."]
-].map(([slug, title, section, answer, sections, sourceNotes, sourceLinks]) => ({
-  slug, title, section, answer, sections: sections || [], sourceNotes: sourceNotes || [], sourceLinks: sourceLinks || [],
-  description: answer,
-  body: ["cat-2026", "iim", "mba-entrance-exams", "cat-preparation", "cat-2026/latest-news"].includes(slug) ? [] : ["This page is structured for search engines and AI assistants with a direct answer, source policy, FAQs, and related links.", "Exact dates, fees, cutoffs, and admission rules should be updated only after checking official CAT, IIM, college, or institute sources."],
-  faqs: slug === "cat-2026/latest-news" ? [
-    { q: "Which MBA entrance exam registrations are open in September 2026?", a: "As of September 22, 2026, CAT 2026, NMAT 2026, SNAP 2026 and XAT 2027 registrations are open." },
-    { q: "What is the CAT 2026 registration deadline?", a: "CAT 2026 registration closes on September 22, 2026 at 5:00 PM on the official CAT portal." },
-    { q: "When does NMAT 2026 registration close?", a: "The official NMAT by GMAC timeline lists October 10, 2026 as the registration closing date and October 22 as the scheduling closing date." },
-    { q: "What are the SNAP 2026 exam dates?", a: "The official SNAP dates are December 13, December 19 and December 26, 2026. The official result date is January 12, 2027." },
-    { q: "When is XAT 2027?", a: "XAT 2027 is scheduled for January 3, 2027 from 2:00 PM to 5:00 PM. Registration closes on December 6, 2026." },
-    { q: "Has the next CMAT cycle been announced?", a: "As of September 22, 2026, a fresh CMAT cycle notification is not listed on the official NTA CMAT portal." }
-  ] : [{ q: `Is this ${section} information final?`, a: "Fact-heavy details should be verified from official sources before decisions are made." }]
-}));
-module.exports = pages;
