@@ -202,6 +202,33 @@ module.exports = [
             "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT2026InformationBulletin_26-07-2026_V2.pdf"
           ]
         ]
+      },
+      {
+        "id": "next-guides",
+        "heading": "Plan your next steps",
+        "paragraphs": [],
+        "links": [
+          [
+            "Admit-card checklist",
+            "/cat-2026/admit-card/"
+          ],
+          [
+            "Mock-test analysis plan",
+            "/cat-preparation/mock-tests/"
+          ],
+          [
+            "Test-series comparison",
+            "/cat-coaching/test-series/"
+          ],
+          [
+            "Understanding CAT cutoffs",
+            "/cat-2026/cutoff/"
+          ],
+          [
+            "IIM selection stages",
+            "/iim/selection-criteria/"
+          ]
+        ]
       }
     ],
     "faqs": [
@@ -1239,42 +1266,259 @@ module.exports = [
   },
   {
     "slug": "cat-2026/admit-card",
-    "title": "CAT 2026 Admit Card: Download, Exam Center, and Instructions",
+    "title": "CAT 2026 Admit Card: Release Date and Download Guide",
     "section": "CAT 2026",
-    "answer": "CAT 2026 admit card instructions should be followed exactly as published by the official CAT authority.",
-    "sections": [],
-    "sourceNotes": [],
-    "sourceLinks": [],
-    "description": "CAT 2026 admit card instructions should be followed exactly as published by the official CAT authority.",
+    "description": "CAT 2026 admit-card download is scheduled for November 4–29. Find the official login route, details to check and a practical exam-day checklist.",
+    "answer": "CAT 2026 admit-card download is scheduled for 4–29 November 2026 according to the information bulletin. As of 7 October, that window has not started. Use the Registered Candidate Login reached through iimcat.ac.in; your own admit card will identify the allotted session, centre and reporting instructions.",
+    "updated": "2026-10-07",
     "body": [
-      "This page is structured for search engines and AI assistants with a direct answer, source policy, FAQs, and related links.",
-      "Exact dates, fees, cutoffs, and admission rules should be updated only after checking official CAT, IIM, college, or institute sources."
+      "Last verified: 7 October 2026. This is an independent preparation guide; applications, admit cards and official notices are available through iimcat.ac.in."
+    ],
+    "sections": [
+      {
+        "id": "release",
+        "heading": "Release date and current status",
+        "paragraphs": [
+          "The official homepage lists November 4 as the start of admit-card download, and the bulletin gives November 4–29 as the download period. The test is scheduled for Sunday, November 29. A scheduled date is different from confirmation that a download link is live."
+        ],
+        "links": [
+          [
+            "Official CAT 2026 website and current notices",
+            "https://iimcat.ac.in/"
+          ],
+          [
+            "CAT 2026 Information Bulletin: eligibility, fees, admissions and score validity",
+            "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT2026InformationBulletin_26-07-2026_V2.pdf"
+          ]
+        ]
+      },
+      {
+        "id": "download",
+        "heading": "How to download when the window opens",
+        "paragraphs": [
+          "Open the official CAT website and follow its Registered Candidate Login. Sign in using your registered credentials, locate the admit-card option once enabled, and save the document. Read every page before printing it according to the instructions supplied.",
+          "Keep an offline copy accessible and check that the printed text and photograph are legible. Avoid entering candidate credentials on an information or coaching website. This page is a guide and does not issue admit cards."
+        ]
+      },
+      {
+        "id": "check",
+        "heading": "Details to check immediately",
+        "paragraphs": [
+          "Compare the document with your application record. If something appears inconsistent, contact the official CAT helpdesk promptly with your application reference and a precise description. Do not alter the issued document yourself."
+        ],
+        "list": [
+          "Candidate name, registration details and photograph.",
+          "Assigned test date, session and reporting time.",
+          "Complete centre address and any location instructions.",
+          "Identification, photograph and print requirements stated on the card.",
+          "Any applicable accommodation instructions."
+        ]
+      },
+      {
+        "id": "centre",
+        "heading": "Plan travel using the allotted centre",
+        "paragraphs": [
+          "The bulletin allows five preferred test cities, but preferences are not an allotment guarantee. Use the venue actually printed on your admit card. Check the route and journey time in advance, allowing for local traffic.",
+          "Do not infer a reporting time from the 120-minute test duration. Reporting, entry closure and the test itself are separate milestones; follow your session-specific instructions."
+        ]
+      },
+      {
+        "id": "problems",
+        "heading": "If the download or login does not work",
+        "paragraphs": [
+          "Before November 4, a missing download option is consistent with the published schedule. After the window begins, verify that you are on the official portal, use its recovery options for forgotten credentials and recheck your application status.",
+          "For a persistent error, record the time and error message and use the official helpdesk. An application screenshot or payment receipt should not be assumed to replace the issued admit card. A helpdesk enquiry does not guarantee any change in allotment."
+        ],
+        "links": [
+          [
+            "Official CAT 2026 website and current notices",
+            "https://iimcat.ac.in/"
+          ]
+        ]
+      },
+      {
+        "id": "exam-day",
+        "heading": "Build your final checklist from the issued instructions",
+        "paragraphs": [
+          "Once the card is available, write a short checklist containing the required printout, permitted original identification, any required photograph, reporting time and prohibited items. The exact identification list and centre rules must come from the issued instructions, not an older examination cycle.",
+          "Do a final check the evening before the test. Keep the admit card after the examination with your application and score records; it can help resolve later candidate-reference queries."
+        ]
+      }
     ],
     "faqs": [
       {
-        "q": "Is this CAT 2026 information final?",
-        "a": "Fact-heavy details should be verified from official sources before decisions are made."
+        "q": "Is the CAT 2026 admit card available now?",
+        "a": "As of October 7, the scheduled download window has not begun. It starts November 4."
+      },
+      {
+        "q": "Where should I download it?",
+        "a": "Use the Registered Candidate Login linked from iimcat.ac.in."
+      },
+      {
+        "q": "Can I choose a session through this website?",
+        "a": "No. The allotted session and centre are issued through the official CAT process."
+      },
+      {
+        "q": "What if details are wrong?",
+        "a": "Contact the official helpdesk promptly with your application reference. Do not edit the document yourself."
       }
+    ],
+    "related": [
+      "/cat-2026/important-dates/",
+      "/cat-2026/registration/",
+      "/cat-2026/exam-pattern/",
+      "/cat-2026/"
+    ],
+    "sourceNotes": [
+      "Official sources were checked on 7 October 2026. Later dated notices take precedence over the original bulletin where a deadline has changed. Study plans and worked examples are editorial guidance, not official exam rules."
+    ],
+    "sourceLinks": [
+      [
+        "Official CAT 2026 website and current notices",
+        "https://iimcat.ac.in/"
+      ],
+      [
+        "CAT 2026 Information Bulletin: eligibility, fees, admissions and score validity",
+        "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT2026InformationBulletin_26-07-2026_V2.pdf"
+      ],
+      [
+        "Official July 26 press release: test date, sections and timing",
+        "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT_2026_Press_Release_26-07-2026.pdf"
+      ]
     ]
   },
   {
     "slug": "cat-2026/cutoff",
-    "title": "CAT 2026 Cutoff: IIM Shortlisting, Percentile, and Category Notes",
+    "title": "CAT 2026 Cutoffs: Qualifying Percentiles and IIM Calls",
     "section": "CAT 2026",
-    "answer": "CAT cutoffs vary by IIM, program, category, academic profile, and admission stage. Read each IIM's official admission policy.",
-    "sections": [],
-    "sourceNotes": [],
-    "sourceLinks": [],
-    "description": "CAT cutoffs vary by IIM, program, category, academic profile, and admission stage. Read each IIM's official admission policy.",
+    "description": "Understand CAT qualifying cutoffs, sectional requirements and interview shortlists. See a sourced IIM Ahmedabad example for the 2027–29 intake.",
+    "answer": "There is no single CAT 2026 cutoff that guarantees admission across IIMs. A published minimum percentile is an eligibility filter for a particular programme and category. Shortlisting can also depend on academics and other profile factors, while final selection includes later assessments. Always check the admission batch and both overall and sectional requirements.",
+    "updated": "2026-10-07",
     "body": [
-      "This page is structured for search engines and AI assistants with a direct answer, source policy, FAQs, and related links.",
-      "Exact dates, fees, cutoffs, and admission rules should be updated only after checking official CAT, IIM, college, or institute sources."
+      "Last verified: 7 October 2026. This is an independent preparation guide; applications, admit cards and official notices are available through iimcat.ac.in."
+    ],
+    "sections": [
+      {
+        "id": "terms",
+        "heading": "Three different meanings of cutoff",
+        "paragraphs": [
+          "A minimum qualifying percentile determines whether an application can pass a stated CAT filter. An interview shortlist is a later selection decision. A final admission offer follows the programme’s complete process. Mixing these stages produces misleading claims such as “this percentile guarantees an IIM”."
+        ],
+        "table": {
+          "headers": [
+            "Term",
+            "How to use it"
+          ],
+          "rows": [
+            [
+              "Overall minimum",
+              "Check the total-percentile requirement for your category"
+            ],
+            [
+              "Sectional minimum",
+              "Check every section separately; an overall score cannot replace this"
+            ],
+            [
+              "Interview shortlist",
+              "Read the complete selection method and profile inputs"
+            ],
+            [
+              "Final offer",
+              "Check interview, assessment, verification and offer conditions"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "verified-example",
+        "heading": "Verified example: IIM Ahmedabad PGP 2027–29",
+        "paragraphs": [
+          "IIM Ahmedabad’s published domestic policy uses CAT 2026. Its minimum overall/each-section percentiles are: General and EWS 95/85; NC-OBC 90/80; SC 85/75; ST 75/65. For PwD candidates in those groups, the corresponding pairs are 85/75, 80/70, 75/65 and 65/55. These are programme-specific minimums, not assured interview calls."
+        ],
+        "links": [
+          [
+            "IIM Ahmedabad: domestic PGP 2027–29 admission policy",
+            "https://www.iima.ac.in/academics/mba/admissions/indians"
+          ]
+        ]
+      },
+      {
+        "id": "sectionals",
+        "heading": "Why sectional requirements matter",
+        "paragraphs": [
+          "Consider a fictional programme requiring 90 overall and 80 in each section. A candidate with 96 overall but 76 in DILR fails that stated sectional filter. This is an illustration, not a prediction of any institute’s shortlist.",
+          "Maintain a tracker with one column for each section. If a mock reveals a persistent weakness, address it even when the overall result looks strong."
+        ]
+      },
+      {
+        "id": "score-percentile",
+        "heading": "Marks and percentiles answer different questions",
+        "paragraphs": [
+          "A percentile describes relative standing, not the percentage of marks scored. Do not assume 90 percentile means 90% marks or that a fixed raw score guarantees the same percentile in another year.",
+          "Before CAT 2026 is held, a marks-to-percentile table is an estimate. If using a historical comparison for practice, label its examination year, source and whether it uses raw or scaled scores. This guide does not present an invented 2026 conversion table."
+        ]
+      },
+      {
+        "id": "tracker",
+        "heading": "Build a shortlist you can verify",
+        "paragraphs": [
+          "Create a row for each programme, not simply each institute name. Save the official policy and its batch year before interpreting a number."
+        ],
+        "list": [
+          "Programme and admission batch.",
+          "Category and applicable disability provisions.",
+          "Overall and all sectional minimums.",
+          "Academic or other initial eligibility filters.",
+          "Shortlisting formula and separate final-selection formula.",
+          "Application route, deadline and required documents.",
+          "Policy link and date checked."
+        ]
+      },
+      {
+        "id": "target",
+        "heading": "Turn the policy into a preparation target",
+        "paragraphs": [
+          "Treat published minimums as screening rules. They do not reveal a universal safe score for a future applicant pool. Use mocks to improve question selection, accuracy and consistency across sections while keeping several suitable programmes in your application plan.",
+          "After results, update the tracker with your actual scorecard and each institution’s shortlist announcements. Avoid buying a guaranteed-call prediction based only on one percentile."
+        ]
+      }
     ],
     "faqs": [
       {
-        "q": "Is this CAT 2026 information final?",
-        "a": "Fact-heavy details should be verified from official sources before decisions are made."
+        "q": "Does clearing a cutoff guarantee an interview?",
+        "a": "No. A minimum CAT filter is only one part of a programme’s shortlisting process."
+      },
+      {
+        "q": "Can a high overall percentile offset a low section?",
+        "a": "Not when the programme requires a separate minimum in every section."
+      },
+      {
+        "q": "Are CAT 2026 marks-to-percentile figures confirmed?",
+        "a": "The examination has not yet taken place as of October 7. A numerical forecast must be labelled as an estimate."
+      },
+      {
+        "q": "Can I use last year’s IIM cutoff?",
+        "a": "It can be historical context, but verify the current programme and batch policy before making application decisions."
       }
+    ],
+    "related": [
+      "/iim/selection-criteria/",
+      "/cat-2026/eligibility/",
+      "/cat-preparation/mock-tests/",
+      "/cat-2026/"
+    ],
+    "sourceNotes": [
+      "Official sources were checked on 7 October 2026. Later dated notices take precedence over the original bulletin where a deadline has changed. Study plans and worked examples are editorial guidance, not official exam rules."
+    ],
+    "sourceLinks": [
+      [
+        "CAT 2026 Information Bulletin: eligibility, fees, admissions and score validity",
+        "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT2026InformationBulletin_26-07-2026_V2.pdf"
+      ],
+      [
+        "IIM Ahmedabad: domestic PGP 2027–29 admission policy",
+        "https://www.iima.ac.in/academics/mba/admissions/indians"
+      ]
     ]
   },
   {
@@ -1673,42 +1917,348 @@ module.exports = [
   },
   {
     "slug": "cat-preparation/mock-tests",
-    "title": "CAT Mock Tests 2026: How to Choose and Analyze Mocks",
-    "section": "Preparation",
-    "answer": "CAT mocks build speed, accuracy, stamina, and strategy. The real value comes from post-mock analysis.",
-    "sections": [],
-    "sourceNotes": [],
-    "sourceLinks": [],
-    "description": "CAT mocks build speed, accuracy, stamina, and strategy. The real value comes from post-mock analysis.",
+    "title": "CAT 2026 Mock Tests: Practice Plan and Analysis Template",
+    "section": "CAT 2026",
+    "description": "Build a CAT mock schedule around analysis, section timing and error correction. Includes a practical review template and official practice sources.",
+    "answer": "A useful CAT mock is a timed attempt followed by a specific repair plan. Practise the confirmed three-section structure, review missed and wrongly attempted questions, and retest the underlying skill. The number of completed tests matters less than whether repeated errors are disappearing.",
+    "updated": "2026-10-07",
     "body": [
-      "This page is structured for search engines and AI assistants with a direct answer, source policy, FAQs, and related links.",
-      "Exact dates, fees, cutoffs, and admission rules should be updated only after checking official CAT, IIM, college, or institute sources."
+      "Last verified: 7 October 2026. This is an independent preparation guide; applications, admit cards and official notices are available through iimcat.ac.in."
+    ],
+    "sections": [
+      {
+        "id": "format",
+        "heading": "Practise the confirmed timing",
+        "paragraphs": [
+          "The CAT 2026 press release specifies 120 minutes with 40 minutes each for VARC, DILR and Quantitative Ability, without switching sections. Use this timing for standard full-length practice. Follow any candidate-specific official accommodation instructions where applicable.",
+          "The official CAT mock, when released through the CAT portal, should be used to learn the interface and published instructions. Do not treat a coaching test’s question distribution as confirmation of the final examination format."
+        ],
+        "links": [
+          [
+            "Official July 26 press release: test date, sections and timing",
+            "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT_2026_Press_Release_26-07-2026.pdf"
+          ],
+          [
+            "Official CAT 2026 website and current notices",
+            "https://iimcat.ac.in/"
+          ]
+        ]
+      },
+      {
+        "id": "weekly-plan",
+        "heading": "A practical weekly cycle",
+        "paragraphs": [
+          "Use this as an adjustable study plan, not an official requirement. Start with one full mock and a complete review each week. Add another only when the review backlog is clear and you have time to repair weak areas."
+        ],
+        "table": {
+          "headers": [
+            "Session",
+            "Task",
+            "Useful output"
+          ],
+          "rows": [
+            [
+              "Timed attempt",
+              "Work without pauses or outside help",
+              "An honest baseline"
+            ],
+            [
+              "Review",
+              "Reattempt missed questions before reading solutions",
+              "Separate knowledge gaps from execution errors"
+            ],
+            [
+              "Targeted practice",
+              "Practise the two most costly recurring weaknesses",
+              "A short repair list"
+            ],
+            [
+              "Sectional check",
+              "Test the repaired skill under time limits",
+              "Evidence that the change worked"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "analysis",
+        "heading": "Mock-analysis template",
+        "paragraphs": [
+          "For each important error, write the question or set reference, time spent, original decision, cause and next action. Avoid copying complete solutions into a notebook without stating what you will do differently."
+        ],
+        "table": {
+          "headers": [
+            "Error type",
+            "Example",
+            "Next action"
+          ],
+          "rows": [
+            [
+              "Concept gap",
+              "Could not form the ratio equation",
+              "Revise the concept and solve a small varied set"
+            ],
+            [
+              "Selection error",
+              "Spent too long on an unproductive DILR set",
+              "Practise scanning and compare alternative starting sets"
+            ],
+            [
+              "Reading error",
+              "Missed a qualifier in an RC option",
+              "Identify the exact sentence supporting or rejecting the choice"
+            ],
+            [
+              "Calculation error",
+              "Correct method, wrong arithmetic",
+              "Redo the steps and track recurring calculation slips"
+            ],
+            [
+              "Time pressure",
+              "Rushed solvable questions at the end",
+              "Test a deliberate exit rule in the next sectional"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "metrics",
+        "heading": "Track more than one score",
+        "paragraphs": [
+          "Record attempted, correct and incorrect questions by section, time lost on abandoned work and questions you could solve during an untimed reattempt. Compare several tests from the same series before interpreting a trend.",
+          "Provider percentiles depend on that test’s participant pool and timing. A higher percentile in one provider’s mock does not establish a higher national CAT percentile. Use the score for feedback, then inspect the decisions behind it."
+        ]
+      },
+      {
+        "id": "sources",
+        "heading": "Where to start practising",
+        "paragraphs": [
+          "First check the official CAT portal for its current mock or practice instructions. For a commercial trial, Cracku’s current page lists three free CAT mocks with video solutions. IMS offers a free enrolment route including one full-length SimCAT. Check the provider page for account requirements and current access terms."
+        ],
+        "links": [
+          [
+            "Official CAT 2026 website and current notices",
+            "https://iimcat.ac.in/"
+          ],
+          [
+            "Cracku: CAT mock-test packages and free trials",
+            "https://cracku.in/cat-mock-test"
+          ],
+          [
+            "IMS: SimCAT 2026 package comparison",
+            "https://www.imsindia.com/simcat-ultimate-2026/"
+          ]
+        ]
+      },
+      {
+        "id": "final-weeks",
+        "heading": "Use the final weeks to consolidate",
+        "paragraphs": [
+          "As November 29 approaches, favour a repeatable attempt process and a short list of fixable weaknesses. Do not add many new test series simply because a score dips. Revisit your error log and repeat selected questions without looking at the solution.",
+          "In the last few days, choose a workload that preserves sleep and concentration. Confirm exam logistics separately through the admit card. A difficult final mock should be analysed as one practice result, not a verdict on your ability."
+        ]
+      }
     ],
     "faqs": [
       {
-        "q": "Is this Preparation information final?",
-        "a": "Fact-heavy details should be verified from official sources before decisions are made."
+        "q": "How many mocks should I take?",
+        "a": "There is no universal required count. Choose a frequency that leaves time for full analysis and targeted practice."
+      },
+      {
+        "q": "Should I take a mock every day?",
+        "a": "Only if you can review it properly and sustain the workload. An unresolved review backlog is a reason to slow down."
+      },
+      {
+        "q": "Is a mock percentile my predicted CAT percentile?",
+        "a": "No. The participant pool, test difficulty and timing differ."
+      },
+      {
+        "q": "What should I do immediately after a poor mock?",
+        "a": "Identify a small number of recurring causes and fix them before taking another full test."
       }
+    ],
+    "related": [
+      "/cat-coaching/test-series/",
+      "/cat-2026/exam-pattern/",
+      "/cat-2026/syllabus/",
+      "/cat-2026/admit-card/"
+    ],
+    "sourceNotes": [
+      "Sources checked on 7 October 2026. Provider features are self-reported and may change; study schedules and comparisons are editorial guidance. No independent provider-quality ranking is claimed."
+    ],
+    "sourceLinks": [
+      [
+        "Official July 26 press release: test date, sections and timing",
+        "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT_2026_Press_Release_26-07-2026.pdf"
+      ],
+      [
+        "Official CAT 2026 website and current notices",
+        "https://iimcat.ac.in/"
+      ],
+      [
+        "IMS: SimCAT 2026 package comparison",
+        "https://www.imsindia.com/simcat-ultimate-2026/"
+      ],
+      [
+        "Cracku: CAT mock-test packages and free trials",
+        "https://cracku.in/cat-mock-test"
+      ]
     ]
   },
   {
     "slug": "cat-coaching/test-series",
-    "title": "CAT Test Series 2026: Compare Mocks, Analysis, and Sectional Tests",
-    "section": "Coaching",
-    "answer": "A good CAT test series should provide full-length mocks, sectional tests, percentile benchmarking, and detailed analysis.",
-    "sections": [],
-    "sourceNotes": [],
-    "sourceLinks": [],
-    "description": "A good CAT test series should provide full-length mocks, sectional tests, percentile benchmarking, and detailed analysis.",
+    "title": "CAT 2026 Test Series: Compare Features Before Buying",
+    "section": "CAT 2026",
+    "description": "Compare verified IMS and Cracku CAT mock-package features, free trials and buying criteria. Choose a series you can review before the November exam.",
+    "answer": "Choose a CAT test series by trying its explanations, analysis and interface, then checking how much of the package you can realistically use before November 29. This comparison covers verified features from IMS and Cracku; it is not an exhaustive market ranking or a claim that either provider guarantees a percentile.",
+    "updated": "2026-10-07",
     "body": [
-      "This page is structured for search engines and AI assistants with a direct answer, source policy, FAQs, and related links.",
-      "Exact dates, fees, cutoffs, and admission rules should be updated only after checking official CAT, IIM, college, or institute sources."
+      "Last verified: 7 October 2026. This is an independent preparation guide; applications, admit cards and official notices are available through iimcat.ac.in."
+    ],
+    "sections": [
+      {
+        "id": "comparison",
+        "heading": "Verified package features checked October 7",
+        "paragraphs": [
+          "Features below come from the providers’ own pages, not an independent test-quality benchmark. Package names matter: a full-length-only offer may differ from a bundle containing sectionals."
+        ],
+        "table": {
+          "headers": [
+            "Option",
+            "Listed features",
+            "What to check"
+          ],
+          "rows": [
+            [
+              "IMS SimCAT Core 2026",
+              "40 SimCATs and 30 CAT sectionals",
+              "Whether CAT-only practice meets your needs"
+            ],
+            [
+              "IMS SimCAT Ultimate 2026",
+              "Adds practice resources and mocks for other MBA exams",
+              "Whether you will actually take those additional exams"
+            ],
+            [
+              "Cracku CAT 2026 test-series bundle",
+              "25 premium full-length mocks and 45 sectionals; video solutions and analysis",
+              "Select the bundle rather than assuming all offers include sectionals"
+            ]
+          ]
+        },
+        "links": [
+          [
+            "IMS: SimCAT 2026 package comparison",
+            "https://www.imsindia.com/simcat-ultimate-2026/"
+          ],
+          [
+            "Cracku: CAT mock-test packages and free trials",
+            "https://cracku.in/cat-mock-test"
+          ]
+        ]
+      },
+      {
+        "id": "trial",
+        "heading": "Use a trial before choosing",
+        "paragraphs": [
+          "Attempt a sample under time limits, then review two questions you got wrong and one you skipped. Check whether the explanation resolves your specific confusion. Assess how clearly the dashboard separates time spent, accuracy and section performance.",
+          "Do not buy solely because the interface looks polished or a large question count is advertised. A test series is useful only if it helps you identify and repair mistakes."
+        ]
+      },
+      {
+        "id": "buying-checklist",
+        "heading": "Check the actual checkout terms",
+        "paragraphs": [
+          "Prices, discounts and package contents can change. Compare the payable total including tax, rather than an old headline discount. Save the package description and receipt if you buy."
+        ],
+        "list": [
+          "Exact package name and full-length versus sectional inclusions.",
+          "Tests already available versus tests scheduled for later release.",
+          "Access expiry and whether it covers your planned preparation period.",
+          "Solution format and the analysis available after submission.",
+          "Device requirements, support channel and refund terms.",
+          "Any existing access bundled with a coaching course you already own."
+        ]
+      },
+      {
+        "id": "fit",
+        "heading": "Match the purchase to your preparation",
+        "paragraphs": [
+          "If you already have a full-length series, first check whether its unused tests and analysis cover your remaining schedule. A second provider can add unfamiliar questions, but it also creates more review work.",
+          "If you are weak in one section, consider whether targeted practice and sectionals are more useful than another large full-length bundle. If you are preparing for several MBA exams, compare the exact exam coverage and current syllabus of the wider package."
+        ]
+      },
+      {
+        "id": "budget",
+        "heading": "Compare usable value, not advertised volume",
+        "paragraphs": [
+          "Suppose a hypothetical ₹3,000 package contains 30 tests but your calendar permits only six thoroughly reviewed attempts. Your practical cost is ₹500 per reviewed test, not ₹100 per listed test. This is a budgeting example, not a provider price.",
+          "Write your next three weeks of practice into a calendar before paying. Reserve time for review and follow-up drills. A smaller usable purchase can serve you better than accumulating unfinished tests."
+        ]
+      },
+      {
+        "id": "limits",
+        "heading": "What this comparison does and does not establish",
+        "paragraphs": [
+          "We checked published package features. We have not independently measured question quality, participant-pool size or which provider best predicts CAT results. Accordingly, this page assigns no star ratings or guaranteed outcomes.",
+          "Use the official CAT mock when available for interface familiarisation, and use commercial tests for practice and feedback. For the current official structure, follow the linked exam-pattern guide."
+        ],
+        "links": [
+          [
+            "CAT exam pattern",
+            "/cat-2026/exam-pattern/"
+          ],
+          [
+            "How to analyse a mock",
+            "/cat-preparation/mock-tests/"
+          ],
+          [
+            "Official CAT 2026 website and current notices",
+            "https://iimcat.ac.in/"
+          ]
+        ]
+      }
     ],
     "faqs": [
       {
-        "q": "Is this Coaching information final?",
-        "a": "Fact-heavy details should be verified from official sources before decisions are made."
+        "q": "Which CAT series is best for everyone?",
+        "a": "There is no verified universal winner. Trial the explanations and choose a package suited to your schedule and gaps."
+      },
+      {
+        "q": "Do I need two paid series?",
+        "a": "Not necessarily. First use and analyse the tests you already have."
+      },
+      {
+        "q": "Are the prices fixed?",
+        "a": "No. Check current checkout totals, tax, discounts and access terms on the provider website."
+      },
+      {
+        "q": "Does a larger mock pool guarantee a better CAT prediction?",
+        "a": "No. A commercial mock result should be treated as feedback, not a guaranteed examination forecast."
       }
+    ],
+    "related": [
+      "/cat-preparation/mock-tests/",
+      "/cat-2026/exam-pattern/",
+      "/cat-2026/syllabus/",
+      "/cat-2026/"
+    ],
+    "sourceNotes": [
+      "Sources checked on 7 October 2026. Provider features are self-reported and may change; study schedules and comparisons are editorial guidance. No independent provider-quality ranking is claimed."
+    ],
+    "sourceLinks": [
+      [
+        "IMS: SimCAT 2026 package comparison",
+        "https://www.imsindia.com/simcat-ultimate-2026/"
+      ],
+      [
+        "Cracku: CAT mock-test packages and free trials",
+        "https://cracku.in/cat-mock-test"
+      ],
+      [
+        "Official CAT 2026 website and current notices",
+        "https://iimcat.ac.in/"
+      ]
     ]
   },
   {
@@ -2209,22 +2759,143 @@ module.exports = [
   },
   {
     "slug": "iim/selection-criteria",
-    "title": "IIM Selection Criteria: CAT Score, Academics, Work Experience, WAT and PI",
-    "section": "IIMs",
-    "answer": "IIM selection criteria are institute-specific and usually combine CAT performance with academics, category, work experience, WAT, PI, and diversity factors.",
-    "sections": [],
-    "sourceNotes": [],
-    "sourceLinks": [],
-    "description": "IIM selection criteria are institute-specific and usually combine CAT performance with academics, category, work experience, WAT, PI, and diversity factors.",
+    "title": "IIM Selection Criteria: CAT 2026 to MBA Admission",
+    "section": "CAT 2026",
+    "description": "Understand IIM eligibility, CAT filters, interview shortlisting and final offers. Build a programme-specific tracker for the 2027 admission cycle.",
+    "answer": "IIM admission is a sequence: meet programme eligibility, complete the required application, clear the applicable CAT filters, qualify for further assessment and satisfy the final selection and verification rules. Each IIM publishes its own criteria. CAT eligibility alone does not establish your interview chances or final admission.",
+    "updated": "2026-10-07",
     "body": [
-      "This page is structured for search engines and AI assistants with a direct answer, source policy, FAQs, and related links.",
-      "Exact dates, fees, cutoffs, and admission rules should be updated only after checking official CAT, IIM, college, or institute sources."
+      "Last verified: 7 October 2026. This is an independent preparation guide; applications, admit cards and official notices are available through iimcat.ac.in."
+    ],
+    "sections": [
+      {
+        "id": "stages",
+        "heading": "Read selection policies in stages",
+        "paragraphs": [
+          "Keep the shortlisting stage separate from final selection. The same institution may use different factors or weights at those stages."
+        ],
+        "table": {
+          "headers": [
+            "Stage",
+            "Question to answer"
+          ],
+          "rows": [
+            [
+              "Eligibility",
+              "Do my qualification, marks and documents meet this programme’s rules?"
+            ],
+            [
+              "Application",
+              "Have I applied through the required route by its deadline?"
+            ],
+            [
+              "CAT screening",
+              "Do I meet both overall and sectional requirements for my category?"
+            ],
+            [
+              "Shortlisting",
+              "How are academics, experience and other profile factors evaluated?"
+            ],
+            [
+              "Assessment",
+              "What interview or writing process applies?"
+            ],
+            [
+              "Final selection",
+              "How is the final score calculated and what verification remains?"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "current-example",
+        "heading": "Current example: IIM Ahmedabad",
+        "paragraphs": [
+          "The domestic PGP 2027–29 policy considers academic records, gender and full-time work experience in its application rating. It combines that rating with CAT performance and applies discipline-based normalization for shortlisting. Final selection uses 50% normalized interview, 10% normalized writing assessment and 40% normalized composite score. Read the complete policy before calculating an individual result."
+        ],
+        "links": [
+          [
+            "IIM Ahmedabad: domestic PGP 2027–29 admission policy",
+            "https://www.iima.ac.in/academics/mba/admissions/indians"
+          ]
+        ]
+      },
+      {
+        "id": "policy-check",
+        "heading": "How to check the right policy",
+        "paragraphs": [
+          "Start with the institution’s official website and identify the exact programme and intake year. A PGP, specialised MBA and executive programme can have different rules even at the same institution. A previous-year article is not proof of the current process.",
+          "Save the policy with the date checked. Record any later amendment beside the original. If a point is ambiguous, ask the institution’s admissions office rather than filling the gap with a coaching prediction."
+        ]
+      },
+      {
+        "id": "profile",
+        "heading": "Prepare a profile record before predicting calls",
+        "paragraphs": [
+          "Gather consistent figures from the documents used in your application. Use the prescribed academic conversion and work-experience definitions; do not assume every internship, part-time assignment or self-employment claim receives identical treatment."
+        ],
+        "list": [
+          "Class 10, class 12 and graduation records.",
+          "University-certified marks or CGPA conversion method.",
+          "Category and disability documents where applicable.",
+          "Employment dates and supporting records required by the programme.",
+          "Programme choices, application acknowledgements and deadlines.",
+          "Final-year completion requirements if your degree is pending."
+        ]
+      },
+      {
+        "id": "worked-example",
+        "heading": "Why two candidates with the same percentile can differ",
+        "paragraphs": [
+          "Imagine two applicants with the same CAT percentile but different academic records or recognised work experience. A policy using those inputs can give them different composite scores. If their categories or programmes differ, the applicable screening rules may also differ.",
+          "This explains why a one-number call predictor is incomplete. It does not mean a weak academic component makes every programme impossible; build a programme-specific shortlist using the actual rules."
+        ]
+      },
+      {
+        "id": "after-shortlist",
+        "heading": "What to do after a shortlist or offer",
+        "paragraphs": [
+          "Read the institution’s communication in full. Track assessment registration, document submission, interview scheduling and any acceptance deadlines separately. A CAT application does not mean every subsequent action is automatic.",
+          "Prepare to explain your academic and work background accurately and support claims with documents. If an offer is provisional, list each outstanding condition and its deadline. Follow payment and acceptance instructions only through the institution’s verified channels."
+        ]
+      }
     ],
     "faqs": [
       {
-        "q": "Is this IIMs information final?",
-        "a": "Fact-heavy details should be verified from official sources before decisions are made."
+        "q": "Do all IIMs use the same selection formula?",
+        "a": "No. Read each programme’s current policy for shortlisting and final selection."
+      },
+      {
+        "q": "Is work experience compulsory for every IIM programme?",
+        "a": "Do not generalise. Check the target programme’s eligibility and its definition of eligible work experience."
+      },
+      {
+        "q": "Does a minimum CAT cutoff guarantee admission?",
+        "a": "No. Screening, shortlisting, assessment and final selection are separate stages."
+      },
+      {
+        "q": "Which policy year should I read for CAT 2026?",
+        "a": "Read the policy for the admission intake that uses CAT 2026, and confirm this explicitly in the document."
       }
+    ],
+    "related": [
+      "/cat-2026/cutoff/",
+      "/cat-2026/eligibility/",
+      "/iim/",
+      "/cat-2026/"
+    ],
+    "sourceNotes": [
+      "Official sources were checked on 7 October 2026. Later dated notices take precedence over the original bulletin where a deadline has changed. Study plans and worked examples are editorial guidance, not official exam rules."
+    ],
+    "sourceLinks": [
+      [
+        "CAT 2026 Information Bulletin: eligibility, fees, admissions and score validity",
+        "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT2026InformationBulletin_26-07-2026_V2.pdf"
+      ],
+      [
+        "IIM Ahmedabad: domestic PGP 2027–29 admission policy",
+        "https://www.iima.ac.in/academics/mba/admissions/indians"
+      ]
     ]
   }
 ];
