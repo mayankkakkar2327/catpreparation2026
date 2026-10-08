@@ -12,6 +12,7 @@ function localPage(p){
  const bits=p.slug.split('/'); const city=bits[1], id=bits[2];
  const entries=evidence.centres.filter(x=>x.city===city&&x.id===id);
  if(!entries.length) throw new Error('Missing centre evidence: '+p.slug);
+ if(p.verifiedResearch) return p;
  const c=providers.find(x=>x.id===id); const name=entries[0].name;
  let extra=[];
  if(id==='gradsquare')extra=[{id:'fees',heading:'CAT 2026 course price',paragraphs:['GradSquare lists its CAT 2026 classroom and online courses at ₹45,000 plus 18% GST, giving a calculated total of ₹53,100 each. Personalised tuition is price on request. These are teaching-course prices, not mock-only fees.'],links:[['Official course and price page',entries[0].source]]}];
