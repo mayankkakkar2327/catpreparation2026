@@ -43,7 +43,7 @@
         const cardMode = card.dataset.mode || "";
         const cities = card.dataset.cities || "";
         const show = (!query || names.includes(query) || cities.includes(query)) &&
-          (!selectedMode || cardMode === selectedMode || (selectedMode === "online" && cities.includes("online"))) &&
+          (!selectedMode || cardMode === selectedMode || (selectedMode === "online" && cardMode === "hybrid") || (selectedMode === "offline" && cardMode === "hybrid")) &&
           (!selectedCity || cities.includes(selectedCity));
         card.hidden = !show;
         if (show) visible += 1;

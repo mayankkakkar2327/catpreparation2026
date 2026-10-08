@@ -1,0 +1,756 @@
+{
+  "checked": "2026-10-08",
+  "providers": [
+    {
+      "id": "rodha",
+      "name": "Rodha",
+      "slug": "rodha",
+      "mode": "online",
+      "sourceUrls": [
+        "https://www.rodha.co.in/s/store/courses/CAT%202026"
+      ],
+      "summary": "The CAT 2026 catalogue separates comprehensive batches, crash courses and section courses. English and Hinglish packages have different inclusions.",
+      "bestFor": [
+        "Compare batch language and remaining syllabus"
+      ],
+      "limitation": "Booster and crash packages are not equivalent to a full foundation course.",
+      "offers": [
+        {
+          "name": "CAT 2026 Crash: Quant, LRDI, VARC + XAT/SNAP/NMAT",
+          "kind": "Crash course",
+          "price": "₹19,999",
+          "tax": "Tax treatment not stated in catalogue",
+          "url": "https://www.rodha.co.in/s/store/courses/CAT%202026"
+        },
+        {
+          "name": "R8 CAT 2026 Hinglish all three sections",
+          "kind": "Comprehensive fast-paced course",
+          "price": "₹24,999",
+          "tax": "Confirm tax and access validity at checkout",
+          "url": "https://www.rodha.co.in/s/store/courses/CAT%202026"
+        }
+      ],
+      "active": true,
+      "cities": [],
+      "courseTypes": [
+        "online"
+      ],
+      "officialFeeNote": "CAT 2026 Crash: Quant, LRDI, VARC + XAT/SNAP/NMAT: ₹19,999 (crash course)",
+      "lastVerifiedAt": "8 October 2026"
+    },
+    {
+      "id": "ims",
+      "name": "IMS",
+      "slug": "ims",
+      "mode": "hybrid",
+      "sourceUrls": [
+        "https://www.imsindia.com/",
+        "https://www.imsindia.com/simcat-ultimate-2026/"
+      ],
+      "summary": "IMS lists classroom preparation, CATapult self-study and SimCAT test packages. The 30-SimCAT and 40-SimCAT variants should be compared separately.",
+      "bestFor": [
+        "Classroom or self-study with separately specified mocks"
+      ],
+      "limitation": "A SimCAT price is not the price of classroom coaching.",
+      "offers": [
+        {
+          "name": "SimCAT Core 2026 — 30 SimCATs",
+          "kind": "Test series only",
+          "price": "₹5,950 + ₹1,071 GST = ₹7,021",
+          "tax": "GST included in calculated total",
+          "url": "https://www.imsindia.com/"
+        },
+        {
+          "name": "CATapult self-learning — 30 SimCAT variant",
+          "kind": "Self-study course",
+          "price": "₹15,750 + ₹2,835 GST = ₹18,585",
+          "tax": "GST included in calculated total",
+          "url": "https://www.imsindia.com/"
+        }
+      ],
+      "active": true,
+      "cities": [
+        "ahmedabad",
+        "bangalore",
+        "chennai",
+        "delhi",
+        "hyderabad",
+        "kolkata",
+        "mumbai",
+        "patna",
+        "pune"
+      ],
+      "courseTypes": [
+        "online",
+        "classroom"
+      ],
+      "officialFeeNote": "SimCAT Core 2026 — 30 SimCATs: ₹5,950 + ₹1,071 GST = ₹7,021 (test series only)",
+      "lastVerifiedAt": "8 October 2026"
+    },
+    {
+      "id": "time",
+      "name": "T.I.M.E.",
+      "slug": "time",
+      "mode": "hybrid",
+      "sourceUrls": [
+        "https://timecore.time4education.com/CAT-Correspondence",
+        "https://time4education.com/landingpage_enquiry/catchennai/catchennaifb.html"
+      ],
+      "summary": "T.I.M.E. lists CAT self-study packages; its Chennai page also advertises classroom and live online preparation.",
+      "bestFor": [
+        "Compare AIMCAT inclusions and delivery format"
+      ],
+      "limitation": "Self-study material pricing does not establish classroom fees.",
+      "offers": [
+        {
+          "name": "CAT 2026 Self Study Regular",
+          "kind": "Self-study course",
+          "price": "₹12,250",
+          "tax": "Including GST",
+          "url": "https://timecore.time4education.com/CAT-Correspondence"
+        }
+      ],
+      "active": true,
+      "cities": [],
+      "courseTypes": [
+        "online",
+        "classroom"
+      ],
+      "officialFeeNote": "CAT 2026 Self Study Regular: ₹12,250 (self-study course)",
+      "lastVerifiedAt": "8 October 2026"
+    },
+    {
+      "id": "career-launcher",
+      "name": "Career Launcher",
+      "slug": "career-launcher",
+      "mode": "hybrid",
+      "sourceUrls": [
+        "https://www.careerlauncher.com/cat-mba/"
+      ],
+      "summary": "Career Launcher offers classroom, online and test-series routes for CAT preparation. Local branches require their own batch and faculty checks.",
+      "bestFor": [
+        "Students comparing a local branch with online delivery"
+      ],
+      "limitation": "Obtain a branch-specific quote; no single current national fee is verified here.",
+      "offers": [],
+      "active": true,
+      "cities": [
+        "bangalore",
+        "delhi",
+        "hyderabad",
+        "pune"
+      ],
+      "courseTypes": [
+        "online",
+        "classroom"
+      ],
+      "officialFeeNote": "Current package fee not verified; request a written quote.",
+      "lastVerifiedAt": "8 October 2026"
+    },
+    {
+      "id": "cracku",
+      "name": "Cracku",
+      "slug": "cracku",
+      "mode": "online",
+      "sourceUrls": [
+        "https://cracku.in/cat-2026-course"
+      ],
+      "summary": "Cracku lists CAT crash and MBA entrance packages with daily classes, practice targets and mentorship. The course page states validity through January 2027.",
+      "bestFor": [
+        "Scheduled online practice and a crash-course timetable"
+      ],
+      "limitation": "Check how much of the batch is already recorded and what OMET coverage the selected package includes.",
+      "offers": [
+        {
+          "name": "CAT 2026 Crash Course",
+          "kind": "Crash course",
+          "price": "₹16,999",
+          "tax": "Confirm taxes at checkout",
+          "url": "https://cracku.in/cat-2026-course"
+        },
+        {
+          "name": "MBA 2026 Course",
+          "kind": "MBA entrance course",
+          "price": "₹19,999",
+          "tax": "Confirm taxes at checkout",
+          "url": "https://cracku.in/cat-2026-course"
+        }
+      ],
+      "active": true,
+      "cities": [],
+      "courseTypes": [
+        "online"
+      ],
+      "officialFeeNote": "CAT 2026 Crash Course: ₹16,999 (crash course)",
+      "lastVerifiedAt": "8 October 2026"
+    },
+    {
+      "id": "2iim",
+      "name": "2IIM",
+      "slug": "2iim",
+      "mode": "hybrid",
+      "sourceUrls": [
+        "https://www.2iim.com/"
+      ],
+      "summary": "2IIM offers live online, self-paced and Chennai classroom routes. Its Test Dojo is a separate mock-test product.",
+      "bestFor": [
+        "Choose between self-paced study, live classes and Chennai classroom"
+      ],
+      "limitation": "Confirm exam year: the site displays both 2026 and 2027 programmes.",
+      "offers": [
+        {
+          "name": "CAT 2026 Percentile Booster live online",
+          "kind": "Crash course",
+          "price": "₹55,000",
+          "tax": "Including GST",
+          "url": "https://www.2iim.com/"
+        },
+        {
+          "name": "CAT 2026 self-paced without books",
+          "kind": "Self-study course",
+          "price": "₹36,000",
+          "tax": "Including GST",
+          "url": "https://www.2iim.com/"
+        },
+        {
+          "name": "Test Dojo CAT 2026",
+          "kind": "Test series only",
+          "price": "₹1,499",
+          "tax": "Including GST",
+          "url": "https://www.2iim.com/"
+        }
+      ],
+      "active": true,
+      "cities": [
+        "chennai"
+      ],
+      "courseTypes": [
+        "online",
+        "classroom"
+      ],
+      "officialFeeNote": "CAT 2026 Percentile Booster live online: ₹55,000 (crash course)",
+      "lastVerifiedAt": "8 October 2026"
+    },
+    {
+      "id": "iquanta",
+      "name": "iQuanta",
+      "slug": "iquanta",
+      "mode": "online",
+      "sourceUrls": [
+        "https://www.iquanta.in/"
+      ],
+      "summary": "iQuanta describes live concept and application classes, expert doubt support, mocks and mentoring. Its support is not accurately described as peer-only.",
+      "bestFor": [
+        "Evaluate concept classes alongside application practice"
+      ],
+      "limitation": "Support speed and teaching effectiveness have not been independently tested; request a current demo.",
+      "offers": [],
+      "active": true,
+      "cities": [],
+      "courseTypes": [
+        "online"
+      ],
+      "officialFeeNote": "Current package fee not verified; request a written quote.",
+      "lastVerifiedAt": "8 October 2026"
+    },
+    {
+      "id": "elites-grid",
+      "name": "Elites Grid",
+      "slug": "elites-grid",
+      "mode": "online",
+      "sourceUrls": [
+        "https://www.elitesgrid.com/"
+      ],
+      "summary": "Elites Grid advertises live classes, recordings, mock analytics and mentoring for CAT.",
+      "bestFor": [
+        "A scheduled live batch with recordings"
+      ],
+      "limitation": "The course catalogue did not load reliably during this review, so current fees and batch inclusions remain unverified.",
+      "offers": [],
+      "active": true,
+      "cities": [],
+      "courseTypes": [
+        "online"
+      ],
+      "officialFeeNote": "Current package fee not verified; request a written quote.",
+      "lastVerifiedAt": "8 October 2026"
+    },
+    {
+      "id": "catking",
+      "name": "CATKing",
+      "slug": "catking",
+      "mode": "hybrid",
+      "sourceUrls": [
+        "https://catking.in/",
+        "https://catking.in/offline-centers"
+      ],
+      "summary": "CATKing lists online preparation and a Mumbai-region classroom directory covering Andheri, Borivali and Thane.",
+      "bestFor": [
+        "Compare a named online package or Mumbai classroom"
+      ],
+      "limitation": "Package labels and mock totals need checking; do not treat all practice tests as full-length CAT mocks.",
+      "offers": [
+        {
+          "name": "CAT 2026 Self Study",
+          "kind": "Self-study course",
+          "price": "₹7,999",
+          "tax": "Confirm taxes and inclusions at checkout",
+          "url": "https://catking.in/"
+        },
+        {
+          "name": "CAT Mocks",
+          "kind": "Test series only",
+          "price": "₹2,999",
+          "tax": "Confirm exam year and taxes at checkout",
+          "url": "https://catking.in/"
+        }
+      ],
+      "active": true,
+      "cities": [
+        "mumbai"
+      ],
+      "courseTypes": [
+        "online",
+        "classroom"
+      ],
+      "officialFeeNote": "CAT 2026 Self Study: ₹7,999 (self-study course)",
+      "lastVerifiedAt": "8 October 2026"
+    },
+    {
+      "id": "endeavor",
+      "name": "Endeavor Careers",
+      "slug": "endeavor",
+      "mode": "unverified",
+      "sourceUrls": [
+        "https://www.endeavorcareers.com/"
+      ],
+      "summary": "The official website describes CAT classroom and online teaching but still displays older batch announcements. A current CAT 2026 intake was not established in this review.",
+      "bestFor": [
+        "Request a current dated programme brochure"
+      ],
+      "limitation": "Excluded from current course shortlists until a current batch, fee and delivery location are confirmed.",
+      "offers": [],
+      "active": false,
+      "cities": [],
+      "courseTypes": [],
+      "officialFeeNote": "Current package fee not verified; request a written quote.",
+      "lastVerifiedAt": "8 October 2026"
+    },
+    {
+      "id": "mba-guru",
+      "name": "MBA Guru",
+      "slug": "mba-guru",
+      "mode": "hybrid",
+      "sourceUrls": [
+        "https://mbaguru.in/",
+        "https://mbaguru.in/cat-online-coaching-fees/"
+      ],
+      "summary": "MBA Guru describes adaptive assessment and modules for CAT, with classroom locations in Delhi and an online course offering.",
+      "bestFor": [
+        "Ask how diagnostic results change your assignments"
+      ],
+      "limitation": "Adaptive learning is a provider description, not independently measured improvement.",
+      "offers": [],
+      "active": true,
+      "cities": [
+        "delhi"
+      ],
+      "courseTypes": [
+        "online",
+        "classroom"
+      ],
+      "officialFeeNote": "Current package fee not verified; request a written quote.",
+      "lastVerifiedAt": "8 October 2026"
+    },
+    {
+      "id": "alchemist",
+      "name": "Alchemist",
+      "slug": "alchemist",
+      "mode": "hybrid",
+      "sourceUrls": [
+        "https://www.alchemistindia.com/"
+      ],
+      "summary": "Alchemist describes assessment-led preparation with online, offline and video options plus faculty and mentor support.",
+      "bestFor": [
+        "Ask for the individual study plan before enrolling"
+      ],
+      "limitation": "Specific operating centres and current batch fees need direct confirmation; none are asserted in our city tables.",
+      "offers": [],
+      "active": true,
+      "cities": [],
+      "courseTypes": [
+        "online",
+        "classroom"
+      ],
+      "officialFeeNote": "Current package fee not verified; request a written quote.",
+      "lastVerifiedAt": "8 October 2026"
+    },
+    {
+      "id": "tathagat",
+      "name": "Tathagat",
+      "slug": "tathagat",
+      "mode": "hybrid",
+      "sourceUrls": [
+        "https://tathagat.co.in/Cat2026Classes"
+      ],
+      "summary": "TathaGat advertises CAT 2026 classroom and online programmes. Its different package pages show different prices and inclusions.",
+      "bestFor": [
+        "Compare the exact Classic or online package"
+      ],
+      "limitation": "No uniform fee is quoted here because package pages differ; request the programme name and written total.",
+      "offers": [],
+      "active": true,
+      "cities": [],
+      "courseTypes": [
+        "online",
+        "classroom"
+      ],
+      "officialFeeNote": "Current package fee not verified; request a written quote.",
+      "lastVerifiedAt": "8 October 2026"
+    },
+    {
+      "id": "hitbullseye",
+      "name": "Hitbullseye",
+      "slug": "hitbullseye",
+      "mode": "hybrid",
+      "sourceUrls": [
+        "https://mba.hitbullseye.com/"
+      ],
+      "summary": "Hitbullseye describes online learning and physical centres in Chandigarh, Ludhiana, Patiala, Ambala and Yamunanagar. It is not online-only.",
+      "bestFor": [
+        "Online access or a separately confirmed listed physical centre"
+      ],
+      "limitation": "Those physical cities are outside the nine city guides reviewed here; online access does not prove a local branch.",
+      "offers": [],
+      "active": true,
+      "cities": [],
+      "courseTypes": [
+        "online",
+        "classroom"
+      ],
+      "officialFeeNote": "Current package fee not verified; request a written quote.",
+      "lastVerifiedAt": "8 October 2026"
+    },
+    {
+      "id": "unacademy-cat",
+      "name": "Unacademy CAT",
+      "slug": "unacademy-cat",
+      "mode": "online",
+      "sourceUrls": [
+        "https://unacademy.com/goal/cat-other-mba-entrance-tests/XNDUS"
+      ],
+      "summary": "Unacademy groups CAT and other MBA entrance preparation by educator and batch.",
+      "bestFor": [
+        "Compare the actual educator timetable and subscription"
+      ],
+      "limitation": "Subscription duration and batch access matter more than a generic platform price; current checkout total is not verified.",
+      "offers": [],
+      "active": true,
+      "cities": [],
+      "courseTypes": [
+        "online"
+      ],
+      "officialFeeNote": "Current package fee not verified; request a written quote.",
+      "lastVerifiedAt": "8 October 2026"
+    },
+    {
+      "id": "pw-mba",
+      "name": "Physics Wallah MBA",
+      "slug": "pw-mba",
+      "mode": "online",
+      "sourceUrls": [
+        "https://www.pw.live/mba"
+      ],
+      "summary": "PW MBA lists MBA entrance preparation, including CAT and other entrance exams.",
+      "bestFor": [
+        "Choose a named batch for the correct exam year"
+      ],
+      "limitation": "Do not infer that every batch includes all MBA exams or that a low-priced section product is a complete course.",
+      "offers": [],
+      "active": true,
+      "cities": [],
+      "courseTypes": [
+        "online"
+      ],
+      "officialFeeNote": "Current package fee not verified; request a written quote.",
+      "lastVerifiedAt": "8 October 2026"
+    },
+    {
+      "id": "erudite",
+      "name": "Erudite",
+      "slug": "erudite",
+      "mode": "hybrid",
+      "sourceUrls": [
+        "https://erudite.in/cat-classroom-course-in-kolkata/"
+      ],
+      "summary": "Erudite describes classroom and blended CAT preparation in Kolkata.",
+      "bestFor": [
+        "Compare a Kolkata classroom batch and its blended access"
+      ],
+      "limitation": "Confirm the teaching branch and current batch quote; the head-office address alone does not establish class timing.",
+      "offers": [],
+      "active": true,
+      "cities": [
+        "kolkata"
+      ],
+      "courseTypes": [
+        "online",
+        "classroom"
+      ],
+      "officialFeeNote": "Current package fee not verified; request a written quote.",
+      "lastVerifiedAt": "8 October 2026"
+    },
+    {
+      "id": "ascent-education",
+      "name": "Ascent Education",
+      "slug": "ascent-education",
+      "mode": "related listing",
+      "sourceUrls": [
+        "https://www.ascenteducation.com/"
+      ],
+      "summary": "Ascent’s CAT section directs visitors to 2IIM. It should not be counted as an additional independent CAT option alongside 2IIM.",
+      "bestFor": [
+        "Use the 2IIM profile for CAT course comparison"
+      ],
+      "limitation": "Retained as a clarification page, excluded from CAT shortlists.",
+      "offers": [],
+      "active": false,
+      "cities": [],
+      "courseTypes": [],
+      "officialFeeNote": "Current package fee not verified; request a written quote.",
+      "lastVerifiedAt": "8 October 2026"
+    },
+    {
+      "id": "proton-training",
+      "name": "Proton Training Solutions",
+      "slug": "proton-training",
+      "mode": "unverified",
+      "sourceUrls": [
+        "http://www.protons.in"
+      ],
+      "summary": "A current CAT 2026 programme and working official course page could not be verified. This does not establish that the institute has closed.",
+      "bestFor": [
+        "Request a current official course page and brochure"
+      ],
+      "limitation": "Historical listings are insufficient to confirm current fees, locations or delivery mode.",
+      "offers": [],
+      "active": false,
+      "cities": [],
+      "courseTypes": [],
+      "officialFeeNote": "Current package fee not verified; request a written quote.",
+      "lastVerifiedAt": "8 October 2026"
+    },
+    {
+      "id": "mentors-eduserv",
+      "name": "Mentors Eduserv",
+      "slug": "mentors-eduserv",
+      "mode": "unverified",
+      "sourceUrls": [
+        "https://www.mentorsedu.com/"
+      ],
+      "summary": "The reviewed official site promotes JEE, NEET and school programmes. A current CAT course was not found.",
+      "bestFor": [
+        "For CAT in Patna, use a provider with a confirmed CAT listing"
+      ],
+      "limitation": "This is an evidence gap about CAT provision, not a judgment on its other programmes.",
+      "offers": [],
+      "active": false,
+      "cities": [],
+      "courseTypes": [],
+      "officialFeeNote": "Current package fee not verified; request a written quote.",
+      "lastVerifiedAt": "8 October 2026"
+    }
+  ],
+  "centres": [
+    {
+      "id": "ims",
+      "name": "IMS",
+      "city": "delhi",
+      "area": "Connaught Place",
+      "address": "UGF, Kanchenjunga Building, Barakhamba Road, near Metro Gate 3",
+      "source": "https://www.imsindia.com/center/delhi/",
+      "phone": "7045127127",
+      "local": false
+    },
+    {
+      "id": "ims",
+      "name": "IMS",
+      "city": "mumbai",
+      "area": "Andheri West",
+      "address": "Flat 3, first floor, Madhaveshwar CHS, above Merwans Cake Shop, SV Road",
+      "source": "https://www.imsindia.com/center/mumbai/",
+      "phone": "9167127127",
+      "local": true
+    },
+    {
+      "id": "ims",
+      "name": "IMS",
+      "city": "bangalore",
+      "area": "Jayanagar",
+      "address": "2235, second floor, 27th Cross, 11th Main, third Block, above Kaya Clinic",
+      "source": "https://www.imsindia.com/center/bangalore/",
+      "phone": "8657552053",
+      "local": true
+    },
+    {
+      "id": "ims",
+      "name": "IMS",
+      "city": "pune",
+      "area": "Aundh",
+      "address": "Office 5, second floor, Business Avenue, DP Road",
+      "source": "https://www.imsindia.com/center/pune/",
+      "phone": "9960957975",
+      "local": true
+    },
+    {
+      "id": "ims",
+      "name": "IMS",
+      "city": "hyderabad",
+      "area": "Punjagutta",
+      "address": "Third floor, Bhans Aarohan Plaza, H No. 6-3-678/130",
+      "source": "https://www.imsindia.com/center/hyderabad/",
+      "phone": "8655654207",
+      "local": true
+    },
+    {
+      "id": "ims",
+      "name": "IMS",
+      "city": "kolkata",
+      "area": "Park Street",
+      "address": "Rooms 6A/6B, ground floor, Shri Manjari, 1/1 Camac Street",
+      "source": "https://www.imsindia.com/center/kolkata/",
+      "phone": "8291895027",
+      "local": true
+    },
+    {
+      "id": "ims",
+      "name": "IMS",
+      "city": "chennai",
+      "area": "Adyar",
+      "address": "Southern second floor, KR Buildings, old 124A/new 12, LB Road",
+      "source": "https://www.imsindia.com/center/chennai/",
+      "phone": "9500122125",
+      "local": false
+    },
+    {
+      "id": "ims",
+      "name": "IMS",
+      "city": "ahmedabad",
+      "area": "University Road",
+      "address": "202/203 Vishwanath Northview, beside Regional Passport Office, Gujarat University Road",
+      "source": "https://www.imsindia.com/center/ahmedabad/",
+      "phone": "7041774887",
+      "local": true
+    },
+    {
+      "id": "ims",
+      "name": "IMS",
+      "city": "patna",
+      "area": "Fraser Road",
+      "address": "301 Hem Plaza, opposite Jagat Trade Center, near Centro Mall",
+      "source": "https://www.imsindia.com/center/patna/",
+      "phone": "6200424227",
+      "local": false
+    },
+    {
+      "id": "career-launcher",
+      "name": "Career Launcher",
+      "city": "delhi",
+      "area": "Connaught Place",
+      "address": "A18 Middle Circle, Rama House",
+      "source": "https://www.careerlauncher.com/delhi/",
+      "phone": "9289911842",
+      "local": true
+    },
+    {
+      "id": "career-launcher",
+      "name": "Career Launcher",
+      "city": "bangalore",
+      "area": "Indiranagar",
+      "address": "No. 241, second floor, sixth Cross, first Stage, CMH Road, above Positive Homeopathy",
+      "source": "https://www.careerlauncher.com/bangalore/indiranagar/",
+      "phone": "7899723611",
+      "local": true
+    },
+    {
+      "id": "career-launcher",
+      "name": "Career Launcher",
+      "city": "hyderabad",
+      "area": "Madhapur",
+      "address": "Sri Sai Nilayam, Flat 301, A Block, Image Hospital Lane, Vittal Rao Nagar",
+      "source": "https://www.careerlauncher.com/hyderabad/cat-coaching-hyderabad/",
+      "phone": "8367095274",
+      "local": true
+    },
+    {
+      "id": "career-launcher",
+      "name": "Career Launcher",
+      "city": "pune",
+      "area": "FC Road",
+      "address": "Offices 1/2, third floor, Land Square Shopping Complex, above Fastrack, near Rupali, Shivajinagar",
+      "source": "https://www.careerlauncher.com/pune/",
+      "phone": "8484820200",
+      "local": true
+    },
+    {
+      "id": "mba-guru",
+      "name": "MBA Guru",
+      "city": "delhi",
+      "area": "Connaught Place",
+      "address": "P11/90, first floor, Outer Circle",
+      "source": "https://mbaguru.in/contact/",
+      "phone": "9311067486",
+      "local": true
+    },
+    {
+      "id": "catking",
+      "name": "CATKing",
+      "city": "mumbai",
+      "area": "Andheri East",
+      "address": "Office 201, second floor, Vertex Vikas Building",
+      "source": "https://catking.in/offline-centers",
+      "phone": "8999118999",
+      "local": true
+    },
+    {
+      "id": "2iim",
+      "name": "2IIM",
+      "city": "chennai",
+      "area": "Adyar",
+      "address": "First floor, Amaldaz Heights, new 23, Adyar Bridge Road",
+      "source": "https://www.2iim.com/chennai/adyar.shtml",
+      "phone": "9962648484",
+      "local": true
+    },
+    {
+      "id": "gradsquare",
+      "name": "GradSquare",
+      "city": "chennai",
+      "area": "Tambaram",
+      "address": "109A, second floor, Siva Shanmugham Road, above Shanthi Super Market",
+      "source": "https://gradsqr.com/cat-coaching/",
+      "phone": "9282442221",
+      "local": true
+    },
+    {
+      "id": "erudite",
+      "name": "Erudite",
+      "city": "kolkata",
+      "area": "Camac Street (head office)",
+      "address": "Second floor, Mansarovar Apartment, 3B Camac Street",
+      "source": "https://erudite.in/cat-classroom-course-in-kolkata/",
+      "phone": "",
+      "local": true
+    },
+    {
+      "id": "ekoching",
+      "name": "Ekoching",
+      "city": "ahmedabad",
+      "area": "Vastrapur",
+      "address": "301 Sunrise Mall, near Mansi Circle",
+      "source": "https://ekoching.com/Offline-Classes/",
+      "phone": "9974127618",
+      "local": true
+    }
+  ]
+}
