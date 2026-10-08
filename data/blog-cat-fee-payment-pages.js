@@ -2474,4 +2474,7 @@ latestArticles.table.rows.unshift([kolkataGuide.title, kolkataGuide.description,
 const ahmedabadGuide = require("./city-institute-pages").find(page => page.slug === "blog/best-cat-coaching-in-ahmedabad");
 latestArticles.table.rows.unshift([ahmedabadGuide.title, ahmedabadGuide.description, { label: "Read article", href: "/blog/best-cat-coaching-in-ahmedabad/" }]);
 
+const bangaloreGuide = require("./city-institute-pages").find(page => page.slug === "blog/best-cat-coaching-in-bangalore");
+latestArticles.table.rows.unshift([bangaloreGuide.title, bangaloreGuide.description, { label: "Read article", href: "/blog/best-cat-coaching-in-bangalore/" }]);
+
 module.exports = [index, snapBenefitsArticle, varc40MinuteArticle, last60DaysArticle, jbimsArticle, lrdiArticle, iimaPlacementArticle, varcArticle, quantArticle, xatArticle, rodhaArticle, feeArticle, ...priorPages.filter((page) => page.slug !== "blog")];
