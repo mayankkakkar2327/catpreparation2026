@@ -751,6 +751,26 @@
       "source": "https://ekoching.com/Offline-Classes/",
       "phone": "9974127618",
       "local": true
+    },
+    {
+      "id": "time",
+      "name": "T.I.M.E.",
+      "city": "bangalore",
+      "area": "BTM",
+      "address": "Street address not verified; request the current classroom map pin before visiting.",
+      "phone": "8861786527",
+      "source": "https://time4education.com/landingpage_enquiry/catbangalore.html",
+      "local": true
+    },
+    {
+      "id": "elite-iit",
+      "name": "Elite IIT",
+      "city": "bangalore",
+      "area": "Jayanagar",
+      "address": "63, 41st Cross, 2nd Main Road, 8th Block, Jayanagar",
+      "phone": "08050506222",
+      "source": "https://eliteiit.com/admissions-2/",
+      "local": true
     }
   ]
 }
