@@ -3002,5 +3002,499 @@ module.exports = [
         "a": "No. Ask the provider for current eligibility, validity and a written final price."
       }
     ]
+  },
+  {
+    "slug": "cat-coaching/bangalore/time",
+    "title": "T.I.M.E. Bangalore: CAT Courses, Contacts and Fee Questions",
+    "section": "Bengaluru CAT coaching research",
+    "description": "Check T.I.M.E. Bengaluru CAT 2027 course disclosures, branch contacts, AIMCAT inclusions and questions to ask before enrolling.",
+    "answer": "T.I.M.E.’s Bengaluru campaign advertises classroom and live-online CAT 2027 preparation. Its published contacts cover eight city areas; obtain a branch-specific timetable and quotation.",
+    "body": [
+      "Official sources reviewed on 8 October 2026. Course features are provider disclosures, not independently tested service guarantees. Confirm current availability and the final quotation directly."
+    ],
+    "sections": [
+      {
+        "id": "contact",
+        "heading": "Bengaluru branch contacts",
+        "paragraphs": [
+          "The official campaign gives bangalore@time4education.com and these branch numbers. Street addresses were not established from this campaign; request the current classroom map pin before visiting."
+        ],
+        "links": [
+          [
+            "Official Bengaluru campaign",
+            "https://time4education.com/landingpage_enquiry/catbangalore.html"
+          ]
+        ],
+        "table": {
+          "headers": [
+            "Area",
+            "Published phone"
+          ],
+          "rows": [
+            [
+              "BTM",
+              "8861786527"
+            ],
+            [
+              "Indiranagar",
+              "8861786545"
+            ],
+            [
+              "Jayanagar",
+              "8861786508"
+            ],
+            [
+              "Koramangala",
+              "8861786503"
+            ],
+            [
+              "Malleshwaram",
+              "8861786506"
+            ],
+            [
+              "Marathahalli",
+              "8861786519"
+            ],
+            [
+              "Yelahanka",
+              "8861786509"
+            ],
+            [
+              "Electronic City",
+              "8147636768"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "course",
+        "heading": "Published CAT 2027 inclusions",
+        "paragraphs": [
+          "The programme table lists 120 two-hour sessions, physical materials, in-person/online doubts and mentoring, GWPI support, 55 AIMCATs including self-administered tests, and 34 other-management-exam mocks. The campaign also names XAT, SNAP, NMAT, MAT and CMAT."
+        ],
+        "links": [
+          [
+            "Official course table",
+            "https://time4education.com/landingpage_enquiry/catbangalore.html"
+          ]
+        ]
+      },
+      {
+        "id": "unknown",
+        "heading": "Fees, faculty and batch dates",
+        "paragraphs": [
+          "A current branch fee, start date and named section-wise teaching roster were not established. Ask admissions for a dated, tax-inclusive quote and the teachers allocated to the chosen intake.",
+          "The campaign is labelled CAT 2027. A CAT 2026 student should ask specifically about remaining revision or mock support instead of assuming a full-course purchase fits the available time."
+        ],
+        "links": []
+      },
+      {
+        "id": "fit",
+        "heading": "Who should investigate this option?",
+        "paragraphs": [
+          "Our assessment: this is worth comparing if a listed branch fits your journey and you want a defined teaching and mock schedule. Evaluate the teacher assigned to your weakest section and inspect an actual mock-review session.",
+          "A large test inventory is useful only if you have time to review it. Ask how the mentor identifies a recurring error, chooses corrective practice and checks whether that error has reduced in the next test.",
+          "Get access expiry, missed-class recovery, interview support eligibility and refund terms in writing. Confirm whether self-administered tests and scheduled tests use the same feedback process."
+        ],
+        "links": []
+      },
+      {
+        "id": "links",
+        "heading": "Continue comparing",
+        "paragraphs": [],
+        "links": [
+          [
+            "Bengaluru comparison",
+            "/blog/best-cat-coaching-in-bangalore/"
+          ],
+          [
+            "Bengaluru directory",
+            "/cat-coaching/bangalore/"
+          ],
+          [
+            "T.I.M.E. national profile",
+            "/cat-coaching/time/"
+          ]
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Are all 55 tests scheduled AIMCATs?",
+        "a": "The advertised 55 includes self-administered AIMCATs. Ask for the split and release calendar."
+      },
+      {
+        "q": "Is the current classroom fee verified?",
+        "a": "No current branch-specific final fee was established. Request a written quotation for your exam year and mode."
+      }
+    ],
+    "updated": "2026-10-08",
+    "verifiedResearch": true
+  },
+  {
+    "slug": "cat-coaching/bangalore/elite-iit",
+    "title": "Elite IIT Bangalore: CAT Classes, Branches and Fees",
+    "section": "Bengaluru CAT coaching research",
+    "description": "Explore Elite IIT Bengaluru CAT formats, four branch contacts, faculty disclosures and questions about fees, mocks and batch availability.",
+    "answer": "Elite IIT advertises Bengaluru classroom and online CAT preparation, with weekday, weekend and crash-course formats. Confirm a current CAT intake at your preferred branch before enrolling.",
+    "body": [
+      "Official sources reviewed on 8 October 2026. Course features are provider disclosures, not independently tested service guarantees. Confirm current availability and the final quotation directly."
+    ],
+    "sections": [
+      {
+        "id": "branches",
+        "heading": "Published branch addresses and phones",
+        "paragraphs": [
+          "These details appear on the official admissions page. Confirm the map pin and where your CAT batch will actually meet; a general branch listing does not establish every course’s current timetable."
+        ],
+        "links": [
+          [
+            "Official admissions and branch details",
+            "https://eliteiit.com/admissions-2/"
+          ]
+        ],
+        "table": {
+          "headers": [
+            "Branch",
+            "Published address",
+            "Phone"
+          ],
+          "rows": [
+            [
+              "Jayanagar",
+              "63, 41st Cross, 2nd Main Road, 8th Block",
+              "08050506222"
+            ],
+            [
+              "Koramangala",
+              "3rd Floor, No. 5, Hosur Main Road",
+              "07760763337"
+            ],
+            [
+              "Malleshwaram",
+              "282, Sampige Road, 18th Cross",
+              "07795400014"
+            ],
+            [
+              "Yelahanka",
+              "HIG, 1st Main Road, opposite SBI, New Town",
+              "09880043200"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "course",
+        "heading": "What its CAT page describes",
+        "paragraphs": [
+          "The page describes QA, DILR and VARC teaching, weekly full mocks from the second month, sectional tests, error analysis, printed materials and GDPI/WAT support. It advertises weekday, weekend, three-month crash and online-live formats, with recordings for missed lessons.",
+          "The provider advertises batches below 20 students. We have not independently counted a class or tested its support. The page names Bhoomika B.N. and Usha S. among Quant faculty; the current CAT section-wise assignment needs confirmation."
+        ],
+        "links": [
+          [
+            "Official CAT programme",
+            "https://eliteiit.com/cat-coaching-bangalore/"
+          ]
+        ]
+      },
+      {
+        "id": "fees",
+        "heading": "Fees and current intake checks",
+        "paragraphs": [
+          "The reviewed pages do not provide a numeric current CAT fee or a dated next intake. Admissions says fees are discussed during counselling. Ask for the complete price, taxes, materials, tests, validity and refund conditions.",
+          "Ask for a current syllabus calendar and the mock platform used. Generic or mixed-year exam references should not substitute for the specification of the batch you are buying."
+        ],
+        "links": []
+      },
+      {
+        "id": "fit",
+        "heading": "How to evaluate the small-class proposition",
+        "paragraphs": [
+          "Our assessment: consider a demo if you prefer a local classroom where you can regularly ask questions. Test that preference against the actual class, rather than treating a batch-size claim as proof of teaching quality.",
+          "Meet the VARC and DILR teachers as well as the Quant teacher. Ask each for an example of how a weak mock is converted into a manageable practice plan.",
+          "For a crash course, obtain the remaining live-session calendar. For weekend teaching, decide when you will finish assignments during the week. For online learning, try the doubt-submission process before committing."
+        ],
+        "links": []
+      },
+      {
+        "id": "links",
+        "heading": "Related Bengaluru research",
+        "paragraphs": [],
+        "links": [
+          [
+            "Five-provider comparison",
+            "/blog/best-cat-coaching-in-bangalore/"
+          ],
+          [
+            "Bengaluru directory",
+            "/cat-coaching/bangalore/"
+          ],
+          [
+            "IMS Bengaluru",
+            "/cat-coaching/bangalore/ims/"
+          ]
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does Elite IIT publish a fixed CAT price?",
+        "a": "No numeric current CAT quotation was established from the reviewed pages. Ask admissions for the exact course and batch price."
+      },
+      {
+        "q": "Is the under-20 batch claim independently verified?",
+        "a": "No. It is the provider’s published claim; confirm the actual CAT batch size at the demo."
+      }
+    ],
+    "updated": "2026-10-08",
+    "verifiedResearch": true
+  },
+  {
+    "slug": "blog/best-cat-coaching-in-bangalore",
+    "title": "Best CAT Coaching in Bangalore: 5 Institutes Compared",
+    "section": "Bengaluru CAT coaching research",
+    "description": "Compare IMS, Career Launcher, T.I.M.E., Elite IIT and Pratishtha Edu in Bengaluru by local presence, formats, support and fee transparency.",
+    "answer": "Five Bengaluru CAT coaching providers to investigate are IMS, Career Launcher, T.I.M.E., Elite IIT and Pratishtha Edu. Choose using the assigned teachers, travel time, feedback and written inclusions; this is an unranked shortlist.",
+    "body": [
+      "Official sources reviewed on 8 October 2026. Course features are provider disclosures, not independently tested service guarantees. Confirm current availability and the final quotation directly."
+    ],
+    "sections": [
+      {
+        "id": "method",
+        "heading": "How we selected these five",
+        "paragraphs": [
+          "We reviewed official Bengaluru programme or centre information for five distinct brands. Branches are not counted as separate institutes. Existing IMS and Career Launcher listings provide background; their official city pages were rechecked for this comparison.",
+          "This is not an exhaustive list or an outcome-based ranking. We have not attended classes, audited results or tested support response times. Our suitability comments are questions to investigate, not guarantees. Current fees, teachers and intake availability require direct confirmation."
+        ],
+        "links": []
+      },
+      {
+        "id": "compare",
+        "heading": "Comparison at a glance",
+        "paragraphs": [],
+        "links": [],
+        "table": {
+          "headers": [
+            "Provider",
+            "Local evidence",
+            "Published learning signal",
+            "Check before paying"
+          ],
+          "rows": [
+            [
+              "IMS",
+              "Multiple Bengaluru CAT centres",
+              "Classroom/online, tests and mentoring",
+              "Chosen branch’s teachers and course year"
+            ],
+            [
+              "Career Launcher",
+              "Bengaluru CAT page; Indiranagar centre",
+              "CAT and other MBA entrance preparation",
+              "Actual local timetable and final fee"
+            ],
+            [
+              "T.I.M.E.",
+              "Eight area contacts in city campaign",
+              "CAT 2027 classroom/live-online package",
+              "2026 versus 2027 product and test split"
+            ],
+            [
+              "Elite IIT",
+              "Four branch contacts",
+              "Weekday/weekend/crash and online formats",
+              "Active CAT intake and actual batch size"
+            ],
+            [
+              "Pratishtha Edu",
+              "Official JP Nagar CAT programme description",
+              "Classroom, mocks, mentoring and study space",
+              "Named teachers, fees and course specification"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "ims",
+        "heading": "IMS: compare the CAT branch, not just the brand",
+        "paragraphs": [
+          "IMS’s city page lists CAT centres including Indiranagar, Jayanagar, Koramangala, Malleshwaram, Marathahalli, Electronic City and Yelahanka. It describes classroom and online CAT preparation, allied MBA exams, testing and mentoring. Its faculty pool includes Ritesh Sinha and Prabodh Nistala.",
+          "Our assessment: shortlist a convenient CAT centre, then ask who teaches your batch and how often you can review a mock with a mentor. The city page also lists non-CAT centres, so check the course label before visiting."
+        ],
+        "links": [
+          [
+            "Official city page",
+            "https://www.imsindia.com/center/bangalore/"
+          ],
+          [
+            "Detailed IMS local listing",
+            "/cat-coaching/bangalore/ims/"
+          ]
+        ]
+      },
+      {
+        "id": "cl",
+        "heading": "Career Launcher: inspect the local delivery",
+        "paragraphs": [
+          "Career Launcher maintains a Bengaluru CAT programme page and an Indiranagar centre page. The city programme covers CAT and allied MBA entrance preparation.",
+          "Our assessment: use the branch demo to assess the teaching you will actually receive. Ask for the section-wise roster, dated schedule, tests, missed-class policy and interview-preparation entitlement. A national faculty biography does not establish who teaches locally."
+        ],
+        "links": [
+          [
+            "Official CAT page",
+            "https://www.careerlauncher.com/bangalore/cat-coaching/"
+          ],
+          [
+            "Official Indiranagar centre",
+            "https://www.careerlauncher.com/bangalore/indiranagar/"
+          ],
+          [
+            "Detailed Career Launcher listing",
+            "/cat-coaching/bangalore/career-launcher/"
+          ]
+        ]
+      },
+      {
+        "id": "time",
+        "heading": "T.I.M.E.: match the package to your exam year",
+        "paragraphs": [
+          "The current Bengaluru campaign is labelled CAT 2027 and provides branch contacts across eight areas. Its test total includes self-administered AIMCATs.",
+          "Our assessment: compare a sample analysis session, not just the number of tests. If targeting CAT 2026, ask what revision and feedback are still available rather than assuming a 2027 teaching schedule applies."
+        ],
+        "links": [
+          [
+            "Official Bengaluru campaign",
+            "https://time4education.com/landingpage_enquiry/catbangalore.html"
+          ],
+          [
+            "Detailed T.I.M.E. listing",
+            "/cat-coaching/bangalore/time/"
+          ]
+        ]
+      },
+      {
+        "id": "elite",
+        "heading": "Elite IIT: test the promised classroom experience",
+        "paragraphs": [
+          "Elite IIT advertises CAT formats across its Bengaluru branch network and a small-batch proposition. Its published CAT details cover teaching, tests and interview-stage preparation.",
+          "Our assessment: attend a demo with the assigned teachers and confirm an active CAT batch at your selected venue. Ask for the current mock platform, a sample feedback report and the total price."
+        ],
+        "links": [
+          [
+            "Official CAT page",
+            "https://eliteiit.com/cat-coaching-bangalore/"
+          ],
+          [
+            "Detailed Elite IIT listing",
+            "/cat-coaching/bangalore/elite-iit/"
+          ]
+        ]
+      },
+      {
+        "id": "pratishtha",
+        "heading": "Pratishtha Edu: a JP Nagar option needing a detailed quote",
+        "paragraphs": [
+          "Pratishtha Edu’s official CAT article describes classroom preparation in JP Nagar, regular mocks, mentoring, doubt sessions and access to its library for study. These are provider descriptions, not independently measured service levels.",
+          "We did not establish a current numeric fee, named CAT teacher roster, dated intake or exact test inventory. Our assessment: local students can investigate it through a CAT-specific demo, but should obtain those details before comparing its value with a fully specified package."
+        ],
+        "links": [
+          [
+            "Official JP Nagar CAT offering",
+            "https://pratishthaedu.com/blog/2026/07/30/best-cat-coaching-in-bangalore/"
+          ]
+        ]
+      },
+      {
+        "id": "fees",
+        "heading": "Compare equivalent fees and remaining teaching",
+        "paragraphs": [
+          "No equivalent current classroom quotations were established across all five. Request one dated quote per institute for the same exam year and mode. Include taxes, books, CAT mocks, other-exam mocks, recordings, mentoring, interview support, expiry and cancellation terms.",
+          "A full CAT 2027 course and a late CAT 2026 revision package solve different problems. For a late intake, ask how many live lessons remain and which earlier topics are available only as recordings."
+        ],
+        "links": []
+      },
+      {
+        "id": "travel",
+        "heading": "Build a Bengaluru routine you can sustain",
+        "paragraphs": [
+          "Trial the journey at the actual class time, including the return trip. A centre near work may be convenient on weekdays but awkward at weekends. A nearby option with accessible teachers may fit your routine better than a distant classroom chosen on brand alone.",
+          "Protect independent practice time. Weekend classes still need weekday review; online access is useful only when you can attend, practise and follow up on feedback consistently."
+        ],
+        "links": []
+      },
+      {
+        "id": "demo",
+        "heading": "A practical demo checklist",
+        "paragraphs": [],
+        "links": [],
+        "table": {
+          "headers": [
+            "Ask",
+            "Look for"
+          ],
+          "rows": [
+            [
+              "Who teaches my weakest section?",
+              "A demo with that teacher"
+            ],
+            [
+              "What happens after a weak mock?",
+              "Specific corrective practice and follow-up"
+            ],
+            [
+              "What will I finish before my exam?",
+              "Dated teaching and revision calendar"
+            ],
+            [
+              "How do I get doubts resolved?",
+              "Clear submission and follow-up process"
+            ],
+            [
+              "What does the fee cover?",
+              "Written inclusions, validity and refund terms"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "links",
+        "heading": "Continue your research",
+        "paragraphs": [],
+        "links": [
+          [
+            "Bengaluru directory",
+            "/cat-coaching/bangalore/"
+          ],
+          [
+            "Online alternatives",
+            "/cat-coaching/online/"
+          ],
+          [
+            "Mock-test guide",
+            "/cat-preparation/mock-tests/"
+          ],
+          [
+            "Editorial methodology",
+            "/methodology/"
+          ]
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Which CAT coaching is best in Bangalore?",
+        "a": "There is no universal winner established here. Compare these five using the actual teachers, schedule, travel, feedback and written inclusions."
+      },
+      {
+        "q": "Are the five institutes ranked?",
+        "a": "No. This is an unranked shortlist of distinct providers with official Bengaluru CAT information."
+      },
+      {
+        "q": "Can I compare a 2026 revision price with a 2027 full course?",
+        "a": "Only after accounting for different teaching, support and validity. Request equivalent specifications first."
+      }
+    ],
+    "updated": "2026-10-08",
+    "verifiedResearch": true
   }
 ];
