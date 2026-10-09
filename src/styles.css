@@ -96,3 +96,13 @@ h1{font-size:clamp(48px,6vw,78px)}h2{font-size:clamp(36px,4.2vw,58px)}h3{font-si
 .header-inner{width:min(1340px,calc(100% - 48px));max-width:none}.nav{flex:0 0 auto}
 .hero-compact+.section,.hero-compact+article>.section,article>.hero-compact+.section{padding-top:72px}
 .directory-layout>*{min-width:0;width:100%}
+
+/* Phase 4: crawlable guide navigation and readable disclosure links. */
+.breadcrumbs{padding-top:18px;padding-bottom:18px;font-size:14px;overflow-wrap:anywhere}
+.breadcrumbs ol{display:flex;flex-wrap:wrap;gap:8px;list-style:none;margin:0;padding:0}
+.breadcrumbs li+li::before{content:"/";margin-right:8px;color:#50665a}
+.breadcrumbs a{text-decoration:underline;text-underline-offset:3px}
+.priority-guides{padding-bottom:90px}.priority-guides .feature{min-height:210px}
+.priority-guides+.evidence-strip{margin-top:0}
+.next-steps{padding-top:24px;padding-bottom:32px}
+.form-note a{color:inherit;text-decoration:underline;text-underline-offset:3px}
