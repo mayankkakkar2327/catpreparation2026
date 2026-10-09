@@ -3496,5 +3496,524 @@ module.exports = [
     ],
     "updated": "2026-10-08",
     "verifiedResearch": true
+  },
+  {
+    "slug": "cat-coaching/delhi/ims",
+    "title": "IMS Delhi: CAT Centres, Courses and Fee Checks",
+    "section": "Delhi NCR CAT coaching research",
+    "description": "Research IMS Delhi CAT locations, contacts, faculty disclosures, SimCAT inclusions and current batch questions.",
+    "answer": "IMS lists Delhi CAT centres and classroom, online, self-learning and test-series routes. Confirm the selected branch, exam year, remaining teaching and final fee before enrolling.",
+    "updated": "2026-10-09",
+    "verifiedResearch": true,
+    "body": [
+      "Official sources reviewed on 9 October 2026. Features are provider disclosures; teaching quality, outcomes and current seat availability have not been independently tested."
+    ],
+    "sections": [
+      {
+        "id": "centres",
+        "heading": "Selected official Delhi contacts",
+        "paragraphs": [
+          "The official directory lists these CAT locations. It also lists other exam-specific centres; confirm that the venue you choose runs the CAT batch you need."
+        ],
+        "links": [
+          [
+            "Official Delhi centre directory",
+            "https://www.imsindia.com/center/delhi/"
+          ]
+        ],
+        "table": {
+          "headers": [
+            "Area",
+            "Address",
+            "Contact"
+          ],
+          "rows": [
+            [
+              "Connaught Place",
+              "Upper Ground Floor, Kanchenjunga Building, Barakhamba Road, near Metro Gate 3",
+              "7045127127; delhi@imsindia.com"
+            ],
+            [
+              "Dwarka",
+              "C-404, second floor, Ramphal Chowk, Sector 7",
+              "01145005115 / 8291899621; dwarka@imsindia.com"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "course",
+        "heading": "Programme and mock-test disclosures",
+        "paragraphs": [
+          "The Delhi campaign describes classroom, live-online, self-learning and test-series products. Its CAT 2026 programme lists 300+ teaching hours, video learning, mentoring and GDPI support. The advertised 110+ mocks combines 40+ SimCATs with 70 other-management-admission tests; it is not 110 CAT-only tests.",
+          "The E-CATAPULT 2026 block retains a CAT 2025 sentence. Ask for the actual access year and expiry rather than relying on a heading alone."
+        ],
+        "links": [
+          [
+            "Official Delhi course campaign",
+            "https://www.imsindia.com/campaign/cat-coaching-delhi.html"
+          ]
+        ]
+      },
+      {
+        "id": "faculty",
+        "heading": "Faculty and assignment",
+        "paragraphs": [
+          "The city page names Aman Verma for Quant/LRDI and Lovesh Arora for verbal, among others. A published faculty pool does not establish who teaches your specific intake."
+        ],
+        "links": [
+          [
+            "Official mentor information",
+            "https://www.imsindia.com/center/delhi/"
+          ]
+        ]
+      },
+      {
+        "id": "fees",
+        "heading": "Fees and new-batch availability",
+        "paragraphs": [
+          "A current branch-specific classroom price and dated next intake were not established from these sources. Request a written quote identifying tax, books, CAT mocks, other-exam mocks, mentoring and interview support.",
+          "For a late CAT 2026 enrolment, ask how much teaching remains live and what must be recovered from recordings. A full programme description does not mean all advertised hours will take place after you join."
+        ],
+        "links": []
+      },
+      {
+        "id": "fit",
+        "heading": "Our assessment: inspect the feedback you will use",
+        "paragraphs": [
+          "Consider a convenient IMS CAT centre if you want scheduled teaching and a test programme. At the demo, bring an example of a recurring mistake and ask how a mentor would turn it into practice for the following week.",
+          "Compare the time needed for classes, travel, assignments and mock review. A larger content library cannot compensate for a timetable that leaves you unable to practise. Ask whether a test-series-only product would address your needs if your concepts are already covered."
+        ],
+        "links": []
+      },
+      {
+        "id": "related",
+        "heading": "Related Delhi research",
+        "paragraphs": [],
+        "links": [
+          [
+            "Five-provider Delhi NCR comparison",
+            "/blog/best-cat-coaching-in-delhi/"
+          ],
+          [
+            "Delhi directory",
+            "/cat-coaching/delhi/"
+          ],
+          [
+            "IMS national course evidence",
+            "/cat-coaching/ims/"
+          ]
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does IMS advertise 110 CAT-only mocks?",
+        "a": "No. The Delhi campaign’s combined figure includes SimCATs and other management entrance tests."
+      },
+      {
+        "q": "Is a current Delhi classroom fee confirmed?",
+        "a": "No branch-specific final quotation was established from the reviewed pages. Ask for the exact product, intake and total cost."
+      }
+    ]
+  },
+  {
+    "slug": "cat-coaching/delhi/alchemist",
+    "title": "Alchemist Delhi: CAT Centres, Learning Format and Fees",
+    "section": "Delhi NCR CAT coaching research",
+    "description": "Check Alchemist Delhi locations, contacts, personalised-learning claims, faculty information and current course questions.",
+    "answer": "Alchemist publishes Delhi centres and describes personalised CAT preparation with online, offline and video learning resources. Confirm an active batch, allocated teachers, test inventory and written fee.",
+    "updated": "2026-10-09",
+    "verifiedResearch": true,
+    "body": [
+      "Official sources reviewed on 9 October 2026. Features are provider disclosures; teaching quality, outcomes and current seat availability have not been independently tested."
+    ],
+    "sections": [
+      {
+        "id": "centres",
+        "heading": "Official centre contacts",
+        "paragraphs": [
+          "The contact page lists multiple Delhi locations. Selected addresses below are provider-published; call to confirm the classroom venue before travelling. The Connaught Place entry contains two locations, so ask which one your classes use."
+        ],
+        "links": [
+          [
+            "Official centre directory",
+            "https://alchemistindia.com/contact_us"
+          ]
+        ],
+        "table": {
+          "headers": [
+            "Area",
+            "Published location",
+            "Phone"
+          ],
+          "rows": [
+            [
+              "Connaught Place",
+              "Nukeleus Regal Building 69, Connaught Circle; also Raja Bazaar opposite Jain Chawal Wala",
+              "8604860461 / 9811233305"
+            ],
+            [
+              "North Campus",
+              "F-20B, Vijay Nagar, opposite NDPL, Hudson Lane, Kingsway Camp",
+              "8604860461 / 9811233305"
+            ],
+            [
+              "Pitampura",
+              "LD Block, near Kohat Enclave Metro, pillar 333",
+              "8604860461 / 9811233305"
+            ],
+            [
+              "Preet Vihar",
+              "F-16, second floor, adjacent Metro Gate 2",
+              "9926803758"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "learning",
+        "heading": "What the provider describes",
+        "paragraphs": [
+          "Alchemist says it uses an initial strengths-and-weaknesses assessment, a personalised plan, progress monitoring, mentoring and doubt support. It advertises repeat attendance through unlimited classes and a choice of online, offline or video resources.",
+          "These are provider claims. Ask what unlimited means for booking, course validity, timetable access and repeating a topic; we have not tested those arrangements."
+        ],
+        "links": [
+          [
+            "Official learning description",
+            "https://www.alchemistindia.com/"
+          ]
+        ]
+      },
+      {
+        "id": "faculty",
+        "heading": "Faculty information",
+        "paragraphs": [
+          "The faculty page identifies founder Prashant Monga. It does not establish a current section-wise roster for the batch you would join. Request the names and demo availability of your QA, DILR and VARC teachers."
+        ],
+        "links": [
+          [
+            "Official faculty page",
+            "https://alchemistindia.com/our-faculty"
+          ]
+        ]
+      },
+      {
+        "id": "fees",
+        "heading": "Unresolved price, tests and dates",
+        "paragraphs": [
+          "A current numeric CAT fee, dated intake, exact mock inventory and interview-stage entitlement were not established. The MBA-course link redirected to the homepage during review, so it did not provide a separate current package specification.",
+          "Obtain a written syllabus calendar, CAT versus other-exam test split, mock-analysis process, books and recording entitlement, expiry, taxes and cancellation terms. Ask whether any non-CAT exam preparation is included rather than inferring it from general MBA wording."
+        ],
+        "links": []
+      },
+      {
+        "id": "fit",
+        "heading": "Our assessment: test the personalised-plan promise",
+        "paragraphs": [
+          "This may be worth investigating if your preparation gaps are uneven and you want to revisit selected topics. Ask to see how a diagnostic result changes the timetable for a real student, with personal details removed.",
+          "A useful plan should specify what to practise, how progress will be checked and when a teacher will intervene. Repeated lectures alone do not show that a weak area is improving. Confirm whether the required sessions are available at times you can attend."
+        ],
+        "links": []
+      },
+      {
+        "id": "related",
+        "heading": "Continue comparing",
+        "paragraphs": [],
+        "links": [
+          [
+            "Delhi NCR comparison",
+            "/blog/best-cat-coaching-in-delhi/"
+          ],
+          [
+            "Delhi directory",
+            "/cat-coaching/delhi/"
+          ],
+          [
+            "Alchemist national profile",
+            "/cat-coaching/alchemist/"
+          ]
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Alchemist’s unlimited-class offer independently tested?",
+        "a": "No. It is a published provider claim. Confirm booking, timetable and validity conditions in writing."
+      },
+      {
+        "q": "Are current fees and mocks confirmed?",
+        "a": "A current numeric CAT quotation and exact mock inventory were not established from the reviewed pages."
+      }
+    ]
+  },
+  {
+    "slug": "blog/best-cat-coaching-in-delhi",
+    "title": "Best CAT Coaching in Delhi NCR: 5 Institutes Compared",
+    "section": "Delhi NCR CAT coaching research",
+    "description": "Compare Alchemist, Career Launcher, IMS, MBAGuru and T.I.M.E. for Delhi NCR CAT preparation, with official local sources and enrolment checks.",
+    "answer": "Five Delhi CAT coaching providers to compare are Alchemist, Career Launcher, IMS, MBAGuru and T.I.M.E. This alphabetical shortlist covers one Delhi NCR market; choose by the actual branch, teachers, remaining teaching and commute.",
+    "updated": "2026-10-09",
+    "verifiedResearch": true,
+    "body": [
+      "Official sources reviewed on 9 October 2026. Features are provider disclosures; teaching quality, outcomes and current seat availability have not been independently tested."
+    ],
+    "sections": [
+      {
+        "id": "method",
+        "heading": "Selection criteria and evidence limits",
+        "paragraphs": [
+          "We reviewed official local or programme information for five distinct brands. Multiple branches count once. The existing MBAGuru and Career Launcher listings were revisited through their official sources; IMS and Alchemist have new detailed local profiles.",
+          "This is a practical shortlist, not an audited ranking or exhaustive NCR directory. The verified examples are in Delhi; we do not infer a Noida or Gurugram branch merely because a provider serves NCR online. We have not attended classes or independently measured outcomes.",
+          "We selected providers with official Delhi presence and CAT-related information, then compared disclosed learning formats and unresolved purchase details. Our student-suitability comments are editorial judgments to test through a demo."
+        ],
+        "links": []
+      },
+      {
+        "id": "comparison",
+        "heading": "Five providers at a glance",
+        "paragraphs": [],
+        "links": [],
+        "table": {
+          "headers": [
+            "Provider",
+            "Local evidence",
+            "Published approach",
+            "Important unresolved detail"
+          ],
+          "rows": [
+            [
+              "Alchemist",
+              "Delhi centre directory",
+              "Personalised plan; repeat classes",
+              "Current timetable, mock count and fee"
+            ],
+            [
+              "Career Launcher",
+              "Delhi centre and CAT pages",
+              "Classroom/online; several test packages",
+              "Exact package and local teacher assignment"
+            ],
+            [
+              "IMS",
+              "Delhi CAT centre directory",
+              "Teaching, mentoring and mixed-exam mocks",
+              "Remaining live lessons and final classroom quote"
+            ],
+            [
+              "MBAGuru",
+              "Delhi CAT contact points",
+              "ADAPTIVE Prep and homework accountability",
+              "Current intake and branch quotation"
+            ],
+            [
+              "T.I.M.E.",
+              "Official Delhi city network page",
+              "CAT/MBA preparation",
+              "Current classroom address, roster and package"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "alchemist",
+        "heading": "Alchemist: ask how the learning plan changes your week",
+        "paragraphs": [
+          "Alchemist lists Connaught Place, North Campus, Pitampura and Preet Vihar locations. Its site describes diagnostic planning, repeat classes and mentoring.",
+          "Our assessment: investigate this if you need different amounts of support across sections. Request an example of a weekly plan and confirm that the sessions you need are available, rather than treating unlimited attendance as a guarantee of individual tuition."
+        ],
+        "links": [
+          [
+            "Official centres",
+            "https://alchemistindia.com/contact_us"
+          ],
+          [
+            "Learning approach",
+            "https://www.alchemistindia.com/"
+          ],
+          [
+            "Detailed Alchemist Delhi profile",
+            "/cat-coaching/delhi/alchemist/"
+          ]
+        ]
+      },
+      {
+        "id": "cl",
+        "heading": "Career Launcher: identify the exact package",
+        "paragraphs": [
+          "Career Launcher’s Delhi pages establish local CAT preparation and classroom/online options. Its course cards show different teaching, test and mentoring bundles; several distinguish CAT mocks from non-CAT tests.",
+          "Our assessment: ask admissions to identify the specific card and local delivery arrangement in writing. Do not combine the largest numbers across packages into one entitlement. Confirm assigned teachers, physical-material charges and interview preparation."
+        ],
+        "links": [
+          [
+            "Official Delhi centres",
+            "https://www.careerlauncher.com/delhi/"
+          ],
+          [
+            "Official CAT packages",
+            "https://www.careerlauncher.com/delhi/cat-coaching-delhi/"
+          ],
+          [
+            "Existing Career Launcher Delhi profile",
+            "/cat-coaching/delhi/career-launcher/"
+          ]
+        ]
+      },
+      {
+        "id": "ims",
+        "heading": "IMS: distinguish a course from a test series",
+        "paragraphs": [
+          "IMS’s Delhi directory includes CAT locations at Connaught Place and Dwarka. The campaign offers several formats and combined CAT/other-exam test totals, with some mixed-year wording.",
+          "Our assessment: compare a branch demo and a mock-review discussion. For a late joiner, the remaining live schedule matters more than the total hours advertised for the full programme."
+        ],
+        "links": [
+          [
+            "Official city directory",
+            "https://www.imsindia.com/center/delhi/"
+          ],
+          [
+            "Official campaign",
+            "https://www.imsindia.com/campaign/cat-coaching-delhi.html"
+          ],
+          [
+            "Detailed IMS Delhi profile",
+            "/cat-coaching/delhi/ims/"
+          ]
+        ]
+      },
+      {
+        "id": "mbaguru",
+        "heading": "MBAGuru: check the accountability arrangement",
+        "paragraphs": [
+          "MBAGuru lists P 11/90, first floor, Outer Circle, Connaught Place, and other Delhi contact points. Its classroom page describes ADAPTIVE Prep, three-hour sessions, a claimed maximum of 30 students, checked homework, doubts and AIRCAT analysis.",
+          "Our assessment: investigate if you want regular homework follow-up. Ask who reviews unfinished work and unresolved doubts, and confirm the actual batch size and teaching calendar. The current classroom price requires counselling; online prices should not be treated as branch quotations."
+        ],
+        "links": [
+          [
+            "Official contacts",
+            "https://mbaguru.in/contact/"
+          ],
+          [
+            "Official classroom programme",
+            "https://mbaguru.in/mbaguru-classroom-cat-coaching/"
+          ],
+          [
+            "Existing MBAGuru local profile",
+            "/cat-coaching/delhi/mba-guru/"
+          ]
+        ]
+      },
+      {
+        "id": "time",
+        "heading": "T.I.M.E.: establish the current branch specification",
+        "paragraphs": [
+          "T.I.M.E.’s official Delhi page identifies a city network including Connaught Place, Dwarka, East Delhi, East of Kailash and Kalu Sarai. The current page exposes limited programme detail in its readable content, so we have not copied an old brochure’s address or fee as a current quotation.",
+          "Our assessment: use the official city page to establish the teaching venue and request the current CAT course specification. Confirm faculty, test counts, analysis, mentoring, timetable and fees before treating this as a like-for-like option."
+        ],
+        "links": [
+          [
+            "Official Delhi city page",
+            "https://time4education.com/Delhi/"
+          ],
+          [
+            "National T.I.M.E. course evidence",
+            "/cat-coaching/time/"
+          ]
+        ]
+      },
+      {
+        "id": "fees",
+        "heading": "How to obtain comparable fees",
+        "paragraphs": [
+          "No equivalent current classroom quotations were established for all five. Send each centre the same requirements: exam year, mode, start date, remaining lessons, books, CAT mocks, other-exam tests, recordings, mentoring, interview support, taxes, expiry and refund terms.",
+          "If you already know the concepts, ask separately about test-only and feedback options. If starting from basics, request a realistic teaching calendar. A cheaper product may simply include fewer services or a shorter validity period."
+        ],
+        "links": []
+      },
+      {
+        "id": "ncr",
+        "heading": "Choose a sustainable NCR journey",
+        "paragraphs": [
+          "Time the complete journey at class hours, including interchange, last-mile travel and the return trip. A central Delhi address can still be inconvenient from Noida, Gurugram or Ghaziabad. Compare the actual weekly travel with the study time you can protect.",
+          "For weekend batches, ask when doubt sessions occur. If they require additional weekday visits, include those in your decision. Consider online delivery when travel would regularly prevent you from practising or attending."
+        ],
+        "links": []
+      },
+      {
+        "id": "demo",
+        "heading": "Use the demo to answer specific questions",
+        "paragraphs": [],
+        "links": [],
+        "table": {
+          "headers": [
+            "Question",
+            "Evidence to request"
+          ],
+          "rows": [
+            [
+              "Who teaches my weakest section?",
+              "Demo with the assigned teacher"
+            ],
+            [
+              "How does mock feedback change my study?",
+              "A corrective practice example"
+            ],
+            [
+              "What remains in this intake?",
+              "Dated calendar and catch-up plan"
+            ],
+            [
+              "Can I get doubts resolved around work?",
+              "Support schedule and process"
+            ],
+            [
+              "What is the full payment commitment?",
+              "Itemised quote and cancellation terms"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "related",
+        "heading": "Continue your research",
+        "paragraphs": [],
+        "links": [
+          [
+            "Delhi coaching directory",
+            "/cat-coaching/delhi/"
+          ],
+          [
+            "Online coaching options",
+            "/cat-coaching/online/"
+          ],
+          [
+            "Mock-test guide",
+            "/cat-preparation/mock-tests/"
+          ],
+          [
+            "Editorial methodology",
+            "/methodology/"
+          ]
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Which CAT coaching is best in Delhi NCR?",
+        "a": "No universal winner is established here. Compare the actual teachers, support, schedule, travel and written inclusions of these five providers."
+      },
+      {
+        "q": "Does this guide verify every NCR branch?",
+        "a": "No. It treats Delhi NCR as one market but uses selected Delhi examples; Noida and Gurugram locations are not assumed."
+      },
+      {
+        "q": "Are the five providers ranked?",
+        "a": "No. They are listed alphabetically, without an independently audited performance ranking."
+      },
+      {
+        "q": "Are current classroom fees available for all five?",
+        "a": "Equivalent current quotations were not established. Request the exact product, branch and all-inclusive fee before comparing."
+      }
+    ]
   }
 ];
