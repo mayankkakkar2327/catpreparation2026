@@ -570,7 +570,8 @@
       "address": "UGF, Kanchenjunga Building, Barakhamba Road, near Metro Gate 3",
       "source": "https://www.imsindia.com/center/delhi/",
       "phone": "7045127127",
-      "local": false
+      "local": true,
+      "checked": "2026-10-09"
     },
     {
       "id": "ims",
@@ -771,6 +772,17 @@
       "phone": "08050506222",
       "source": "https://eliteiit.com/admissions-2/",
       "local": true
+    },
+    {
+      "id": "alchemist",
+      "name": "Alchemist",
+      "city": "delhi",
+      "area": "North Campus",
+      "address": "F-20B, Vijay Nagar, opposite NDPL, Hudson Lane, Kingsway Camp",
+      "phone": "8604860461 / 9811233305",
+      "source": "https://alchemistindia.com/contact_us",
+      "local": true,
+      "checked": "2026-10-09"
     }
   ]
 }
