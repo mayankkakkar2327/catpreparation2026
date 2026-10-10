@@ -2117,6 +2117,360 @@ const varc40MinuteArticle = {
   ]
 };
 
+const lrdiEpisode9Article = {
+  "slug": "blog/cat-2026-lrdi-venn-diagram-recruitment-set-rodha",
+  "title": "CAT 2026 LRDI Venn Diagram Practice: How to Solve Recruitment Sets",
+  "section": "CAT 2026 Video Guide",
+  "description": "Learn a structured way to solve CAT 2026 LRDI recruitment sets using Venn regions, score equations, conditional ratios and variable elimination.",
+  "answer": "For a CAT LRDI recruitment set that combines three overlapping student groups, CV points, ratios and multiple conditions, first define the seven disjoint regions of a three-set Venn diagram. Translate every cumulative statement into an equation, keep totals and overlaps separate, reduce ratios before substituting values, and use the most restrictive conditions to eliminate variables. Rodha's Train Your Mind Episode 9 demonstrates this process through a recruitment-based set and had crossed 2,200 views when checked on October 10, 2026.",
+  "body": [
+    "Rodha published Episode 9 of its CAT 2026 Train Your Mind LRDI series on October 8, 2026. In the 31-minute session, Ravi Sir works through a recruitment-style set involving student CV categories, corporate projects, work experience, cumulative points, ratios, percentages and overlapping conditions.",
+    "The value of the session is not a shortcut for one Venn diagram. It shows how a dense paragraph can be converted into a small algebraic model. This guide explains that process in an original, reusable way so candidates can apply the method to unfamiliar CAT-level LRDI sets rather than memorising the solution to one question."
+  ],
+  "sections": [
+    {
+      "id": "video-summary",
+      "heading": "What does Rodha's LRDI Episode 9 cover?",
+      "paragraphs": [
+        "The set is framed around recruitment information attached to student CVs. Different attributes create overlapping groups, while point totals and ratios connect the regions. A solver has to identify which students belong only to one group, which belong to two groups, which belong to all three, and how the reported scores distribute across those categories.",
+        "Rodha's chapter structure moves from understanding the recruitment set to converting CV points into equations, reading a distribution ratio, decoding conditional ratio statements, forming equations with common variables, applying a second group of conditions and finally calculating the unknown Venn regions.",
+        "That progression is useful because it separates interpretation from calculation. Many candidates begin manipulating numbers before deciding what each number represents. The session instead treats the diagram and equations as a model that must remain consistent from the first condition to the last."
+      ],
+      "links": [
+        [
+          "Watch Rodha's CAT 2026 LRDI Episode 9",
+          "https://www.youtube.com/watch?v=J76n6Fp6p9M"
+        ],
+        [
+          "Rodha YouTube channel",
+          "https://www.youtube.com/@Rodha/videos"
+        ],
+        [
+          "Rodha official website",
+          "https://www.rodha.co.in/"
+        ],
+        [
+          "Rodha CAT mock portal",
+          "https://mocks.rodha.co.in/"
+        ],
+        [
+          "Rodha coaching profile on CATPreparation2026",
+          "/cat-coaching/rodha/"
+        ]
+      ]
+    },
+    {
+      "id": "quick-framework",
+      "heading": "The solving framework at a glance",
+      "paragraphs": [
+        "A three-set LRDI problem becomes manageable when every piece of information is assigned to one of four jobs: define a region, create a total, create a ratio or restrict a variable. Do not mix these jobs while reading. Mark the statement type, then update the model.",
+        "Use seven disjoint variables for the Venn diagram: three only-regions, three pairwise-only intersections and one triple intersection. If the problem includes people outside all three groups, keep that as an eighth region. Disjoint variables prevent accidental double counting.",
+        "After the regions are defined, translate cumulative statements carefully. A total for group A includes A-only, the two pairwise intersections containing A and the triple intersection. A statement about exactly two groups excludes the triple intersection. The words only, exactly, at least and both are therefore mathematical operators, not decoration."
+      ],
+      "table": {
+        "headers": [
+          "Stage",
+          "Question to ask",
+          "Output"
+        ],
+        "rows": [
+          [
+            "Represent",
+            "What are the smallest non-overlapping groups?",
+            "Seven Venn regions, plus an outside region if required"
+          ],
+          [
+            "Translate",
+            "Is this statement a total, ratio, score or conditional rule?",
+            "One clean equation or inequality"
+          ],
+          [
+            "Reduce",
+            "Which equation has the fewest unknowns?",
+            "A starting value, ratio parameter or bounded case"
+          ],
+          [
+            "Substitute",
+            "Which common variable links multiple conditions?",
+            "Smaller simultaneous system"
+          ],
+          [
+            "Validate",
+            "Do all totals, ratios and integer constraints hold?",
+            "A verified table ready for questions"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "venn-setup",
+      "heading": "Step 1: build the three-set Venn diagram correctly",
+      "paragraphs": [
+        "Draw the three circles and label the attributes before inserting any values. Then label the seven regions with compact symbols. For example, use a, b and c for students belonging only to each category; d, e and f for the three pairwise-only overlaps; and g for the all-three overlap. The symbols themselves do not matter, but their meaning must remain visible.",
+        "Start with the most exclusive information. If a condition gives the number in all three groups, place it at the centre. If it gives only one group or exactly two groups, those values also go directly into disjoint regions. Broader totals should be applied after these placements because they include several regions.",
+        "Do not write the same number on a circle boundary without deciding whether it includes the centre. In prose, a statement such as students with projects and work experience may include people who also have the third attribute unless the word only or exactly removes them. Translate the language before placing the figure.",
+        "When the set uses points rather than headcount, maintain two layers. The Venn diagram may represent people, while a separate row or equation represents cumulative CV points. A point total cannot automatically be entered as a number of students."
+      ],
+      "list": [
+        "Label every region before solving.",
+        "Distinguish pairwise intersection from pairwise-only intersection.",
+        "Keep people counts separate from points or scores.",
+        "Add an outside region only when the universe includes non-members.",
+        "Write the meaning of each variable beside the diagram."
+      ]
+    },
+    {
+      "id": "points-equations",
+      "heading": "Step 2: convert CV points into equations",
+      "paragraphs": [
+        "A recruitment set may assign different points to categories, projects or experience. Convert the scoring rule into an expression before using cumulative points. If one attribute contributes p points and another contributes q points, a student's contribution depends on the categories and the rule stated in the set; do not assume that points always add unless the language says so.",
+        "For each reported total, write a complete weighted equation. A headcount equation adds region variables with coefficient one. A point equation multiplies each region by the contribution applicable to that region. Keeping these equations on separate lines makes units visible and prevents a common error: equating people with points.",
+        "If the scoring description is complicated, create a small region-to-points table. The left column lists each disjoint Venn region, the middle column lists points per person, and the right column shows total contribution. Summing the right column produces the cumulative equation.",
+        "Check whether the problem states a total across all CVs or only across a selected subset. Recruitment contexts often narrow the population midway through the set. Reusing a whole-universe total inside a subset equation produces a neat but invalid solution."
+      ],
+      "table": {
+        "headers": [
+          "Quantity",
+          "Typical form",
+          "Unit check"
+        ],
+        "rows": [
+          [
+            "Group headcount",
+            "a + d + e + g",
+            "Students"
+          ],
+          [
+            "Exactly two groups",
+            "d + e + f",
+            "Students"
+          ],
+          [
+            "Weighted CV points",
+            "pa + rd + se + tg",
+            "Points"
+          ],
+          [
+            "Percentage condition",
+            "subset / relevant total",
+            "Dimensionless ratio"
+          ],
+          [
+            "Average points",
+            "total points / relevant students",
+            "Points per student"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ratios",
+      "heading": "Step 3: decode ratios without losing the reference group",
+      "paragraphs": [
+        "A ratio is useful only when its terms are mapped to clearly defined quantities. Write the names above the ratio before replacing them with variables. If the condition says the ratio of project-only students to work-experience-only students is 2:3, introduce a common multiplier and write the two regions as 2k and 3k.",
+        "Conditional ratios need extra care. A phrase such as among students with attribute A changes the denominator. The compared categories must both sit inside that restricted population. A ratio involving those students cannot be applied to the full Venn diagram unless the condition explicitly refers to the entire cohort.",
+        "Simplify ratios before combining them with totals. The common multiplier often becomes the bridge between a distribution statement and a cumulative score equation. Once the multiplier is found, several regions may resolve together.",
+        "Respect integrality and non-negativity. Student counts must normally be whole numbers at least zero. If an algebraic branch gives a negative region or a fractional person, the branch is invalid even if it satisfies one equation."
+      ],
+      "list": [
+        "Write what each side of the ratio represents.",
+        "Identify the population after words such as among, of those or within.",
+        "Use a common multiplier instead of converting to decimals.",
+        "Apply integer and non-negative constraints early.",
+        "Do not reverse the order of a stated ratio."
+      ]
+    },
+    {
+      "id": "variable-elimination",
+      "heading": "Step 4: eliminate variables in the right order",
+      "paragraphs": [
+        "Not every equation deserves equal attention. Begin with the relation containing the fewest unresolved variables or the strongest divisibility restriction. A direct total combined with a ratio can produce a value immediately, while a large weighted equation may become simple only after that substitution.",
+        "Look for repeated expressions. If two totals both contain d + e + g, define that expression temporarily or subtract the equations. Elimination is often faster and safer than solving every variable independently.",
+        "Use restrictive conditions before broad averages. A condition fixing an exact overlap, a percentage of a known total or a small integer ratio can collapse the search space. A broad points total is then useful as a final equation rather than the first one.",
+        "When multiple cases remain, create a small case table instead of doing mental trial and error. List the parameter value, implied regions and the condition that accepts or rejects the case. CAT LRDI rewards organised casework because a single valid table can answer several questions."
+      ],
+      "table": {
+        "headers": [
+          "Signal",
+          "Recommended move",
+          "Why it helps"
+        ],
+        "rows": [
+          [
+            "Known total plus ratio",
+            "Use a common multiplier",
+            "Resolves several variables together"
+          ],
+          [
+            "Same expression in two equations",
+            "Subtract equations",
+            "Cancels repeated regions"
+          ],
+          [
+            "Percentage with known base",
+            "Convert to an exact count",
+            "Creates a direct value"
+          ],
+          [
+            "Integer-bounded parameter",
+            "Enumerate a short case list",
+            "Avoids uncontrolled guessing"
+          ],
+          [
+            "Large weighted equation",
+            "Delay until substitutions are available",
+            "Reduces arithmetic load"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "verification",
+      "heading": "Step 5: verify the model before answering questions",
+      "paragraphs": [
+        "A finished-looking Venn diagram can still contain a hidden counting error. Recalculate every original group total from the disjoint regions. Then recompute the cumulative points independently from the final values.",
+        "Test each ratio in the same order and reference population used by the question. Confirm that percentages use the correct denominator and that every region obeys the integer and non-negative conditions.",
+        "Only after the base table passes these checks should you answer the questions. If a later answer conflicts with the choices, return to the earliest translation decision rather than repeatedly adjusting the final arithmetic. Most LRDI contradictions originate in the meaning of a condition, not in the last calculation."
+      ],
+      "list": [
+        "Rebuild all three circle totals.",
+        "Check exactly-two and all-three counts separately.",
+        "Recalculate points from the region table.",
+        "Verify ratio direction and denominator.",
+        "Confirm that all people counts are valid integers.",
+        "Use the question options as a check, not as a substitute for modelling."
+      ]
+    },
+    {
+      "id": "common-mistakes",
+      "heading": "Common mistakes in recruitment-based Venn sets",
+      "paragraphs": [
+        "The first major error is double counting an overlap. Adding three circle totals counts pairwise regions twice and the triple region three times. Work with disjoint regions or use inclusion-exclusion deliberately.",
+        "The second is confusing a score total with a student total. If 120 points are distributed among a category, that does not mean 120 students belong to it. Label units beside equations.",
+        "The third is applying a conditional ratio to the whole cohort. Words that narrow the population must change the expression. Underlining the reference group during the first read can prevent this mistake.",
+        "The fourth is carrying too many variables for too long. Ratios, percentages and shared totals are designed to reduce the system. If the page fills with unrelated variables, step back and search for common expressions.",
+        "The fifth is skipping validation after finding values. One incorrect interpretation may still produce positive integers. Verification against every original statement is what distinguishes a plausible table from a valid one."
+      ]
+    },
+    {
+      "id": "practice-plan",
+      "heading": "How to practise this LRDI set after watching the video",
+      "paragraphs": [
+        "Watch the first interpretation segment, then pause before Ravi Sir forms the equations. Build your own diagram and compare only the structure, not the final values. This reveals whether the difficulty lies in reading or algebra.",
+        "On a second attempt, recreate the equations from a blank page without the video. Mark every equation with its source condition and unit. If one line cannot be explained in words, it is not yet secure.",
+        "On a third attempt, use a timer and solve the set as part of a four-set sectional. The goal is not only completion. Record how long the initial scan took, when the representation became stable and whether the set was the right one to choose under exam conditions.",
+        "Finish by changing the labels or order of information and explaining the model aloud. A method is transferable when you can recognise the same structure even after the story changes."
+      ],
+      "table": {
+        "headers": [
+          "Practice round",
+          "Primary goal",
+          "Evidence of improvement"
+        ],
+        "rows": [
+          [
+            "Round 1",
+            "Accurate Venn representation",
+            "Every sentence maps to the correct region or equation"
+          ],
+          [
+            "Round 2",
+            "Independent equation building",
+            "No need to copy the instructor's notation"
+          ],
+          [
+            "Round 3",
+            "Timed execution",
+            "Clean solution without repeated restarts"
+          ],
+          [
+            "Round 4",
+            "Transfer to a new set",
+            "Same framework works with a different story"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "student-fit",
+      "heading": "Who should watch this Rodha LRDI session?",
+      "paragraphs": [
+        "The session is useful for CAT 2026 aspirants who understand basic Venn diagrams but struggle when a set adds points, ratios and algebra. It is also relevant for learners whose untimed solutions are correct but become disorganised during a sectional.",
+        "Beginners may need to revise two-set and three-set Venn notation before attempting the full set. Advanced students should treat the video as a modelling drill: compare Ravi Sir's variable choices, equation order and elimination sequence with their own approach.",
+        "One solved set will not fix LRDI by itself. Use the lesson as one item in a varied practice plan that includes arrangements, games, distributions, tables, routes and hybrid data sets. The deeper skill is converting unfamiliar language into a controlled model."
+      ]
+    },
+    {
+      "id": "sources",
+      "heading": "Source and verification note",
+      "paragraphs": [
+        "This guide was prepared from Rodha's official YouTube video and description, checked on October 10, 2026. The video was published on October 8 and showed 2,296 views at the time of verification.",
+        "The specific set, teaching sequence and chapter labels belong to the original Rodha video. This article does not reproduce the problem statement or transcript. It provides an independent learning framework based on the topics identified in the video description.",
+        "Course availability, batch links and mock access can change. Verify current details on Rodha's official website and mock portal before enrolling."
+      ],
+      "links": [
+        [
+          "Rodha LRDI Episode 9",
+          "https://www.youtube.com/watch?v=J76n6Fp6p9M"
+        ],
+        [
+          "Rodha YouTube videos",
+          "https://www.youtube.com/@Rodha/videos"
+        ],
+        [
+          "Rodha official website",
+          "https://www.rodha.co.in/"
+        ],
+        [
+          "Rodha mocks",
+          "https://mocks.rodha.co.in/"
+        ]
+      ]
+    }
+  ],
+  "related": [
+    "/cat-preparation/",
+    "/cat-preparation/mock-tests/",
+    "/cat-coaching/rodha/",
+    "/blog/cat-2026-lrdi-mock-strategy-set-selection/",
+    "/blog/"
+  ],
+  "faqs": [
+    {
+      "q": "What is Rodha Train Your Mind Episode 9 about?",
+      "a": "Ravi Sir solves a CAT 2026 recruitment-based LRDI set involving a three-set Venn diagram, CV points, conditional ratios, equations and variable elimination."
+    },
+    {
+      "q": "How should I start a three-set Venn diagram problem?",
+      "a": "Define the seven disjoint regions first, place exclusive information before broad totals, and keep the triple intersection separate from pairwise-only intersections."
+    },
+    {
+      "q": "How do I convert CV points into equations?",
+      "a": "Create a region-to-points table, multiply each region's headcount by its applicable point contribution and sum the weighted terms for the stated population."
+    },
+    {
+      "q": "How should ratios be used in CAT LRDI?",
+      "a": "Map both ratio terms to named quantities, identify the reference population, use a common multiplier and apply integer constraints before substitution."
+    },
+    {
+      "q": "What is the best order for eliminating variables?",
+      "a": "Start with equations containing fewer unknowns or stronger ratio and divisibility restrictions, then substitute into broader weighted totals."
+    },
+    {
+      "q": "What is the biggest mistake in a Venn diagram LRDI set?",
+      "a": "Double counting overlaps is the most common structural error. Confusing headcount with points and using the wrong ratio denominator are also frequent."
+    },
+    {
+      "q": "Is this video enough for CAT 2026 LRDI preparation?",
+      "a": "No single set is enough. Use it to learn modelling, then practise varied arrangements, games, distributions, tables and hybrid sets under time."
+    },
+    {
+      "q": "Where can I watch the full Rodha LRDI session?",
+      "a": "The full video is available on Rodha's official YouTube channel at youtube.com/watch?v=J76n6Fp6p9M."
+    }
+  ]
+};
+
 const snapBenefitsArticle = {
   "slug": "blog/snap-2026-preparation-benefits-october-12-eligibility",
   "title": "SNAP 2026 Preparation Benefits Reopen October 12: Eligibility Deadline October 11",
@@ -2423,6 +2777,7 @@ const snapBenefitsArticle = {
   ]
 };
 
+const lrdiEpisode9Href = `/${lrdiEpisode9Article.slug}/`;
 const snapBenefitsHref = `/${snapBenefitsArticle.slug}/`;
 const varc40MinuteHref = `/${varc40MinuteArticle.slug}/`;
 const last60DaysHref = `/${last60DaysArticle.slug}/`;
@@ -2443,6 +2798,7 @@ const index = {
         table: {
           ...section.table,
           rows: [
+            [lrdiEpisode9Article.title, lrdiEpisode9Article.description, { label: "Read article", href: lrdiEpisode9Href }],
             [snapBenefitsArticle.title, snapBenefitsArticle.description, { label: "Read article", href: snapBenefitsHref }],
             [varc40MinuteArticle.title, varc40MinuteArticle.description, { label: "Read article", href: varc40MinuteHref }],
             [last60DaysArticle.title, last60DaysArticle.description, { label: "Read article", href: last60DaysHref }],
@@ -2454,7 +2810,7 @@ const index = {
             [xatArticle.title, xatArticle.description, { label: "Read article", href: xatHref }],
             [rodhaArticle.title, rodhaArticle.description, { label: "Read article", href: rodhaHref }],
             [feeArticle.title, feeArticle.description, { label: "Read article", href: feeHref }],
-            ...section.table.rows.filter((row) => row[2]?.href !== snapBenefitsHref && row[2]?.href !== varc40MinuteHref && row[2]?.href !== last60DaysHref && row[2]?.href !== jbimsHref && row[2]?.href !== lrdiHref && row[2]?.href !== iimaPlacementHref && row[2]?.href !== varcHref && row[2]?.href !== quantHref && row[2]?.href !== xatHref && row[2]?.href !== rodhaHref && row[2]?.href !== feeHref)
+            ...section.table.rows.filter((row) => row[2]?.href !== lrdiEpisode9Href && row[2]?.href !== snapBenefitsHref && row[2]?.href !== varc40MinuteHref && row[2]?.href !== last60DaysHref && row[2]?.href !== jbimsHref && row[2]?.href !== lrdiHref && row[2]?.href !== iimaPlacementHref && row[2]?.href !== varcHref && row[2]?.href !== quantHref && row[2]?.href !== xatHref && row[2]?.href !== rodhaHref && row[2]?.href !== feeHref)
           ]
         }
       }
@@ -2480,4 +2836,4 @@ latestArticles.table.rows.unshift([bangaloreGuide.title, bangaloreGuide.descript
 const delhiGuide = require("./city-institute-pages").find(page => page.slug === "blog/best-cat-coaching-in-delhi");
 latestArticles.table.rows.unshift([delhiGuide.title, delhiGuide.description, { label: "Read article", href: "/blog/best-cat-coaching-in-delhi/" }]);
 
-module.exports = [index, snapBenefitsArticle, varc40MinuteArticle, last60DaysArticle, jbimsArticle, lrdiArticle, iimaPlacementArticle, varcArticle, quantArticle, xatArticle, rodhaArticle, feeArticle, ...priorPages.filter((page) => page.slug !== "blog")];
+module.exports = [index, lrdiEpisode9Article, snapBenefitsArticle, varc40MinuteArticle, last60DaysArticle, jbimsArticle, lrdiArticle, iimaPlacementArticle, varcArticle, quantArticle, xatArticle, rodhaArticle, feeArticle, ...priorPages.filter((page) => page.slug !== "blog")];
