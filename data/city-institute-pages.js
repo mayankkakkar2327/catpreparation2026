@@ -4015,5 +4015,202 @@ module.exports = [
         "a": "Equivalent current quotations were not established. Request the exact product, branch and all-inclusive fee before comparing."
       }
     ]
+  },
+  {
+    "slug": "cat-coaching/mumbai/career-launcher",
+    "title": "Career Launcher Mumbai: CAT Centres, Courses and Fee Checks",
+    "section": "Mumbai CAT coaching research",
+    "description": "Review Career Launcher Mumbai branch contacts, CAT formats, mixed-exam mock counts and questions about fees and faculty.",
+    "answer": "Career Launcher advertises Mumbai classroom, online and hybrid CAT preparation. Compare the specific branch and package: its course cards show different session and mock totals.",
+    "updated": "2026-10-10",
+    "verifiedResearch": true,
+    "body": [
+      "Official sources reviewed on 10 October 2026. Advertised features are provider disclosures; current seats, teachers and service quality have not been independently verified."
+    ],
+    "sections": [
+      {
+        "id": "contact",
+        "heading": "Selected official Mumbai contacts",
+        "paragraphs": [
+          "The Mumbai page’s published centre data lists these locations. Confirm the classroom and CAT intake before visiting; a contact listing does not establish current seats."
+        ],
+        "links": [
+          [
+            "Official Mumbai centre page",
+            "https://www.careerlauncher.com/mumbai/"
+          ]
+        ],
+        "table": {
+          "headers": [
+            "Branch",
+            "Published address",
+            "Phone"
+          ],
+          "rows": [
+            [
+              "Borivali West",
+              "First floor, Soni Shopping Center, Lokmanya Tilak Road, above Krishna Jewellers, near Titan World, Sundar Nagar",
+              "9324941199"
+            ],
+            [
+              "Churchgate",
+              "Cambata Building, EROS Theatre, fifth floor East Wing, M. Karve Road",
+              "8108800760"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "programmes",
+        "heading": "Course formats and test counts",
+        "paragraphs": [
+          "The CAT page describes classroom, online and hybrid routes covering CAT, XAT, NMAT, SNAP, MBA-CET and CMAT. One card lists 170+ classroom sessions and 30 CAT plus 82 non-CAT mocks; other cards list 30 CAT plus 70 non-CAT mocks.",
+          "The narrative also advertises a 200+ session classroom route. These are different descriptions, not numbers to add together. Mentoring, doubt support, materials and GD/PI preparation appear in the offerings; ask which apply to your selected package."
+        ],
+        "links": [
+          [
+            "Official Mumbai CAT programmes",
+            "https://www.careerlauncher.com/mumbai/cat-coaching/"
+          ]
+        ]
+      },
+      {
+        "id": "fees",
+        "heading": "Fees, faculty and intake details",
+        "paragraphs": [
+          "A numeric current branch-specific fee, dated next intake and section-wise local teacher roster were not established. The page mentions scholarship routes but does not establish your eligibility or final discount.",
+          "Ask for a dated quote identifying the exam year, mode, remaining teaching, books, taxes, test split, recording access and interview support. Meet the assigned QA, DILR and VARC teachers rather than relying on national testimonials."
+        ],
+        "links": []
+      },
+      {
+        "id": "fit",
+        "heading": "Our assessment: compare the delivery you can attend",
+        "paragraphs": [
+          "This is worth investigating if a listed centre fits your journey and you want to prepare for several MBA entrances. Ask when the non-CAT topics are taught and whether those classes clash with college or work.",
+          "For hybrid learning, establish which activities are actually available at the branch and which happen online. For a late CAT 2026 intake, compare the remaining live calendar with the archive of completed lessons.",
+          "At a demo, ask to see how a mock-review discussion produces a short practice plan. Test whether the explanation helps you solve an unfamiliar question independently."
+        ],
+        "links": []
+      },
+      {
+        "id": "related",
+        "heading": "Related Mumbai research",
+        "paragraphs": [],
+        "links": [
+          [
+            "Mumbai directory",
+            "/cat-coaching/mumbai/"
+          ],
+          [
+            "Mumbai comparison guide",
+            "/blog/best-cat-coaching-in-mumbai/"
+          ],
+          [
+            "Career Launcher national profile",
+            "/cat-coaching/career-launcher/"
+          ]
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Are all advertised mocks CAT tests?",
+        "a": "No. The programme cards distinguish CAT mocks from other MBA entrance tests. Confirm the exact bundle."
+      },
+      {
+        "q": "Is a current Mumbai classroom price verified?",
+        "a": "No branch-specific final quotation was established from the reviewed pages. Request the exact intake and all-inclusive price."
+      }
+    ]
+  },
+  {
+    "slug": "cat-coaching/mumbai/fundamakers",
+    "title": "FundaMakers Mumbai: Thane CAT Centre and Course Details",
+    "section": "Mumbai CAT coaching research",
+    "description": "Check FundaMakers Thane location, advertised CAT 2026 price, hybrid learning features and unresolved batch details.",
+    "answer": "FundaMakers’ Mumbai page lists a Thane West centre and a hybrid CAT 2026 course. Its displayed price needs a fresh written quote because the page also retains older course material.",
+    "updated": "2026-10-10",
+    "verifiedResearch": true,
+    "body": [
+      "Official sources reviewed on 10 October 2026. Advertised features are provider disclosures; current seats, teachers and service quality have not been independently verified."
+    ],
+    "sections": [
+      {
+        "id": "contact",
+        "heading": "Thane West location",
+        "paragraphs": [
+          "The official page lists first floor, 104 Dhanlaxmi Lakshmi Shopping Centre, Rutu Estate, Patlipada, Thane West. The helpline is 9984743388. Confirm the map pin and active CAT classroom before travelling."
+        ],
+        "links": [
+          [
+            "Official Mumbai/Thane page",
+            "https://fundamakers.com/cat-coaching-in-mumbai/"
+          ]
+        ]
+      },
+      {
+        "id": "course",
+        "heading": "Advertised CAT 2026 package",
+        "paragraphs": [
+          "The CAT 26 card displays ₹95,000, validity through 31 March 2027, hybrid teaching, five-day classroom sessions, 225+ topic tests, 80+ mocks, mentoring and PI/WAT support. Tax treatment and the CAT-only mock split are not established.",
+          "The general page describes recordings, live access for missed classes and remedial support. These are advertised features, not tested guarantees."
+        ],
+        "links": [
+          [
+            "Official course card and features",
+            "https://fundamakers.com/cat-coaching-in-mumbai/"
+          ]
+        ]
+      },
+      {
+        "id": "limits",
+        "heading": "Old content and unresolved details",
+        "paragraphs": [
+          "The same page retains a CAT 25 card expiring in March 2026 and old countdowns. Do not treat those offers as current. A dated new intake and named local faculty roster were not established.",
+          "Ask for the current batch size and actual timetable; generic page promises should be confirmed against the specific intake. Obtain a fresh quotation covering taxes, books, tests, access expiry and cancellation terms."
+        ],
+        "links": []
+      },
+      {
+        "id": "fit",
+        "heading": "Our assessment: evaluate the Thane routine",
+        "paragraphs": [
+          "This is a local option to investigate if Patlipada is practical for your weekly routine and you need access to both classroom teaching and remote catch-up. Include travel at class hours when comparing it with central Mumbai providers.",
+          "For an October enrolment, ask how much live teaching remains and what you would need to recover independently. A course with a long advertised syllabus cannot automatically deliver the whole sequence again before your exam.",
+          "Meet the assigned teachers for all three CAT sections. Request a sample mock review and a realistic plan for your weakest area. If you already have teaching elsewhere, establish whether the support solves an unmet need before paying for another full programme."
+        ],
+        "links": []
+      },
+      {
+        "id": "related",
+        "heading": "Continue your research",
+        "paragraphs": [],
+        "links": [
+          [
+            "Mumbai coaching directory",
+            "/cat-coaching/mumbai/"
+          ],
+          [
+            "Mumbai comparison guide",
+            "/blog/best-cat-coaching-in-mumbai/"
+          ],
+          [
+            "Online alternatives",
+            "/cat-coaching/online/"
+          ]
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is ₹95,000 the confirmed final payable fee?",
+        "a": "It is the displayed CAT 26 card price, not a confirmed invoice. Tax treatment, current availability and discounts require a fresh written quote."
+      },
+      {
+        "q": "Is this centre in central Mumbai?",
+        "a": "The published location is Patlipada, Thane West. Evaluate the actual commute rather than assuming a central Mumbai venue."
+      }
+    ]
   }
 ];
