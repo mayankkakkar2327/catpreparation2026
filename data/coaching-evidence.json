@@ -783,6 +783,28 @@
       "source": "https://alchemistindia.com/contact_us",
       "local": true,
       "checked": "2026-10-09"
+    },
+    {
+      "id": "career-launcher",
+      "name": "Career Launcher",
+      "city": "mumbai",
+      "area": "Borivali West",
+      "address": "First floor, Soni Shopping Center, Lokmanya Tilak Road, above Krishna Jewellers, near Titan World, Sundar Nagar",
+      "phone": "9324941199",
+      "source": "https://www.careerlauncher.com/mumbai/",
+      "local": true,
+      "checked": "2026-10-10"
+    },
+    {
+      "id": "fundamakers",
+      "name": "FundaMakers",
+      "city": "mumbai",
+      "area": "Thane West",
+      "address": "First floor, 104 Dhanlaxmi Lakshmi Shopping Centre, Rutu Estate, Patlipada",
+      "phone": "9984743388",
+      "source": "https://fundamakers.com/cat-coaching-in-mumbai/",
+      "local": true,
+      "checked": "2026-10-10"
     }
   ]
 }
