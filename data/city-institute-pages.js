@@ -1006,126 +1006,6 @@ module.exports = [
     ]
   },
   {
-    "slug": "cat-coaching/hyderabad/ims",
-    "title": "IMS Hyderabad: CAT Courses, Centres, Fees and Contact",
-    "section": "Hyderabad institute research",
-    "description": "Research IMS Hyderabad CAT coaching: official centre contacts, course disclosures, fees and enrolment checks. Reviewed 29 September 2026.",
-    "answer": "IMS offers Hyderabad classroom CAT preparation and online alternatives. Compare the selected centre’s timetable and teaching team with the support and mock package you will actually receive.",
-    "body": [
-      "Official sources reviewed on 29 September 2026. This local listing complements the existing national profile. Branches count as one institute, and provider programme claims are not independently audited outcomes."
-    ],
-    "sections": [
-      {
-        "id": "contact",
-        "heading": "Selected Hyderabad centres",
-        "paragraphs": [
-          "The official directory confirms the following CAT locations. Call the selected centre before visiting; a directory entry does not confirm an available seat."
-        ],
-        "links": [
-          [
-            "Official IMS Hyderabad directory",
-            "https://www.imsindia.com/center/hyderabad/"
-          ]
-        ],
-        "table": {
-          "headers": [
-            "Centre",
-            "Address",
-            "Contact"
-          ],
-          "rows": [
-            [
-              "Punjagutta",
-              "Third floor, Bhans Aarohan Plaza, house 6-3-678/1, 301, Punjagutta, Hyderabad 500082",
-              "8655654207"
-            ],
-            [
-              "Madhapur",
-              "Third floor, plot 13, beside Image Hospital, Vittal Rao Nagar Road, Madhapur 500081; metro pillar C-1762",
-              "9100104432; madhapur@imsindia.com"
-            ]
-          ]
-        }
-      },
-      {
-        "id": "programmes",
-        "heading": "Courses and mock-test inclusions",
-        "paragraphs": [
-          "The Hyderabad campaign offers classroom, live-online, self-learning and test-series routes. Its CAT 2026 block advertises 300+ teaching hours, 150+ hours of videos and 110+ mocks split into 40+ SimCATs and 70 tests for other management entrances. These are advertised package totals, not remaining hours for a new September enrolment.",
-          "The campaign mentions weekday and weekend options, personal mentoring and GDPI. Ask for the selected programme’s exact calendar and entitlements rather than adding together features from different plans."
-        ],
-        "links": [
-          [
-            "Official Hyderabad programme campaign",
-            "https://www.imsindia.com/campaign/cat-coaching-hyderabad.html"
-          ]
-        ]
-      },
-      {
-        "id": "faculty",
-        "heading": "Faculty and mentoring",
-        "paragraphs": [
-          "The city page names Sanga N L N Sharma for Quant, Bobby Yadav for Verbal and Puneet Sharma as Hyderabad chief mentor. It describes online recordings, doubt forums and mentoring. These are city-wide disclosures, not confirmation that each mentor teaches every batch.",
-          "Ask for a section-wise roster and a demo with your assigned teacher. For mentoring, request a sample of the feedback after a weak mock and the follow-up assignment it produces."
-        ],
-        "links": [
-          [
-            "Official faculty and support disclosures",
-            "https://www.imsindia.com/center/hyderabad/"
-          ]
-        ]
-      },
-      {
-        "id": "fees",
-        "heading": "Fees and current batch availability",
-        "paragraphs": [
-          "The reviewed campaign directs pricing enquiries to counselling. No final Hyderabad classroom fee or confirmed new start date was established. Request a written total covering GST, books, tests, recordings and any interview-preparation extras.",
-          "A new learner should confirm the target exam year, syllabus already completed, make-up access, recording expiry and class-transfer rules. A course advertised for an exam year is not proof that a fresh full-duration batch is currently open."
-        ],
-        "links": []
-      },
-      {
-        "id": "fit",
-        "heading": "Who should shortlist IMS Hyderabad?",
-        "paragraphs": [
-          "Our assessment: worth investigating when you want local classroom structure and a defined mock-review process. The practical value depends on branch delivery and whether the class pace matches your starting level.",
-          "Compare the weekly travel time to Punjagutta or Madhapur with an online option. If commuting removes the hours needed to analyse tests, a nearby alternative may be more usable even when the advertised curriculum looks similar.",
-          "We did not audit results, classroom quality or responsiveness. No numerical rating or percentile guarantee is assigned. Before paying, check a recent sample lecture, the refund policy and a complete package sheet."
-        ],
-        "links": []
-      },
-      {
-        "id": "related",
-        "heading": "Continue the comparison",
-        "paragraphs": [],
-        "links": [
-          [
-            "Hyderabad coaching directory",
-            "/cat-coaching/hyderabad/"
-          ],
-          [
-            "IMS national profile",
-            "/cat-coaching/ims/"
-          ],
-          [
-            "Career Launcher Hyderabad",
-            "/cat-coaching/hyderabad/career-launcher/"
-          ]
-        ]
-      }
-    ],
-    "faqs": [
-      {
-        "q": "Are the advertised 110+ IMS mocks all CAT mocks?",
-        "a": "No. The campaign combines SimCATs with tests for other management entrances. Confirm the exact split in your chosen plan."
-      },
-      {
-        "q": "Is a Hyderabad classroom fee confirmed here?",
-        "a": "No final local quote was established. Request an all-inclusive written quotation from the centre."
-      }
-    ]
-  },
-  {
     "slug": "cat-coaching/hyderabad/career-launcher",
     "title": "Career Launcher Hyderabad: CAT Courses, Centres, Fees and Contact",
     "section": "Hyderabad institute research",
@@ -4210,6 +4090,452 @@ module.exports = [
       {
         "q": "Is this centre in central Mumbai?",
         "a": "The published location is Patlipada, Thane West. Evaluate the actual commute rather than assuming a central Mumbai venue."
+      }
+    ]
+  },
+  {
+    "slug": "cat-coaching/hyderabad/abhyaas",
+    "title": "Abhyaas Hyderabad: CAT Courses, Fees and Centre Contacts",
+    "section": "Hyderabad CAT coaching research",
+    "description": "Review Abhyaas Hyderabad classroom prices, October batch disclosure, local contacts and conflicting mock-test totals.",
+    "answer": "Abhyaas lists CAT teaching at Kukatpally and Secunderabad. Its Hyderabad page advertises a 24 October 2026 weekend intake; confirm the exam year, remaining teaching and final price before paying.",
+    "updated": "2026-10-12",
+    "verifiedResearch": true,
+    "body": [
+      "Official sources reviewed on 11–12 October 2026. Published on 12 October 2026. Programme details are provider disclosures; current seats, teacher allocation and outcomes have not been independently verified."
+    ],
+    "sections": [
+      {
+        "id": "contact",
+        "heading": "Local CAT centres",
+        "paragraphs": [
+          "The official contact directory identifies these CAT locations. Email info@abhyaas.in. Confirm the venue for the advertised batch directly."
+        ],
+        "links": [
+          [
+            "Official contact directory",
+            "https://abhyaas.in/contact/"
+          ]
+        ],
+        "table": {
+          "headers": [
+            "Centre",
+            "Address",
+            "Phone"
+          ],
+          "rows": [
+            [
+              "Kukatpally",
+              "MIG-68, Bhanu Estates, behind ICICI Bank, opposite JNTUH",
+              "040-40031834 / 7386660269"
+            ],
+            [
+              "Secunderabad",
+              "Flat 609, Vasavi Eden Square, St John’s Road, Regimental Bazaar",
+              "040-40174324 / 7386660269"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "fees",
+        "heading": "Published course and price distinctions",
+        "paragraphs": [
+          "The CAT 2026 Extensive table advertises ₹29,999 alongside ₹39,999, 400+ hours, 30+ CAT and 10+ non-CAT mocks, printed material and GDPI. The 2027 Comprehensive table shows ₹59,999 alongside ₹69,999, 500+ hours, 35+ CAT and 15+ non-CAT mocks. Confirm tax and offer validity.",
+          "The batch row specifies 24 October 2026, Saturday/Sunday, 5–7 PM. Seats are not independently confirmed. Ask how the stated course hours relate to this late intake."
+        ],
+        "links": [
+          [
+            "Official programme and batch table",
+            "https://abhyaas.in/cat-coaching-in-hyderabad/"
+          ]
+        ]
+      },
+      {
+        "id": "limits",
+        "heading": "Conflicting totals and teacher allocation",
+        "paragraphs": [
+          "Other parts of the page say 40 or 100 mocks. Request the exact package inventory rather than combining those figures. Naresh Dubbudu is identified as founder; the current batch’s section-wise teachers need confirmation.",
+          "A start date does not establish that the entire advertised teaching programme can be delivered after you join. Ask for the remaining live calendar, recordings to catch up, access expiry and interview-support conditions."
+        ],
+        "links": []
+      },
+      {
+        "id": "fit",
+        "heading": "Our assessment: investigate the late-intake plan",
+        "paragraphs": [
+          "Consider a demo if the local centre fits your routine and you want scheduled teaching. Bring a recent mock or a few questions you struggled with, and ask which parts of the course address those gaps.",
+          "For an October start, distinguish revision support from first-time concept teaching. Ask what you would need to complete before the first class and how a mentor checks that work. Compare a written plan with the independent practice time you can protect."
+        ],
+        "links": []
+      },
+      {
+        "id": "related",
+        "heading": "Related Hyderabad research",
+        "paragraphs": [],
+        "links": [
+          [
+            "Hyderabad comparison",
+            "/blog/best-cat-coaching-in-hyderabad/"
+          ],
+          [
+            "Hyderabad directory",
+            "/cat-coaching/hyderabad/"
+          ]
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is the displayed price a confirmed final fee?",
+        "a": "No. Confirm tax, current offer eligibility, package and payment terms in a dated quote."
+      },
+      {
+        "q": "How many mocks are included?",
+        "a": "The course tables and general text give different totals. Obtain the CAT-only and other-exam inventory for the exact package."
+      }
+    ]
+  },
+  {
+    "slug": "cat-coaching/hyderabad/ims",
+    "title": "IMS Hyderabad: CAT Centres, Faculty and Course Checks",
+    "section": "Hyderabad CAT coaching research",
+    "description": "Check refreshed IMS Hyderabad addresses, mentor information, mixed-exam mock totals and current intake questions.",
+    "answer": "IMS publishes Hyderabad CAT centres and several preparation formats. Compare the selected branch and course specification, including which mocks are CAT tests and how much teaching remains.",
+    "updated": "2026-10-12",
+    "verifiedResearch": true,
+    "body": [
+      "Official sources reviewed on 11–12 October 2026. Published on 12 October 2026. Programme details are provider disclosures; current seats, teacher allocation and outcomes have not been independently verified."
+    ],
+    "sections": [
+      {
+        "id": "centres",
+        "heading": "Selected local addresses",
+        "paragraphs": [
+          "The official directory lists these CAT locations. The Punjagutta house and unit numbers below correct the compressed number previously shown in our centre evidence."
+        ],
+        "links": [
+          [
+            "Official Hyderabad directory",
+            "https://www.imsindia.com/center/hyderabad/"
+          ]
+        ],
+        "table": {
+          "headers": [
+            "Area",
+            "Address",
+            "Phone"
+          ],
+          "rows": [
+            [
+              "Punjagutta",
+              "Third floor, Bhans Aarohan Plaza, house 6-3-678/1, unit 301",
+              "8655654207"
+            ],
+            [
+              "Madhapur",
+              "Third floor, plot 13, beside Image Hospital, Vittal Rao Nagar Road; metro pillar C-1762",
+              "9100104432"
+            ],
+            [
+              "Tarnaka",
+              "206, second floor, Tara Tycoon, opposite Aradhana Theater",
+              "8655654208"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "faculty",
+        "heading": "Published mentor pool",
+        "paragraphs": [
+          "The city page names Sanga N L N Sharma for Quant, Bobby Yadav for verbal, and Puneet Sharma as Chief Mentor, among others. Confirm the teachers allocated to your intake; a city faculty list does not establish a batch roster."
+        ],
+        "links": [
+          [
+            "Official faculty information",
+            "https://www.imsindia.com/center/hyderabad/"
+          ]
+        ]
+      },
+      {
+        "id": "course",
+        "heading": "Course scope and mock split",
+        "paragraphs": [
+          "The Hyderabad campaign describes classroom, live-online, self-learning and test-series options. Its CAT 2026 block advertises 300+ teaching hours, 150 hours of videos, mentoring and GDPI, with 110+ mocks comprising 40+ SimCATs and 70 other-management-admission tests."
+        ],
+        "links": [
+          [
+            "Official course campaign",
+            "https://www.imsindia.com/campaign/cat-coaching-hyderabad.html"
+          ]
+        ]
+      },
+      {
+        "id": "fees",
+        "heading": "Unverified fees and intake dates",
+        "paragraphs": [
+          "A current local classroom quotation and dated next intake were not established. Request the exam year, start date, remaining teaching, tax-inclusive fee, books, test inventory, mentoring allocation, recordings and expiry in writing.",
+          "For CAT 2026, distinguish lessons still to be taught from an archive of earlier teaching. Ask how your strongest and weakest sections affect the recommended package rather than automatically buying the longest course."
+        ],
+        "links": []
+      },
+      {
+        "id": "fit",
+        "heading": "Our assessment: compare the branch experience",
+        "paragraphs": [
+          "Use travel time and teacher availability to shortlist a branch. Ask for a demo with the teacher responsible for your weakest section and a sample mock-analysis discussion.",
+          "Useful feedback should tell you what to change in the next practice session. Ask how repeated errors are tracked, whether mentor appointments are limited and how quickly an unresolved doubt can reach a teacher."
+        ],
+        "links": []
+      },
+      {
+        "id": "related",
+        "heading": "Continue comparing",
+        "paragraphs": [],
+        "links": [
+          [
+            "Hyderabad comparison",
+            "/blog/best-cat-coaching-in-hyderabad/"
+          ],
+          [
+            "Hyderabad directory",
+            "/cat-coaching/hyderabad/"
+          ],
+          [
+            "IMS national profile",
+            "/cat-coaching/ims/"
+          ]
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Are all 110+ mocks CAT mocks?",
+        "a": "No. The campaign combines SimCATs with other management entrance tests."
+      },
+      {
+        "q": "Are the published mentors my assigned teachers?",
+        "a": "Not necessarily. Confirm a section-wise roster for your chosen branch and intake."
+      }
+    ]
+  },
+  {
+    "slug": "blog/best-cat-coaching-in-hyderabad",
+    "title": "Best CAT Coaching in Hyderabad: 5 Providers to Compare",
+    "section": "Hyderabad CAT coaching research",
+    "description": "Compare Abhyaas, Career Launcher, IMS, T.I.M.E. and VPROV using official sources, fee clarity and local delivery checks.",
+    "answer": "Compare Abhyaas, Career Launcher, IMS and T.I.M.E. for Hyderabad classroom preparation, and investigate VPROV with its delivery mode confirmed first. VPROV’s local office and dispatch listings do not by themselves verify a CAT classroom.",
+    "updated": "2026-10-12",
+    "verifiedResearch": true,
+    "body": [
+      "Official sources reviewed on 11–12 October 2026. Published on 12 October 2026. Programme details are provider disclosures; current seats, teacher allocation and outcomes have not been independently verified."
+    ],
+    "sections": [
+      {
+        "id": "method",
+        "heading": "Selection criteria and limitations",
+        "paragraphs": [
+          "This alphabetical shortlist covers five distinct CAT providers with official Hyderabad-related information. Branches count once. Four have local classroom or city-network evidence; VPROV has a CAT offering and local office/dispatch evidence, with classroom delivery unresolved.",
+          "This is not a ranking based on audited outcomes or an exhaustive directory. We have not visited classrooms or tested support. Suitability comments explain what to investigate through a demo. We do not convert an office address into a classroom claim."
+        ],
+        "links": []
+      },
+      {
+        "id": "comparison",
+        "heading": "What differs between the five options",
+        "paragraphs": [],
+        "links": [],
+        "table": {
+          "headers": [
+            "Provider",
+            "Local evidence",
+            "Decision focus",
+            "Unresolved point"
+          ],
+          "rows": [
+            [
+              "Abhyaas",
+              "Kukatpally and Secunderabad CAT contacts",
+              "Dated intake and displayed course prices",
+              "Late-intake teaching plan and conflicting mock totals"
+            ],
+            [
+              "Career Launcher",
+              "Official Hyderabad CAT page and local centres",
+              "Package and chosen branch",
+              "Final classroom fee and teacher allocation"
+            ],
+            [
+              "IMS",
+              "CAT addresses in city directory",
+              "Branch, mentors and test split",
+              "Current intake and remaining lessons"
+            ],
+            [
+              "T.I.M.E.",
+              "Official Hyderabad city network",
+              "Classroom versus online specification",
+              "Current branch timetable and price"
+            ],
+            [
+              "VPROV",
+              "CAT course plus local offices/dispatch point",
+              "Confirm where and how teaching occurs",
+              "Local CAT classroom not established"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "abhyaas",
+        "heading": "Abhyaas: resolve the intake and package details",
+        "paragraphs": [
+          "The new local profile documents official contacts, price tables and the advertised October intake. Mock totals differ between the tables and general text.",
+          "Our assessment: ask for a dated teaching calendar and a package-specific test list. A late start deserves a clear distinction between live teaching, recordings and revision."
+        ],
+        "links": [
+          [
+            "Detailed Abhyaas listing",
+            "/cat-coaching/hyderabad/abhyaas/"
+          ],
+          [
+            "Official course page",
+            "https://abhyaas.in/cat-coaching-in-hyderabad/"
+          ]
+        ]
+      },
+      {
+        "id": "cl",
+        "heading": "Career Launcher: evaluate the actual local batch",
+        "paragraphs": [
+          "Career Launcher’s official Hyderabad page offers CAT and other MBA entrance preparation and lists local centre information. The existing local profile documents its Madhapur contact.",
+          "Our assessment: request a demo with the allocated teachers, the exact product name and a full quote. A national result or faculty testimonial does not establish your branch’s teaching arrangement."
+        ],
+        "links": [
+          [
+            "Official Hyderabad CAT page",
+            "https://www.careerlauncher.com/hyderabad/cat-coaching-hyderabad/"
+          ],
+          [
+            "Career Launcher local profile",
+            "/cat-coaching/hyderabad/career-launcher/"
+          ]
+        ]
+      },
+      {
+        "id": "ims",
+        "heading": "IMS: separate mock volume from usable feedback",
+        "paragraphs": [
+          "The refreshed profile includes selected addresses and a published mentor pool. Its advertised combined mock total includes non-CAT exams.",
+          "Our assessment: inspect a mock-review session and ask what follow-up practice you would receive. Compare the branch journey with the time needed to complete that practice."
+        ],
+        "links": [
+          [
+            "Updated IMS Hyderabad profile",
+            "/cat-coaching/hyderabad/ims/"
+          ],
+          [
+            "Official directory",
+            "https://www.imsindia.com/center/hyderabad/"
+          ],
+          [
+            "Official programme",
+            "https://www.imsindia.com/campaign/cat-coaching-hyderabad.html"
+          ]
+        ]
+      },
+      {
+        "id": "time",
+        "heading": "T.I.M.E.: request the current branch specification",
+        "paragraphs": [
+          "The official Hyderabad page describes a network serving A S Rao Nagar, Ameerpet, Dilsukhnagar, Kukatpally, Madhapur and Narayanguda, combining classroom/online teaching, mocks and doubts. Detailed current branch fees and intake dates were not established from the readable page.",
+          "Our assessment: confirm the venue, CAT teacher roster and package before visiting. Ask how many full CAT mocks are included, how analysis works and which support requires a separate purchase."
+        ],
+        "links": [
+          [
+            "Official Hyderabad city page",
+            "https://time4education.com/Hyderabad/"
+          ],
+          [
+            "National T.I.M.E. evidence",
+            "/cat-coaching/time/"
+          ]
+        ]
+      },
+      {
+        "id": "vprov",
+        "heading": "VPROV: office presence is not classroom confirmation",
+        "paragraphs": [
+          "VPROV’s course page advertises CAT preparation with 200+ sessions, 100+ mocks and 600+ assignments. Its centre directory labels Kukatpally as a material-dispatch location and Balanagar and Suchitra-Kompally as integrated campus offices.",
+          "A local CAT teaching batch, current fee, allocated faculty and dated timetable were not established. Contact 8884008880 for the precise delivery arrangement.",
+          "Our assessment: consider this a provider enquiry option, not a verified walk-in CAT classroom recommendation. Request a demo in the mode you would buy and written confirmation of venue or online access before comparing its price."
+        ],
+        "links": [
+          [
+            "Official CAT course",
+            "https://vprov.com/courses-page-new/"
+          ],
+          [
+            "Official centre classifications",
+            "https://vprov.com/Centers/"
+          ]
+        ]
+      },
+      {
+        "id": "fees",
+        "heading": "Compare equivalent purchases",
+        "paragraphs": [
+          "Only Abhyaas had the local course-price table documented in this research; it is not a confirmed invoice. For every provider, request the same fields: exam year, mode, remaining live teaching, recordings, books, CAT mocks, other-exam mocks, mentoring, interview support, tax, expiry and cancellation terms.",
+          "Do not compare a self-paced course or test series with a full classroom programme solely on headline price. If your concepts are already covered, ask whether feedback and tests address your remaining needs better than repeating lectures."
+        ],
+        "links": []
+      },
+      {
+        "id": "commute",
+        "heading": "Build a realistic Hyderabad study week",
+        "paragraphs": [
+          "Trial the journey at class time, including the return trip. A centre near your workplace may be less convenient on weekends. Include any separate doubt-session visits when estimating the weekly commitment.",
+          "At the demo, attempt a new question after the explanation. Then ask how the teacher would help if you still could not apply the method. That provides more useful personal evidence than an unsupported best-institute claim."
+        ],
+        "links": []
+      },
+      {
+        "id": "related",
+        "heading": "Related resources",
+        "paragraphs": [],
+        "links": [
+          [
+            "Hyderabad directory",
+            "/cat-coaching/hyderabad/"
+          ],
+          [
+            "Online alternatives",
+            "/cat-coaching/online/"
+          ],
+          [
+            "Mock-test guide",
+            "/cat-preparation/mock-tests/"
+          ],
+          [
+            "Editorial methodology",
+            "/methodology/"
+          ]
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Are these five verified Hyderabad classrooms?",
+        "a": "No. Four have classroom or city-network evidence. VPROV has official local office and dispatch listings; a local CAT classroom was not established."
+      },
+      {
+        "q": "Which provider is best for everyone?",
+        "a": "No universal winner is established. Compare the actual teachers, timetable, feedback, journey and written inclusions."
+      },
+      {
+        "q": "Are all prices confirmed?",
+        "a": "No. Displayed course prices require a current written quote, and equivalent quotes were not established across the five providers."
       }
     ]
   }
