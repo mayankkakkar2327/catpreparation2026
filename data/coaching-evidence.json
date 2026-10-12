@@ -608,10 +608,11 @@
       "name": "IMS",
       "city": "hyderabad",
       "area": "Punjagutta",
-      "address": "Third floor, Bhans Aarohan Plaza, H No. 6-3-678/130",
+      "address": "Third floor, Bhans Aarohan Plaza, house 6-3-678/1, unit 301",
       "source": "https://www.imsindia.com/center/hyderabad/",
       "phone": "8655654207",
-      "local": true
+      "local": true,
+      "checked": "2026-10-12"
     },
     {
       "id": "ims",
@@ -805,6 +806,17 @@
       "source": "https://fundamakers.com/cat-coaching-in-mumbai/",
       "local": true,
       "checked": "2026-10-10"
+    },
+    {
+      "id": "abhyaas",
+      "name": "Abhyaas",
+      "city": "hyderabad",
+      "area": "Kukatpally",
+      "address": "MIG-68, Bhanu Estates, behind ICICI Bank, opposite JNTUH",
+      "phone": "040-40031834 / 7386660269",
+      "source": "https://abhyaas.in/contact/",
+      "local": true,
+      "checked": "2026-10-12"
     }
   ]
 }
