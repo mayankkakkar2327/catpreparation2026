@@ -632,7 +632,8 @@
       "address": "Southern second floor, KR Buildings, old 124A/new 12, LB Road",
       "source": "https://www.imsindia.com/center/chennai/",
       "phone": "9500122125",
-      "local": false
+      "local": true,
+      "checked": "2026-10-14"
     },
     {
       "id": "ims",
@@ -732,7 +733,8 @@
       "address": "109A, second floor, Siva Shanmugham Road, above Shanthi Super Market",
       "source": "https://gradsqr.com/cat-coaching/",
       "phone": "9282442221",
-      "local": true
+      "local": true,
+      "checked": "2026-10-14"
     },
     {
       "id": "erudite",
@@ -817,6 +819,17 @@
       "source": "https://abhyaas.in/contact/",
       "local": true,
       "checked": "2026-10-12"
+    },
+    {
+      "id": "career-launcher",
+      "name": "Career Launcher",
+      "city": "chennai",
+      "area": "Alwarpet — CAT intake unconfirmed",
+      "address": "No. 99, Dr Ranga Road, Abhiramapuram, Chennai 600018",
+      "phone": "7550330159",
+      "source": "https://www.careerlauncher.com/cat-mba/coaching-centers/chennai/",
+      "local": true,
+      "checked": "2026-10-14"
     }
   ]
 }
