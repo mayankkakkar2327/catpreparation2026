@@ -4685,5 +4685,360 @@ module.exports = [
         "a": "Local inclusions and fees require a written centre quote; national descriptions are not confirmation of a local package."
       }
     ]
+  },
+  {
+    "slug": "cat-coaching/pune/time",
+    "title": "T.I.M.E. Pune: CAT Centres, Contacts and Course Checks",
+    "section": "Pune CAT coaching research",
+    "description": "Review T.I.M.E. Pune centre evidence, national CAT package descriptions and the branch fees and intake details still to confirm.",
+    "answer": "T.I.M.E. publishes Pune locations in Deccan, Kothrud and Wakad. These establish enquiry points; current CAT teaching schedules, seat availability and local fees need confirmation.",
+    "updated": "2026-10-15",
+    "verifiedResearch": true,
+    "body": [
+      "Official web evidence reviewed on 15 October 2026. Advertised services are provider disclosures, not independently tested teaching outcomes. Current seats and assigned teachers require direct confirmation."
+    ],
+    "sections": [
+      {
+        "id": "centres",
+        "heading": "Official Pune location evidence",
+        "paragraphs": [
+          "The official directory’s indexed content lists these locations and pune@time4education.com. Its direct page returned only a minimal shell during this review, so call before travelling."
+        ],
+        "links": [
+          [
+            "Official Pune directory",
+            "https://timecore.time4education.com/Pune"
+          ]
+        ],
+        "table": {
+          "headers": [
+            "Area",
+            "Address",
+            "Phone"
+          ],
+          "rows": [
+            [
+              "Deccan",
+              "Offices 408–409, fourth floor, above Hotel Rajwadi Gaurav, Ghole Road corner, Apte Road, behind Santosh Bakery, Shivajinagar 411004",
+              "8956409830 / 9637568972"
+            ],
+            [
+              "Kothrud",
+              "Offices 201–203, second floor, Yash Elina, opposite Karishma Society Lane, behind Maruti Temple, off Karve Road 411038",
+              "9158998235 / 9637568972"
+            ],
+            [
+              "Wakad",
+              "Shops 401–406, fourth floor, Yashoda Hub A, Mankar Chowk, Kaspate Wasti, above Chitale Bandhu Mithaiwale 411057",
+              "9545971259 / 9637568972"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "programme",
+        "heading": "Separate classroom and online packages",
+        "paragraphs": [
+          "The national CAT 2026/27 enquiry page describes classroom material, in-person/online doubts and mentoring, interview-stage preparation, 55 AIMCATs including self-administered tests, and 40 other-exam mocks. Those are national advertised inclusions; the Pune branch package must be checked separately.",
+          "The same page gives a different online inventory and retains lockdown-era wording. Do not assume all figures reflect the specific current course you would buy. Obtain an exam-year-specific list of tests, classes and support."
+        ],
+        "links": [
+          [
+            "National programme table",
+            "https://time4education.com/landingpage_enquiry/cataind.html"
+          ]
+        ]
+      },
+      {
+        "id": "fees",
+        "heading": "Fees and batch dates",
+        "paragraphs": [
+          "The national catalogue says classroom prices are shown after selecting a location. A complete current Pune quote, dated new intake and remaining timetable were not established. Online and test-series prices are different products.",
+          "The catalogue describes Telegram doubts and bookable individual clarification sessions for classroom/live students. Confirm local booking availability and response arrangements, along with tax, books, recordings, access expiry and cancellation terms."
+        ],
+        "links": [
+          [
+            "National catalogue and support FAQ",
+            "https://time4education.com/cat-Mba/?variant=AIMCATs+-+Test+Series%3E4"
+          ]
+        ]
+      },
+      {
+        "id": "faculty",
+        "heading": "Published leadership is not batch allocation",
+        "paragraphs": [
+          "The indexed Pune page names Rahul Gupta and Rahul Mahabir as centre directors. It does not establish who will teach each CAT section in your intended intake."
+        ],
+        "links": [
+          [
+            "Pune leadership information",
+            "https://timecore.time4education.com/Pune"
+          ]
+        ]
+      },
+      {
+        "id": "fit",
+        "heading": "Our assessment: test the local delivery",
+        "paragraphs": [
+          "Consider an enquiry if one of the listed areas fits your routine and you want scheduled classroom study. Visit during the intended class time and ask for a demo with the assigned teacher.",
+          "Bring a recent mock and ask how feedback changes your next week of practice. A test inventory is useful only when you also have time and guidance to analyse mistakes. For an October start, request remaining sessions rather than original full-course hours."
+        ],
+        "links": []
+      },
+      {
+        "id": "compare",
+        "heading": "Compare Pune options",
+        "paragraphs": [],
+        "links": [
+          [
+            "Pune coaching directory",
+            "/cat-coaching/pune/"
+          ],
+          [
+            "IMS Pune",
+            "/cat-coaching/pune/ims/"
+          ],
+          [
+            "Career Launcher Pune",
+            "/cat-coaching/pune/career-launcher/"
+          ]
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is the Pune fee verified?",
+        "a": "No. Request a dated, tax-inclusive quote for the exact branch, exam year and mode."
+      },
+      {
+        "q": "Do national mock totals guarantee Pune inclusions?",
+        "a": "No. The listed figures are national advertising; obtain the branch package inventory before paying."
+      }
+    ]
+  },
+  {
+    "slug": "cat-coaching/pune/tarkashastra",
+    "title": "Tarkashastra Pune: CAT Course, Locations and Fee Evidence",
+    "section": "Pune CAT coaching research",
+    "description": "Check Tarkashastra Pune contacts, CAT hybrid course claims, fee-range limitations and weekday scheduling before enrolment.",
+    "answer": "Tarkashastra advertises CAT classroom and hybrid preparation in Pune. Its city page gives a broad fee range rather than a package-specific quote and says weekend CAT classes are not offered.",
+    "updated": "2026-10-15",
+    "verifiedResearch": true,
+    "body": [
+      "Official web evidence reviewed on 15 October 2026. Advertised services are provider disclosures, not independently tested teaching outcomes. Current seats and assigned teachers require direct confirmation."
+    ],
+    "sections": [
+      {
+        "id": "contact",
+        "heading": "Official Pune contacts",
+        "paragraphs": [
+          "Head office: Office 5, third floor, Bhosale Shinde Arcade, near Deccan Bus Stop, JM Road, Pune 411004. The CAT city page corroborates this address.",
+          "The contact page also lists a Satara Road/Bibwewadi branch at F-301, Mahalakshmi Society, above Rashtriya Chemicals & Fertilizers, next to PNG, opposite D-Mart, Pune 411037. Confirm which venue runs the CAT intake you want. Phone 7264006300; email support@tarkashastra.co.in."
+        ],
+        "links": [
+          [
+            "Official contact directory",
+            "https://www.tarkashastra.co.in/contact-us/"
+          ],
+          [
+            "CAT city page",
+            "https://www.tarkashastra.co.in/cat-coaching-in-pune/"
+          ]
+        ]
+      },
+      {
+        "id": "course",
+        "heading": "Advertised course and support",
+        "paragraphs": [
+          "The city page describes CAT 2026 hybrid access until the exam, 20+ mocks, 300+ recorded hours, individual mentoring, class tests and a doubt platform. It gives both 10,000+ and 20,000+ practice-question figures; request the exact package inventory.",
+          "Its FAQ says there are no weekend CAT classes and points working learners towards a separate weekday online batch. A dated next intake and precise current timetable were not established."
+        ],
+        "links": [
+          [
+            "Official Pune CAT description",
+            "https://www.tarkashastra.co.in/cat-coaching-in-pune/"
+          ],
+          [
+            "CAT 2026 course page",
+            "https://www.tarkashastra.co.in/cat-2026/"
+          ]
+        ]
+      },
+      {
+        "id": "fees",
+        "heading": "Fee range is not a confirmed purchase price",
+        "paragraphs": [
+          "The Pune FAQ advertises ₹5,000–₹65,000 across short-term and full-year courses, with instalments. It does not identify a tax-inclusive price for the exact current hybrid intake. Obtain the package name, exam year, final total, instalment charges and expiry in writing.",
+          "An older /cat/ page still labels products CAT 2025. Its low headline amounts should not be treated as CAT 2026 classroom fees."
+        ],
+        "links": [
+          [
+            "Current city fee FAQ",
+            "https://www.tarkashastra.co.in/cat-coaching-in-pune/"
+          ],
+          [
+            "Older exam-year page",
+            "https://www.tarkashastra.co.in/cat/"
+          ]
+        ]
+      },
+      {
+        "id": "faculty",
+        "heading": "Mentor identities and allocation",
+        "paragraphs": [
+          "The city page links AK and AT to Aniket Kalode and Aditya Thakare. Their published subject and percentile claims are provider statements; a current section-wise teaching roster was not established."
+        ],
+        "links": [
+          [
+            "Aniket Kalode profile",
+            "https://www.tarkashastra.co.in/author/tse_aniket/"
+          ],
+          [
+            "Aditya Thakare profile",
+            "https://www.tarkashastra.co.in/author/tse_aditya/"
+          ]
+        ]
+      },
+      {
+        "id": "fit",
+        "heading": "Our assessment: check schedule compatibility first",
+        "paragraphs": [
+          "This may suit a learner seeking a local hybrid option who can use the advertised weekday arrangement. Someone restricted to weekends should resolve scheduling before taking a sales consultation further.",
+          "Try a sample explanation and then solve an unseen question. Ask how quickly doubts receive substantive feedback and whether individual mentoring is scheduled or request-based. Confirm live sessions remaining after joining; recorded hours do not establish new live teaching."
+        ],
+        "links": []
+      },
+      {
+        "id": "compare",
+        "heading": "Compare Pune options",
+        "paragraphs": [],
+        "links": [
+          [
+            "Pune coaching directory",
+            "/cat-coaching/pune/"
+          ],
+          [
+            "IMS Pune",
+            "/cat-coaching/pune/ims/"
+          ],
+          [
+            "Career Launcher Pune",
+            "/cat-coaching/pune/career-launcher/"
+          ]
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does Tarkashastra offer weekend CAT classes?",
+        "a": "The reviewed city FAQ says no; it points to a separate weekday online batch. Reconfirm the current schedule directly."
+      },
+      {
+        "q": "Is ₹5,000 the classroom fee?",
+        "a": "No. It is the lower end of a broad advertised range covering different course types. A specific current classroom quote was not established."
+      }
+    ]
+  },
+  {
+    "slug": "cat-coaching/pune/eql",
+    "title": "EQL Classes Pune: CAT Contact, Courses and Enrolment Checks",
+    "section": "Pune CAT coaching research",
+    "description": "Review EQL’s FC Road CAT coaching evidence, classroom and online formats, support claims and undisclosed fees and batch details.",
+    "answer": "EQL Classes lists CAT classroom preparation near FC Road in Deccan Gymkhana, alongside online courses. Its public pages describe support and testing, but a current fee and dated CAT intake were not established.",
+    "updated": "2026-10-15",
+    "verifiedResearch": true,
+    "body": [
+      "Official web evidence reviewed on 15 October 2026. Advertised services are provider disclosures, not independently tested teaching outcomes. Current seats and assigned teachers require direct confirmation."
+    ],
+    "sections": [
+      {
+        "id": "contact",
+        "heading": "FC Road contact details",
+        "paragraphs": [
+          "The official contact page lists Fergusson College Road, behind Taco Bell, next to HP Petrol Pump B. U. Bhandari, Pulachi Wadi, Deccan Gymkhana, Pune 411004. Primary phone: 9809098686; alternative: 9804048686; email: connect@eqlclasses.com. The homepage corroborates the location and primary contact."
+        ],
+        "links": [
+          [
+            "Official contact page",
+            "https://eqlclasses.com/contact-us/"
+          ],
+          [
+            "EQL homepage",
+            "https://eqlclasses.com/"
+          ]
+        ]
+      },
+      {
+        "id": "course",
+        "heading": "What EQL advertises",
+        "paragraphs": [
+          "EQL’s CAT page describes classroom learning with digital access, sectional and full-length testing, mock analysis, doubts, mentoring and schedule support. It also describes group discussions, interviews and writing preparation. These are programme claims, not independently verified service levels.",
+          "The homepage distinguishes broader online Super courses from narrower capsule courses and links demo content for CAT, CET, NMAT, SNAP and XAT. Confirm whether your chosen package covers only CAT or other exams too."
+        ],
+        "links": [
+          [
+            "Official CAT programme description",
+            "https://eqlclasses.com/best-cat-coaching-in-pune/"
+          ],
+          [
+            "Formats and demos",
+            "https://eqlclasses.com/"
+          ]
+        ]
+      },
+      {
+        "id": "fees",
+        "heading": "Undisclosed price and batch information",
+        "paragraphs": [
+          "A current public classroom fee, dated intake, precise weekly timetable and exact included CAT mock count were not established from the reviewed pages. Request a written quote with taxes, books, portal access, recordings, mentoring, interview support and cancellation terms.",
+          "The homepage testimonials refer to Nayan Sir, but testimonials do not establish the current section-wise faculty roster. Ask who teaches QA, VARC and DILR, and attend a demo with those teachers."
+        ],
+        "links": [
+          [
+            "Official public programme information",
+            "https://eqlclasses.com/best-cat-coaching-in-pune/"
+          ]
+        ]
+      },
+      {
+        "id": "fit",
+        "heading": "Our assessment: evaluate the promised feedback",
+        "paragraphs": [
+          "An FC Road classroom may suit students who can sustain the commute and want in-person practice. Use a demo to see whether the explanation helps you solve an unfamiliar problem afterwards.",
+          "Ask to see how a weak mock becomes a concrete practice plan. Compare this with the time you can protect for independent revision, rather than treating additional lectures as the only answer.",
+          "If you join late in the cycle, clarify which concepts have already been taught and how you catch up. Confirm access duration and the support available after the written exam."
+        ],
+        "links": []
+      },
+      {
+        "id": "compare",
+        "heading": "Compare Pune options",
+        "paragraphs": [],
+        "links": [
+          [
+            "Pune coaching directory",
+            "/cat-coaching/pune/"
+          ],
+          [
+            "IMS Pune",
+            "/cat-coaching/pune/ims/"
+          ],
+          [
+            "Career Launcher Pune",
+            "/cat-coaching/pune/career-launcher/"
+          ]
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Are current EQL fees publicly confirmed here?",
+        "a": "No. The reviewed pages did not establish a current package-specific fee; obtain an itemised quote."
+      },
+      {
+        "q": "Is the exact mock-test count known?",
+        "a": "No. Sectional and full-length testing is advertised, but the current purchased inventory needs confirmation."
+      }
+    ]
   }
 ];
