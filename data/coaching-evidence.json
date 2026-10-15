@@ -830,6 +830,39 @@
       "source": "https://www.careerlauncher.com/cat-mba/coaching-centers/chennai/",
       "local": true,
       "checked": "2026-10-14"
+    },
+    {
+      "id": "time",
+      "name": "T.I.M.E.",
+      "city": "pune",
+      "area": "Deccan",
+      "address": "Offices 408–409, fourth floor, above Hotel Rajwadi Gaurav, Ghole Road corner, Apte Road, behind Santosh Bakery, Shivajinagar 411004",
+      "phone": "8956409830 / 9637568972",
+      "source": "https://timecore.time4education.com/Pune",
+      "local": true,
+      "checked": "2026-10-15"
+    },
+    {
+      "id": "tarkashastra",
+      "name": "Tarkashastra",
+      "city": "pune",
+      "area": "JM Road",
+      "address": "Office 5, third floor, Bhosale Shinde Arcade, near Deccan Bus Stop, Pune 411004",
+      "phone": "7264006300",
+      "source": "https://www.tarkashastra.co.in/contact-us/",
+      "local": true,
+      "checked": "2026-10-15"
+    },
+    {
+      "id": "eql",
+      "name": "EQL Classes",
+      "city": "pune",
+      "area": "FC Road",
+      "address": "Behind Taco Bell, next to HP Petrol Pump B. U. Bhandari, Pulachi Wadi, Deccan Gymkhana 411004",
+      "phone": "9809098686",
+      "source": "https://eqlclasses.com/contact-us/",
+      "local": true,
+      "checked": "2026-10-15"
     }
   ]
 }
