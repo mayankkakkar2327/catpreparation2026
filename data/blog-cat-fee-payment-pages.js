@@ -2839,4 +2839,7 @@ latestArticles.table.rows.unshift([delhiGuide.title, delhiGuide.description, { l
 const hyderabadGuide = require("./city-institute-pages").find(page => page.slug === "blog/best-cat-coaching-in-hyderabad");
 latestArticles.table.rows.unshift([hyderabadGuide.title, hyderabadGuide.description, { label: "Read article", href: "/blog/best-cat-coaching-in-hyderabad/" }]);
 
+const puneGuide = require("./city-institute-pages").find(page => page.slug === "blog/best-cat-coaching-in-pune");
+latestArticles.table.rows.unshift([puneGuide.title, puneGuide.description, { label: "Read article", href: "/blog/best-cat-coaching-in-pune/" }]);
+
 module.exports = [index, lrdiEpisode9Article, snapBenefitsArticle, varc40MinuteArticle, last60DaysArticle, jbimsArticle, lrdiArticle, iimaPlacementArticle, varcArticle, quantArticle, xatArticle, rodhaArticle, feeArticle, ...priorPages.filter((page) => page.slug !== "blog")];
