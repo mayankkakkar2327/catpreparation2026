@@ -622,7 +622,8 @@
       "address": "Rooms 6A/6B, ground floor, Shri Manjari, 1/1 Camac Street",
       "source": "https://www.imsindia.com/center/kolkata/",
       "phone": "8291895027",
-      "local": true
+      "local": true,
+      "checked": "2026-10-16"
     },
     {
       "id": "ims",
@@ -863,6 +864,17 @@
       "source": "https://eqlclasses.com/contact-us/",
       "local": true,
       "checked": "2026-10-15"
+    },
+    {
+      "id": "career-launcher",
+      "name": "Career Launcher",
+      "city": "kolkata",
+      "area": "Park Street",
+      "address": "Third floor, Park Centre Building, opposite Park Plaza, 24B Park Street, Kolkata 700016",
+      "phone": "033-40017777",
+      "source": "https://www.careerlauncher.com/kolkata/cat-coaching/",
+      "local": true,
+      "checked": "2026-10-16"
     }
   ]
 }
