@@ -1808,29 +1808,37 @@ module.exports = [
   },
   {
     "slug": "cat-coaching/kolkata/ims",
-    "title": "IMS Kolkata: CAT Courses, Centres, Fees and Contacts",
-    "section": "Kolkata CAT coaching research",
-    "description": "Check IMS Kolkata centre contacts, CAT preparation formats, SimCAT inclusions and questions about fees, faculty and batch availability.",
-    "answer": "IMS lists CAT centres at Park Street, Gariahat and Salt Lake, alongside online preparation. Compare the local timetable and exact mock package before selecting a course.",
+    "title": "IMS Kolkata: CAT Branches, Mock Scope and Batch Checks",
+    "section": "CAT coaching research",
+    "description": "Review IMS Kolkata branch contacts, CAT 2026 campaign details, conflicting year references and current fee limitations.",
+    "answer": "IMS lists CAT locations at Park Street, Gariahat and Salt Lake. Its campaign’s 110+ mocks combine SimCATs with other MBA-exam tests; a current local fee and dated intake were not established.",
+    "updated": "2026-10-16",
+    "verifiedResearch": true,
     "body": [
-      "Sources reviewed on 2 October 2026. Programme statements are provider disclosures, not independently audited outcomes. Confirm the current batch, assigned teachers and written quotation before enrolling."
+      "Official web evidence reviewed on 16 October 2026. Programme claims are provider disclosures; current seats, assigned teachers and outcomes have not been independently verified."
     ],
     "sections": [
       {
-        "id": "contact",
-        "heading": "Selected Kolkata centre contacts",
-        "paragraphs": [],
+        "id": "centres",
+        "heading": "Three official CAT locations",
+        "paragraphs": [
+          "The city directory and Kolkata campaign corroborate these addresses and primary contacts. Each is an enquiry point; confirm the teaching venue for your chosen intake."
+        ],
         "links": [
           [
-            "Official IMS Kolkata directory",
+            "Official directory",
             "https://www.imsindia.com/center/kolkata/"
+          ],
+          [
+            "Kolkata campaign",
+            "https://www.imsindia.com/campaign/cat-coaching-kolkata.html"
           ]
         ],
         "table": {
           "headers": [
-            "Centre",
+            "Area",
             "Address",
-            "Contact"
+            "Phone / email"
           ],
           "rows": [
             [
@@ -1842,109 +1850,80 @@ module.exports = [
               "Gariahat",
               "Second floor, 190/1 Rash Behari Avenue, above Junior Gupta Brothers, Kolkata 700029",
               "8291895019; gariahat@imsindia.com"
+            ],
+            [
+              "Salt Lake",
+              "First floor, AA-50, above Ujjivan Small Finance Bank, Sector 1, Bidhannagar 700064",
+              "8291895013; saltlake@imsindia.com"
             ]
           ]
         }
       },
       {
         "id": "course",
-        "heading": "Formats and test-series distinctions",
+        "heading": "What the campaign actually promises",
         "paragraphs": [
-          "The official city page describes classroom, live-online and self-learning options, recordings, mentoring and doubt support. A named section-wise teaching roster for a current local batch was not established."
+          "The CAT 2026 campaign describes 300+ coaching hours, 150 hours of video content, five individual online mentoring sessions and 110+ mocks split into 40+ SimCATs and 70 other-management-admission tests. Classroom, live online, self-learning and test-series products are separate options.",
+          "The self-learning block retains a CAT 2025 reference under a 2026 heading. Ask which exam year and access period apply. Original course hours do not establish how much live teaching remains after an October enrolment."
         ],
         "links": [
           [
-            "Official formats and support",
-            "https://www.imsindia.com/center/kolkata/"
-          ]
-        ]
-      },
-      {
-        "id": "mocks",
-        "heading": "Read the mock breakdown before comparing plans",
-        "paragraphs": [
-          "The Kolkata campaign lists SimCAT Comprehensive and Plus packages with 40+ SimCATs and 70 tests for other management entrances. Its simpler SimCAT plan instead specifies 16 proctored and 25 take-home SimCATs. These are different plans, not benefits to combine into one entitlement.",
-          "The campaign directs fee enquiries to counselling. A final local classroom fee, current intake date and open seat were not confirmed."
-        ],
-        "links": [
-          [
-            "Official Kolkata CAT programme and pricing enquiry",
+            "Official Kolkata programme descriptions",
             "https://www.imsindia.com/campaign/cat-coaching-kolkata.html"
           ]
         ]
       },
       {
-        "id": "fit",
-        "heading": "Our assessment: compare the actual branch experience",
+        "id": "fees",
+        "heading": "Local fees, batch and teacher limitations",
         "paragraphs": [
-          "IMS is worth shortlisting when one of its listed centres fits your weekly travel and you want scheduled teaching with test practice. Attend a demo with the teacher assigned to your weakest section; the national brand alone cannot establish classroom fit.",
-          "Ask for a sample mock review. A useful discussion should identify why questions were missed and lead to a manageable practice plan. Clarify whether this feedback is included, how appointments are booked and what happens when you miss a class.",
-          "For a late CAT 2026 enrolment, request the remaining syllabus and revision calendar. A course advertised over a full preparation cycle does not mean all those hours remain available to a new student."
+          "The reviewed city pages did not establish a current branch quote, dated new intake or named section-wise teacher allocation. The directory describes mentoring, mock analysis and doubts, but the exact support calendar needs confirmation.",
+          "Request a tax-inclusive quote covering books, CAT-only tests, other-exam tests, recordings, mentoring and interview preparation. Clarify access expiry and cancellation terms before comparing classroom and self-study products."
+        ],
+        "links": [
+          [
+            "Official city information",
+            "https://www.imsindia.com/center/kolkata/"
+          ]
+        ]
+      },
+      {
+        "id": "fit",
+        "heading": "Our assessment: check feedback and travel together",
+        "paragraphs": [
+          "Consider a demo at the branch you could attend consistently. Ask a teacher to analyse a recent error and explain what you should practise next; that helps assess whether the feedback is actionable for you.",
+          "If your foundations are already covered, compare a mock-and-feedback purchase against repeating lectures. If you need concept teaching, ask for a realistic catch-up plan and the remaining live calendar."
         ],
         "links": []
       },
       {
-        "id": "fees",
-        "heading": "Get a comparable written quotation",
-        "paragraphs": [],
-        "links": [],
-        "table": {
-          "headers": [
-            "Item",
-            "What to establish"
-          ],
-          "rows": [
-            [
-              "Target year",
-              "CAT 2026 or CAT 2027 and access expiry"
-            ],
-            [
-              "Teaching",
-              "Assigned teachers, remaining classes and recordings"
-            ],
-            [
-              "Testing",
-              "CAT-only mocks, other-exam tests and analysis"
-            ],
-            [
-              "Support",
-              "Mentor sessions, doubts and interview preparation"
-            ],
-            [
-              "Payment",
-              "Taxes, books, additional charges and refund terms"
-            ]
-          ]
-        }
-      },
-      {
         "id": "related",
-        "heading": "Related research",
+        "heading": "Related Kolkata research",
         "paragraphs": [],
         "links": [
           [
-            "Kolkata comparison guide",
-            "/blog/best-cat-coaching-in-kolkata/"
-          ],
-          [
-            "Kolkata coaching directory",
+            "Kolkata directory",
             "/cat-coaching/kolkata/"
           ],
           [
-            "IMS national profile",
-            "/cat-coaching/ims/"
+            "Career Launcher Kolkata",
+            "/cat-coaching/kolkata/career-launcher/"
+          ],
+          [
+            "Erudite Kolkata",
+            "/cat-coaching/kolkata/erudite/"
           ]
         ]
       }
     ],
     "faqs": [
       {
-        "q": "Are all advertised IMS tests CAT mocks?",
-        "a": "No. Some packages combine SimCATs with tests for other management entrances. Check your selected plan’s breakdown."
+        "q": "Are 110+ mocks all SimCATs?",
+        "a": "No. The campaign includes other MBA-exam mocks in that total."
       },
       {
-        "q": "Is a current IMS Kolkata classroom fee confirmed?",
-        "a": "No. The reviewed campaign directs pricing enquiries to counselling; obtain a dated branch quotation."
+        "q": "Does a listed branch guarantee an open batch?",
+        "a": "No. Confirm the current exam-year intake, teaching venue, seats and assigned faculty directly."
       }
     ]
   },
@@ -5038,6 +5017,342 @@ module.exports = [
       {
         "q": "Is the exact mock-test count known?",
         "a": "No. Sectional and full-length testing is advertised, but the current purchased inventory needs confirmation."
+      }
+    ]
+  },
+  {
+    "slug": "cat-coaching/kolkata/career-launcher",
+    "title": "Career Launcher Kolkata: CAT Centres, Courses and Fee Checks",
+    "section": "CAT coaching research",
+    "description": "Research Career Launcher Kolkata locations, mixed-exam mock totals, course formats and the current batch information to confirm.",
+    "answer": "Career Launcher advertises CAT classroom, online and hybrid preparation in Kolkata. Its course cards contain different mock inventories; ask for the exact package and branch timetable before paying.",
+    "updated": "2026-10-16",
+    "verifiedResearch": true,
+    "body": [
+      "Official web evidence reviewed on 16 October 2026. Programme claims are provider disclosures; current seats, assigned teachers and outcomes have not been independently verified."
+    ],
+    "sections": [
+      {
+        "id": "contact",
+        "heading": "Kolkata enquiry locations",
+        "paragraphs": [
+          "The CAT page’s embedded centre data and the official centre directory corroborate these contacts. The latter is a law-course directory, used here only to cross-check addresses; CAT provision is established by the CAT city page. Email: cal.cl@careerlauncher.com."
+        ],
+        "links": [
+          [
+            "Official Kolkata CAT page",
+            "https://www.careerlauncher.com/kolkata/cat-coaching/"
+          ],
+          [
+            "Official location cross-check",
+            "https://www.careerlauncher.com/law/coaching-centers/kolkata/"
+          ]
+        ],
+        "table": {
+          "headers": [
+            "Area",
+            "Address",
+            "Phone"
+          ],
+          "rows": [
+            [
+              "Park Street",
+              "Third floor, Park Centre Building, opposite Park Plaza, 24B Park Street, Kolkata 700016",
+              "033-40017777"
+            ],
+            [
+              "Gariahat",
+              "21A/2 Hindusthan Road, near Basanti Devi College, Kolkata 700029",
+              "033-40067777"
+            ],
+            [
+              "Salt Lake",
+              "BA 191, ground floor, Sector 1, near Hariyana Vidya Mandir School, Kolkata 700064",
+              "033-40037777"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "course",
+        "heading": "Course scope and inconsistent totals",
+        "paragraphs": [
+          "The city page advertises classroom, online and hybrid modes for CAT and other MBA exams, mentoring, printed material and interview preparation. Some course cards list 30 CAT mocks plus 70 non-CAT mocks; another lists 30 plus 82. These are different inventories, not a total to combine.",
+          "It also describes weekday and weekend options, but a dated new intake was not established. Request the named product, CAT-only test count, remaining sessions, doubt arrangements and interview-support eligibility."
+        ],
+        "links": [
+          [
+            "Official course cards and format descriptions",
+            "https://www.careerlauncher.com/kolkata/cat-coaching/"
+          ]
+        ]
+      },
+      {
+        "id": "fees",
+        "heading": "Fees, teachers and support still to confirm",
+        "paragraphs": [
+          "A current tax-inclusive branch fee and section-wise teacher allocation were not established. General faculty claims and national student testimonials do not identify who will teach your batch.",
+          "Ask for the actual QA, VARC and DILR teachers, a demo, recording expiry and a written timetable. Confirm whether a hybrid purchase includes local doubt sessions and how those sessions are booked."
+        ],
+        "links": []
+      },
+      {
+        "id": "fit",
+        "heading": "Our assessment: compare the local package",
+        "paragraphs": [
+          "This is an enquiry option if one of the three areas works for your routine and you want a choice of delivery formats. Test the journey at class time and include any additional visits for doubt sessions.",
+          "For a late-cycle purchase, separate revision and mock feedback from full foundational teaching. Compare the work still available to you, rather than the original hours advertised for students who joined earlier."
+        ],
+        "links": []
+      },
+      {
+        "id": "related",
+        "heading": "Compare Kolkata options",
+        "paragraphs": [],
+        "links": [
+          [
+            "Kolkata directory",
+            "/cat-coaching/kolkata/"
+          ],
+          [
+            "IMS Kolkata",
+            "/cat-coaching/kolkata/ims/"
+          ],
+          [
+            "Erudite Kolkata",
+            "/cat-coaching/kolkata/erudite/"
+          ]
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Are all advertised mocks CAT papers?",
+        "a": "No. The course cards distinguish CAT mocks from non-CAT exams. Confirm the inventory for your exact product."
+      },
+      {
+        "q": "Is the current classroom fee verified?",
+        "a": "No. Obtain a dated quote including tax, materials, test access and support conditions."
+      }
+    ]
+  },
+  {
+    "slug": "blog/best-cat-coaching-in-pune",
+    "title": "Best CAT Coaching in Pune: Five Institutes Compared",
+    "section": "CAT coaching research",
+    "description": "Compare Career Launcher, EQL, IMS, Tarkashastra and T.I.M.E. in Pune by location, learning format, fee evidence and student fit.",
+    "answer": "Five Pune options to investigate are Career Launcher, EQL Classes, IMS, Tarkashastra and T.I.M.E. Choose by the actual teacher, remaining timetable, commute and written inclusions; the evidence does not establish a universal best institute.",
+    "updated": "2026-10-16",
+    "verifiedResearch": true,
+    "body": [
+      "Official web evidence reviewed on 16 October 2026. Programme claims are provider disclosures; current seats, assigned teachers and outcomes have not been independently verified."
+    ],
+    "sections": [
+      {
+        "id": "method",
+        "heading": "How we selected these five",
+        "paragraphs": [
+          "All five brands have official Pune location and CAT-course evidence. We compared delivery options, published package details and information gaps, counting each brand once. The order is alphabetical, not a quality ranking.",
+          "The sources were rechecked on 16 October 2026, building on the detailed Pune listings. We have not independently tested instruction or audited results. An official address confirms a published location, not a current seat or a teacher assignment."
+        ],
+        "links": [
+          [
+            "Editorial methodology",
+            "/methodology/"
+          ]
+        ]
+      },
+      {
+        "id": "comparison",
+        "heading": "Pune comparison at a glance",
+        "paragraphs": [],
+        "links": [],
+        "table": {
+          "headers": [
+            "Institute",
+            "Selected Pune areas",
+            "Format evidence",
+            "Main decision point"
+          ],
+          "rows": [
+            [
+              "Career Launcher",
+              "FC Road, Aundh, Kharadi, Wakad, PCMC, Undri",
+              "Classroom, online and hybrid",
+              "Get the branch-specific timetable and quote"
+            ],
+            [
+              "EQL Classes",
+              "FC Road, Deccan Gymkhana",
+              "Classroom and online",
+              "Check actual teachers and mock-feedback process"
+            ],
+            [
+              "IMS",
+              "Aundh, Deccan, Magarpatta, Pimpri",
+              "Classroom and online options",
+              "Trial the branch teacher and weekly commute"
+            ],
+            [
+              "Tarkashastra",
+              "JM Road; confirm CAT allocation at other branches",
+              "Classroom/hybrid and online",
+              "City FAQ says no weekend CAT classes"
+            ],
+            [
+              "T.I.M.E.",
+              "Deccan, Kothrud, Wakad",
+              "Local CAT directory; national course options",
+              "Confirm current venue and local package"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "career-launcher",
+        "heading": "Career Launcher: a broad local network",
+        "paragraphs": [
+          "The CAT city page lists six Pune centres and classroom, online and hybrid modes. FC Road is at offices 1–2, third floor, Land Square Shopping Complex, above Fastrack near Rupali Restaurant; phone 8484820200. It describes mentoring, doubts and printed material, but no current fee or dated new intake was established.",
+          "Our assessment: worth an enquiry when one of the listed areas fits your routine. Ask whether hybrid sessions and local doubt visits are included in the product you would buy. Check a demo with the assigned teacher rather than assuming national testimonials describe that branch."
+        ],
+        "links": [
+          [
+            "Official Pune CAT page",
+            "https://www.careerlauncher.com/pune/cat-coaching-pune/"
+          ],
+          [
+            "Career Launcher Pune profile",
+            "/cat-coaching/pune/career-launcher/"
+          ]
+        ]
+      },
+      {
+        "id": "eql",
+        "heading": "EQL Classes: test how feedback turns into practice",
+        "paragraphs": [
+          "EQL lists CAT classroom preparation on FC Road, behind Taco Bell in Deccan Gymkhana, with online alternatives. Its CAT page describes sectional/full-length tests, mock analysis, mentoring and interview-stage support. Exact current fees, mock inventory, intake dates and teacher allocation were not established.",
+          "Our assessment: consider it if you want a local classroom and can verify the support process. Bring a weak mock to a demo or counselling session and ask for a concrete practice plan. Establish how doubts are handled between classes."
+        ],
+        "links": [
+          [
+            "Official EQL CAT page",
+            "https://eqlclasses.com/best-cat-coaching-in-pune/"
+          ],
+          [
+            "Detailed EQL profile",
+            "/cat-coaching/pune/eql/"
+          ]
+        ]
+      },
+      {
+        "id": "ims",
+        "heading": "IMS: select the branch as carefully as the brand",
+        "paragraphs": [
+          "IMS’s official directory lists CAT centres in Aundh, Deccan, Magarpatta and Pimpri. The Aundh contact is 9960957975 at office 5, second floor, Business Avenue, DP Road. Its city page describes classroom/online preparation, mentoring and testing; current local fees and a dated new intake were not established.",
+          "Our assessment: shortlist a branch only after testing the journey and meeting the actual teacher. Published mentor names are not a promise of allocation to your batch. Ask how missed classes, recordings and mock reviews work in the specific package."
+        ],
+        "links": [
+          [
+            "Official IMS Pune directory",
+            "https://www.imsindia.com/center/pune/"
+          ],
+          [
+            "Detailed IMS Pune profile",
+            "/cat-coaching/pune/ims/"
+          ]
+        ]
+      },
+      {
+        "id": "tarkashastra",
+        "heading": "Tarkashastra: resolve weekday availability before price",
+        "paragraphs": [
+          "The CAT city FAQ says weekend CAT classes are not offered and points to a separate weekday online batch. It advertises a ₹5,000–₹65,000 range across different course types, not a confirmed current hybrid quote. The JM Road address is office 5, third floor, Bhosale Shinde Arcade, near Deccan Bus Stop.",
+          "Our assessment: investigate if weekday learning works for you. Ask for the exact exam-year product and live calendar; recorded hours are not live teaching hours. Older CAT 2025 prices should not be reused for a current classroom purchase."
+        ],
+        "links": [
+          [
+            "Official Tarkashastra city course",
+            "https://www.tarkashastra.co.in/cat-coaching-in-pune/"
+          ],
+          [
+            "Detailed Tarkashastra profile",
+            "/cat-coaching/pune/tarkashastra/"
+          ]
+        ]
+      },
+      {
+        "id": "time",
+        "heading": "T.I.M.E.: verify the local contract",
+        "paragraphs": [
+          "The indexed official Pune directory lists Deccan, Kothrud and Wakad. Deccan’s contact is 8956409830 / 9637568972, with offices 408–409 above Hotel Rajwadi Gaurav at the Ghole Road–Apte Road corner. Direct retrieval returned a minimal page shell, so confirm the venue before travelling.",
+          "Our assessment: compare the branch timetable, teachers and doubt-session access. National mock totals and online-course prices do not establish local classroom inclusions. A current Pune quote and dated new intake were not established."
+        ],
+        "links": [
+          [
+            "Official Pune directory",
+            "https://timecore.time4education.com/Pune"
+          ],
+          [
+            "Detailed T.I.M.E. profile",
+            "/cat-coaching/pune/time/"
+          ]
+        ]
+      },
+      {
+        "id": "fees",
+        "heading": "Why there is no cheapest-to-costliest ranking",
+        "paragraphs": [
+          "Comparable, current, tax-inclusive classroom quotes were not established for these five providers. A broad fee range cannot be treated as a specific purchase price, and a test series cannot be priced as though it includes full teaching.",
+          "Ask each shortlist for the same written fields: exam year, teaching mode, remaining live sessions, actual teachers, books, CAT mocks, other-exam mocks, feedback, recordings, interview support, tax, expiry and cancellation terms. Compare like-for-like packages only."
+        ],
+        "links": []
+      },
+      {
+        "id": "choose",
+        "heading": "Match the course to your stage of preparation",
+        "paragraphs": [
+          "For late CAT 2026 revision, identify whether your bottleneck is concept coverage, question selection, speed or error review. Ask what work the provider can still deliver after you join. A large original course-hour figure is not a remaining timetable.",
+          "For a longer preparation cycle, test whether the weekly schedule leaves room for independent practice. Calculate travel for both teaching and extra doubt visits. A short journey with a usable timetable may be more practical than a larger advertised feature list.",
+          "At two demos, use the same unfamiliar topic and try fresh questions afterwards. Record what you understood and whether the teacher helped you correct mistakes. This is a personal fit check, not an objective provider ranking."
+        ],
+        "links": []
+      },
+      {
+        "id": "related",
+        "heading": "Continue your research",
+        "paragraphs": [],
+        "links": [
+          [
+            "Pune directory",
+            "/cat-coaching/pune/"
+          ],
+          [
+            "Online alternatives",
+            "/cat-coaching/online/"
+          ],
+          [
+            "Mock-test guide",
+            "/cat-preparation/mock-tests/"
+          ]
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Which CAT institute in Pune is best?",
+        "a": "No universal winner is established. Compare actual teachers, timetable, feedback and commute against your needs."
+      },
+      {
+        "q": "Are all five accepting new students now?",
+        "a": "Current seats and dated new intake availability were not independently confirmed. Ask each centre directly."
+      },
+      {
+        "q": "Does Tarkashastra have weekend CAT classes?",
+        "a": "Its reviewed city FAQ says no and points to a separate weekday online batch; reconfirm before enrolment."
+      },
+      {
+        "q": "Are the published fees directly comparable?",
+        "a": "No. Equivalent current classroom quotes were not established, and the displayed Tarkashastra range spans different course types."
       }
     ]
   }
