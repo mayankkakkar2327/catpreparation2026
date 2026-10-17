@@ -644,7 +644,8 @@
       "address": "202/203 Vishwanath Northview, beside Regional Passport Office, Gujarat University Road",
       "source": "https://www.imsindia.com/center/ahmedabad/",
       "phone": "7041774887",
-      "local": true
+      "local": true,
+      "checked": "2026-10-17"
     },
     {
       "id": "ims",
@@ -875,6 +876,17 @@
       "source": "https://www.careerlauncher.com/kolkata/cat-coaching/",
       "local": true,
       "checked": "2026-10-16"
+    },
+    {
+      "id": "career-launcher",
+      "name": "Career Launcher",
+      "city": "ahmedabad",
+      "area": "Navrangpura",
+      "address": "A 102, Karmyog Heights, S V Desai Marg, Sardar Patel Nagar, Ahmedabad 380009",
+      "phone": "9978559986 / 6353842725",
+      "source": "https://www.careerlauncher.com/cat-mba/coaching-centers/ahmedabad/",
+      "local": true,
+      "checked": "2026-10-17"
     }
   ]
 }
