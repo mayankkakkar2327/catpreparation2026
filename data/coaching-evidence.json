@@ -591,7 +591,8 @@
       "address": "2235, second floor, 27th Cross, 11th Main, third Block, above Kaya Clinic",
       "source": "https://www.imsindia.com/center/bangalore/",
       "phone": "8657552053",
-      "local": true
+      "local": true,
+      "checked": "2026-10-18"
     },
     {
       "id": "ims",
@@ -675,7 +676,8 @@
       "address": "No. 241, second floor, sixth Cross, first Stage, CMH Road, above Positive Homeopathy",
       "source": "https://www.careerlauncher.com/bangalore/indiranagar/",
       "phone": "7899723611",
-      "local": true
+      "local": true,
+      "checked": "2026-10-18"
     },
     {
       "id": "career-launcher",
