@@ -297,18 +297,18 @@ module.exports = [
     "slug": "cat-coaching/delhi/mba-guru",
     "section": "Delhi NCR institute listing",
     "title": "MBAGuru Delhi: CAT Coaching, Centres, Fees and Contact",
-    "description": "Research MBAGuru CAT coaching in Delhi: official contacts, learning modes, fee disclosures and enrolment checks. Sources reviewed 27 September 2026.",
+    "description": "MBAGuru Delhi CAT coaching: confirmed central contact, classroom support, online fee and access disclosures, and current branch checks.",
     "answer": "MBAGuru provides classroom CAT preparation in Delhi and an online alternative for NCR students. Its published approach emphasises diagnosis of weak areas and monitored practice. Compare the actual batch and support arrangement before enrolling.",
-    "dateModified": "2026-09-27",
     "body": [
-      "Official sources reviewed on 27 September 2026. This city listing adds local detail to the existing national profile; branches are not counted as separate institutes. Provider descriptions are attributed claims, not audited classroom performance or guaranteed outcomes."
+      "Official sources reviewed on 19 October 2026. Programme descriptions are provider disclosures, not independently audited delivery or results. Current seats and assigned teachers require confirmation."
     ],
     "sections": [
       {
         "id": "contact",
         "heading": "Delhi centres and official contact",
         "paragraphs": [
-          "The official contact page lists Connaught Place, Hudson Lane, Nirman Vihar, Rajouri Garden and Kohat Enclave. Selected contacts are shown below; confirm the current intake before travelling."
+          "The contact page confirms the Connaught Place address below and names North Campus/Hudson Lane, East Delhi/Nirman Vihar, Rajouri Garden/Vishal Enclave and Pitampura/Kohat Enclave. Its readable content does not currently establish street addresses for those other locations. Our earlier North Campus and East Delhi street entries have therefore been removed pending reconfirmation.",
+          "The classroom page independently names the same Delhi areas. Ask for a current map pin and the actual teaching venue; a counselling contact does not establish an available intake."
         ],
         "table": {
           "headers": [
@@ -321,16 +321,6 @@ module.exports = [
               "Connaught Place",
               "P 11/90, first floor, Outer Circle, New Delhi 110001",
               "+91 9311067486; 011 43528138"
-            ],
-            [
-              "North Campus",
-              "2513, Hudson Lane, Kingsway Camp, GTB Nagar, Delhi 110009",
-              "+91 9311067482; 011 42466908"
-            ],
-            [
-              "East Delhi",
-              "E 366, ground floor, near Nirman Vihar Metro gate 4, New Delhi 110092",
-              "+91 9311067481; 011 42487481"
             ]
           ]
         },
@@ -372,8 +362,9 @@ module.exports = [
         "id": "fees",
         "heading": "Online fee disclosure versus classroom fees",
         "paragraphs": [
-          "The official online fee page publishes ₹35,000–₹45,000 including GST, varying with duration, exam year and offer. This is an online range, not a verified Delhi classroom quote. It describes live teaching, recordings, books by courier, doubt support, mocks and interview preparation.",
-          "The classroom page asks applicants to confirm fees during counselling. No exact classroom price or currently available start date was established in this review. The provider advertises a full refund within 15 days or six classes, whichever comes first; request the applicable written policy and claim procedure before payment."
+          "The official online fee page publishes ₹35,000–₹45,000 inclusive of GST, varying by duration, target year, batch and offer. It describes live classes, recordings, books, doubts, mocks and PI-WAT support. This is an online disclosure, not a Delhi classroom quotation.",
+          "The page says access lasts until six months after the enrolled CAT exam year, and mentions instalments, discounts and scholarships subject to current terms. Obtain an exact calendar expiry and payment schedule: the wording does not specify a date for your account. Its own fee-verification note is dated 21 July 2026; our review date does not make that an October price quote.",
+          "A current classroom total and dated new intake were not established. The separate refund-policy page corroborates the advertised 100% refund within 15 days or six classes, whichever comes first, for online and offline programmes. Ask how to submit a request and when the clock starts."
         ],
         "links": [
           [
@@ -383,6 +374,10 @@ module.exports = [
           [
             "Classroom fee and refund disclosure",
             "https://mbaguru.in/mbaguru-classroom-cat-coaching/"
+          ],
+          [
+            "Official refund policy",
+            "https://mbaguru.in/refund-policy/"
           ]
         ]
       },
@@ -428,18 +423,23 @@ module.exports = [
       {
         "q": "Are MBAGuru branches separate institutes in this directory?",
         "a": "No. Delhi branches belong to one institute and count as one provider in comparisons."
+      },
+      {
+        "q": "Are all Delhi branch street addresses confirmed?",
+        "a": "No. The reviewed contact page confirms Connaught Place and names other areas, but current street addresses for those locations need direct confirmation."
       }
-    ]
+    ],
+    "updated": "2026-10-19",
+    "verifiedResearch": true
   },
   {
     "slug": "cat-coaching/delhi/career-launcher",
     "section": "Delhi NCR institute listing",
     "title": "Career Launcher Delhi: CAT Coaching, Centres, Fees and Contact",
-    "description": "Research Career Launcher CAT coaching in Delhi: official contacts, learning modes, fee disclosures and enrolment checks. Sources reviewed 27 September 2026.",
+    "description": "Career Launcher Delhi CAT 2026/2027 options, corrected North Campus contact, classroom and hybrid disclosures, package differences and fee checks.",
     "answer": "Career Launcher offers Delhi classroom and online CAT preparation, alongside other MBA entrance options. Compare the local branch, package inclusions and mock-review support; the national brand name alone does not establish fit for a particular student.",
-    "dateModified": "2026-09-27",
     "body": [
-      "Official sources reviewed on 27 September 2026. This city listing adds local detail to the existing national profile; branches are not counted as separate institutes. Provider descriptions are attributed claims, not audited classroom performance or guaranteed outcomes."
+      "Official sources reviewed on 19 October 2026. Programme descriptions are provider disclosures, not independently audited delivery or results. Current seats and assigned teachers require confirmation."
     ],
     "sections": [
       {
@@ -465,12 +465,13 @@ module.exports = [
             [
               "North Campus",
               "8, second floor, Hudson Lane, Kingsway Camp, New Delhi 110009",
-              "+91 8800705747; nc@careerlauncher.com"
+              "+91 8800706487; nc@careerlauncher.com"
             ]
           ]
         },
         "paragraphs": [
-          "The official Delhi directory also lists NSP, South Extension, Rajouri Garden, CP Kanchenjunga and Preet Vihar. These are branches of one institute. Confirm the address and current batch directly."
+          "The city directory currently gives 8800706487 for North Campus, replacing the number in our earlier profile. Connaught Place and Dwarka contacts remain as shown. Call the selected branch to confirm CAT teaching and intake availability.",
+          "The general city directory includes centres for multiple exams. Do not infer that every location offers every CAT format merely from the Delhi-wide programme description."
         ],
         "links": [
           [
@@ -483,8 +484,9 @@ module.exports = [
         "id": "programmes",
         "heading": "Course coverage and package differences",
         "paragraphs": [
-          "The Delhi CAT page covers CAT, XAT, NMAT, SNAP and CMAT, with classroom and online choices. Programme cards describe different live-hour and session totals; several advertise 30 full-length CAT mocks and 45 CAT sectionals. A separate test-series card lists 30+1 mocks. Treat these as different products, not cumulative entitlements.",
-          "The page describes Telegram doubt support, mentoring and recorded pre-class material. Physical books are labelled as an add-on in one card and included in others. Ask for the exact product name and feature sheet."
+          "The Delhi CAT page now explicitly describes CAT 2026 and CAT 2027 preparation across classroom, online and hybrid formats. Hybrid is described as online classes with periodic centre access for doubts, mock reviews and mentoring; confirm the participating branch and visit schedule.",
+          "The page advertises MBA Edge as covering both exam cycles. This is not evidence that every package includes a second attempt. Obtain the product name, year-by-year teaching entitlement and access expiry.",
+          "Several course cards list 30 CAT mocks and 45 CAT sectionals, while broader programme descriptions use larger mixed totals. Other-exam preparation includes XAT, NMAT, SNAP and CMAT. Books, mentoring and interview support differ by card: ask for one complete specification rather than combining features from multiple offers."
         ],
         "links": [
           [
@@ -497,8 +499,8 @@ module.exports = [
         "id": "faculty",
         "heading": "Faculty and mentoring checks",
         "paragraphs": [
-          "The Delhi CAT page makes general faculty-experience and percentile claims, but this review did not establish the current teaching roster for each branch. Ask who teaches QA, DILR and VARC in your batch and whether mentoring is individual or shared.",
-          "Our assessment: a sample class should help you judge explanation pace, time spent discussing mistakes and whether you can comfortably ask questions. A national mentor’s appearance in marketing is not evidence of regular access at your local centre."
+          "A current section-wise branch teaching roster was not established. National mentor publicity does not confirm who teaches your intake. Request the QA, DILR and VARC names and a demo with the assigned teacher.",
+          "Our assessment: for hybrid study, test both parts of the arrangement. Establish how an online doubt reaches a local teacher, whether a visit needs booking and whether mock-review appointments fit your timetable."
         ],
         "links": []
       },
@@ -506,8 +508,8 @@ module.exports = [
         "id": "fees",
         "heading": "Fees, batches and disclosures",
         "paragraphs": [
-          "No final branch-specific classroom fee or current start date was verified from the reviewed Delhi pages. Ask for a written total with GST and identify paid extras before comparing prices.",
-          "Keep course duration, target exam year, recording access, books, mocks, interview preparation and refund terms on the same quote. For a current-cycle admission, confirm what teaching has already finished and whether missed content is recoverable."
+          "No dated branch-specific classroom quotation or new-batch start was established. Ask for the total including tax, materials and any optional services, with the target exam year written explicitly.",
+          "For CAT 2026, obtain the remaining live calendar and catch-up arrangement. For CAT 2027, obtain the teaching start, revision period and expiry. A two-cycle product needs a separate explanation of what renews and what carries forward."
         ],
         "links": []
       },
@@ -554,7 +556,9 @@ module.exports = [
         "q": "Is a current Delhi classroom fee confirmed here?",
         "a": "No. Contact the selected centre for a current quotation covering taxes and any extras."
       }
-    ]
+    ],
+    "updated": "2026-10-19",
+    "verifiedResearch": true
   },
   {
     "slug": "cat-coaching/mumbai/ims",
@@ -3325,12 +3329,12 @@ module.exports = [
     "slug": "cat-coaching/delhi/ims",
     "title": "IMS Delhi: CAT Centres, Courses and Fee Checks",
     "section": "Delhi NCR CAT coaching research",
-    "description": "Research IMS Delhi CAT locations, contacts, faculty disclosures, SimCAT inclusions and current batch questions.",
+    "description": "IMS Delhi CAT 2027 course update, CAT 2026 test-series distinction, local contacts, mentoring and unresolved fees.",
     "answer": "IMS lists Delhi CAT centres and classroom, online, self-learning and test-series routes. Confirm the selected branch, exam year, remaining teaching and final fee before enrolling.",
-    "updated": "2026-10-09",
+    "updated": "2026-10-19",
     "verifiedResearch": true,
     "body": [
-      "Official sources reviewed on 9 October 2026. Features are provider disclosures; teaching quality, outcomes and current seat availability have not been independently tested."
+      "Official sources reviewed on 19 October 2026. Programme descriptions are provider disclosures, not independently audited delivery or results. Current seats and assigned teachers require confirmation."
     ],
     "sections": [
       {
@@ -3369,8 +3373,8 @@ module.exports = [
         "id": "course",
         "heading": "Programme and mock-test disclosures",
         "paragraphs": [
-          "The Delhi campaign describes classroom, live-online, self-learning and test-series products. Its CAT 2026 programme lists 300+ teaching hours, video learning, mentoring and GDPI support. The advertised 110+ mocks combines 40+ SimCATs with 70 other-management-admission tests; it is not 110 CAT-only tests.",
-          "The E-CATAPULT 2026 block retains a CAT 2025 sentence. Ask for the actual access year and expiry rather than relying on a heading alone."
+          "The Delhi campaign’s main classroom and CATapult Live headings now target CAT 2027. The main programme describes 300+ teaching hours, 150 hours of video learning, five individual online mentoring sessions and 110+ mocks split into 40+ SimCATs and 70 other-management-admission tests.",
+          "The same page still labels its SimCAT test-series products 2026, while E-CATAPULT 2027 retains a CAT 2025 sentence. These year labels are inconsistent across products. Confirm the exact exam year and expiry before buying; a CAT 2027 course heading does not establish CAT 2026 teaching availability."
         ],
         "links": [
           [
@@ -3396,8 +3400,8 @@ module.exports = [
         "id": "fees",
         "heading": "Fees and new-batch availability",
         "paragraphs": [
-          "A current branch-specific classroom price and dated next intake were not established from these sources. Request a written quote identifying tax, books, CAT mocks, other-exam mocks, mentoring and interview support.",
-          "For a late CAT 2026 enrolment, ask how much teaching remains live and what must be recovered from recordings. A full programme description does not mean all advertised hours will take place after you join."
+          "A current branch-specific classroom price and dated next intake were not established. Request an itemised quote for your chosen exam year, separating books, tests, mentoring and interview support.",
+          "For CAT 2026, ask specifically about remaining teaching versus test-only access. For CAT 2027, ask when foundation lessons begin and when revision finishes. Do not treat the advertised full-course hours as a calendar for your intake."
         ],
         "links": []
       },
@@ -3575,23 +3579,45 @@ module.exports = [
     "slug": "blog/best-cat-coaching-in-delhi",
     "title": "Best CAT Coaching in Delhi NCR: 5 Institutes Compared",
     "section": "Delhi NCR CAT coaching research",
-    "description": "Compare Alchemist, Career Launcher, IMS, MBAGuru and T.I.M.E. for Delhi NCR CAT preparation, with official local sources and enrolment checks.",
+    "description": "Compare five Delhi NCR CAT institutes with October 2026 source checks, CAT 2027 course changes, contact corrections and fee limitations.",
     "answer": "Five Delhi CAT coaching providers to compare are Alchemist, Career Launcher, IMS, MBAGuru and T.I.M.E. This alphabetical shortlist covers one Delhi NCR market; choose by the actual branch, teachers, remaining teaching and commute.",
-    "updated": "2026-10-09",
+    "updated": "2026-10-19",
     "verifiedResearch": true,
     "body": [
-      "Official sources reviewed on 9 October 2026. Features are provider disclosures; teaching quality, outcomes and current seat availability have not been independently tested."
+      "Official sources reviewed on 19 October 2026. Programme descriptions are provider disclosures, not independently audited delivery or results. Current seats and assigned teachers require confirmation."
     ],
     "sections": [
       {
         "id": "method",
         "heading": "Selection criteria and evidence limits",
         "paragraphs": [
-          "We reviewed official local or programme information for five distinct brands. Multiple branches count once. The existing MBAGuru and Career Launcher listings were revisited through their official sources; IMS and Alchemist have new detailed local profiles.",
+          "We rechecked official sources for five distinct brands and materially refreshed the IMS, Career Launcher and MBAGuru profiles. Branches count once. This update focuses on exam-year changes, contact accuracy and what a current quotation must establish.",
           "This is a practical shortlist, not an audited ranking or exhaustive NCR directory. The verified examples are in Delhi; we do not infer a Noida or Gurugram branch merely because a provider serves NCR online. We have not attended classes or independently measured outcomes.",
           "We selected providers with official Delhi presence and CAT-related information, then compared disclosed learning formats and unresolved purchase details. Our student-suitability comments are editorial judgments to test through a demo."
         ],
         "links": []
+      },
+      {
+        "id": "october-update",
+        "heading": "What changed in the October review",
+        "paragraphs": [
+          "IMS now labels its main course CAT 2027 while retaining CAT 2026 test-series headings. Career Launcher explicitly covers 2026/2027 and hybrid options, and its city directory gives a different North Campus phone. MBAGuru’s contact page no longer confirms two street addresses in our older listing.",
+          "These changes matter before a visit or payment. Check the target year, current venue and dated intake separately; a functioning website or an advertised course is not proof of seats in a specific batch."
+        ],
+        "links": [
+          [
+            "IMS details",
+            "/cat-coaching/delhi/ims/"
+          ],
+          [
+            "Career Launcher details",
+            "/cat-coaching/delhi/career-launcher/"
+          ],
+          [
+            "MBAGuru details",
+            "/cat-coaching/delhi/mba-guru/"
+          ]
+        ]
       },
       {
         "id": "comparison",
@@ -3615,13 +3641,13 @@ module.exports = [
             [
               "Career Launcher",
               "Delhi centre and CAT pages",
-              "Classroom/online; several test packages",
+              "Classroom, online and hybrid; 2026/2027 options",
               "Exact package and local teacher assignment"
             ],
             [
               "IMS",
               "Delhi CAT centre directory",
-              "Teaching, mentoring and mixed-exam mocks",
+              "Main CAT 2027 course; separately labelled 2026 tests",
               "Remaining live lessons and final classroom quote"
             ],
             [
@@ -3632,7 +3658,7 @@ module.exports = [
             ],
             [
               "T.I.M.E.",
-              "Official Delhi city network page",
+              "Current city page; historical official brochure",
               "CAT/MBA preparation",
               "Current classroom address, roster and package"
             ]
@@ -3665,8 +3691,8 @@ module.exports = [
         "id": "cl",
         "heading": "Career Launcher: identify the exact package",
         "paragraphs": [
-          "Career Launcher’s Delhi pages establish local CAT preparation and classroom/online options. Its course cards show different teaching, test and mentoring bundles; several distinguish CAT mocks from non-CAT tests.",
-          "Our assessment: ask admissions to identify the specific card and local delivery arrangement in writing. Do not combine the largest numbers across packages into one entitlement. Confirm assigned teachers, physical-material charges and interview preparation."
+          "Career Launcher’s Delhi page describes classroom, online and hybrid CAT preparation for 2026 and 2027. Its North Campus contact in the city directory is now 8800706487.",
+          "Our assessment: compare the exact product and its validity. For hybrid study, request the local appointment schedule; for a two-cycle purchase, request each year’s entitlements. Do not infer that all branches deliver every advertised format."
         ],
         "links": [
           [
@@ -3687,8 +3713,8 @@ module.exports = [
         "id": "ims",
         "heading": "IMS: distinguish a course from a test series",
         "paragraphs": [
-          "IMS’s Delhi directory includes CAT locations at Connaught Place and Dwarka. The campaign offers several formats and combined CAT/other-exam test totals, with some mixed-year wording.",
-          "Our assessment: compare a branch demo and a mock-review discussion. For a late joiner, the remaining live schedule matters more than the total hours advertised for the full programme."
+          "IMS’s Delhi directory confirms CAT locations at Connaught Place and Dwarka. Its campaign now distinguishes a main CAT 2027 course from test-series headings still marked 2026, and contains a leftover 2025 sentence in the self-learning block.",
+          "Our assessment: ask for a written product-year confirmation and a dated teaching plan. A current-cycle student seeking mock review and an early-stage 2027 student need different services even when they contact the same centre."
         ],
         "links": [
           [
@@ -3709,8 +3735,8 @@ module.exports = [
         "id": "mbaguru",
         "heading": "MBAGuru: check the accountability arrangement",
         "paragraphs": [
-          "MBAGuru lists P 11/90, first floor, Outer Circle, Connaught Place, and other Delhi contact points. Its classroom page describes ADAPTIVE Prep, three-hour sessions, a claimed maximum of 30 students, checked homework, doubts and AIRCAT analysis.",
-          "Our assessment: investigate if you want regular homework follow-up. Ask who reviews unfinished work and unresolved doubts, and confirm the actual batch size and teaching calendar. The current classroom price requires counselling; online prices should not be treated as branch quotations."
+          "MBAGuru confirms its Connaught Place contact and names other Delhi areas. Its classroom page describes three-hour sessions, a maximum of 30 students, checked homework and AIRCAT analysis. Current street addresses outside the central contact need reconfirmation.",
+          "Our assessment: investigate the actual homework follow-up and allocated teachers. Its online fee range and access-validity wording are separate from a current classroom quote. Ask for an exact expiry date, payment schedule and applicable refund procedure."
         ],
         "links": [
           [
@@ -3731,13 +3757,17 @@ module.exports = [
         "id": "time",
         "heading": "T.I.M.E.: establish the current branch specification",
         "paragraphs": [
-          "T.I.M.E.’s official Delhi page identifies a city network including Connaught Place, Dwarka, East Delhi, East of Kailash and Kalu Sarai. The current page exposes limited programme detail in its readable content, so we have not copied an old brochure’s address or fee as a current quotation.",
-          "Our assessment: use the official city page to establish the teaching venue and request the current CAT course specification. Confirm faculty, test counts, analysis, mentoring, timetable and fees before treating this as a like-for-like option."
+          "T.I.M.E.’s official Delhi page identifies CAT coaching, but its currently readable response provides little local detail. Its official CAT 2025 brochure lists a Delhi network including Connaught Place and Dwarka. That is historical corroboration of city presence, not verification of current branch addresses, telephone numbers or intakes. The older short-domain directory also failed a certificate check, so it is not provided as a visiting link.",
+          "Our assessment: retain T.I.M.E. as an option to investigate, with weaker current local evidence than the detailed profiles above. Obtain the teaching venue, assigned faculty, CAT mock inventory, review process and dated quotation before visiting or paying. No old brochure fee or address is presented here as current."
         ],
         "links": [
           [
             "Official Delhi city page",
             "https://time4education.com/Delhi/"
+          ],
+          [
+            "Official CAT 2025 brochure: historical network evidence only",
+            "https://time4education.com/drupal/sites/default/files/assets/brochures/cat-2025-brochurev1.pdf"
           ],
           [
             "National T.I.M.E. course evidence",
@@ -3796,6 +3826,16 @@ module.exports = [
             ]
           ]
         }
+      },
+      {
+        "id": "target-year",
+        "heading": "A decision checklist for 2026 and 2027 applicants",
+        "paragraphs": [
+          "If you are joining for the current exam cycle, list the tasks you still need help with before selecting a course: unresolved concepts, test selection, timing, or feedback. Ask how many relevant live sessions actually remain after your joining date.",
+          "For a longer preparation cycle, request a calendar that shows foundations, practice, revision and mocks. Check when recordings and tests expire, and what happens if college or work forces a batch change.",
+          "Keep a copy of the dated quotation and the programme specification together. A corrected phone number helps you reach a centre; only its written confirmation can establish the batch you are buying."
+        ],
+        "links": []
       },
       {
         "id": "related",
