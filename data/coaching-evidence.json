@@ -571,7 +571,7 @@
       "source": "https://www.imsindia.com/center/delhi/",
       "phone": "7045127127",
       "local": true,
-      "checked": "2026-10-09"
+      "checked": "2026-10-19"
     },
     {
       "id": "ims",
@@ -666,7 +666,8 @@
       "address": "A18 Middle Circle, Rama House",
       "source": "https://www.careerlauncher.com/delhi/",
       "phone": "9289911842",
-      "local": true
+      "local": true,
+      "checked": "2026-10-19"
     },
     {
       "id": "career-launcher",
@@ -707,7 +708,8 @@
       "address": "P11/90, first floor, Outer Circle",
       "source": "https://mbaguru.in/contact/",
       "phone": "9311067486",
-      "local": true
+      "local": true,
+      "checked": "2026-10-19"
     },
     {
       "id": "catking",
