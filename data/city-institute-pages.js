@@ -564,17 +564,17 @@ module.exports = [
     "slug": "cat-coaching/mumbai/ims",
     "title": "IMS Mumbai: CAT Courses, Centres, Fees and Contacts",
     "section": "Mumbai CAT coaching research",
-    "description": "IMS Mumbai: CAT Courses, Centres, Fees and Contacts. Compare verified sources, fees, learning modes and questions to ask before joining. Reviewed 28 September 2026.",
+    "description": "IMS Mumbai CAT contacts, Andheri SV Road location, exam-specific centre distinctions, mentoring and mock-package checks.",
     "answer": "IMS has Mumbai classroom centres alongside online and test-series options. Shortlist a reachable branch and compare the teaching roster, mentoring access and exact mock package before choosing a course.",
     "body": [
-      "Sources reviewed on 28 September 2026. Provider programme statements are disclosures, not independently audited results. Current seat availability and batch-specific faculty must be confirmed before enrolment."
+      "Official sources reviewed on 20 October 2026. Features and support promises are provider disclosures, not independently tested delivery. Current seats, assigned teachers and final quotations require confirmation."
     ],
     "sections": [
       {
         "id": "contact",
         "heading": "Selected Mumbai centre contacts",
         "paragraphs": [
-          "The official city directory lists these CAT locations. Call 9167127127 for the listed centres and confirm the current room and timetable before visiting."
+          "The directory explicitly labels the three selected locations below for CAT. All give 9167127127. Churchgate’s address and telephone are also consistent with the campaign page. Confirm a dated intake before travelling."
         ],
         "links": [
           [
@@ -598,16 +598,39 @@ module.exports = [
               "Churchgate",
               "22, first floor, Khetan Bhavan, 198 Jamshedji Tata Road, Churchgate 400020",
               "churchgate@imsindia.com"
+            ],
+            [
+              "Andheri SV Road",
+              "Flat 3, first floor, Madhaveshwar CHS, SV Road, above Merwans Cake Shop, Madhav Nagar, Andheri West 400058",
+              "andheri@imsindia.com"
             ]
           ]
         }
       },
       {
+        "id": "location-check",
+        "heading": "Andheri and exam-specific location checks",
+        "paragraphs": [
+          "The directory lists the Andheri SV Road CAT location above. Its separate IMS Manya Andheri entry covers overseas-admission exams and does not list CAT. Do not substitute that address for a CAT classroom.",
+          "The campaign still heads one entry Andheri West but gives a Vertex Vikas address in Andheri East. This conflict is unresolved. Ask admissions for the map pin of your actual batch. Likewise, GET.SET.LAW entries should not automatically be counted as CAT centres."
+        ],
+        "links": [
+          [
+            "City directory",
+            "https://www.imsindia.com/center/mumbai/"
+          ],
+          [
+            "Campaign location wording",
+            "https://www.imsindia.com/campaign/cat-coaching-mumbai.html"
+          ]
+        ]
+      },
+      {
         "id": "courses",
         "heading": "CAT programmes and mock-test breakdown",
         "paragraphs": [
-          "The Mumbai campaign describes classroom, live-online, self-learning and SimCAT plans. Its CAT 2026 block advertises 300+ teaching hours, 150 hours of video content and 110+ full-length mocks, including 40+ SimCATs and 70 tests for other management entrances. These totals describe the advertised package, not remaining teaching for a late joiner.",
-          "Mentoring and GDPI support are mentioned. Request the selected plan’s test inventory, mentor-session entitlement and interview-support conditions rather than treating all displayed plans as identical."
+          "The Mumbai campaign still labels its main programme CAT 2026. It advertises 300+ teaching hours, 150 video hours and 110+ mocks: 40+ SimCATs plus 70 other-management-admission tests. Five individual online mentoring sessions and GDPI appear in the main offer.",
+          "A separate SimCAT 2026 card lists 16 proctored and 25 take-home tests. This is a product-specific disclosure, not an additional allocation to add to every course. Ask which inventory your purchase unlocks and what teaching remains after enrolment."
         ],
         "links": [
           [
@@ -634,8 +657,8 @@ module.exports = [
         "id": "fees",
         "heading": "Fees and details still to confirm",
         "paragraphs": [
-          "The reviewed campaign page directs pricing enquiries to counselling; it does not provide a final local classroom quote. Ask for GST, books, recordings and test-series costs in one written total.",
-          "The campaign’s Andheri heading and address disagree about east versus west. Use the current branch directory and call before travelling. No new batch start date or available seat was independently confirmed."
+          "A final branch-specific classroom fee, dated new intake and available seat were not established. Obtain the target exam year, taxes, books, recording expiry and support entitlement in one written quote.",
+          "If considering a later exam cycle, request its actual specification rather than assuming this CAT 2026 campaign describes it. Ask how many mentor appointments are included, who conducts them and how far ahead they must be booked."
         ],
         "links": []
       },
@@ -676,24 +699,30 @@ module.exports = [
       {
         "q": "Is an IMS Mumbai classroom price verified here?",
         "a": "No final classroom quote was displayed in the campaign reviewed. Request a written quote from the branch."
+      },
+      {
+        "q": "Which Andheri location is listed for CAT?",
+        "a": "The city directory labels Andheri SV Road at Madhaveshwar CHS for CAT. The campaign has conflicting east/west wording for a different address, so confirm the actual batch venue directly."
       }
-    ]
+    ],
+    "updated": "2026-10-20",
+    "verifiedResearch": true
   },
   {
     "slug": "cat-coaching/mumbai/catking",
     "title": "CATKing Mumbai: Offline Centres, Hybrid Course and Fees",
     "section": "Mumbai CAT coaching research",
-    "description": "CATKing Mumbai: Offline Centres, Hybrid Course and Fees. Compare verified sources, fees, learning modes and questions to ask before joining. Reviewed 28 September 2026.",
+    "description": "CATKing Mumbai locations, hybrid offer, CAT mock split, student support, printed-book charges and access limitations.",
     "answer": "CATKing lists Mumbai-region classroom centres and a hybrid CAT course. Compare the in-person timetable with the online component, and confirm the exact product name before paying.",
     "body": [
-      "Sources reviewed on 28 September 2026. Provider programme statements are disclosures, not independently audited results. Current seat availability and batch-specific faculty must be confirmed before enrolment."
+      "Official sources reviewed on 20 October 2026. Features and support promises are provider disclosures, not independently tested delivery. Current seats, assigned teachers and final quotations require confirmation."
     ],
     "sections": [
       {
         "id": "contact",
         "heading": "Mumbai-region centres and contacts",
         "paragraphs": [
-          "The official centre directory lists Andheri, Borivali and Thane. Admissions: 8999118999. Email: support@catking.in. Thane is included as part of the wider Mumbai coaching market."
+          "The official directory lists Andheri, Borivali and Thane. Admissions: 8999118999; existing-student support: 7478882888; email: support@catking.in. The course footer corroborates these numbers, but published contact hours differ between pages. Confirm staffed hours if you need help outside the working day. Thane is part of the wider Mumbai market here."
         ],
         "links": [
           [
@@ -726,8 +755,8 @@ module.exports = [
         "id": "course",
         "heading": "Hybrid programme and displayed price",
         "paragraphs": [
-          "The CAT 2026 hybrid page shows online plus Mumbai offline teaching and a displayed offer of ₹34,999. Confirm taxes, coupon rules and the final payable amount. Its title and course labels mix Intensive, Offline and Hybrid wording; ask which exact package you are buying.",
-          "The page advertises 45 CAT mocks and 45 sectionals, non-CAT preparation and a doubt forum. It names Sumit Sir for verbal workshops. This does not establish the branch teaching roster or a guaranteed response time."
+          "The hybrid page displays ₹34,999 for online plus Mumbai offline teaching. Intensive, Offline and Hybrid labels coexist; confirm the purchased product and final tax-inclusive total.",
+          "It advertises 45 CAT mocks split into 30 proctored and 15 take-home, plus 45 sectionals. Non-CAT preparation and verbal workshops with Sumit Sir are listed; the local teacher roster is unconfirmed."
         ],
         "links": [
           [
@@ -740,10 +769,16 @@ module.exports = [
         "id": "terms",
         "heading": "Books, validity and batch checks",
         "paragraphs": [
-          "The course FAQ lists printed books as an extra ₹2,000. The content states validity to 30 May 2027, while a navigation label mentions April 2027. Obtain written confirmation of expiry and inclusions.",
-          "No branch-specific start date or open seat was confirmed. Ask how often you attend physically, which sessions are live online, how missed classes are recovered and which local teachers handle doubts."
+          "The FAQ prices printed books separately at ₹2,000 and says videos/e-books require portal access rather than downloads. Course content gives expiry as 30 May 2027, while a navigation label says April 2027. Obtain written confirmation.",
+          "The FAQ promises forum answers within 24 hours; this response time has not been independently tested. Interview support is described differently for Intensive and Turbo; confirm your entitlement.",
+          "No branch-specific start date or seat availability was established. Ask for a timetable separating in-person, live-online and recorded work. A published daily schedule does not establish the classes remaining after an October enrolment."
         ],
-        "links": []
+        "links": [
+          [
+            "Official course features and FAQ",
+            "https://courses.catking.in/courses/cat-hybrid-2026"
+          ]
+        ]
       },
       {
         "id": "assessment",
@@ -783,8 +818,14 @@ module.exports = [
       {
         "q": "Are Andheri, Borivali and Thane counted as different institutes?",
         "a": "No. They are locations of one brand and count as one institute in comparisons."
+      },
+      {
+        "q": "Can course videos and e-books be downloaded?",
+        "a": "The reviewed FAQ says they require logged-in portal access and are not downloadable. Confirm access expiry before purchasing."
       }
-    ]
+    ],
+    "updated": "2026-10-20",
+    "verifiedResearch": true
   },
   {
     "slug": "blog/best-cat-coaching-in-mumbai",
