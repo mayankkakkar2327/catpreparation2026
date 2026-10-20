@@ -581,7 +581,8 @@
       "address": "Flat 3, first floor, Madhaveshwar CHS, above Merwans Cake Shop, SV Road",
       "source": "https://www.imsindia.com/center/mumbai/",
       "phone": "9167127127",
-      "local": true
+      "local": true,
+      "checked": "2026-10-20"
     },
     {
       "id": "ims",
@@ -719,7 +720,8 @@
       "address": "Office 201, second floor, Vertex Vikas Building",
       "source": "https://catking.in/offline-centers",
       "phone": "8999118999",
-      "local": true
+      "local": true,
+      "checked": "2026-10-20"
     },
     {
       "id": "2iim",
