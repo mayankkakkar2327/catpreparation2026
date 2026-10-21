@@ -1101,17 +1101,18 @@ module.exports = [
     "slug": "cat-coaching/hyderabad/career-launcher",
     "title": "Career Launcher Hyderabad: CAT Courses, Centres, Fees and Contact",
     "section": "Hyderabad institute research",
-    "description": "Research Career Launcher Hyderabad CAT coaching: official centre contacts, course disclosures, fees and enrolment checks. Reviewed 29 September 2026.",
+    "description": "Career Launcher Hyderabad CAT contacts, Madhapur batch-page limitation, package prices and written intake checks.",
     "answer": "Career Launcher lists Hyderabad CAT centres and several preparation products. Evaluate the exact package and local teaching arrangement; a website offer alone does not establish the final classroom fee or an available batch.",
     "body": [
-      "Official sources reviewed on 29 September 2026. This local listing complements the existing national profile. Branches count as one institute, and provider programme claims are not independently audited outcomes."
+      "Official sources reviewed on 21 October 2026. Published features are provider disclosures; live seats, teaching quality and results have not been independently verified."
     ],
     "sections": [
       {
         "id": "contact",
         "heading": "Madhapur centre: address and contact",
         "paragraphs": [
-          "The city directory and Madhapur microsite agree on the contact below. The city page also lists Ameerpet, Himayathnagar and Kompally. These branches are one provider, not additional institutes."
+          "The city directory and Madhapur microsite agree on the contact below. The city page also lists Ameerpet, Himayathnagar and Kompally. These branches are one provider, not additional institutes.",
+          "The microsite also displays 9703556635 in its general contact banner, while its detailed mobile field and the city page agree on 8367095274. The table uses that corroborated number. Contact hours are not class times."
         ],
         "links": [
           [
@@ -1166,7 +1167,7 @@ module.exports = [
         "id": "faculty",
         "heading": "Teachers, mentoring and doubt support",
         "paragraphs": [
-          "This review did not establish the current section-wise Madhapur teaching roster. The public microsite identifies Gedela Kumar as a contact, which should not be treated as confirmation of an academic role.",
+          "The microsite identifies Gedela Kumar as a contact, not a confirmed assigned teacher. Its testimonials include an explicitly Roorkee classroom experience and online VARC references. They should not be treated as evidence of Madhapur classroom delivery. A current section-wise local teacher roster remains unverified.",
           "Ask which teachers handle QA, DILR and VARC, whether mentor meetings are individual, and how unresolved doubts are escalated. A general national faculty claim cannot establish who will teach a local class."
         ],
         "links": [
@@ -1180,7 +1181,7 @@ module.exports = [
         "id": "batch",
         "heading": "Batch availability and enrolment checks",
         "paragraphs": [
-          "No specific current classroom start date or available seat was confirmed. Check the next joining date directly and request the remaining syllabus schedule.",
+          "Madhapur’s microsite currently shows “No Product Available” under batch details. This does not establish closure; it means a bookable dated intake was not verified there. Request a joining date, target exam year and remaining live timetable directly.",
           "Keep the full package on one dated quote: taxes, study material, mocks, recordings, access expiry, interview preparation and refund terms. Ask whether tests are CAT-only or include other exams, and whether a mock-review meeting costs extra.",
           "If joining after substantial teaching has finished, find out whether recovery means live catch-up sessions, recordings or independent reading. Those options place different demands on a student’s available time."
         ],
@@ -1223,8 +1224,14 @@ module.exports = [
       {
         "q": "Are displayed product prices final Hyderabad classroom fees?",
         "a": "No. The page contains different products and enquiry-based classroom options. Get a dated quote for the exact selected course."
+      },
+      {
+        "q": "Does “No Product Available” mean the Madhapur centre is closed?",
+        "a": "No. It describes the public batch section. Contact the centre to establish whether your target intake is running and has seats."
       }
-    ]
+    ],
+    "updated": "2026-10-21",
+    "verifiedResearch": true
   },
   {
     "slug": "cat-coaching/chennai/2iim",
@@ -4122,12 +4129,12 @@ module.exports = [
     "slug": "cat-coaching/hyderabad/abhyaas",
     "title": "Abhyaas Hyderabad: CAT Courses, Fees and Centre Contacts",
     "section": "Hyderabad CAT coaching research",
-    "description": "Review Abhyaas Hyderabad classroom prices, October batch disclosure, local contacts and conflicting mock-test totals.",
+    "description": "Abhyaas Hyderabad CAT 2026 dated intake versus CAT 2027 launch status, course-price disclosures and enrolment checks.",
     "answer": "Abhyaas lists CAT teaching at Kukatpally and Secunderabad. Its Hyderabad page advertises a 24 October 2026 weekend intake; confirm the exam year, remaining teaching and final price before paying.",
-    "updated": "2026-10-12",
+    "updated": "2026-10-21",
     "verifiedResearch": true,
     "body": [
-      "Official sources reviewed on 11–12 October 2026. Published on 12 October 2026. Programme details are provider disclosures; current seats, teacher allocation and outcomes have not been independently verified."
+      "Official sources reviewed on 21 October 2026. Published features are provider disclosures; live seats, teaching quality and results have not been independently verified."
     ],
     "sections": [
       {
@@ -4167,7 +4174,7 @@ module.exports = [
         "heading": "Published course and price distinctions",
         "paragraphs": [
           "The CAT 2026 Extensive table advertises ₹29,999 alongside ₹39,999, 400+ hours, 30+ CAT and 10+ non-CAT mocks, printed material and GDPI. The 2027 Comprehensive table shows ₹59,999 alongside ₹69,999, 500+ hours, 35+ CAT and 15+ non-CAT mocks. Confirm tax and offer validity.",
-          "The batch row specifies 24 October 2026, Saturday/Sunday, 5–7 PM. Seats are not independently confirmed. Ask how the stated course hours relate to this late intake."
+          "The dated row explicitly names CAT 2026 Extensive Classroom: 24 October 2026, weekends, 5–7 PM. The CAT 2027 batch section instead says launching soon. A 2027 programme price is not a confirmed 2027 start date; ask for the calendar before paying."
         ],
         "links": [
           [
@@ -4180,7 +4187,7 @@ module.exports = [
         "id": "limits",
         "heading": "Conflicting totals and teacher allocation",
         "paragraphs": [
-          "Other parts of the page say 40 or 100 mocks. Request the exact package inventory rather than combining those figures. Naresh Dubbudu is identified as founder; the current batch’s section-wise teachers need confirmation.",
+          "Other text advertises different mock totals. Request the exact package inventory. The displayed seat counter is a website claim, not independently checked capacity. Naresh Dubbudu is identified as founder; confirm the actual section-wise teaching roster.",
           "A start date does not establish that the entire advertised teaching programme can be delivered after you join. Ask for the remaining live calendar, recordings to catch up, access expiry and interview-support conditions."
         ],
         "links": []
@@ -4191,6 +4198,15 @@ module.exports = [
         "paragraphs": [
           "Consider a demo if the local centre fits your routine and you want scheduled teaching. Bring a recent mock or a few questions you struggled with, and ask which parts of the course address those gaps.",
           "For an October start, distinguish revision support from first-time concept teaching. Ask what you would need to complete before the first class and how a mentor checks that work. Compare a written plan with the independent practice time you can protect."
+        ],
+        "links": []
+      },
+      {
+        "id": "join-date",
+        "heading": "Match the intake to the year you intend to take CAT",
+        "paragraphs": [
+          "Do not choose a batch solely because its date is close. Ask the counsellor to write the target exam year beside the start date, expected end of concept teaching and revision plan.",
+          "For the advertised October 2026 intake, ask what is new live instruction and what is catch-up content. For the later cycle, request the launch date, cancellation terms if it moves, and whether any advance payment is refundable. These questions are checks to make, not services confirmed by this review."
         ],
         "links": []
       },
@@ -4218,6 +4234,10 @@ module.exports = [
       {
         "q": "How many mocks are included?",
         "a": "The course tables and general text give different totals. Obtain the CAT-only and other-exam inventory for the exact package."
+      },
+      {
+        "q": "Is a CAT 2027 classroom start date confirmed?",
+        "a": "No. The reviewed batch section says launching soon. The dated 24 October row is labelled CAT 2026."
       }
     ]
   },
@@ -4347,22 +4367,23 @@ module.exports = [
   },
   {
     "slug": "blog/best-cat-coaching-in-hyderabad",
-    "title": "Best CAT Coaching in Hyderabad: 5 Providers to Compare",
+    "title": "Best CAT Coaching in Hyderabad: Classroom and Online Options",
     "section": "Hyderabad CAT coaching research",
-    "description": "Compare Abhyaas, Career Launcher, IMS, T.I.M.E. and VPROV using official sources, fee clarity and local delivery checks.",
-    "answer": "Compare Abhyaas, Career Launcher, IMS and T.I.M.E. for Hyderabad classroom preparation, and investigate VPROV with its delivery mode confirmed first. VPROV’s local office and dispatch listings do not by themselves verify a CAT classroom.",
-    "updated": "2026-10-12",
+    "description": "Compare Abhyaas, Career Launcher, Cracku, IMS and T.I.M.E., with October intake checks, delivery-mode distinctions and fee limitations.",
+    "answer": "Compare Abhyaas, Career Launcher, IMS and T.I.M.E. for Hyderabad classroom enquiries, and Cracku for online preparation from a provider with a Hyderabad office. Confirm the actual teaching mode and intake before paying.",
+    "updated": "2026-10-21",
     "verifiedResearch": true,
     "body": [
-      "Official sources reviewed on 11–12 October 2026. Published on 12 October 2026. Programme details are provider disclosures; current seats, teacher allocation and outcomes have not been independently verified."
+      "Official sources reviewed on 21 October 2026. Published features are provider disclosures; live seats, teaching quality and results have not been independently verified."
     ],
     "sections": [
       {
         "id": "method",
         "heading": "Selection criteria and limitations",
         "paragraphs": [
-          "This alphabetical shortlist covers five distinct CAT providers with official Hyderabad-related information. Branches count once. Four have local classroom or city-network evidence; VPROV has a CAT offering and local office/dispatch evidence, with classroom delivery unresolved.",
-          "This is not a ranking based on audited outcomes or an exhaustive directory. We have not visited classrooms or tested support. Suitability comments explain what to investigate through a demo. We do not convert an office address into a classroom claim."
+          "This alphabetical comparison covers five distinct CAT providers with official Hyderabad-related information. Cracku is included as an online option with a published Kondapur office; that address is not evidence of a walk-in classroom. The other entries have local classroom or city-network evidence, with current intake gaps stated individually.",
+          "Selection considers official presence, course information, delivery mode, price clarity and student suitability. We do not rank by unaudited testimonials, guarantees or result claims. Branches count once. Our suitability comments are editorial judgments to test through a demo.",
+          "This update replaces the earlier VPROV enquiry entry with a clearly specified online alternative. VPROV’s office and dispatch entries still do not establish local CAT classroom delivery. This is a change in documented comparison coverage, not a claim about teaching quality."
         ],
         "links": []
       },
@@ -4381,33 +4402,33 @@ module.exports = [
           "rows": [
             [
               "Abhyaas",
-              "Kukatpally and Secunderabad CAT contacts",
-              "Dated intake and displayed course prices",
-              "Late-intake teaching plan and conflicting mock totals"
+              "Local CAT centres",
+              "2026 intake versus 2027 launch status",
+              "Seat availability and actual remaining lessons"
             ],
             [
               "Career Launcher",
-              "Official Hyderabad CAT page and local centres",
-              "Package and chosen branch",
-              "Final classroom fee and teacher allocation"
+              "Madhapur contact corroborated",
+              "Verify a bookable local batch",
+              "Public microsite has no product listed"
+            ],
+            [
+              "Cracku",
+              "Kondapur office; online CAT programme",
+              "Online schedule and feedback",
+              "Conflicting displayed prices; no local classroom verified"
             ],
             [
               "IMS",
-              "CAT addresses in city directory",
-              "Branch, mentors and test split",
-              "Current intake and remaining lessons"
+              "Official CAT centre directory",
+              "Teaching versus test-only purchase",
+              "Dated intake and local quotation"
             ],
             [
               "T.I.M.E.",
-              "Official Hyderabad city network",
-              "Classroom versus online specification",
-              "Current branch timetable and price"
-            ],
-            [
-              "VPROV",
-              "CAT course plus local offices/dispatch point",
-              "Confirm where and how teaching occurs",
-              "Local CAT classroom not established"
+              "Official Hyderabad city page",
+              "Confirm branch and course specification",
+              "Limited current readable local detail"
             ]
           ]
         }
@@ -4416,8 +4437,8 @@ module.exports = [
         "id": "abhyaas",
         "heading": "Abhyaas: resolve the intake and package details",
         "paragraphs": [
-          "The new local profile documents official contacts, price tables and the advertised October intake. Mock totals differ between the tables and general text.",
-          "Our assessment: ask for a dated teaching calendar and a package-specific test list. A late start deserves a clear distinction between live teaching, recordings and revision."
+          "Abhyaas’s dated October row is labelled CAT 2026; the CAT 2027 batch section says launching soon. A later-cycle price table does not establish a start date.",
+          "Our assessment: obtain the exam year and remaining live calendar together. Confirm the mock inventory and seats directly rather than treating a website counter as available capacity."
         ],
         "links": [
           [
@@ -4434,8 +4455,8 @@ module.exports = [
         "id": "cl",
         "heading": "Career Launcher: evaluate the actual local batch",
         "paragraphs": [
-          "Career Launcher’s official Hyderabad page offers CAT and other MBA entrance preparation and lists local centre information. The existing local profile documents its Madhapur contact.",
-          "Our assessment: request a demo with the allocated teachers, the exact product name and a full quote. A national result or faculty testimonial does not establish your branch’s teaching arrangement."
+          "Career Launcher’s city page and Madhapur microsite agree on the detailed contact. The microsite lists no product under batch details and includes testimonials referring to other delivery contexts.",
+          "Our assessment: verify the current local teachers and actual intake. Neither an empty product panel nor a national testimonial settles whether a particular batch is suitable or available."
         ],
         "links": [
           [
@@ -4445,6 +4466,30 @@ module.exports = [
           [
             "Career Launcher local profile",
             "/cat-coaching/hyderabad/career-launcher/"
+          ]
+        ]
+      },
+      {
+        "id": "cracku",
+        "heading": "Cracku: an online option with a Hyderabad office",
+        "paragraphs": [
+          "Cracku publishes a Kondapur office at Vamsiram Jyothi Granules and provides online CAT courses. Its site identifies Maruti Konduri and Sayali Kale in its teaching team. The office is not verified here as a student classroom.",
+          "The crash-course page offers self-study and live-course variants, with or without printed books. Its cards display ₹4,999 and ₹7,499, while a comparison table shows ₹6,499 and ₹8,499 for corresponding no-book options; the book-inclusive variant shows ₹13,999. These inconsistent amounts are not a confirmed checkout total.",
+          "The programme advertises concept videos, daily live classes, CAT mocks, sectionals, doubts and video mentoring. Confirm the selected package, remaining live timetable, access expiry, taxes and mentoring limits. Availability of other-exam products does not make them part of every CAT purchase.",
+          "Our assessment: consider a demo if you can study consistently online and want to avoid travel. Test the explanation and doubt process in your weakest section. Request a written price and feature list before choosing between similarly named cards."
+        ],
+        "links": [
+          [
+            "Official online crash course",
+            "https://cracku.in/cat-crash-course"
+          ],
+          [
+            "Official contact page",
+            "https://cracku.in/contactus"
+          ],
+          [
+            "Official faculty and course overview",
+            "https://cracku.in/"
           ]
         ]
       },
@@ -4474,8 +4519,8 @@ module.exports = [
         "id": "time",
         "heading": "T.I.M.E.: request the current branch specification",
         "paragraphs": [
-          "The official Hyderabad page describes a network serving A S Rao Nagar, Ameerpet, Dilsukhnagar, Kukatpally, Madhapur and Narayanguda, combining classroom/online teaching, mocks and doubts. Detailed current branch fees and intake dates were not established from the readable page.",
-          "Our assessment: confirm the venue, CAT teacher roster and package before visiting. Ask how many full CAT mocks are included, how analysis works and which support requires a separate purchase."
+          "The official Hyderabad city page identifies CAT coaching, but the current readable response exposes little local detail. Current branch addresses, fee quotes and dated intakes were not established in this review.",
+          "Our assessment: use the official city contact route to request the venue, assigned teachers, mock inventory and review arrangements. Do not infer a current classroom specification from a generic national programme description."
         ],
         "links": [
           [
@@ -4489,29 +4534,10 @@ module.exports = [
         ]
       },
       {
-        "id": "vprov",
-        "heading": "VPROV: office presence is not classroom confirmation",
-        "paragraphs": [
-          "VPROV’s course page advertises CAT preparation with 200+ sessions, 100+ mocks and 600+ assignments. Its centre directory labels Kukatpally as a material-dispatch location and Balanagar and Suchitra-Kompally as integrated campus offices.",
-          "A local CAT teaching batch, current fee, allocated faculty and dated timetable were not established. Contact 8884008880 for the precise delivery arrangement.",
-          "Our assessment: consider this a provider enquiry option, not a verified walk-in CAT classroom recommendation. Request a demo in the mode you would buy and written confirmation of venue or online access before comparing its price."
-        ],
-        "links": [
-          [
-            "Official CAT course",
-            "https://vprov.com/courses-page-new/"
-          ],
-          [
-            "Official centre classifications",
-            "https://vprov.com/Centers/"
-          ]
-        ]
-      },
-      {
         "id": "fees",
         "heading": "Compare equivalent purchases",
         "paragraphs": [
-          "Only Abhyaas had the local course-price table documented in this research; it is not a confirmed invoice. For every provider, request the same fields: exam year, mode, remaining live teaching, recordings, books, CAT mocks, other-exam mocks, mentoring, interview support, tax, expiry and cancellation terms.",
+          "The available prices describe different purchases: Abhyaas classroom programmes, Career Launcher product cards and Cracku online variants. Some pages contain conflicting figures. Request exam year, mode, remaining live lessons, recordings, books, CAT and non-CAT tests, mentoring, interview support, tax, expiry and cancellation terms on the same dated quote.",
           "Do not compare a self-paced course or test series with a full classroom programme solely on headline price. If your concepts are already covered, ask whether feedback and tests address your remaining needs better than repeating lectures."
         ],
         "links": []
@@ -4551,8 +4577,8 @@ module.exports = [
     ],
     "faqs": [
       {
-        "q": "Are these five verified Hyderabad classrooms?",
-        "a": "No. Four have classroom or city-network evidence. VPROV has official local office and dispatch listings; a local CAT classroom was not established."
+        "q": "Are these five Hyderabad classrooms?",
+        "a": "No. Cracku is included as an online provider with a Hyderabad office. The other providers have local classroom or city-network evidence, but each current batch still needs direct confirmation."
       },
       {
         "q": "Which provider is best for everyone?",
@@ -4561,6 +4587,10 @@ module.exports = [
       {
         "q": "Are all prices confirmed?",
         "a": "No. Displayed course prices require a current written quote, and equivalent quotes were not established across the five providers."
+      },
+      {
+        "q": "Can I rely on an advertised price or seat counter?",
+        "a": "Use it as a starting point. Conflicting price cards and changing availability require a dated confirmation for the exact package and exam year."
       }
     ]
   },
