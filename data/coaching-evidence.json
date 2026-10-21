@@ -689,7 +689,8 @@
       "address": "Sri Sai Nilayam, Flat 301, A Block, Image Hospital Lane, Vittal Rao Nagar",
       "source": "https://www.careerlauncher.com/hyderabad/cat-coaching-hyderabad/",
       "phone": "8367095274",
-      "local": true
+      "local": true,
+      "checked": "2026-10-21"
     },
     {
       "id": "career-launcher",
@@ -826,7 +827,7 @@
       "phone": "040-40031834 / 7386660269",
       "source": "https://abhyaas.in/contact/",
       "local": true,
-      "checked": "2026-10-12"
+      "checked": "2026-10-21"
     },
     {
       "id": "career-launcher",
