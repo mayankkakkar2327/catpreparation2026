@@ -1235,12 +1235,12 @@ module.exports = [
   },
   {
     "slug": "cat-coaching/chennai/2iim",
-    "title": "2IIM Chennai: Classroom Courses, Fees and Adyar Contact",
+    "title": "2IIM Chennai: CAT 2027 Batches, Fees and Centre Checks",
     "section": "Chennai CAT coaching research",
-    "description": "Compare 2IIM Chennai classroom and online options, the CAT 2027 offer, Adyar contact details and questions to ask before joining.",
-    "answer": "2IIM offers Chennai classroom preparation alongside live-online and self-paced study. The reviewed classroom offer is labelled CAT 2027; students targeting CAT 2026 should request a separate remaining-course plan.",
+    "description": "Check 2IIM Chennai CAT 2027 Anna Nagar batch dates, classroom pricing, Adyar contacts and differing published class totals.",
+    "answer": "2IIM advertises Chennai classroom CAT 2027 at ₹60,000 including GST, with dated Anna Nagar batches. Confirm the chosen venue, available seats and actual live timetable before payment.",
     "body": [
-      "Sources reviewed on 30 September 2026. Course details are provider disclosures, not independently audited outcomes. Confirm your exam year, current batch, faculty allocation and final quotation before enrolling."
+      "Official sources reviewed on 22 October 2026. Programme descriptions are provider disclosures; current seats, teacher allocation and delivery quality have not been independently verified."
     ],
     "sections": [
       {
@@ -1260,8 +1260,8 @@ module.exports = [
         "id": "course",
         "heading": "Course format and disclosed fee",
         "paragraphs": [
-          "The main site displays Chennai Classroom CAT 2027 at ₹60,000 including GST. Its card advertises 150+ classroom classes, recorded content, 30 original mocks plus previous papers, books and GDPI preparation. Confirm precisely which online components accompany classroom attendance.",
-          "Rajesh Balasubramanian is identified as the main recorded-content teacher. The site describes discussion-board, email and WhatsApp support. These statements do not establish the teacher assigned to your physical batch or a guaranteed doubt-response time."
+          "The main site displays Classroom CAT 2027 (Chennai) at ₹60,000 including GST, with books, GDPI, recorded learning and 30 original mocks plus previous papers. Its card states 150+ classroom classes; the Chennai page states 250+. Obtain the purchased specification rather than combining those figures.",
+          "Rajesh Balasubramanian is identified with recorded teaching. Online support includes a discussion board, email and WhatsApp. Ask which teachers handle your actual classroom batch and whether its mentoring arrangements match the online description."
         ],
         "links": [
           [
@@ -1272,14 +1272,16 @@ module.exports = [
       },
       {
         "id": "pricing",
-        "heading": "Avoid mixing old discounts with current packages",
+        "heading": "Dated Anna Nagar intakes and remaining uncertainties",
         "paragraphs": [
-          "A separate Chennai pricing page still labels its group offer CAT 2024. We have not carried that discount forward into a current quotation. Current seat availability, a classroom start date and the exact remaining CAT 2026 timetable were not confirmed."
+          "The Chennai page advertises CAT 2027 weekday classes starting 20 October 2026, 6:30–8:30 PM, and a weekend batch starting 25 October 2026, 9:30 AM–1:30 PM. Each shows ₹60,000. These are published dates, not confirmation of seats or admission after the weekday start.",
+          "The same page names Adyar and Anna Nagar but gives these dates under Anna Nagar. Do not apply them to Adyar. Call 9962648484 or the Anna Nagar contact 7603907861 to establish the classroom map pin, missed-session catch-up and exam year.",
+          "For CAT 2026, the Chennai page asks applicants to contact the team for batch details. A long-duration 2027 course and a current-cycle booster are different purchases. Get the actual remaining schedule and expiry in writing."
         ],
         "links": [
           [
-            "Older pricing page: check its exam year",
-            "https://chennai.2iim.com/pricing.shtml"
+            "Official Chennai batch table",
+            "https://chennai.2iim.com/best-cat-coaching-in-chennai.shtml"
           ]
         ]
       },
@@ -1351,31 +1353,42 @@ module.exports = [
       {
         "q": "Does the recorded-content teacher necessarily teach my physical batch?",
         "a": "No. Ask for the assigned classroom roster and a demo before choosing a branch."
+      },
+      {
+        "q": "Are the October 2027-target batch dates for Adyar?",
+        "a": "The published dated table is under Anna Nagar. Confirm Adyar availability separately; dates and seats must not be inferred across branches."
       }
-    ]
+    ],
+    "updated": "2026-10-22",
+    "verifiedResearch": true
   },
   {
     "slug": "cat-coaching/chennai/gradsquare",
     "title": "GradSquare Chennai: CAT Fees, Centres and Course Checks",
     "section": "Chennai CAT coaching research",
-    "description": "Check GradSquare Chennai’s displayed CAT 2026 price, GST, course-hour differences and local contacts.",
-    "answer": "GradSquare advertises Chennai classroom and online CAT preparation. Its city page displays ₹40,000 plus 18% GST for CAT 2026, a calculated ₹47,200; confirm offer validity and remaining teaching.",
-    "updated": "2026-10-14",
+    "description": "GradSquare Chennai CAT 2026 and 2027 prices with GST, mentoring periods, local contacts and published faculty information.",
+    "answer": "GradSquare displays CAT 2026 at ₹40,000 plus GST and CAT 2027 at ₹60,000 plus GST. The calculated totals at 18% are ₹47,200 and ₹70,800; obtain a dated quote for the actual intake.",
+    "updated": "2026-10-22",
     "verifiedResearch": true,
     "body": [
-      "Official web sources reviewed on 14 October 2026. Provider disclosures establish advertised locations and products; current seats, allocated teachers and student outcomes have not been independently verified."
+      "Official sources reviewed on 22 October 2026. Programme descriptions are provider disclosures; current seats, teacher allocation and delivery quality have not been independently verified."
     ],
     "sections": [
       {
         "id": "contacts",
         "heading": "Selected Chennai contacts",
         "paragraphs": [
-          "The city page lists Nungambakkam at No. 86, second floor, Nungambakkam High Road, opposite Hotel Raaj Bhaavan, Chennai 600034: 7305053466. Tambaram is at 109A, second floor, Siva Shanmugham Road, above Shanthi Super Market, Chennai 600045: 9282442221."
+          "The city page lists Nungambakkam at No. 86, second floor, Nungambakkam High Road, opposite Hotel Raaj Bhaavan, Chennai 600034: 7305053466. Tambaram is at 109A, second floor, Siva Shanmugham Road, above Shanthi Super Market, Chennai 600045: 9282442221.",
+          "The separate contact page corroborates Tambaram’s address and phone and gives counselor@gradsquare.net. It lists working hours as 9 AM–8 PM, except Monday; these are contact hours, not a CAT batch timetable."
         ],
         "links": [
           [
             "Official city and contact page",
             "https://gradsqr.com/cat-coaching-in-chennai/"
+          ],
+          [
+            "Official contact details",
+            "https://gradsqr.com/contact-us/"
           ]
         ]
       },
@@ -1383,13 +1396,28 @@ module.exports = [
         "id": "fees",
         "heading": "Displayed package and scope",
         "paragraphs": [
-          "The CAT 2026 classroom and online cards each show ₹40,000 excluding 18% GST. Each describes 200+ live hours, 30 CAT mocks, 40 non-CAT mocks, books, individual mock analysis, recordings and interview/WAT preparation. These are provider claims.",
-          "Elsewhere the same page says 300+ hours. Obtain the exact purchased syllabus and remaining calendar; do not merge the two totals. The current batch’s dates, allocated teachers and final invoice remain unconfirmed."
+          "The city page shows CAT 2026 classroom and online cards at ₹40,000 plus 18% GST, calculated ₹47,200, with 200+ live hours and one year of mentoring. CAT 2027 is ₹60,000 plus 18%, calculated ₹70,800, with 300+ offline hours and two years of mentoring.",
+          "Both year-specific offers list 30 CAT mocks, 40 non-CAT mocks, printed material, individual mock analysis, recordings and interview/WAT preparation. Ask for exact mentoring start/end dates and the timetable remaining after you join. These advertised packages do not establish current seats or a final invoice.",
+          "General text also says 300+ hours. Resolve the difference against your named package."
         ],
         "links": [
           [
             "Official course cards",
             "https://gradsqr.com/cat-coaching-in-chennai/"
+          ]
+        ]
+      },
+      {
+        "id": "faculty",
+        "heading": "Published mentors and allocation checks",
+        "paragraphs": [
+          "The About page names Ajay Zener as a mentor, Chris Diana and Kushal Bohra for Quant, and Varun Krishnan for verbal. These are published team roles, not a confirmed branch roster.",
+          "Ask who will teach QA, DILR and VARC in your intake and arrange a demo with the assigned teacher. Request the booking process for individual mock reviews and whether mentoring continues through interview preparation."
+        ],
+        "links": [
+          [
+            "Official team page",
+            "https://gradsqr.com/about-us/"
           ]
         ]
       },
@@ -1424,8 +1452,8 @@ module.exports = [
         "a": "No. It is the calculated total of the displayed ₹40,000 plus 18% GST. Confirm the current offer and package directly."
       },
       {
-        "q": "How many live hours are included?",
-        "a": "The course card says 200+ while other text says 300+. Request the exact current package and remaining timetable."
+        "q": "Do CAT 2026 and 2027 have identical teaching hours?",
+        "a": "No. The reviewed 2026 card lists 200+ live hours and the 2027 card lists 300+ offline hours. Confirm the exact plan; general page wording differs."
       }
     ]
   },
