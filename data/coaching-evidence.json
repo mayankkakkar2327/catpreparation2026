@@ -732,7 +732,8 @@
       "address": "First floor, Amaldaz Heights, new 23, Adyar Bridge Road",
       "source": "https://www.2iim.com/chennai/adyar.shtml",
       "phone": "9962648484",
-      "local": true
+      "local": true,
+      "checked": "2026-10-22"
     },
     {
       "id": "gradsquare",
@@ -743,7 +744,7 @@
       "source": "https://gradsqr.com/cat-coaching/",
       "phone": "9282442221",
       "local": true,
-      "checked": "2026-10-14"
+      "checked": "2026-10-22"
     },
     {
       "id": "erudite",
