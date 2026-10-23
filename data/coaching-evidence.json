@@ -603,7 +603,8 @@
       "address": "Office 5, second floor, Business Avenue, DP Road",
       "source": "https://www.imsindia.com/center/pune/",
       "phone": "9960957975",
-      "local": true
+      "local": true,
+      "checked": "2026-10-23"
     },
     {
       "id": "ims",
@@ -697,10 +698,11 @@
       "name": "Career Launcher",
       "city": "pune",
       "area": "FC Road",
-      "address": "Offices 1/2, third floor, Land Square Shopping Complex, above Fastrack, near Rupali, Shivajinagar",
+      "address": "Offices 611-A and 611-B, sixth floor, Kushal Wallstreet, Fergusson College Road, Shivaji Nagar, Pune 411004",
       "source": "https://www.careerlauncher.com/pune/",
       "phone": "8484820200",
-      "local": true
+      "local": true,
+      "checked": "2026-10-23"
     },
     {
       "id": "mba-guru",
