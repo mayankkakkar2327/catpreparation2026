@@ -1676,24 +1676,29 @@ module.exports = [
   },
   {
     "slug": "cat-coaching/pune/ims",
-    "title": "IMS Pune: CAT Courses, Centres, Fees and Contacts",
+    "title": "IMS Pune: CAT 2027 Courses, Centres and Fee Checks",
     "section": "Pune CAT coaching research",
-    "description": "Review IMS Pune centre contacts, CAT and other MBA exam options, SimCAT inclusions, faculty disclosures and fee questions.",
+    "description": "Compare IMS Pune CAT 2027 teaching, older-year test products, centre contacts and the unresolved Pimpri address discrepancy.",
     "answer": "IMS offers Pune classroom preparation alongside online, self-learning and test-series options. Compare your nearest centre, the precise mock package and remaining teaching calendar before choosing a course.",
     "body": [
-      "Sources reviewed on 1 October 2026. Programme statements are provider disclosures. We have not audited student outcomes or confirmed open seats; ask for the current exam-year quotation and assigned faculty before enrolling."
+      "Official web evidence reviewed on 23 October 2026. Programme details are provider disclosures. Current seats, assigned teachers and outcomes have not been independently verified."
     ],
     "sections": [
       {
         "id": "centres",
         "heading": "Selected Pune centre contacts",
         "paragraphs": [
-          "The official campaign lists these centres. Confirm the current teaching room and timetable before travelling."
+          "The campaign and city directory agree on the two contacts below. Call before travelling.",
+          "For Pimpri, the directory gives offices 9, 33 and 34 on the second floor of A-wing, Jewel of Pimpri; the campaign gives office 10 on the third floor of the same building. Both publish 9423572247. The floor discrepancy is unresolved: request a current location pin."
         ],
         "links": [
           [
             "Official Pune programme and locations",
             "https://www.imsindia.com/campaign/cat-coaching-pune.html"
+          ],
+          [
+            "Official city directory",
+            "https://www.imsindia.com/center/pune/"
           ]
         ],
         "table": {
@@ -1720,8 +1725,8 @@ module.exports = [
         "id": "programme",
         "heading": "CAT programme and mock-test inclusions",
         "paragraphs": [
-          "The CAT 2026 campaign advertises 300+ coaching hours, 150 hours of video content and 110+ combined full-length mocks: 40+ SimCATs and 70 other management entrance tests. It also mentions mentoring and GDPI support.",
-          "The E-CATAPULT 2026 block contains a CAT 2025 reference. Confirm the purchased product’s exam year and validity instead of assuming every block has been updated."
+          "The Pune campaign now labels its main teaching programme CAT 2027: 300+ coaching hours, 150+ video hours, five individual online mentoring sessions and 110+ combined mocks (40+ SimCATs and 70 other-exam tests). These are advertised totals, not a remaining timetable.",
+          "CATapult Live 2027 separately lists 50 classes and 25+ workshops. E-CATAPULT is headed 2027 but retains a CAT 2025 reference; SimCAT products remain labelled 2026. Confirm the year and expiry of every purchased component."
         ],
         "links": [
           [
@@ -1734,7 +1739,8 @@ module.exports = [
         "id": "faculty",
         "heading": "Faculty, formats and support",
         "paragraphs": [
-          "The city page names Chintan Shah as chief mentor and Shrikant Gosavi among its mentors. It describes CAT preparation, NMAT, SNAP, XAT and MBA CET options, classroom and online learning, recordings and doubt support. These are city-level disclosures, not a section-wise roster for your batch."
+          "The city directory names Bharat Pandey and Dnyaneshwar Bhise as Quant leads, Bishnu Maitra as Verbal lead and Chintan Shah as chief mentor. These are published team roles, not your assigned teaching roster.",
+          "The city page still refers to CAT 2026 while the campaign’s main programme is 2027. Request a written exam-year plan for your chosen branch."
         ],
         "links": [
           [
@@ -1747,7 +1753,7 @@ module.exports = [
         "id": "fees",
         "heading": "Fees and batch availability",
         "paragraphs": [
-          "No final Pune classroom fee was disclosed on the reviewed campaign page; it directs pricing enquiries to counselling. No exact new classroom start date or open seat was confirmed.",
+          "The reviewed campaign directs prices to counselling. A final Pune classroom quote, dated next intake and open seats were not established. It advertises weekday and weekend options; confirm the actual timetable.",
           "Ask for one written total that identifies the exam year, taxes, books, recordings, tests, mentor sessions, interview preparation, access expiry and refund terms. For CAT 2026, ask how much advertised teaching remains available to a new student."
         ],
         "links": []
@@ -1790,8 +1796,14 @@ module.exports = [
       {
         "q": "Is a current Pune classroom fee verified here?",
         "a": "No final branch quotation was displayed on the campaign reviewed. Request a dated all-inclusive quote."
+      },
+      {
+        "q": "Does every IMS Pune product now target CAT 2027?",
+        "a": "No. The main teaching offer is labelled 2027, but test-series cards remain 2026 and self-learning copy contains an older-year reference. Confirm each component before paying."
       }
-    ]
+    ],
+    "updated": "2026-10-23",
+    "verifiedResearch": true
   },
   {
     "slug": "cat-coaching/pune/career-launcher",
@@ -1800,19 +1812,23 @@ module.exports = [
     "description": "Compare Career Launcher Pune locations, displayed programme prices, test inclusions, teaching formats and questions for admissions.",
     "answer": "Career Launcher lists Pune centres and classroom, live-online and hybrid preparation. Its page displays several product offers; those prices should not be treated as a final branch-specific classroom quotation.",
     "body": [
-      "Sources reviewed on 1 October 2026. Programme statements are provider disclosures. We have not audited student outcomes or confirmed open seats; ask for the current exam-year quotation and assigned faculty before enrolling."
+      "Official web evidence reviewed on 23 October 2026. Programme details are provider disclosures. Current seats, assigned teachers and outcomes have not been independently verified."
     ],
     "sections": [
       {
         "id": "centres",
         "heading": "Selected Pune locations and contacts",
         "paragraphs": [
-          "The official city directory lists six locations, including Aundh, FC Road, Kharadi, Wakad, PCMC and Undri. Two useful contact points are below; branches of one brand count as one institute."
+          "The city directory lists six branches of one brand. Both the directory and CAT page now place FC Road at Kushal Wallstreet, replacing the Land Square address in our earlier listing. Confirm the teaching venue before travelling."
         ],
         "links": [
           [
             "Official Pune centre directory",
             "https://www.careerlauncher.com/pune/"
+          ],
+          [
+            "CAT page corroborating FC Road contact",
+            "https://www.careerlauncher.com/pune/cat-coaching-pune/"
           ]
         ],
         "table": {
@@ -1824,7 +1840,7 @@ module.exports = [
           "rows": [
             [
               "FC Road",
-              "Offices 1–2, third floor, Land Square Shopping Complex, above Fastrack, near Rupali Restaurant, Shivajinagar 411004",
+              "Offices 611-A and 611-B, sixth floor, Kushal Wallstreet, Fergusson College Road, Shivaji Nagar, Pune 411004",
               "8484820200; pune@careerlauncher.com"
             ],
             [
@@ -1839,8 +1855,8 @@ module.exports = [
         "id": "courses",
         "heading": "Course formats, mocks and displayed offers",
         "paragraphs": [
-          "The Pune CAT page describes CAT, XAT, NMAT, SNAP, MBA-CET and CMAT preparation, with classroom, online and hybrid formats. A displayed ₹36,500 card lists 150+ live sessions, 30 CAT mocks, 45 sectionals, mentorship, printed material and Telegram doubt support. A ₹39,500 card adds non-CAT sessions and tests.",
-          "These are observed product-card prices, not a confirmed tax-inclusive classroom quote. Ask which product, delivery format and target exam year the offer covers."
+          "The Pune page’s ₹36,500 card advertises 150+ live sessions, 30 CAT mocks, 45 sectionals, mentoring, printed material and Telegram doubts. The ₹39,500 card adds 70+ non-CAT sessions and 75+ non-CAT mocks. These are displayed offers, not verified branch-specific, tax-inclusive quotes.",
+          "Ask for the product name, exam year, format and final payable amount. Its Race to 99 inclusion requires registration; confirm eligibility and deadlines."
         ],
         "links": [
           [
@@ -1853,8 +1869,8 @@ module.exports = [
         "id": "faculty",
         "heading": "Faculty and batch details to establish",
         "paragraphs": [
-          "The page describes weekday, weekend and fast-track options. However, a named section-wise roster, exact next batch date, current seats and final branch fee were not established from the reviewed material.",
-          "Ask for the Quant, VARC and DILR teachers assigned to your batch and attend a demo with them. Testimonials and broad faculty claims cannot establish who will teach you or how quickly a doubt will be resolved."
+          "Weekday, weekend and fast-track formats are advertised, but a dated next intake, assigned section-wise faculty and current seats were not established. The batch-size FAQ gives no numeric cap.",
+          "Ask for a maximum class size and demo with the actual Quant, VARC and DILR teachers. The published 9:30 AM–7 PM contact hours are not a class timetable."
         ],
         "links": []
       },
@@ -1930,8 +1946,14 @@ module.exports = [
       {
         "q": "Are the six Pune centres six different institutes?",
         "a": "No. They are branches of Career Launcher and are counted as one distinct institute."
+      },
+      {
+        "q": "Where is Career Launcher’s FC Road centre listed now?",
+        "a": "Both official Pune pages list offices 611-A and 611-B, sixth floor, Kushal Wallstreet. Call 8484820200 before visiting."
       }
-    ]
+    ],
+    "updated": "2026-10-23",
+    "verifiedResearch": true
   },
   {
     "slug": "cat-coaching/kolkata/ims",
@@ -5324,12 +5346,12 @@ module.exports = [
     "slug": "blog/best-cat-coaching-in-pune",
     "title": "Best CAT Coaching in Pune: Five Institutes Compared",
     "section": "CAT coaching research",
-    "description": "Compare Career Launcher, EQL, IMS, Tarkashastra and T.I.M.E. in Pune by location, learning format, fee evidence and student fit.",
+    "description": "Compare five Pune CAT institutes, corrected FC Road location, CAT 2027 versus 2026 offers, fee evidence, schedules and student fit.",
     "answer": "Five Pune options to investigate are Career Launcher, EQL Classes, IMS, Tarkashastra and T.I.M.E. Choose by the actual teacher, remaining timetable, commute and written inclusions; the evidence does not establish a universal best institute.",
-    "updated": "2026-10-16",
+    "updated": "2026-10-23",
     "verifiedResearch": true,
     "body": [
-      "Official web evidence reviewed on 16 October 2026. Programme claims are provider disclosures; current seats, assigned teachers and outcomes have not been independently verified."
+      "Official web evidence reviewed on 23 October 2026. Programme details are provider disclosures. Current seats, assigned teachers and outcomes have not been independently verified."
     ],
     "sections": [
       {
@@ -5337,7 +5359,7 @@ module.exports = [
         "heading": "How we selected these five",
         "paragraphs": [
           "All five brands have official Pune location and CAT-course evidence. We compared delivery options, published package details and information gaps, counting each brand once. The order is alphabetical, not a quality ranking.",
-          "The sources were rechecked on 16 October 2026, building on the detailed Pune listings. We have not independently tested instruction or audited results. An official address confirms a published location, not a current seat or a teacher assignment."
+          "Sources were rechecked on 23 October 2026. This refresh corrects Career Launcher’s FC Road location and separates IMS’s CAT 2027 teaching from older-year product copy. T.I.M.E. location evidence remains an indexed official directory, not confirmation of today’s teaching venue."
         ],
         "links": [
           [
@@ -5396,10 +5418,14 @@ module.exports = [
         "id": "career-launcher",
         "heading": "Career Launcher: a broad local network",
         "paragraphs": [
-          "The CAT city page lists six Pune centres and classroom, online and hybrid modes. FC Road is at offices 1–2, third floor, Land Square Shopping Complex, above Fastrack near Rupali Restaurant; phone 8484820200. It describes mentoring, doubts and printed material, but no current fee or dated new intake was established.",
+          "Career Launcher’s directory and CAT page now agree on FC Road: offices 611-A and 611-B, sixth floor, Kushal Wallstreet; phone 8484820200. This replaces our earlier Land Square reference. Its displayed programme prices do not establish the final fee for a particular Pune classroom intake.",
           "Our assessment: worth an enquiry when one of the listed areas fits your routine. Ask whether hybrid sessions and local doubt visits are included in the product you would buy. Check a demo with the assigned teacher rather than assuming national testimonials describe that branch."
         ],
         "links": [
+          [
+            "Official centre directory",
+            "https://www.careerlauncher.com/pune/"
+          ],
           [
             "Official Pune CAT page",
             "https://www.careerlauncher.com/pune/cat-coaching-pune/"
@@ -5425,6 +5451,10 @@ module.exports = [
           [
             "Detailed EQL profile",
             "/cat-coaching/pune/eql/"
+          ],
+          [
+            "Official EQL contact page",
+            "https://eqlclasses.com/contact-us/"
           ]
         ]
       },
@@ -5432,7 +5462,7 @@ module.exports = [
         "id": "ims",
         "heading": "IMS: select the branch as carefully as the brand",
         "paragraphs": [
-          "IMS’s official directory lists CAT centres in Aundh, Deccan, Magarpatta and Pimpri. The Aundh contact is 9960957975 at office 5, second floor, Business Avenue, DP Road. Its city page describes classroom/online preparation, mentoring and testing; current local fees and a dated new intake were not established.",
+          "IMS lists Aundh, Deccan, Magarpatta and Pimpri. Its main campaign now targets CAT 2027, while test-series cards retain 2026 labels. The two official pages disagree on Pimpri’s floor and office numbers; resolve this by phone before visiting. A current classroom quote and dated intake were not established.",
           "Our assessment: shortlist a branch only after testing the journey and meeting the actual teacher. Published mentor names are not a promise of allocation to your batch. Ask how missed classes, recordings and mock reviews work in the specific package."
         ],
         "links": [
@@ -5443,6 +5473,10 @@ module.exports = [
           [
             "Detailed IMS Pune profile",
             "/cat-coaching/pune/ims/"
+          ],
+          [
+            "Official Pune programme campaign",
+            "https://www.imsindia.com/campaign/cat-coaching-pune.html"
           ]
         ]
       },
@@ -5468,7 +5502,7 @@ module.exports = [
         "id": "time",
         "heading": "T.I.M.E.: verify the local contract",
         "paragraphs": [
-          "The indexed official Pune directory lists Deccan, Kothrud and Wakad. Deccan’s contact is 8956409830 / 9637568972, with offices 408–409 above Hotel Rajwadi Gaurav at the Ghole Road–Apte Road corner. Direct retrieval returned a minimal page shell, so confirm the venue before travelling.",
+          "The official directory’s indexed text lists Deccan, Kothrud and Wakad and phone 8956409830 / 9637568972 for Deccan. Direct retrieval redirects to a minimal page shell. The index may lag current operations, so confirm the venue and active CAT batch before travelling.",
           "Our assessment: compare the branch timetable, teachers and doubt-session access. National mock totals and online-course prices do not establish local classroom inclusions. A current Pune quote and dated new intake were not established."
         ],
         "links": [
@@ -5500,6 +5534,43 @@ module.exports = [
           "At two demos, use the same unfamiliar topic and try fresh questions afterwards. Record what you understood and whether the teacher helped you correct mistakes. This is a personal fit check, not an objective provider ranking."
         ],
         "links": []
+      },
+      {
+        "id": "exam-year",
+        "heading": "Compare the target year before the headline price",
+        "paragraphs": [
+          "For CAT 2026 revision, ask what new teaching and feedback you can actually receive after joining. For CAT 2027, ask for a complete calendar and access period. A mock-only product, a recorded course and a classroom programme solve different needs.",
+          "The corrected centre address and mixed exam-year labels are reasons to get a dated written offer. Save the course name, location, timetable and inclusions with your receipt; a general webpage does not establish the individual purchase."
+        ],
+        "links": [],
+        "table": {
+          "headers": [
+            "Provider",
+            "Evidence to resolve before paying"
+          ],
+          "rows": [
+            [
+              "Career Launcher",
+              "Displayed offer versus final branch quote; current teaching room at FC Road"
+            ],
+            [
+              "EQL Classes",
+              "Fee, exact mock inventory and assigned teachers remain undisclosed"
+            ],
+            [
+              "IMS",
+              "2027 teaching versus older-year products; Pimpri floor discrepancy"
+            ],
+            [
+              "Tarkashastra",
+              "Broad fee range and weekday-only CAT FAQ need package-level confirmation"
+            ],
+            [
+              "T.I.M.E.",
+              "Indexed address needs direct confirmation; national features are not a local contract"
+            ]
+          ]
+        }
       },
       {
         "id": "related",
@@ -5537,6 +5608,10 @@ module.exports = [
       {
         "q": "Are the published fees directly comparable?",
         "a": "No. Equivalent current classroom quotes were not established, and the displayed Tarkashastra range spans different course types."
+      },
+      {
+        "q": "What changed in this Pune guide on 23 October 2026?",
+        "a": "Career Launcher’s FC Road location was corrected to Kushal Wallstreet. IMS’s main CAT 2027 offer was distinguished from older-year products, and its Pimpri address discrepancy was flagged."
       }
     ]
   },
