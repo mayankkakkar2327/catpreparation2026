@@ -626,7 +626,7 @@
       "source": "https://www.imsindia.com/center/kolkata/",
       "phone": "8291895027",
       "local": true,
-      "checked": "2026-10-16"
+      "checked": "2026-10-25"
     },
     {
       "id": "ims",
@@ -756,7 +756,8 @@
       "address": "Second floor, Mansarovar Apartment, 3B Camac Street",
       "source": "https://erudite.in/cat-classroom-course-in-kolkata/",
       "phone": "",
-      "local": true
+      "local": true,
+      "checked": "2026-10-25"
     },
     {
       "id": "ekoching",
