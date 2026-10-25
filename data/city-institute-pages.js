@@ -1959,12 +1959,12 @@ module.exports = [
     "slug": "cat-coaching/kolkata/ims",
     "title": "IMS Kolkata: CAT Branches, Mock Scope and Batch Checks",
     "section": "CAT coaching research",
-    "description": "Review IMS Kolkata branch contacts, CAT 2026 campaign details, conflicting year references and current fee limitations.",
+    "description": "Compare IMS Kolkata branches, SimCAT package differences, CAT and other-exam mock counts, mentoring and current fee limitations.",
     "answer": "IMS lists CAT locations at Park Street, Gariahat and Salt Lake. Its campaign’s 110+ mocks combine SimCATs with other MBA-exam tests; a current local fee and dated intake were not established.",
-    "updated": "2026-10-16",
+    "updated": "2026-10-25",
     "verifiedResearch": true,
     "body": [
-      "Official web evidence reviewed on 16 October 2026. Programme claims are provider disclosures; current seats, assigned teachers and outcomes have not been independently verified."
+      "Official web evidence reviewed on 25 October 2026. Advertised services are provider disclosures, not independently tested outcomes. Current seats and assigned teachers need direct confirmation."
     ],
     "sections": [
       {
@@ -2003,7 +2003,7 @@ module.exports = [
             [
               "Salt Lake",
               "First floor, AA-50, above Ujjivan Small Finance Bank, Sector 1, Bidhannagar 700064",
-              "8291895013; saltlake@imsindia.com"
+              "8291895013 / 8451043414; saltlake@imsindia.com"
             ]
           ]
         }
@@ -2012,7 +2012,7 @@ module.exports = [
         "id": "course",
         "heading": "What the campaign actually promises",
         "paragraphs": [
-          "The CAT 2026 campaign describes 300+ coaching hours, 150 hours of video content, five individual online mentoring sessions and 110+ mocks split into 40+ SimCATs and 70 other-management-admission tests. Classroom, live online, self-learning and test-series products are separate options.",
+          "The campaign describes classroom, live-online, self-learning and test-series options. Its main CAT 2026 programme advertises 300+ coaching hours, 150 video hours, five individual online mentoring sessions and a mixed CAT/non-CAT mock package.",
           "The self-learning block retains a CAT 2025 reference under a 2026 heading. Ask which exam year and access period apply. Original course hours do not establish how much live teaching remains after an October enrolment."
         ],
         "links": [
@@ -2021,6 +2021,39 @@ module.exports = [
             "https://www.imsindia.com/campaign/cat-coaching-kolkata.html"
           ]
         ]
+      },
+      {
+        "id": "test-packages",
+        "heading": "SimCAT packages are not interchangeable",
+        "paragraphs": [
+          "The Kolkata campaign lists three 2026 test products. Its basic SimCAT card separates proctored and take-home tests; Plus adds other-exam coverage, while Comprehensive adds practice and workshops. Ask whether a classroom purchase includes the exact version you need."
+        ],
+        "links": [
+          [
+            "Official test-package cards",
+            "https://www.imsindia.com/campaign/cat-coaching-kolkata.html"
+          ]
+        ],
+        "table": {
+          "headers": [
+            "Displayed product",
+            "Advertised differences"
+          ],
+          "rows": [
+            [
+              "SimCAT 2026",
+              "16 proctored and 25 take-home SimCATs; 30 section tests"
+            ],
+            [
+              "SimCAT Plus 2026",
+              "40+ SimCATs, 70 other-exam mocks and ADMAT workshops"
+            ],
+            [
+              "SimCAT Comprehensive 2026",
+              "Combined mock package plus 2,000+ practice questions and 12 e-Maximiser workshops"
+            ]
+          ]
+        }
       },
       {
         "id": "fees",
@@ -2073,6 +2106,10 @@ module.exports = [
       {
         "q": "Does a listed branch guarantee an open batch?",
         "a": "No. Confirm the current exam-year intake, teaching venue, seats and assigned faculty directly."
+      },
+      {
+        "q": "Which IMS package is enough for a repeater?",
+        "a": "Choose around your missing support: tests alone may not include the individual feedback you need. Ask for the test inventory and a sample mentor review before deciding."
       }
     ]
   },
@@ -2080,10 +2117,10 @@ module.exports = [
     "slug": "cat-coaching/kolkata/erudite",
     "title": "Erudite Kolkata: CAT Courses, Fees and Camac Street Contact",
     "section": "Kolkata CAT coaching research",
-    "description": "Review Erudite Kolkata contact details, blended CAT teaching, published batch dates, mock-test caveats and enrolment questions.",
+    "description": "Review Erudite Kolkata classroom learning, Camac Street contact and separate GD-PI-WAT offers, with current price and intake limitations.",
     "answer": "Erudite offers Kolkata classroom preparation with digital resources, plus online and self-paced options. Its pages mix exam years and test counts, so request the specification for your exact course.",
     "body": [
-      "Sources reviewed on 2 October 2026. Programme statements are provider disclosures, not independently audited outcomes. Confirm the current batch, assigned teachers and written quotation before enrolling."
+      "Official web evidence reviewed on 25 October 2026. Advertised services are provider disclosures, not independently tested outcomes. Current seats and assigned teachers need direct confirmation."
     ],
     "sections": [
       {
@@ -2096,6 +2133,10 @@ module.exports = [
           [
             "Official classroom and contact page",
             "https://erudite.in/cat-classroom-course-in-kolkata/"
+          ],
+          [
+            "Official contact page corroboration",
+            "https://erudite.in/contact/"
           ]
         ]
       },
@@ -2114,15 +2155,30 @@ module.exports = [
       },
       {
         "id": "batch",
-        "heading": "Published dates and fees",
+        "heading": "Current intake and classroom fees remain unconfirmed",
         "paragraphs": [
-          "On review, the homepage announced a CAT 2026 crash course starting 19 September 2026 and CAT 2027 starting 20 September. Both dates had passed by our verification date; they do not establish that a new student can still join.",
-          "No final classroom price or named section-wise current batch roster was established. Ask admissions for the correct exam-year brochure, teachers, remaining timetable and all-inclusive quotation."
+          "Our earlier 2 October review recorded September start dates. The homepage could not be retrieved on 25 October, so those notices have not been reconfirmed and are not evidence of current admission availability.",
+          "The reviewed classroom page did not establish a final current CAT tuition fee, dated next intake or assigned section-wise roster. Ask for the exam-year brochure, remaining timetable and all-inclusive quote."
         ],
         "links": [
           [
             "Official notice board and course options",
             "https://erudite.in/"
+          ]
+        ]
+      },
+      {
+        "id": "interview-support",
+        "heading": "Interview preparation: separate offers and older-year labels",
+        "paragraphs": [
+          "The dedicated GD-PI-WAT page displays ₹9,500 for a Classroom Batch and ₹20,500 for a Director’s Batch. It retains CAT 2025 and earlier references. These are observed interview-course offers, not confirmed current-cycle quotes or the price of CAT classroom tuition. Tax, availability and inclusion in a CAT package need confirmation.",
+          "Advertised support includes recorded mock interviews, writing sessions, profile work and form filling. The Director’s card adds institute-specific training and SOP support; its FAQ advertises unlimited interview sessions. Request booking rules, access expiry and the practical session calendar.",
+          "The page names Kaushik Kapoor for profiling, Jayanto Saha for interviews and Sagnik Adhikary for SOPs. These are published roles, not confirmed assignments to your batch. We have not independently verified the page’s conversion claims."
+        ],
+        "links": [
+          [
+            "Official GD-PI-WAT offers and team",
+            "https://erudite.in/gd-pi-wat-training-in-kolkata/"
           ]
         ]
       },
@@ -2192,14 +2248,20 @@ module.exports = [
     ],
     "faqs": [
       {
-        "q": "Are the September Erudite dates upcoming batches?",
-        "a": "No. The published 19 and 20 September 2026 dates had passed when checked on 2 October. Confirm late admission or the next intake."
+        "q": "Are the earlier September start dates current availability?",
+        "a": "No. They were recorded in our 2 October review. The homepage could not be rechecked on 25 October; contact admissions for the next intake or late admission."
       },
       {
         "q": "Is an Erudite classroom price confirmed here?",
         "a": "No final current classroom quotation was established from the reviewed pages. Request one for the precise exam year and format."
+      },
+      {
+        "q": "Is ₹9,500 the CAT classroom coaching fee?",
+        "a": "No. It is displayed on the separate interview-training page, which retains older-year references. Confirm the current offer, taxes and eligibility directly."
       }
-    ]
+    ],
+    "updated": "2026-10-25",
+    "verifiedResearch": true
   },
   {
     "slug": "blog/best-cat-coaching-in-kolkata",
