@@ -767,7 +767,8 @@
       "address": "301 Sunrise Mall, near Mansi Circle",
       "source": "https://ekoching.com/Offline-Classes/",
       "phone": "9974127618",
-      "local": true
+      "local": true,
+      "checked": "2026-10-26"
     },
     {
       "id": "time",
@@ -898,6 +899,17 @@
       "source": "https://www.careerlauncher.com/cat-mba/coaching-centers/ahmedabad/",
       "local": true,
       "checked": "2026-10-17"
+    },
+    {
+      "id": "time",
+      "name": "T.I.M.E.",
+      "city": "ahmedabad",
+      "area": "Navrangpura",
+      "address": "Office 308, third floor, ABC 2, Amarnath Business Centre, St Xaviers Road, above Sonalben Khakhrawala, Ahmedabad 380009; call to confirm current venue",
+      "phone": "9256569990 / 7600881286",
+      "source": "https://time4education.com/Ahmedabad/",
+      "local": true,
+      "checked": "2026-10-26"
     }
   ]
 }
