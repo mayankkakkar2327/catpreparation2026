@@ -3013,10 +3013,10 @@ module.exports = [
     "slug": "cat-coaching/bangalore/time",
     "title": "T.I.M.E. Bangalore: CAT Courses, Contacts and Fee Questions",
     "section": "Bengaluru CAT coaching research",
-    "description": "Check T.I.M.E. Bengaluru CAT 2027 course disclosures, branch contacts, AIMCAT inclusions and questions to ask before enrolling.",
+    "description": "Review T.I.M.E. Bengaluru CAT 2027 contacts, AIMCAT scope, sectional practice levels and current fee, faculty and intake limitations.",
     "answer": "T.I.M.E.’s Bengaluru campaign advertises classroom and live-online CAT 2027 preparation. Its published contacts cover eight city areas; obtain a branch-specific timetable and quotation.",
     "body": [
-      "Official sources reviewed on 8 October 2026. Course features are provider disclosures, not independently tested service guarantees. Confirm current availability and the final quotation directly."
+      "Official sources reviewed on 27 October 2026. Features are provider disclosures, not independently tested service guarantees. Confirm current intake, assigned teachers and the final quote directly."
     ],
     "sections": [
       {
@@ -3086,6 +3086,20 @@ module.exports = [
         ]
       },
       {
+        "id": "practice",
+        "heading": "Sectional practice: questions are not test counts",
+        "paragraphs": [
+          "The campaign’s sectional-test row says 9,000 questions; this is not a promise of 9,000 tests. It describes foundation practice by topic, intermediate tests combining related topics, and advanced tests spanning areas.",
+          "Its Student Home Page is described as a repository for tests, analysis and interview-stage resources. Ask for a demonstration showing how your weak topics determine the next practice set, and what feedback is available for self-administered tests."
+        ],
+        "links": [
+          [
+            "Official practice and portal description",
+            "https://time4education.com/landingpage_enquiry/catbangalore.html"
+          ]
+        ]
+      },
+      {
         "id": "unknown",
         "heading": "Fees, faculty and batch dates",
         "paragraphs": [
@@ -3132,19 +3146,23 @@ module.exports = [
       {
         "q": "Is the current classroom fee verified?",
         "a": "No current branch-specific final fee was established. Request a written quotation for your exam year and mode."
+      },
+      {
+        "q": "Does the campaign promise 9,000 sectional tests?",
+        "a": "No. The table specifies 9,000 questions. Ask for the number of tests, release calendar and access expiry separately."
       }
     ],
-    "updated": "2026-10-08",
+    "updated": "2026-10-27",
     "verifiedResearch": true
   },
   {
     "slug": "cat-coaching/bangalore/elite-iit",
     "title": "Elite IIT Bangalore: CAT Classes, Branches and Fees",
     "section": "Bengaluru CAT coaching research",
-    "description": "Explore Elite IIT Bengaluru CAT formats, four branch contacts, faculty disclosures and questions about fees, mocks and batch availability.",
+    "description": "Compare Elite IIT Bengaluru CAT weekend and crash-course workloads, branch contacts, mock support and fees still requiring confirmation.",
     "answer": "Elite IIT advertises Bengaluru classroom and online CAT preparation, with weekday, weekend and crash-course formats. Confirm a current CAT intake at your preferred branch before enrolling.",
     "body": [
-      "Official sources reviewed on 8 October 2026. Course features are provider disclosures, not independently tested service guarantees. Confirm current availability and the final quotation directly."
+      "Official sources reviewed on 27 October 2026. Features are provider disclosures, not independently tested service guarantees. Confirm current intake, assigned teachers and the final quote directly."
     ],
     "sections": [
       {
@@ -3193,12 +3211,27 @@ module.exports = [
         "id": "course",
         "heading": "What its CAT page describes",
         "paragraphs": [
-          "The page describes QA, DILR and VARC teaching, weekly full mocks from the second month, sectional tests, error analysis, printed materials and GDPI/WAT support. It advertises weekday, weekend, three-month crash and online-live formats, with recordings for missed lessons.",
-          "The provider advertises batches below 20 students. We have not independently counted a class or tested its support. The page names Bhoomika B.N. and Usha S. among Quant faculty; the current CAT section-wise assignment needs confirmation."
+          "The CAT page advertises QA, DILR and VARC, printed materials, mock analysis and interview preparation. It claims batches below 20; we have not independently counted a class.",
+          "It names Bhoomika B.N. and Usha S. among Quant faculty. A named current VARC/DILR roster and your actual teacher allocation remain unconfirmed."
         ],
         "links": [
           [
             "Official CAT programme",
+            "https://eliteiit.com/cat-coaching-bangalore/"
+          ]
+        ]
+      },
+      {
+        "id": "workload",
+        "heading": "Compare the advertised weekly workload",
+        "paragraphs": [
+          "The regular course advertises twice-weekly doubts and full mocks from month two. Weekend teaching is described as four hours each on Saturday and Sunday, with Sunday mocks and missed-class recordings.",
+          "The three-month crash course is described as strategy-focused, requiring 4+ hours of daily independent study, with daily mocks in the final four weeks. Those are provider expectations, not evidence that a new three-month intake can finish before your intended exam.",
+          "Ask whether Sunday tests sit inside or outside the advertised teaching hours. Get dated sessions and recording expiry in writing. Trial one week of the proposed workload before deciding whether it fits work or college."
+        ],
+        "links": [
+          [
+            "Official CAT format cards",
             "https://eliteiit.com/cat-coaching-bangalore/"
           ]
         ]
@@ -3250,9 +3283,13 @@ module.exports = [
       {
         "q": "Is the under-20 batch claim independently verified?",
         "a": "No. It is the provider’s published claim; confirm the actual CAT batch size at the demo."
+      },
+      {
+        "q": "What weekend workload does Elite IIT advertise?",
+        "a": "Its CAT page describes four-hour sessions on both Saturday and Sunday. Confirm actual timings and whether mock tests require additional time."
       }
     ],
-    "updated": "2026-10-08",
+    "updated": "2026-10-27",
     "verifiedResearch": true
   },
   {
