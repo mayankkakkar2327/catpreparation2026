@@ -778,7 +778,8 @@
       "address": "Street address not verified; request the current classroom map pin before visiting.",
       "phone": "8861786527",
       "source": "https://time4education.com/landingpage_enquiry/catbangalore.html",
-      "local": true
+      "local": true,
+      "checked": "2026-10-27"
     },
     {
       "id": "elite-iit",
@@ -788,7 +789,8 @@
       "address": "63, 41st Cross, 2nd Main Road, 8th Block, Jayanagar",
       "phone": "08050506222",
       "source": "https://eliteiit.com/admissions-2/",
-      "local": true
+      "local": true,
+      "checked": "2026-10-27"
     },
     {
       "id": "alchemist",
