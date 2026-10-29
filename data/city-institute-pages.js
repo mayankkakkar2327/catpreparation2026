@@ -4153,22 +4153,26 @@ module.exports = [
     "section": "Mumbai CAT coaching research",
     "description": "Review Career Launcher Mumbai branch contacts, CAT formats, mixed-exam mock counts and questions about fees and faculty.",
     "answer": "Career Launcher advertises Mumbai classroom, online and hybrid CAT preparation. Compare the specific branch and package: its course cards show different session and mock totals.",
-    "updated": "2026-10-10",
+    "updated": "2026-10-29",
     "verifiedResearch": true,
     "body": [
-      "Official sources reviewed on 10 October 2026. Advertised features are provider disclosures; current seats, teachers and service quality have not been independently verified."
+      "Official sources reviewed on 29 October 2026. Advertised features are provider disclosures; current seats, teachers and service quality have not been independently verified."
     ],
     "sections": [
       {
         "id": "contact",
         "heading": "Selected official Mumbai contacts",
         "paragraphs": [
-          "The Mumbai page’s published centre data lists these locations. Confirm the classroom and CAT intake before visiting; a contact listing does not establish current seats."
+          "The official CAT centre finder lists these contacts across Mumbai, Navi Mumbai and Thane. Confirm the teaching venue and active intake before visiting; listed branches are one provider, not separate institutes."
         ],
         "links": [
           [
             "Official Mumbai centre page",
             "https://www.careerlauncher.com/mumbai/"
+          ],
+          [
+            "Official Mumbai CAT centre finder",
+            "https://www.careerlauncher.com/cat-mba/coaching-centers/mumbai/"
           ]
         ],
         "table": {
@@ -4187,6 +4191,16 @@ module.exports = [
               "Churchgate",
               "Cambata Building, EROS Theatre, fifth floor East Wing, M. Karve Road",
               "8108800760"
+            ],
+            [
+              "Vashi",
+              "304, third floor, Devavrata Building, Plot 83, near HDFC Bank, Sector 17, Vashi, Navi Mumbai 400703",
+              "8097266575"
+            ],
+            [
+              "Thane",
+              "Office 9A, first floor, Ramanand CHS Ltd, opposite Mango Stationery, Gokhle Road, Naupada, Thane West 400602",
+              "9311378756"
             ]
           ]
         }
@@ -4210,7 +4224,8 @@ module.exports = [
         "heading": "Fees, faculty and intake details",
         "paragraphs": [
           "A numeric current branch-specific fee, dated next intake and section-wise local teacher roster were not established. The page mentions scholarship routes but does not establish your eligibility or final discount.",
-          "Ask for a dated quote identifying the exam year, mode, remaining teaching, books, taxes, test split, recording access and interview support. Meet the assigned QA, DILR and VARC teachers rather than relying on national testimonials."
+          "Ask for a dated quote identifying the exam year, mode, remaining teaching, books, taxes, test split, recording access and interview support. Meet the assigned QA, DILR and VARC teachers rather than relying on national testimonials.",
+          "The centre finder includes historical programme labels alongside undated weekday and weekend options. Those labels do not verify a current intake; request a dated branch timetable before enrolling."
         ],
         "links": []
       },
@@ -4259,24 +4274,28 @@ module.exports = [
     "slug": "cat-coaching/mumbai/fundamakers",
     "title": "FundaMakers Mumbai: Thane CAT Centre and Course Details",
     "section": "Mumbai CAT coaching research",
-    "description": "Check FundaMakers Thane location, advertised CAT 2026 price, hybrid learning features and unresolved batch details.",
+    "description": "Review FundaMakers Thane contact, CAT 2026 displayed fee, advertised timetable, catch-up options and conflicting batch-size claims.",
     "answer": "FundaMakers’ Mumbai page lists a Thane West centre and a hybrid CAT 2026 course. Its displayed price needs a fresh written quote because the page also retains older course material.",
-    "updated": "2026-10-10",
+    "updated": "2026-10-29",
     "verifiedResearch": true,
     "body": [
-      "Official sources reviewed on 10 October 2026. Advertised features are provider disclosures; current seats, teachers and service quality have not been independently verified."
+      "Official sources reviewed on 29 October 2026. Advertised features are provider disclosures; current seats, teachers and service quality have not been independently verified."
     ],
     "sections": [
       {
         "id": "contact",
         "heading": "Thane West location",
         "paragraphs": [
-          "The official page lists first floor, 104 Dhanlaxmi Lakshmi Shopping Centre, Rutu Estate, Patlipada, Thane West. The helpline is 9984743388. Confirm the map pin and active CAT classroom before travelling."
+          "The dedicated city page places the centre at first floor, 104 Dhanlaxmi Lakshmi Shopping Centre, Rutu Estate, Patlipada, Thane West. The contact directory also identifies unit 104 in Rutu Estate and gives the Mumbai number 9984743388. This differs from the general website helpline, 9598333344. Confirm the map pin before travelling."
         ],
         "links": [
           [
             "Official Mumbai/Thane page",
             "https://fundamakers.com/cat-coaching-in-mumbai/"
+          ],
+          [
+            "Official contact directory",
+            "https://fundamakers.com/contact-us/"
           ]
         ]
       },
@@ -4285,7 +4304,7 @@ module.exports = [
         "heading": "Advertised CAT 2026 package",
         "paragraphs": [
           "The CAT 26 card displays ₹95,000, validity through 31 March 2027, hybrid teaching, five-day classroom sessions, 225+ topic tests, 80+ mocks, mentoring and PI/WAT support. Tax treatment and the CAT-only mock split are not established.",
-          "The general page describes recordings, live access for missed classes and remedial support. These are advertised features, not tested guarantees."
+          "The page advertises five-day classes from 5–7 pm, weekend options, recordings and live-link catch-up. No dated intake timetable was established; confirm which arrangement your batch actually uses."
         ],
         "links": [
           [
@@ -4299,7 +4318,7 @@ module.exports = [
         "heading": "Old content and unresolved details",
         "paragraphs": [
           "The same page retains a CAT 25 card expiring in March 2026 and old countdowns. Do not treat those offers as current. A dated new intake and named local faculty roster were not established.",
-          "Ask for the current batch size and actual timetable; generic page promises should be confirmed against the specific intake. Obtain a fresh quotation covering taxes, books, tests, access expiry and cancellation terms."
+          "Class-size wording conflicts: one feature states a maximum of 20 students, while the FAQ describes 20 as a minimum. A hard cap is therefore unverified. Ask for the current enrolled count and written batch limit, plus an all-inclusive quote and cancellation terms."
         ],
         "links": []
       },
