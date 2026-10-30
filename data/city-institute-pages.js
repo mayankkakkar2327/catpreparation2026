@@ -4367,12 +4367,13 @@ module.exports = [
     "slug": "cat-coaching/hyderabad/abhyaas",
     "title": "Abhyaas Hyderabad: CAT Courses, Fees and Centre Contacts",
     "section": "Hyderabad CAT coaching research",
-    "description": "Abhyaas Hyderabad CAT 2026 dated intake versus CAT 2027 launch status, course-price disclosures and enrolment checks.",
-    "answer": "Abhyaas lists CAT teaching at Kukatpally and Secunderabad. Its Hyderabad page advertises a 24 October 2026 weekend intake; confirm the exam year, remaining teaching and final price before paying.",
-    "updated": "2026-10-21",
+    "description": "Abhyaas Hyderabad CAT contacts, past advertised intake date, classroom versus self-paced inclusions and current fee checks.",
+    "answer": "Abhyaas lists CAT centres in Kukatpally and Secunderabad. Its reviewed page shows a 24 October 2026 intake date, now in the past; a fresh joining date and current availability require direct confirmation.",
+    "updated": "2026-10-30",
     "verifiedResearch": true,
     "body": [
-      "Official sources reviewed on 21 October 2026. Published features are provider disclosures; live seats, teaching quality and results have not been independently verified."
+      "Official sources reviewed on 30 October 2026. Published features are provider disclosures; seats, assigned teachers and outcomes have not been independently verified.",
+      "The Abhyaas course page was available through the indexed source; a direct automated fetch returned 403. The dated row is reported as published information, not live seat verification."
     ],
     "sections": [
       {
@@ -4412,7 +4413,8 @@ module.exports = [
         "heading": "Published course and price distinctions",
         "paragraphs": [
           "The CAT 2026 Extensive table advertises ₹29,999 alongside ₹39,999, 400+ hours, 30+ CAT and 10+ non-CAT mocks, printed material and GDPI. The 2027 Comprehensive table shows ₹59,999 alongside ₹69,999, 500+ hours, 35+ CAT and 15+ non-CAT mocks. Confirm tax and offer validity.",
-          "The dated row explicitly names CAT 2026 Extensive Classroom: 24 October 2026, weekends, 5–7 PM. The CAT 2027 batch section instead says launching soon. A 2027 programme price is not a confirmed 2027 start date; ask for the calendar before paying."
+          "The reviewed batch row names CAT 2026 Extensive Classroom on 24 October, weekends, 5–7 PM. That date has passed. It does not confirm a new opening or late-entry seat. The 2027 section says launching soon; a programme price is not a launch date.",
+          "The self-paced column lists ₹19,999, e-books and 10+ CAT plus 10+ non-CAT mocks, but no live classroom hours or GDPI. It is a different purchase from the classroom packages, not a cheaper version with identical support."
         ],
         "links": [
           [
@@ -4444,7 +4446,7 @@ module.exports = [
         "heading": "Match the intake to the year you intend to take CAT",
         "paragraphs": [
           "Do not choose a batch solely because its date is close. Ask the counsellor to write the target exam year beside the start date, expected end of concept teaching and revision plan.",
-          "For the advertised October 2026 intake, ask what is new live instruction and what is catch-up content. For the later cycle, request the launch date, cancellation terms if it moves, and whether any advance payment is refundable. These questions are checks to make, not services confirmed by this review."
+          "For late entry to the advertised October batch, ask whether it actually began, what has already been taught and how missed work is recovered. Request a dated catch-up plan before paying. For CAT 2027, request a confirmed launch date and terms if that date changes."
         ],
         "links": []
       },
@@ -4483,19 +4485,19 @@ module.exports = [
     "slug": "cat-coaching/hyderabad/ims",
     "title": "IMS Hyderabad: CAT Centres, Faculty and Course Checks",
     "section": "Hyderabad CAT coaching research",
-    "description": "Check refreshed IMS Hyderabad addresses, mentor information, mixed-exam mock totals and current intake questions.",
+    "description": "Compare IMS Hyderabad centres, CATapult Live study workload, mentoring allowance and unresolved fees and intake dates.",
     "answer": "IMS publishes Hyderabad CAT centres and several preparation formats. Compare the selected branch and course specification, including which mocks are CAT tests and how much teaching remains.",
-    "updated": "2026-10-12",
+    "updated": "2026-10-30",
     "verifiedResearch": true,
     "body": [
-      "Official sources reviewed on 11–12 October 2026. Published on 12 October 2026. Programme details are provider disclosures; current seats, teacher allocation and outcomes have not been independently verified."
+      "Official sources reviewed on 30 October 2026. Published features are provider disclosures; seats, assigned teachers and outcomes have not been independently verified."
     ],
     "sections": [
       {
         "id": "centres",
         "heading": "Selected local addresses",
         "paragraphs": [
-          "The official directory lists these CAT locations. The Punjagutta house and unit numbers below correct the compressed number previously shown in our centre evidence."
+          "Selected CAT locations from the official Hyderabad directory. Confirm the active teaching venue before visiting."
         ],
         "links": [
           [
@@ -4545,7 +4547,9 @@ module.exports = [
         "id": "course",
         "heading": "Course scope and mock split",
         "paragraphs": [
-          "The Hyderabad campaign describes classroom, live-online, self-learning and test-series options. Its CAT 2026 block advertises 300+ teaching hours, 150 hours of videos, mentoring and GDPI, with 110+ mocks comprising 40+ SimCATs and 70 other-management-admission tests."
+          "The Hyderabad campaign lists classroom, live-online, self-learning and test-series options. Its CAT 2026 block advertises 300+ teaching hours, 150 hours of videos and 110+ mocks split into 40+ SimCATs and 70 other-management-admission tests. It specifies five individual online mentoring sessions; confirm whether this allowance applies to your package.",
+          "CATapult Live separately describes 50 live classes plus workshops. Each class carries roughly 30 minutes of preparation, two live hours and 1.5 hours of follow-up video work: about four hours before additional practice. This is an advertised course design, not a confirmed remaining calendar.",
+          "The E-CATapult section has a 2026 heading but refers to CAT 2025 in its description. Request the exact exam year and access expiry rather than relying on the heading alone."
         ],
         "links": [
           [
@@ -4600,6 +4604,10 @@ module.exports = [
       {
         "q": "Are the published mentors my assigned teachers?",
         "a": "Not necessarily. Confirm a section-wise roster for your chosen branch and intake."
+      },
+      {
+        "q": "Does a two-hour CATapult Live class mean only two hours of study?",
+        "a": "No. The campaign also describes preparation and follow-up videos. Allow roughly four hours for that sequence, before extra practice, and confirm the schedule for your package."
       }
     ]
   },
@@ -4607,12 +4615,12 @@ module.exports = [
     "slug": "blog/best-cat-coaching-in-hyderabad",
     "title": "Best CAT Coaching in Hyderabad: Classroom and Online Options",
     "section": "Hyderabad CAT coaching research",
-    "description": "Compare Abhyaas, Career Launcher, Cracku, IMS and T.I.M.E., with October intake checks, delivery-mode distinctions and fee limitations.",
+    "description": "Compare five Hyderabad CAT options with updated Cracku prices, IMS study workload and Abhyaas past-intake checks.",
     "answer": "Compare Abhyaas, Career Launcher, IMS and T.I.M.E. for Hyderabad classroom enquiries, and Cracku for online preparation from a provider with a Hyderabad office. Confirm the actual teaching mode and intake before paying.",
-    "updated": "2026-10-21",
+    "updated": "2026-10-30",
     "verifiedResearch": true,
     "body": [
-      "Official sources reviewed on 21 October 2026. Published features are provider disclosures; live seats, teaching quality and results have not been independently verified."
+      "Official sources reviewed on 30 October 2026. Published features are provider disclosures; seats, assigned teachers and outcomes have not been independently verified."
     ],
     "sections": [
       {
@@ -4620,8 +4628,7 @@ module.exports = [
         "heading": "Selection criteria and limitations",
         "paragraphs": [
           "This alphabetical comparison covers five distinct CAT providers with official Hyderabad-related information. Cracku is included as an online option with a published Kondapur office; that address is not evidence of a walk-in classroom. The other entries have local classroom or city-network evidence, with current intake gaps stated individually.",
-          "Selection considers official presence, course information, delivery mode, price clarity and student suitability. We do not rank by unaudited testimonials, guarantees or result claims. Branches count once. Our suitability comments are editorial judgments to test through a demo.",
-          "This update replaces the earlier VPROV enquiry entry with a clearly specified online alternative. VPROV’s office and dispatch entries still do not establish local CAT classroom delivery. This is a change in documented comparison coverage, not a claim about teaching quality."
+          "Selection considers official presence, course information, delivery mode, price clarity and student suitability. We do not rank by unaudited testimonials, guarantees or result claims. Branches count once. Our suitability comments are editorial judgments to test through a demo."
         ],
         "links": []
       },
@@ -4641,8 +4648,8 @@ module.exports = [
             [
               "Abhyaas",
               "Local CAT centres",
-              "2026 intake versus 2027 launch status",
-              "Seat availability and actual remaining lessons"
+              "Past advertised intake; classroom versus self-paced",
+              "Fresh joining date and actual remaining lessons"
             ],
             [
               "Career Launcher",
@@ -4653,14 +4660,14 @@ module.exports = [
             [
               "Cracku",
               "Kondapur office; online CAT programme",
-              "Online schedule and feedback",
-              "Conflicting displayed prices; no local classroom verified"
+              "Online schedule and updated price cards",
+              "Final invoice and access expiry; no local classroom verified"
             ],
             [
               "IMS",
               "Official CAT centre directory",
-              "Teaching versus test-only purchase",
-              "Dated intake and local quotation"
+              "Live-class workload and mentoring allowance",
+              "Dated intake and package-specific quotation"
             ],
             [
               "T.I.M.E.",
@@ -4675,8 +4682,8 @@ module.exports = [
         "id": "abhyaas",
         "heading": "Abhyaas: resolve the intake and package details",
         "paragraphs": [
-          "Abhyaas’s dated October row is labelled CAT 2026; the CAT 2027 batch section says launching soon. A later-cycle price table does not establish a start date.",
-          "Our assessment: obtain the exam year and remaining live calendar together. Confirm the mock inventory and seats directly rather than treating a website counter as available capacity."
+          "The reviewed page’s 24 October CAT 2026 intake date has passed. It does not establish a new joining date or a late-entry seat. Its 2027 batch section still says launching soon in the available source.",
+          "Our assessment: request a remaining calendar and catch-up plan. The self-paced option excludes live classroom hours and GDPI in the comparison table, so compare support as well as price. A direct automated fetch was blocked; availability has not been verified live."
         ],
         "links": [
           [
@@ -4712,8 +4719,8 @@ module.exports = [
         "heading": "Cracku: an online option with a Hyderabad office",
         "paragraphs": [
           "Cracku publishes a Kondapur office at Vamsiram Jyothi Granules and provides online CAT courses. Its site identifies Maruti Konduri and Sayali Kale in its teaching team. The office is not verified here as a student classroom.",
-          "The crash-course page offers self-study and live-course variants, with or without printed books. Its cards display ₹4,999 and ₹7,499, while a comparison table shows ₹6,499 and ₹8,499 for corresponding no-book options; the book-inclusive variant shows ₹13,999. These inconsistent amounts are not a confirmed checkout total.",
-          "The programme advertises concept videos, daily live classes, CAT mocks, sectionals, doubts and video mentoring. Confirm the selected package, remaining live timetable, access expiry, taxes and mentoring limits. Availability of other-exam products does not make them part of every CAT purchase.",
+          "The reviewed cards now display ₹4,999 for self-study, ₹6,999 for the live crash course and ₹11,999 with five printed books. These replace the amounts in our earlier review. They are displayed offers, not verified tax-inclusive invoices; confirm the chosen variant at checkout.",
+          "The course advertises weekday live sessions at 7:30 PM, mocks, sectionals, doubt support and video mentoring. Ask for the dated remaining calendar and access expiry. A relative banner saying the last batch starts today is not a durable start-date record.",
           "Our assessment: consider a demo if you can study consistently online and want to avoid travel. Test the explanation and doubt process in your weakest section. Request a written price and feature list before choosing between similarly named cards."
         ],
         "links": [
@@ -4735,8 +4742,8 @@ module.exports = [
         "id": "ims",
         "heading": "IMS: separate mock volume from usable feedback",
         "paragraphs": [
-          "The refreshed profile includes selected addresses and a published mentor pool. Its advertised combined mock total includes non-CAT exams.",
-          "Our assessment: inspect a mock-review session and ask what follow-up practice you would receive. Compare the branch journey with the time needed to complete that practice."
+          "The CATapult Live description separates live classes from preparation and follow-up videos. Budget about four hours for the advertised class sequence before extra practice. The CAT 2026 block specifies five individual online mentoring sessions; confirm which package carries that allowance.",
+          "Our assessment: compare the full weekly workload with your study time. The self-learning section mixes a 2026 heading with a 2025 reference, so confirm the target year and expiry in writing."
         ],
         "links": [
           [
@@ -4775,7 +4782,7 @@ module.exports = [
         "id": "fees",
         "heading": "Compare equivalent purchases",
         "paragraphs": [
-          "The available prices describe different purchases: Abhyaas classroom programmes, Career Launcher product cards and Cracku online variants. Some pages contain conflicting figures. Request exam year, mode, remaining live lessons, recordings, books, CAT and non-CAT tests, mentoring, interview support, tax, expiry and cancellation terms on the same dated quote.",
+          "These prices describe different purchases: Abhyaas classroom programmes, Career Launcher product cards and Cracku online variants. Request exam year, mode, remaining live lessons, recordings, books, test split, mentoring, interview support, tax, expiry and cancellation terms on the same dated quote.",
           "Do not compare a self-paced course or test series with a full classroom programme solely on headline price. If your concepts are already covered, ask whether feedback and tests address your remaining needs better than repeating lectures."
         ],
         "links": []
@@ -4828,7 +4835,7 @@ module.exports = [
       },
       {
         "q": "Can I rely on an advertised price or seat counter?",
-        "a": "Use it as a starting point. Conflicting price cards and changing availability require a dated confirmation for the exact package and exam year."
+        "a": "Treat it as a starting point. Obtain dated confirmation of the final price, exact package, target year and available seat; a past batch date is not a fresh intake."
       }
     ]
   },
