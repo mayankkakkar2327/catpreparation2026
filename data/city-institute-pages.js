@@ -1254,10 +1254,10 @@ module.exports = [
     "slug": "cat-coaching/chennai/2iim",
     "title": "2IIM Chennai: CAT 2027 Batches, Fees and Centre Checks",
     "section": "Chennai CAT coaching research",
-    "description": "Check 2IIM Chennai CAT 2027 Anna Nagar batch dates, classroom pricing, Adyar contacts and differing published class totals.",
+    "description": "Check 2IIM Chennai November 2026 start dates for CAT 2027, Anna Nagar timings, classroom price and Adyar contact limitations.",
     "answer": "2IIM advertises Chennai classroom CAT 2027 at ₹60,000 including GST, with dated Anna Nagar batches. Confirm the chosen venue, available seats and actual live timetable before payment.",
     "body": [
-      "Official sources reviewed on 22 October 2026. Programme descriptions are provider disclosures; current seats, teacher allocation and delivery quality have not been independently verified."
+      "Official sources reviewed on 1 November 2026. Programme descriptions are provider disclosures; current seats, teacher allocation and delivery quality have not been independently verified."
     ],
     "sections": [
       {
@@ -1291,7 +1291,7 @@ module.exports = [
         "id": "pricing",
         "heading": "Dated Anna Nagar intakes and remaining uncertainties",
         "paragraphs": [
-          "The Chennai page advertises CAT 2027 weekday classes starting 20 October 2026, 6:30–8:30 PM, and a weekend batch starting 25 October 2026, 9:30 AM–1:30 PM. Each shows ₹60,000. These are published dates, not confirmation of seats or admission after the weekday start.",
+          "The Chennai page now advertises CAT 2027 weekday classes starting 2 November 2026, 6:30–8:30 PM, and a weekend batch dated 1 November 2026, 9:30 AM–1:30 PM. Each shows ₹60,000. These replace the previously displayed October dates; confirm whether the weekend batch has begun and whether late entry is available.",
           "The same page names Adyar and Anna Nagar but gives these dates under Anna Nagar. Do not apply them to Adyar. Call 9962648484 or the Anna Nagar contact 7603907861 to establish the classroom map pin, missed-session catch-up and exam year.",
           "For CAT 2026, the Chennai page asks applicants to contact the team for batch details. A long-duration 2027 course and a current-cycle booster are different purchases. Get the actual remaining schedule and expiry in writing."
         ],
@@ -1376,19 +1376,19 @@ module.exports = [
         "a": "The published dated table is under Anna Nagar. Confirm Adyar availability separately; dates and seats must not be inferred across branches."
       }
     ],
-    "updated": "2026-10-22",
+    "updated": "2026-11-01",
     "verifiedResearch": true
   },
   {
     "slug": "cat-coaching/chennai/gradsquare",
     "title": "GradSquare Chennai: CAT Fees, Centres and Course Checks",
     "section": "Chennai CAT coaching research",
-    "description": "GradSquare Chennai CAT 2026 and 2027 prices with GST, mentoring periods, local contacts and published faculty information.",
-    "answer": "GradSquare displays CAT 2026 at ₹40,000 plus GST and CAT 2027 at ₹60,000 plus GST. The calculated totals at 18% are ₹47,200 and ₹70,800; obtain a dated quote for the actual intake.",
-    "updated": "2026-10-22",
+    "description": "GradSquare Chennai CAT 2027 and 2028 advertised prices, GST calculations, teaching hours, mock split and local contact checks.",
+    "answer": "GradSquare now displays CAT 2027 at ₹55,000 plus 18% GST and CAT 2028 at ₹85,000 plus 18% GST. Calculated totals are ₹64,900 and ₹1,00,300; confirm the final invoice and dated intake.",
+    "updated": "2026-11-01",
     "verifiedResearch": true,
     "body": [
-      "Official sources reviewed on 22 October 2026. Programme descriptions are provider disclosures; current seats, teacher allocation and delivery quality have not been independently verified."
+      "Official sources reviewed on 1 November 2026. Programme descriptions are provider disclosures; current seats, teacher allocation and delivery quality have not been independently verified."
     ],
     "sections": [
       {
@@ -1413,9 +1413,9 @@ module.exports = [
         "id": "fees",
         "heading": "Displayed package and scope",
         "paragraphs": [
-          "The city page shows CAT 2026 classroom and online cards at ₹40,000 plus 18% GST, calculated ₹47,200, with 200+ live hours and one year of mentoring. CAT 2027 is ₹60,000 plus 18%, calculated ₹70,800, with 300+ offline hours and two years of mentoring.",
-          "Both year-specific offers list 30 CAT mocks, 40 non-CAT mocks, printed material, individual mock analysis, recordings and interview/WAT preparation. Ask for exact mentoring start/end dates and the timetable remaining after you join. These advertised packages do not establish current seats or a final invoice.",
-          "General text also says 300+ hours. Resolve the difference against your named package."
+          "The current CAT 2027 classroom and online cards display ₹55,000 alongside ₹65,000, excluding 18% GST. The calculated total on ₹55,000 is ₹64,900. Each advertises 300+ live hours in its respective mode. These replace the older year-specific prices in our previous review.",
+          "The CAT 2028 card displays ₹85,000 alongside ₹1,00,000, excluding 18% GST: calculated ₹1,00,300 on the lower displayed price. It advertises 500+ offline hours and two years of mentoring. Obtain a dated start and end calendar.",
+          "The cards list 30 CAT mocks and 46 non-CAT mocks, printed materials, individual mock analysis, recordings and interview/WAT support. General page text still says 40 non-CAT mocks; confirm the inventory for the exact purchase. Neither a displayed offer nor these calculations establish a final invoice or available seat."
         ],
         "links": [
           [
@@ -1465,12 +1465,12 @@ module.exports = [
     ],
     "faqs": [
       {
-        "q": "Is ₹47,200 a confirmed invoice?",
-        "a": "No. It is the calculated total of the displayed ₹40,000 plus 18% GST. Confirm the current offer and package directly."
+        "q": "Are ₹64,900 and ₹1,00,300 confirmed invoices?",
+        "a": "No. They are calculations using the displayed discounted prices plus the stated 18% GST. Confirm the current offer, package and payment terms directly."
       },
       {
-        "q": "Do CAT 2026 and 2027 have identical teaching hours?",
-        "a": "No. The reviewed 2026 card lists 200+ live hours and the 2027 card lists 300+ offline hours. Confirm the exact plan; general page wording differs."
+        "q": "Are CAT 2027 and 2028 identical courses?",
+        "a": "No. Their cards advertise different teaching hours and mentoring periods. Ask for the target-year timetable and written inclusions."
       }
     ]
   },
