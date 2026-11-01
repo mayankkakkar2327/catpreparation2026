@@ -5200,12 +5200,12 @@ module.exports = [
     "slug": "cat-coaching/pune/tarkashastra",
     "title": "Tarkashastra Pune: CAT Course, Locations and Fee Evidence",
     "section": "Pune CAT coaching research",
-    "description": "Check Tarkashastra Pune contacts, CAT hybrid course claims, fee-range limitations and weekday scheduling before enrolment.",
-    "answer": "Tarkashastra advertises CAT classroom and hybrid preparation in Pune. Its city page gives a broad fee range rather than a package-specific quote and says weekend CAT classes are not offered.",
-    "updated": "2026-10-15",
+    "description": "Compare Tarkashastra Pune CAT 2027 hybrid, online and self-paced support, conflicting mock counts and fee limitations.",
+    "answer": "Tarkashastra offers Pune hybrid, online and self-paced CAT preparation. Its CAT 2027 table distinguishes live support from self-paced access; confirm the exact mock inventory, intake and final price.",
+    "updated": "2026-11-01",
     "verifiedResearch": true,
     "body": [
-      "Official web evidence reviewed on 15 October 2026. Advertised services are provider disclosures, not independently tested teaching outcomes. Current seats and assigned teachers require direct confirmation."
+      "Official web evidence reviewed on 1 November 2026. Advertised services are provider disclosures, not independently tested teaching outcomes. Current seats and assigned teachers require direct confirmation."
     ],
     "sections": [
       {
@@ -5230,8 +5230,9 @@ module.exports = [
         "id": "course",
         "heading": "Advertised course and support",
         "paragraphs": [
-          "The city page describes CAT 2026 hybrid access until the exam, 20+ mocks, 300+ recorded hours, individual mentoring, class tests and a doubt platform. It gives both 10,000+ and 20,000+ practice-question figures; request the exact package inventory.",
-          "Its FAQ says there are no weekend CAT classes and points working learners towards a separate weekday online batch. A dated next intake and precise current timetable were not established."
+          "The CAT 2027 comparison covers CAT 2027 and XAT 2028. Hybrid includes Pune classroom and live sessions; online includes live sessions; self-paced excludes both. The table also excludes regular doubt sessions and individual career counselling from self-paced, with printed books optional.",
+          "The comparison lists 30+ mocks, while the benefits section advertises 40+ and a separate Flexi Prep promotion lists 20+. These descriptions are not one combined inventory. Obtain the CAT-only and XAT breakdown for your named package.",
+          "The older city FAQ says weekend CAT classes are not offered. A dated CAT 2027 timetable was not established; reconfirm weekday/weekend arrangements for that intake rather than applying older course wording automatically."
         ],
         "links": [
           [
@@ -5241,6 +5242,10 @@ module.exports = [
           [
             "CAT 2026 course page",
             "https://www.tarkashastra.co.in/cat-2026/"
+          ],
+          [
+            "Official CAT 2027 mode comparison",
+            "https://www.tarkashastra.co.in/cat-2027/"
           ]
         ]
       },
@@ -5249,7 +5254,8 @@ module.exports = [
         "heading": "Fee range is not a confirmed purchase price",
         "paragraphs": [
           "The Pune FAQ advertises ₹5,000–₹65,000 across short-term and full-year courses, with instalments. It does not identify a tax-inclusive price for the exact current hybrid intake. Obtain the package name, exam year, final total, instalment charges and expiry in writing.",
-          "An older /cat/ page still labels products CAT 2025. Its low headline amounts should not be treated as CAT 2026 classroom fees."
+          "An older /cat/ page still labels products CAT 2025. Its low headline amounts should not be treated as CAT 2026 classroom fees.",
+          "The 2027 page separately promotes MBA Flexi Prep at ₹2,499 per month. This is not a full-course Pune classroom price. Check billing duration, taxes, renewal and cancellation conditions before comparing total cost."
         ],
         "links": [
           [
@@ -5311,7 +5317,7 @@ module.exports = [
     "faqs": [
       {
         "q": "Does Tarkashastra offer weekend CAT classes?",
-        "a": "The reviewed city FAQ says no; it points to a separate weekday online batch. Reconfirm the current schedule directly."
+        "a": "The older city FAQ says no. The reviewed CAT 2027 page does not establish a dated local timetable; confirm the intended intake directly."
       },
       {
         "q": "Is ₹5,000 the classroom fee?",
@@ -5323,12 +5329,12 @@ module.exports = [
     "slug": "cat-coaching/pune/eql",
     "title": "EQL Classes Pune: CAT Contact, Courses and Enrolment Checks",
     "section": "Pune CAT coaching research",
-    "description": "Review EQL’s FC Road CAT coaching evidence, classroom and online formats, support claims and undisclosed fees and batch details.",
+    "description": "EQL Pune CAT contacts, time-allocation planning, post-exam preparation and package-specific support questions.",
     "answer": "EQL Classes lists CAT classroom preparation near FC Road in Deccan Gymkhana, alongside online courses. Its public pages describe support and testing, but a current fee and dated CAT intake were not established.",
-    "updated": "2026-10-15",
+    "updated": "2026-11-01",
     "verifiedResearch": true,
     "body": [
-      "Official web evidence reviewed on 15 October 2026. Advertised services are provider disclosures, not independently tested teaching outcomes. Current seats and assigned teachers require direct confirmation."
+      "Official web evidence reviewed on 1 November 2026. Advertised services are provider disclosures, not independently tested teaching outcomes. Current seats and assigned teachers require direct confirmation."
     ],
     "sections": [
       {
@@ -5353,7 +5359,8 @@ module.exports = [
         "heading": "What EQL advertises",
         "paragraphs": [
           "EQL’s CAT page describes classroom learning with digital access, sectional and full-length testing, mock analysis, doubts, mentoring and schedule support. It also describes group discussions, interviews and writing preparation. These are programme claims, not independently verified service levels.",
-          "The homepage distinguishes broader online Super courses from narrower capsule courses and links demo content for CAT, CET, NMAT, SNAP and XAT. Confirm whether your chosen package covers only CAT or other exams too."
+          "The homepage distinguishes broader online Super courses from narrower capsule courses and links demo content for CAT, CET, NMAT, SNAP and XAT. Confirm whether your chosen package covers only CAT or other exams too.",
+          "EQL describes schedule planning through time-allocation matrices and tracking effort. It also advertises checkpoint plans for mock analysis, pre-exam experiments and exam-day execution. Ask to see a sample weekly plan and how it changes after a weak mock; no review frequency or response commitment is published here."
         ],
         "links": [
           [
@@ -5391,6 +5398,20 @@ module.exports = [
         "links": []
       },
       {
+        "id": "post-exam",
+        "heading": "Check the scope of post-exam support",
+        "paragraphs": [
+          "The homepage’s PET preparation includes group discussions and exercises, interviews, impromptu speaking, short presentations, SOP writing, written assessments and psychometric tests. These are advertised services, not confirmed inclusions in every CAT purchase.",
+          "Ask whether your quote includes this support, when it begins, which formats receive individual feedback and whether interview practice has a session limit. A general list of services does not establish entitlement to unlimited practice."
+        ],
+        "links": [
+          [
+            "Official support descriptions",
+            "https://eqlclasses.com/"
+          ]
+        ]
+      },
+      {
         "id": "compare",
         "heading": "Compare Pune options",
         "paragraphs": [],
@@ -5418,6 +5439,10 @@ module.exports = [
       {
         "q": "Is the exact mock-test count known?",
         "a": "No. Sectional and full-length testing is advertised, but the current purchased inventory needs confirmation."
+      },
+      {
+        "q": "Does every CAT package include all post-exam services?",
+        "a": "That was not established. EQL advertises broad PET support, but eligibility, session counts and package inclusions need written confirmation."
       }
     ]
   },
