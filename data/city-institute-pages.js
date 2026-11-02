@@ -1976,12 +1976,12 @@ module.exports = [
     "slug": "cat-coaching/kolkata/ims",
     "title": "IMS Kolkata: CAT Branches, Mock Scope and Batch Checks",
     "section": "CAT coaching research",
-    "description": "Compare IMS Kolkata branches, SimCAT package differences, CAT and other-exam mock counts, mentoring and current fee limitations.",
+    "description": "IMS Kolkata contacts, CATapult Live workload, SimCAT product distinctions and current intake and fee limitations.",
     "answer": "IMS lists CAT locations at Park Street, Gariahat and Salt Lake. Its campaign’s 110+ mocks combine SimCATs with other MBA-exam tests; a current local fee and dated intake were not established.",
-    "updated": "2026-10-25",
+    "updated": "2026-11-02",
     "verifiedResearch": true,
     "body": [
-      "Official web evidence reviewed on 25 October 2026. Advertised services are provider disclosures, not independently tested outcomes. Current seats and assigned teachers need direct confirmation."
+      "Official sources reviewed on 2 November 2026. Advertised features are provider disclosures; seats, assigned teachers and outcomes have not been independently verified."
     ],
     "sections": [
       {
@@ -2030,7 +2030,8 @@ module.exports = [
         "heading": "What the campaign actually promises",
         "paragraphs": [
           "The campaign describes classroom, live-online, self-learning and test-series options. Its main CAT 2026 programme advertises 300+ coaching hours, 150 video hours, five individual online mentoring sessions and a mixed CAT/non-CAT mock package.",
-          "The self-learning block retains a CAT 2025 reference under a 2026 heading. Ask which exam year and access period apply. Original course hours do not establish how much live teaching remains after an October enrolment."
+          "The self-learning block retains a CAT 2025 reference under a 2026 heading. Ask which exam year and access period apply. Original course hours do not establish how much live teaching remains after an November enrolment.",
+          "CATapult Live describes 50 classes plus workshops. Each class involves about 30 minutes of preparation, two live hours and 1.5 hours of follow-up videos: roughly four hours before further practice. This advertised workload is not a dated remaining timetable; request one before joining late."
         ],
         "links": [
           [
@@ -2127,6 +2128,10 @@ module.exports = [
       {
         "q": "Which IMS package is enough for a repeater?",
         "a": "Choose around your missing support: tests alone may not include the individual feedback you need. Ask for the test inventory and a sample mentor review before deciding."
+      },
+      {
+        "q": "Is a two-hour live class the full study commitment?",
+        "a": "No. The campaign describes preparation and follow-up videos as well. Budget about four hours for that sequence before extra practice, subject to the actual purchased plan."
       }
     ]
   },
@@ -2284,10 +2289,10 @@ module.exports = [
     "slug": "blog/best-cat-coaching-in-kolkata",
     "title": "Best CAT Coaching in Kolkata: 5 Institutes Compared",
     "section": "Kolkata CAT coaching research",
-    "description": "Compare IMS, Career Launcher, T.I.M.E., Erudite and Sagar Sir Coaching in Kolkata by location, format, support, fee clarity and student fit.",
+    "description": "Compare five Kolkata CAT providers by study workload, mock feedback, interview-support limits, location and current fee clarity.",
     "answer": "Five Kolkata CAT coaching options to compare are IMS, Career Launcher, T.I.M.E., Erudite and Sagar Sir Coaching. This unranked shortlist focuses on local access, teaching format, mock feedback and written course terms.",
     "body": [
-      "Sources reviewed on 2 October 2026. Programme statements are provider disclosures, not independently audited outcomes. Confirm the current batch, assigned teachers and written quotation before enrolling."
+      "Official sources reviewed on 2 November 2026. Advertised features are provider disclosures; seats, assigned teachers and outcomes have not been independently verified."
     ],
     "sections": [
       {
@@ -2317,13 +2322,13 @@ module.exports = [
               "IMS",
               "Park Street, Gariahat, Salt Lake",
               "Classroom and digital options",
-              "Exact SimCAT plan and local teacher"
+              "Total study workload and exact SimCAT plan"
             ],
             [
               "Career Launcher",
               "Park Street, Gariahat, Salt Lake",
               "CAT long-duration and crash-course options",
-              "Current CAT intake and quotation"
+              "PDP eligibility, interview limits and local intake"
             ],
             [
               "T.I.M.E.",
@@ -2350,7 +2355,7 @@ module.exports = [
         "id": "ims",
         "heading": "IMS: match the branch and the test package",
         "paragraphs": [
-          "IMS’s official directory identifies three Kolkata centres. Its programme pages describe several learning formats and different SimCAT packages. Treat combined CAT and other-exam test totals carefully when comparing with another provider.",
+          "IMS publishes three Kolkata centres and different SimCAT products. Its CATapult Live description adds preparation and follow-up videos around each live class; compare the total study commitment, not just attendance hours.",
           "Our assessment: investigate a reachable branch if you want a regular study routine. Ask who reviews your mocks and whether that review produces a specific practice plan. A national test platform does not establish the quality of the assigned local class."
         ],
         "links": [
@@ -2372,17 +2377,17 @@ module.exports = [
         "id": "cl",
         "heading": "Career Launcher: check the current local CAT course",
         "paragraphs": [
-          "The official Kolkata page lists Salt Lake, Park Street and Gariahat. Park Street is at third floor, Park Centre Building, 24B Park Street, Kolkata 700016; contact 03340017777 or cal.cl@careerlauncher.com. The page lists two-year, one-year and crash-course CAT options and offers demos.",
+          "Career Launcher lists Park Street, Gariahat and Salt Lake. Its Kolkata page now specifies a PDP offer with three recorded mock interviews and feedback, alongside writing and form-filling support. This is a product description, not an entitlement established for every CAT course.",
           "Our assessment: use the demo to compare teaching pace and homework expectations. The page also covers other entrance exams, so ask for CAT-specific faculty, mocks and support rather than assuming every general benefit applies. A current local fee, exact intake and section-wise roster were not established."
         ],
         "links": [
           [
-            "Official Kolkata centres and programmes",
-            "https://www.careerlauncher.com/kolkata/index.jsp"
+            "Updated Kolkata listing",
+            "/cat-coaching/kolkata/career-launcher/"
           ],
           [
-            "Career Launcher profile",
-            "/cat-coaching/career-launcher/"
+            "Official Kolkata CAT and PDP offers",
+            "https://www.careerlauncher.com/kolkata/cat-coaching/"
           ]
         ]
       },
@@ -2390,7 +2395,7 @@ module.exports = [
         "id": "time",
         "heading": "T.I.M.E.: compare teaching and selection-stage support",
         "paragraphs": [
-          "The official Kolkata CAT page identifies Salt Lake, Park Street and Jadavpur, with classroom and live-online preparation. It describes concept training, digital resources, backup classes and GD/WAT/PI support. Those are provider disclosures; confirm eligibility and inclusions for the chosen plan.",
+          "T.I.M.E.’s local page identifies Salt Lake, Park Street and Jadavpur and advertises classroom/live-online teaching, backup classes and weekly doubt sessions. It describes January–March GWPI workshops, interviews and writing practice; confirm the exam cycle, eligibility and booked schedule.",
           "Our assessment: compare a nearby branch if you need scheduled teaching. Ask to inspect a sample mock review and the current batch calendar. We have not treated historical selection figures as a local success rate or older scholarship advertisements as current discounts."
         ],
         "links": [
@@ -2408,7 +2413,7 @@ module.exports = [
         "id": "erudite",
         "heading": "Erudite: clarify the blend and the exam year",
         "paragraphs": [
-          "Erudite’s Kolkata classroom offer combines physical teaching with digital material. Its site contains mixed exam-year references; the detailed listing records the uncertainty and the already-passed September batch announcements.",
+          "Erudite’s classroom page remains available and describes blended learning, but mixes exam-year references. Its homepage timed out during this review, so the earlier September announcements do not establish a current intake. Request a fresh admissions calendar.",
           "Our assessment: ask admissions to show how classroom lessons, independent practice and mentor follow-up fit into a normal week. For a late joiner, a written catch-up plan matters more than the total historical content library."
         ],
         "links": [
@@ -2494,6 +2499,15 @@ module.exports = [
         }
       },
       {
+        "id": "support-terms",
+        "heading": "Compare interview support separately from CAT teaching",
+        "paragraphs": [
+          "A course can advertise interview support without giving every learner the same number of sessions. Ask whether access begins automatically, requires a qualifying call or involves another payment. Request the number of individual interviews, written-feedback turnaround and final access date.",
+          "For a late-cycle student, a useful comparison has two calendars: the teaching and mock-review work before CAT, and selection-stage support afterwards. If you already have concept coverage, use a demo to judge whether the proposed feedback addresses your remaining gaps."
+        ],
+        "links": []
+      },
+      {
         "id": "related",
         "heading": "Continue your research",
         "paragraphs": [],
@@ -2534,7 +2548,9 @@ module.exports = [
         "q": "Should a CAT 2026 late joiner buy a full course?",
         "a": "Ask first for an assessment and remaining teaching plan. Targeted revision or test feedback may fit some students better, while others need structured concept teaching."
       }
-    ]
+    ],
+    "updated": "2026-11-02",
+    "verifiedResearch": true
   },
   {
     "slug": "cat-coaching/ahmedabad/ims",
@@ -5450,12 +5466,12 @@ module.exports = [
     "slug": "cat-coaching/kolkata/career-launcher",
     "title": "Career Launcher Kolkata: CAT Centres, Courses and Fee Checks",
     "section": "CAT coaching research",
-    "description": "Research Career Launcher Kolkata locations, mixed-exam mock totals, course formats and the current batch information to confirm.",
+    "description": "Career Launcher Kolkata centres, interview-preparation session limits, CAT package distinctions and unresolved local fees.",
     "answer": "Career Launcher advertises CAT classroom, online and hybrid preparation in Kolkata. Its course cards contain different mock inventories; ask for the exact package and branch timetable before paying.",
-    "updated": "2026-10-16",
+    "updated": "2026-11-02",
     "verifiedResearch": true,
     "body": [
-      "Official web evidence reviewed on 16 October 2026. Programme claims are provider disclosures; current seats, assigned teachers and outcomes have not been independently verified."
+      "Official sources reviewed on 2 November 2026. Advertised features are provider disclosures; seats, assigned teachers and outcomes have not been independently verified."
     ],
     "sections": [
       {
@@ -5514,6 +5530,20 @@ module.exports = [
         ]
       },
       {
+        "id": "interview",
+        "heading": "Interview preparation has a defined scope",
+        "paragraphs": [
+          "The current Kolkata page includes a PDP offer with three mock interviews, recordings and feedback. It also lists ten knowledge sessions, ten PI/WAT/GD/SOP basics sessions, institute-specific form-filling sessions and limited credits for SOP and writing-analysis tools.",
+          "These are advertised product inclusions, not proof that every CAT classroom package includes them. Ask for eligibility, booking dates, mentor allocation and whether extra interviews or tool credits cost more. A public local price for this offer was not established."
+        ],
+        "links": [
+          [
+            "Official Kolkata PDP offer",
+            "https://www.careerlauncher.com/kolkata/cat-coaching/"
+          ]
+        ]
+      },
+      {
         "id": "fees",
         "heading": "Fees, teachers and support still to confirm",
         "paragraphs": [
@@ -5559,6 +5589,10 @@ module.exports = [
       {
         "q": "Is the current classroom fee verified?",
         "a": "No. Obtain a dated quote including tax, materials, test access and support conditions."
+      },
+      {
+        "q": "Does every CAT package include three mock interviews?",
+        "a": "That was not established. The Kolkata page contains a PDP offer with three interviews; confirm whether your selected package includes it and obtain the booking terms."
       }
     ]
   },
