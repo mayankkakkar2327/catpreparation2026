@@ -11,7 +11,7 @@ if (!global.__catPreparationBlogPagesPatch) {
         require("./city-institute-pages"),
         require("./blog-rodha-cracku-pages"),
         require("./blog-extra-pages"),
-        require("./blog-cat-2025-slot-2-quant-efficient-solutions-rodha"),
+        require("./blog-cat-2026-last-month-mock-analysis-rodha"),
         require("./blog-news-pages").filter((page) => page.slug !== "blog"),
         require("./rodha-ecosystem-pages").filter((page) => page.slug.startsWith("cat-coaching/rodha/"))
       );
@@ -40,7 +40,7 @@ const site = {
   ],
   sourcePolicy:
     "Dates, exam rules, college data, and coaching details should be verified against official websites, brochures, admission pages, and institute disclosures before publication.",
-  updated: "2026-10-30"
+  updated: "2026-11-03"
 };
 
 module.exports = site;
