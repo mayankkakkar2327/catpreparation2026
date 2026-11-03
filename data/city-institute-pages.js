@@ -2556,12 +2556,12 @@ module.exports = [
     "slug": "cat-coaching/ahmedabad/ims",
     "title": "IMS Ahmedabad: CAT 2027 Programme, Centre and Fee Checks",
     "section": "Ahmedabad CAT coaching research",
-    "description": "Review IMS Ahmedabad’s CAT location, newly reviewed CAT 2027 campaign, mentor information and current fee and intake limitations.",
-    "answer": "Review IMS Ahmedabad’s CAT location, newly reviewed CAT 2027 campaign, mentor information and current fee and intake limitations.",
-    "updated": "2026-10-17",
+    "description": "Compare IMS Ahmedabad CAT 2027 teaching with 2026 SimCAT cards, self-learning inclusions, local contacts and fee limitations.",
+    "answer": "IMS Ahmedabad advertises CAT 2027 teaching, but its campaign still lists CAT 2026 test-series products. Confirm the target year and access expiry of each component before purchasing.",
+    "updated": "2026-11-03",
     "verifiedResearch": true,
     "body": [
-      "Official sources reviewed on 17 October 2026. Published offerings are provider statements; current seats, assigned teachers and outcomes are not independently verified."
+      "Official sources reviewed on 3 November 2026. Published offerings are provider statements; current seats, assigned teachers and outcomes are not independently verified."
     ],
     "sections": [
       {
@@ -2583,7 +2583,8 @@ module.exports = [
         "heading": "The campaign now describes CAT 2027",
         "paragraphs": [
           "The Ahmedabad campaign labels its main programme CAT 2027. It advertises 300+ coaching hours, 150 hours of video content, five individual online mentoring sessions and 110+ mocks, split into 40+ SimCATs and 70 other-management-admission tests.",
-          "It lists classroom, live online, self-learning and test-series formats. The live programme advertises 75+ sessions. These are programme descriptions, not confirmation of a dated local intake, current seats or the work remaining in a specific batch."
+          "It lists classroom, live online, self-learning and test-series formats. The live programme advertises 75+ sessions. These are programme descriptions, not confirmation of a dated local intake, current seats or the work remaining in a specific batch.",
+          "E-CATAPULT is now explicitly described as CAT 2027 self-learning, with recorded content, live master classes and nine printed books. The separate SimCAT, Plus and Comprehensive cards remain labelled 2026. A 2027 heading elsewhere on the page does not change those product labels."
         ],
         "links": [
           [
@@ -2602,6 +2603,19 @@ module.exports = [
           [
             "Official mentor and programme page",
             "https://www.imsindia.com/center/ahmedabad/"
+          ]
+        ]
+      },
+      {
+        "id": "study-load",
+        "heading": "Allow time beyond the live class",
+        "paragraphs": [
+          "CATapult Live describes around 30 minutes of preparation, two hours live and 1.5 hours of follow-up videos per class. That is roughly four hours before additional practice. Ask how this sequence fits the actual weekly timetable and whether missed work has deadlines."
+        ],
+        "links": [
+          [
+            "Official programme workload",
+            "https://www.imsindia.com/campaign/cat-coaching-ahmedabad.html"
           ]
         ]
       },
@@ -2651,6 +2665,10 @@ module.exports = [
       {
         "q": "Are the listed mentors guaranteed to teach my batch?",
         "a": "No. A published mentor list does not establish current batch allocation."
+      },
+      {
+        "q": "Are all products on the campaign page for CAT 2027?",
+        "a": "No. Teaching and self-learning sections say 2027, while the separate SimCAT product cards still say 2026. Confirm each purchased component and its expiry."
       }
     ]
   },
@@ -5873,12 +5891,12 @@ module.exports = [
     "slug": "cat-coaching/ahmedabad/career-launcher",
     "title": "Career Launcher Ahmedabad: CAT Centre, Courses and Fee Checks",
     "section": "Ahmedabad CAT coaching research",
-    "description": "Check Career Launcher’s Navrangpura CAT centre, course options and fee-evidence gaps before choosing a classroom or online package.",
-    "answer": "Check Career Launcher’s Navrangpura CAT centre, course options and fee-evidence gaps before choosing a classroom or online package.",
-    "updated": "2026-10-17",
+    "description": "Career Launcher Ahmedabad contact, interview-support differences, Race to 99 registration requirement and local fee limitations.",
+    "answer": "Career Launcher lists a Navrangpura CAT centre and several course formats. Check the exact package: one card specifies three mock interviews and a separate registration requirement for Race to 99.",
+    "updated": "2026-11-03",
     "verifiedResearch": true,
     "body": [
-      "Official sources reviewed on 17 October 2026. Published offerings are provider statements; current seats, assigned teachers and outcomes are not independently verified."
+      "Official sources reviewed on 3 November 2026. Published offerings are provider statements; current seats, assigned teachers and outcomes are not independently verified."
     ],
     "sections": [
       {
@@ -5904,7 +5922,8 @@ module.exports = [
         "heading": "Advertised formats and package differences",
         "paragraphs": [
           "The city page describes classroom, online and hybrid CAT preparation, printed material, mentoring, doubts and interview support. Course cards show 30 CAT mocks with either 70 or 82 non-CAT mocks. Those are separate inventories, not a combined promise.",
-          "The general online description says 150+ live sessions while a course card says 75+. Ask which named product, exam year and remaining timetable apply to your purchase."
+          "The general online description says 150+ live sessions while a course card says 75+. Ask which named product, exam year and remaining timetable apply to your purchase.",
+          "The 75+ live-session card specifies three mock interviews, live PDP support and Telegram doubts. It says Race to 99 is included but requires registration. Other cards only describe planned GD/PI preparation. Do not assume identical interview entitlement across packages."
         ],
         "links": [
           [
@@ -5918,7 +5937,8 @@ module.exports = [
         "heading": "Why no current Ahmedabad fee is quoted",
         "paragraphs": [
           "A reliable current branch-specific, tax-inclusive fee was not established. The page’s machine-readable FAQ contains fee text and locations referring to Pune, including FC Road and Kharadi. Those amounts are not used as Ahmedabad pricing evidence.",
-          "Request a dated quote covering tuition, materials, CAT-only tests, other-exam tests, mentoring, recordings, interview preparation, tax and cancellation terms. Do not compare a test-only product with a full teaching course."
+          "Request a dated quote covering tuition, materials, CAT-only tests, other-exam tests, mentoring, recordings, interview preparation, tax and cancellation terms. Do not compare a test-only product with a full teaching course.",
+          "Ask whether the quoted package includes those three interviews, how appointments are booked and when registration for any included programme closes. Obtain written terms for recordings, feedback and access expiry; a general inclusion statement is not a confirmed booking."
         ],
         "links": [
           [
@@ -5969,6 +5989,10 @@ module.exports = [
       {
         "q": "Are all advertised mocks CAT tests?",
         "a": "No. The programme cards separate CAT from other MBA-exam mocks; confirm the exact purchased inventory."
+      },
+      {
+        "q": "Is Race to 99 access automatic?",
+        "a": "The reviewed card says registration is mandatory. Confirm eligibility, deadline and the required registration process for your selected package."
       }
     ]
   },
