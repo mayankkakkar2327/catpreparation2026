@@ -3,12 +3,12 @@ module.exports = [
     "slug": "cat-coaching/bangalore/ims",
     "title": "IMS Bengaluru: CAT Centres, Address Conflicts and Course Checks",
     "section": "Bengaluru CAT coaching research",
-    "description": "Check IMS Bengaluru CAT locations, conflicting Koramangala addresses, mock-test scope and current batch and fee limitations.",
-    "answer": "Check IMS Bengaluru CAT locations, conflicting Koramangala addresses, mock-test scope and current batch and fee limitations.",
-    "updated": "2026-10-18",
+    "description": "IMS Bengaluru CAT 2027 teaching versus 2026 SimCAT products, centre-address uncertainty and current fee checks.",
+    "answer": "IMS Bengaluru now labels teaching and self-learning products CAT 2027, while separate SimCAT cards remain 2026. Confirm the exam year, chosen branch and access expiry before purchasing.",
+    "updated": "2026-11-04",
     "verifiedResearch": true,
     "body": [
-      "Official sources reviewed on 18 October 2026. Programme descriptions are provider claims; current seats, teacher allocation and student outcomes have not been independently verified."
+      "Official sources reviewed on 4 November 2026. Programme descriptions are provider disclosures; current seats, assigned teachers and outcomes have not been independently verified."
     ],
     "sections": [
       {
@@ -70,8 +70,8 @@ module.exports = [
         "id": "course",
         "heading": "Published CAT programme scope",
         "paragraphs": [
-          "The CAT 2026 campaign describes 300+ teaching hours, 150 video hours, five individual online mentoring sessions and 110+ mocks, split into 40+ SimCATs and 70 other-management-admission tests. Classroom, live online, self-learning and test-series purchases are different products.",
-          "The self-learning block retains a CAT 2025 reference beneath a 2026 heading. Confirm the exam year, access expiry and exact inventory. Full-course hours do not establish the sessions remaining after you join."
+          "The CAT 2027 campaign describes 300+ teaching hours, 150 video hours, five individual online mentoring sessions and 110+ mocks, split into 40+ SimCATs and 70 other-management-admission tests. Classroom, live online, self-learning and test-series purchases are different products.",
+          "The self-learning heading and description now both say CAT 2027, replacing the older-year wording in our previous review. Separate SimCAT, Plus and Comprehensive cards still say 2026. Confirm the year and expiry for every purchased component; a teaching-page heading does not change a test product’s validity."
         ],
         "links": [
           [
@@ -143,6 +143,10 @@ module.exports = [
       {
         "q": "Is a current local classroom fee verified?",
         "a": "No. Obtain a dated quote for the branch, exam year and delivery mode."
+      },
+      {
+        "q": "Does every product on the Bengaluru campaign target CAT 2027?",
+        "a": "No. Teaching and self-learning sections say 2027, but the separate SimCAT cards remain labelled 2026. Confirm each component before payment."
       }
     ]
   },
@@ -150,12 +154,12 @@ module.exports = [
     "slug": "cat-coaching/bangalore/career-launcher",
     "title": "Career Launcher Bengaluru: CAT Centres, Batch and Fee Checks",
     "section": "Bengaluru CAT coaching research",
-    "description": "Review Career Launcher Bengaluru’s selected CAT locations, Indiranagar batch limitation, published mocks and current fee gaps.",
-    "answer": "Review Career Launcher Bengaluru’s selected CAT locations, Indiranagar batch limitation, published mocks and current fee gaps.",
-    "updated": "2026-10-18",
+    "description": "Career Launcher Bengaluru CAT contacts, Indiranagar mentor-role distinctions, digital support and unconfirmed batch allocation.",
+    "answer": "Career Launcher lists Bengaluru CAT centres and a mixed-exam mentor team. Indiranagar identifies B Varun as a CAT/IPMAT mentor, but its public batch panel does not confirm a dated intake or your assigned teachers.",
+    "updated": "2026-11-04",
     "verifiedResearch": true,
     "body": [
-      "Official sources reviewed on 18 October 2026. Programme descriptions are provider claims; current seats, teacher allocation and student outcomes have not been independently verified."
+      "Official sources reviewed on 4 November 2026. Programme descriptions are provider disclosures; current seats, assigned teachers and outcomes have not been independently verified."
     ],
     "sections": [
       {
@@ -227,7 +231,8 @@ module.exports = [
         "heading": "Published mocks and support",
         "paragraphs": [
           "The Bengaluru CAT page’s cards advertise 30 CAT mocks, 70 non-CAT mocks, 45 CAT sectionals, 40 non-CAT sectionals, printed material and planned interview preparation. Confirm which named local package includes these resources.",
-          "The Indiranagar page describes digital exercises, test analysis and doubt support. It names Rahul Reddy as city head, but a current section-wise teaching roster for your intake was not established."
+          "Indiranagar identifies B Varun as an academic mentor for CAT and IPMAT. Its team also includes law-focused mentors, so the full team list is not a CAT faculty roster. Rahul Reddy is described as city head overseeing academic quality and mentoring. Confirm who teaches QA, DILR and VARC in your intake.",
+          "The branch describes a Student Information System with topic exercises, Test Gym, vocabulary work and GK updates, plus individual test analysis. Ask for a portal demo and how a mentor uses that analysis to assign practice. Published features do not establish a response-time guarantee or unlimited appointments."
         ],
         "links": [
           [
@@ -3347,10 +3352,10 @@ module.exports = [
     "slug": "blog/best-cat-coaching-in-bangalore",
     "title": "Best CAT Coaching in Bangalore: 5 Institutes Compared",
     "section": "Bengaluru CAT coaching research",
-    "description": "Compare IMS, Career Launcher, T.I.M.E., Elite IIT and Pratishtha Edu in Bengaluru by local presence, formats, support and fee transparency.",
+    "description": "Compare five Bengaluru CAT providers with current exam-year labels, mentor-role checks, weekday study demands and unresolved fees.",
     "answer": "Five Bengaluru CAT coaching providers to investigate are IMS, Career Launcher, T.I.M.E., Elite IIT and Pratishtha Edu. Choose using the assigned teachers, travel time, feedback and written inclusions; this is an unranked shortlist.",
     "body": [
-      "Official sources reviewed on 8 October 2026. Course features are provider disclosures, not independently tested service guarantees. Confirm current availability and the final quotation directly."
+      "Official sources reviewed on 4 November 2026. Programme descriptions are provider disclosures; current seats, assigned teachers and outcomes have not been independently verified."
     ],
     "sections": [
       {
@@ -3379,13 +3384,13 @@ module.exports = [
               "IMS",
               "Multiple Bengaluru CAT centres",
               "Classroom/online, tests and mentoring",
-              "Chosen branch’s teachers and course year"
+              "2027 teaching versus 2026 tests; current venue"
             ],
             [
               "Career Launcher",
               "Bengaluru CAT page; Indiranagar centre",
               "CAT and other MBA entrance preparation",
-              "Actual local timetable and final fee"
+              "CAT-specific roster and dated local intake"
             ],
             [
               "T.I.M.E.",
@@ -3397,7 +3402,7 @@ module.exports = [
               "Elite IIT",
               "Four branch contacts",
               "Weekday/weekend/crash and online formats",
-              "Active CAT intake and actual batch size"
+              "Weekend workload, test time and active batch"
             ],
             [
               "Pratishtha Edu",
@@ -3412,7 +3417,7 @@ module.exports = [
         "id": "ims",
         "heading": "IMS: compare the CAT branch, not just the brand",
         "paragraphs": [
-          "IMS’s city page lists CAT centres including Indiranagar, Jayanagar, Koramangala, Malleshwaram, Marathahalli, Electronic City and Yelahanka. It describes classroom and online CAT preparation, allied MBA exams, testing and mentoring. Its faculty pool includes Ritesh Sinha and Prabodh Nistala.",
+          "IMS’s current campaign labels its main teaching and self-learning courses CAT 2027, while separate SimCAT cards remain 2026. Its directory and campaign also disagree on Koramangala’s address; confirm the current venue before visiting.",
           "Our assessment: shortlist a convenient CAT centre, then ask who teaches your batch and how often you can review a mock with a mentor. The city page also lists non-CAT centres, so check the course label before visiting."
         ],
         "links": [
@@ -3430,7 +3435,7 @@ module.exports = [
         "id": "cl",
         "heading": "Career Launcher: inspect the local delivery",
         "paragraphs": [
-          "Career Launcher maintains a Bengaluru CAT programme page and an Indiranagar centre page. The city programme covers CAT and allied MBA entrance preparation.",
+          "Career Launcher’s Indiranagar team page identifies a CAT/IPMAT mentor alongside law-focused colleagues. The same page displays no available batch product. That does not prove closure, but a current intake and assigned CAT roster need direct confirmation.",
           "Our assessment: use the branch demo to assess the teaching you will actually receive. Ask for the section-wise roster, dated schedule, tests, missed-class policy and interview-preparation entitlement. A national faculty biography does not establish who teaches locally."
         ],
         "links": [
@@ -3452,7 +3457,7 @@ module.exports = [
         "id": "time",
         "heading": "T.I.M.E.: match the package to your exam year",
         "paragraphs": [
-          "The current Bengaluru campaign is labelled CAT 2027 and provides branch contacts across eight areas. Its test total includes self-administered AIMCATs.",
+          "T.I.M.E.’s campaign remains CAT 2027. Its 55 AIMCAT total includes self-administered tests, and the sectional row describes 9,000 questions rather than 9,000 tests. Obtain the release calendar and review arrangements.",
           "Our assessment: compare a sample analysis session, not just the number of tests. If targeting CAT 2026, ask what revision and feedback are still available rather than assuming a 2027 teaching schedule applies."
         ],
         "links": [
@@ -3470,7 +3475,7 @@ module.exports = [
         "id": "elite",
         "heading": "Elite IIT: test the promised classroom experience",
         "paragraphs": [
-          "Elite IIT advertises CAT formats across its Bengaluru branch network and a small-batch proposition. Its published CAT details cover teaching, tests and interview-stage preparation.",
+          "Elite IIT advertises four-hour weekend sessions on both Saturday and Sunday, with Sunday mocks and recordings. Confirm whether tests add time beyond teaching, and verify the actual CAT batch and teachers at your chosen branch.",
           "Our assessment: attend a demo with the assigned teachers and confirm an active CAT batch at your selected venue. Ask for the current mock platform, a sample feedback report and the total price."
         ],
         "links": [
@@ -3512,7 +3517,8 @@ module.exports = [
         "heading": "Build a Bengaluru routine you can sustain",
         "paragraphs": [
           "Trial the journey at the actual class time, including the return trip. A centre near work may be convenient on weekdays but awkward at weekends. A nearby option with accessible teachers may fit your routine better than a distant classroom chosen on brand alone.",
-          "Protect independent practice time. Weekend classes still need weekday review; online access is useful only when you can attend, practise and follow up on feedback consistently."
+          "Protect independent practice time. Weekend classes still need weekday review; online access is useful only when you can attend, practise and follow up on feedback consistently.",
+          "Compare the complete week, not attendance alone: classes, travel, assignments, timed tests and error review. Ask a provider to show a sample week before deciding whether its advertised content volume is usable alongside work or college."
         ],
         "links": []
       },
@@ -3588,7 +3594,7 @@ module.exports = [
         "a": "Only after accounting for different teaching, support and validity. Request equivalent specifications first."
       }
     ],
-    "updated": "2026-10-08",
+    "updated": "2026-11-04",
     "verifiedResearch": true
   },
   {
