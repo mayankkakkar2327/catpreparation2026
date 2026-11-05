@@ -302,10 +302,10 @@ module.exports = [
     "slug": "cat-coaching/delhi/mba-guru",
     "section": "Delhi NCR institute listing",
     "title": "MBAGuru Delhi: CAT Coaching, Centres, Fees and Contact",
-    "description": "MBAGuru Delhi CAT coaching: confirmed central contact, classroom support, online fee and access disclosures, and current branch checks.",
+    "description": "MBAGuru Delhi contacts, classroom support, free Mini-SWOT versus enrolled-student diagnostic and fee limitations.",
     "answer": "MBAGuru provides classroom CAT preparation in Delhi and an online alternative for NCR students. Its published approach emphasises diagnosis of weak areas and monitored practice. Compare the actual batch and support arrangement before enrolling.",
     "body": [
-      "Official sources reviewed on 19 October 2026. Programme descriptions are provider disclosures, not independently audited delivery or results. Current seats and assigned teachers require confirmation."
+      "Official sources reviewed on 5 November 2026. Programme descriptions are provider disclosures, not independently audited delivery or results. Current seats and assigned teachers require confirmation."
     ],
     "sections": [
       {
@@ -364,11 +364,25 @@ module.exports = [
         ]
       },
       {
+        "id": "diagnostic",
+        "heading": "Free Mini-SWOT versus the enrolled-student diagnostic",
+        "paragraphs": [
+          "MBAGuru’s free online Mini-SWOT page describes a 15-minute assessment with section-wise feedback. It explicitly distinguishes this from a three-hour comprehensive diagnostic used to personalise enrolled students’ preparation. The public form asks for name, email and phone details.",
+          "Use the short assessment as a starting point for a counselling discussion, not as a full CAT mock or a verified percentile prediction. Ask to see a sample of the longer diagnostic feedback and how it changes assignments and class priorities. We reviewed the published description, not the delivered assessment service."
+        ],
+        "links": [
+          [
+            "Official Mini-SWOT description",
+            "https://mbaguru.in/mbaguru-mini-swot/"
+          ]
+        ]
+      },
+      {
         "id": "fees",
         "heading": "Online fee disclosure versus classroom fees",
         "paragraphs": [
           "The official online fee page publishes ₹35,000–₹45,000 inclusive of GST, varying by duration, target year, batch and offer. It describes live classes, recordings, books, doubts, mocks and PI-WAT support. This is an online disclosure, not a Delhi classroom quotation.",
-          "The page says access lasts until six months after the enrolled CAT exam year, and mentions instalments, discounts and scholarships subject to current terms. Obtain an exact calendar expiry and payment schedule: the wording does not specify a date for your account. Its own fee-verification note is dated 21 July 2026; our review date does not make that an October price quote.",
+          "The page says access lasts until six months after the enrolled CAT exam year, and mentions instalments, discounts and scholarships subject to current terms. Obtain an exact calendar expiry and payment schedule: the wording does not specify a date for your account. Its own fee-verification note is dated 21 July 2026; our review date does not make that a current price quote.",
           "A current classroom total and dated new intake were not established. The separate refund-policy page corroborates the advertised 100% refund within 15 days or six classes, whichever comes first, for online and offline programmes. Ask how to submit a request and when the clock starts."
         ],
         "links": [
@@ -432,9 +446,13 @@ module.exports = [
       {
         "q": "Are all Delhi branch street addresses confirmed?",
         "a": "No. The reviewed contact page confirms Connaught Place and names other areas, but current street addresses for those locations need direct confirmation."
+      },
+      {
+        "q": "Is the free Mini-SWOT the full enrolled-student assessment?",
+        "a": "No. The provider describes the free version as a 15-minute overview and distinguishes it from its three-hour comprehensive diagnostic. Confirm the enrolled programme’s assessment and follow-up process."
       }
     ],
-    "updated": "2026-10-19",
+    "updated": "2026-11-05",
     "verifiedResearch": true
   },
   {
@@ -3601,12 +3619,12 @@ module.exports = [
     "slug": "cat-coaching/delhi/ims",
     "title": "IMS Delhi: CAT Centres, Courses and Fee Checks",
     "section": "Delhi NCR CAT coaching research",
-    "description": "IMS Delhi CAT 2027 course update, CAT 2026 test-series distinction, local contacts, mentoring and unresolved fees.",
+    "description": "IMS Delhi CAT 2027 self-learning update, 2026 test-series labels, live-course workload and branch fee limitations.",
     "answer": "IMS lists Delhi CAT centres and classroom, online, self-learning and test-series routes. Confirm the selected branch, exam year, remaining teaching and final fee before enrolling.",
-    "updated": "2026-10-19",
+    "updated": "2026-11-05",
     "verifiedResearch": true,
     "body": [
-      "Official sources reviewed on 19 October 2026. Programme descriptions are provider disclosures, not independently audited delivery or results. Current seats and assigned teachers require confirmation."
+      "Official sources reviewed on 5 November 2026. Programme descriptions are provider disclosures, not independently audited delivery or results. Current seats and assigned teachers require confirmation."
     ],
     "sections": [
       {
@@ -3646,7 +3664,8 @@ module.exports = [
         "heading": "Programme and mock-test disclosures",
         "paragraphs": [
           "The Delhi campaign’s main classroom and CATapult Live headings now target CAT 2027. The main programme describes 300+ teaching hours, 150 hours of video learning, five individual online mentoring sessions and 110+ mocks split into 40+ SimCATs and 70 other-management-admission tests.",
-          "The same page still labels its SimCAT test-series products 2026, while E-CATAPULT 2027 retains a CAT 2025 sentence. These year labels are inconsistent across products. Confirm the exact exam year and expiry before buying; a CAT 2027 course heading does not establish CAT 2026 teaching availability."
+          "E-CATAPULT now says CAT 2027 in both its heading and description; the older CAT 2025 sentence noted in our previous review has been corrected. Separate SimCAT product cards remain labelled 2026. Confirm the exact exam year and expiry of each purchased component.",
+          "CATapult Live describes 50 classes plus workshops. Each class includes about 30 minutes of preparation, two live hours and 1.5 hours of follow-up videos: roughly four hours before extra practice. Ask for the actual weekly calendar rather than treating live attendance as the whole workload."
         ],
         "links": [
           [
